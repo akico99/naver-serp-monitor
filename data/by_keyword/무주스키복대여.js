@@ -1,0 +1,304 @@
+// 자동 생성 파일: collector/build_index.py 가 data/*.json 에서 다시 만듭니다. 직접 수정하지 마세요.
+window.SERP_DATA = {
+  "keyword": "무주스키복대여",
+  "region": "무주스키복대여",
+  "datasets": {
+    "pc": {
+      "direct": {
+        "blocks": [
+          {
+            "order": 1,
+            "name": "검색광고",
+            "meta": "검색광고 전용 블록",
+            "type": "광고",
+            "ad": true
+          },
+          {
+            "order": 2,
+            "name": "플레이스",
+            "meta": "광고 0개 · 자연결과 0개",
+            "type": "자연 + 광고 혼합"
+          },
+          {
+            "order": 3,
+            "name": "관련문서",
+            "meta": "게시물 6개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 4,
+            "name": "이미지",
+            "meta": "탐색 보조 영역",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 5,
+            "name": "관련문서",
+            "meta": "게시물 20개",
+            "type": "콘텐츠"
+          }
+        ],
+        "competitors": [],
+        "place_rankings": {
+          "플레이스": []
+        },
+        "contents": {
+          "관련문서": [
+            [
+              1,
+              "스키 대여 및 요금안내 :: 무주스키샵 실크로드 렌탈샵",
+              "www.mujusilk.com",
+              "http://www.mujusilk.com/main/page.html?pid=16",
+              "확인 불가"
+            ],
+            [
+              2,
+              "무주스키> 여행지",
+              "korean.visitkorea.or.kr",
+              "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=1b54f2ab-23ea-42fd-97a9-1c5fdd94b144",
+              "확인 불가"
+            ],
+            [
+              3,
+              "국가대표> 여행지",
+              "korean.visitkorea.or.kr",
+              "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=350ac321-c5b2-4bdb-8dd3-6326775cc83b",
+              "확인 불가"
+            ],
+            [
+              4,
+              "무주 스키장 렌탈샵 추천 장비대여 꿀팁",
+              "사이클론",
+              "https://blog.naver.com/kh6786/224156108816",
+              "확인 불가"
+            ],
+            [
+              5,
+              "무주스키장 렌탈샵 야간 스키 렌탈 대여후기",
+              "yoom",
+              "https://blog.naver.com/sin961027/224139857972",
+              "확인 불가"
+            ],
+            [
+              6,
+              "무주스키장 야간 스키 후기",
+              "캠퍼도냥",
+              "https://blog.naver.com/uni_do/224144698174",
+              "확인 불가"
+            ],
+            [
+              7,
+              "무주리조트 스키장 렌탈샵 멘토 리프트권 할인 스키강습 숙박까지",
+              "다라러브",
+              "https://blog.naver.com/daraya75/224121360206",
+              "확인 불가"
+            ],
+            [
+              8,
+              "무주스키복대여 블로그광고대행견적 샵과 할인정보",
+              "코딩생활자",
+              "https://blog.naver.com/tree52m/224307476710",
+              "확인 불가"
+            ],
+            [
+              9,
+              "무주스키샵추천 현대렌탈샵 26년 신상 스키복 입고 무주리조트 렌탈샵 후기",
+              "코딩생활자",
+              "https://blog.naver.com/shrdnjs7469/224197123747",
+              "확인 불가"
+            ],
+            [
+              10,
+              "렌탈요금표 - 무주스키",
+              "코딩생활자",
+              "http://www.mujuski.co.kr/m/sub03.html",
+              "확인 불가"
+            ],
+            [
+              11,
+              "무주스키렌탈·보드렌탈 요금",
+              "코딩생활자",
+              "https://mujusp.com/%EB%A0%8C%ED%83%88%EC%9A%94%EA%B8%88",
+              "확인 불가"
+            ],
+            [
+              12,
+              "무주 스노우파크 안내",
+              "코딩생활자",
+              "https://mujusp.com/%EC%8A%A4%EB%85%B8%EC%9A%B0%ED%8C%8C%ED%81%AC%EC%95%88%EB%82%B4",
+              "확인 불가"
+            ],
+            [
+              13,
+              "무주스키샵 스키라이프",
+              "코딩생활자",
+              "http://skilife.co.kr/",
+              "확인 불가"
+            ],
+            [
+              14,
+              "무주 스키장",
+              "광주맘-광주맘수다방(광수방)",
+              "https://cafe.naver.com/hongsam09/7069937?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImhvbmdzYW0wOSIsImFydGljbGVJZCI6NzA2OTkzNywiaXNzdWVkQXQiOjE3ODkwNDc2OTYxMzR9.uwOBhA7m2xC2SU8BufmQpx-7Xx4Oa8iblkaMNeUqhl4",
+              "확인 불가"
+            ],
+            [
+              15,
+              "무주알파인스키샵 무주알파인스키 무주스키샵 무주렌탈샵 알파인스키보드샵 무주스키장",
+              "광주맘-광주맘수다방(광수방)",
+              "http://www.mujualpine.co.kr/",
+              "확인 불가"
+            ],
+            [
+              16,
+              "무주스키렌탈·무주보드렌탈 요금",
+              "광주맘-광주맘수다방(광수방)",
+              "https://mentorski.com/%EB%A0%8C%ED%83%88%EC%9A%94%EA%B8%88",
+              "확인 불가"
+            ],
+            [
+              17,
+              "무주스키샵",
+              "광주맘-광주맘수다방(광수방)",
+              "https://mentorski.com/",
+              "확인 불가"
+            ],
+            [
+              18,
+              "무주 스키샵&프리미엄 렌탈샵 무주스키월드",
+              "광주맘-광주맘수다방(광수방)",
+              "http://www.mujuskiworld.com/",
+              "확인 불가"
+            ],
+            [
+              19,
+              "대구맘 365 - 결혼, 임신, 출산, 육아, 교육,성형,부동산,DIY",
+              "광주맘-광주맘수다방(광수방)",
+              "https://cafe.naver.com/dgmom365",
+              "확인 불가"
+            ],
+            [
+              20,
+              "무주 덕유산 아이와 다녀와보신분",
+              "광주맘-광주맘수다방(광수방)",
+              "https://cafe.naver.com/dgmom365/7213357?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRnbW9tMzY1IiwiYXJ0aWNsZUlkIjo3MjEzMzU3LCJpc3N1ZWRBdCI6MTc4OTA0NzY5NjEzNH0.i1eLJpZ3IoZfvxcshyA5q1z3cxh68VSkSRlME38VL4o",
+              "확인 불가"
+            ],
+            [
+              21,
+              "스키복 안에 뭐 입혀야 할까요?",
+              "대전 노은맘들의 수다방",
+              "https://cafe.naver.com/djnoen/1323466?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRqbm9lbiIsImFydGljbGVJZCI6MTMyMzQ2NiwiaXNzdWVkQXQiOjE3ODkwNDc2OTYxMzV9.Y6pVYm21LxFfVNJjU7qXDhZ0splzFhm_-LawssUWFm0",
+              "확인 불가"
+            ],
+            [
+              22,
+              "무주스키장 렌탈샵 야간스키 할인 이용후기",
+              "비야",
+              "https://blog.naver.com/hewtbylvv/224120633786",
+              "확인 불가"
+            ],
+            [
+              23,
+              "무주스키장 렌탈샵 무주 가족스키강습 가격 후기",
+              "비야",
+              "https://blog.naver.com/hewtbylvv/224163333376",
+              "확인 불가"
+            ],
+            [
+              24,
+              "무주스키장강습",
+              "비야",
+              "https://sites.google.com/view/qorfldzmq11386qorfldzmq",
+              "확인 불가"
+            ],
+            [
+              25,
+              "레몬테라스 [인테리어,리폼,DIY,요리,결혼,육아,커뮤니티]",
+              "비야",
+              "https://cafe.naver.com/remonterrace",
+              "확인 불가"
+            ],
+            [
+              26,
+              "무주리조트에서 스키복 렌탈해보신분~",
+              "비야",
+              "https://cafe.naver.com/remonterrace/34325259?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6InJlbW9udGVycmFjZSIsImFydGljbGVJZCI6MzQzMjUyNTksImlzc3VlZEF0IjoxNzg5MDQ3Njk2MTM1fQ.WgRH9AtICwd6Y0Jq3kFiTNJzKRIpzCOpMkrAUOu4UXo",
+              "확인 불가"
+            ]
+          ]
+        },
+        "ads": [
+          [
+            "검색광고 블록",
+            1,
+            "무주스키 샵 현대렌탈샵 시즌맞이 리프트권 할인 신규 리뉴얼오픈",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/ohsvoxdvHfSnf-BNU8Ag-kDGCdgBEIPkSam3Yr24vH9jGfGCD9tBz5u3YGvUcePGfFE7M8kG2TYhELaDQeYCyo6N0ceeky-Ao6tzw6Dmdr5tD_BoRJtyBHPjKI2bobPkNpZidUIbTBTSgBrSIuQWQOncpcLzbwkXA319G3KrBSq1JadmTT03rAjU2Oge9HNADln5LWNAuCKfadT2fKIIDOdaApsC-SGw-4An6hPJemPeIp5G9ycrdh-4bLxuPyReJ8UtnFiZ-pwpz4RfiPi23Gby9SN-ny8xt0j7ghgduIHVtP5khH1eZlapnJBDaAz-?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            2,
+            "스키 장 패션왕 되는 법 스키 장 갈 땐 무주 굿 스키",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/QCiDZlxPeeLxJluy9OKEfaq59pErDKW6Eh_KNK-JSAqdXcbZQY2uRNabQRHjeiIfySNK0dEZAYrJD0PtGin33MpMjCxo1J0VHTYkyegYWYqA5HVOPJnIV0abkFt94q0whJ4te7dgaxLm8dvohSFseYHFe3xX32nxVp2ABnt-f1kterjShNyU2jYEmZ7I9Fj4kfSn5ysXXBJhvaFSPwiYVV_cpdKEx-dg39df1wjSAry6LN0JCCNBdXFzxnqLBq1bJJoRLaSaFuN3wz79LenzuEHIGloRvoTn47uV5q1ND-XY89VFP_YNhjbEJ7D8lS9b0S3qtMSpc2-qq6Aqq6gjp3uZjfvY94ucCwOmUkCCj9nRcEIxlr8TfkBEfb8Fp9kHu1Yf82L300zh6b8fkLKnTyyV_9e4R5rfQ1E0eI1aY0vNA8PBaUFBmuD4Y5dfjt34fVV7IibBoLRx3iodPOli8PwJ68v6c1JEA7oj-PhGkf7Sot-FJlU529xM54lzUkbS?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            3,
+            "무주 리조트회원권 시세분석",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/ohsvoxdvHfSnf-BNU8Ag-kDGCdgBEIPkSam3Yr24vH-XhJnbsUWto5RUlYG7Xe1iaYkjNlpgWEOSioVdAjsy_kmH2n4n2rtuZcDKu9uBpQvyeS5sAX-QlkTXJcNCINHtZljvgbsJ9woDkmhVkgA30kN1KT4Gjosk4BekgFi1865ir5ez8bC7iD6wucHxQQiuQYKw-75lsd_7_0roYILen8H8eTv8AAKUnLFuzgLBnEQNtb08D_uPuc67ojfUZcz_7as9lRRFWMv6cE8E7PT7EZOdIw4leovf5j1Qj2r7pBXDqKh4MOJh4HCk8wcU56CW?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            4,
+            "국내숙소 NOL에서 예약 오늘의 숙박 핫딜! 국내숙소 총 10만원 쿠폰팩",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/pH2VhZaFLRU0hYt4-fQBU2MbHSVOA5MqQnduxGX2ZhBko9XU-HUZTiw3OadihtCiheZvWZ6hPYSybdFbqMtTxPGsfofYMMsLuL02WXWGiDmPoyygbXZSTD3XHsPNET9fPtG19433D1Enw48qzDZF_lYwTYjP0iLQoNPSMUEw2ClS1OenH1OACGDQsiC-nCr4JRBSjjc7jI_DnTZyDe65gSMWA3ClpZc__5Nn2FW5715KNnH8YqgqJuPZ4pa3MfX7fXP2g6wHCjNCV9f-NxyXyM-YiUgMrzDZXvDIh2p94vX9A-ui3jHbFfpz3c2OjgnFfeikAA6QT9VYA-IBtsmvAWV5xYNeco_WK1sISj5ezF8AJlE13XentPgvgjsHwt3FaOyCBPbhj8Qajl01gyitOng7z0NMFqvNodCfhj573t2uIgeTsUnzPAjMnFmVdQ7vxeoUnnRP8Y9CO3UCC9-J1xiZme63Alj96iaav603Kb7EW3GFaSlYDv3KiNjgK_0rnp99J39KxYsJeZoZQeoQH7GfEycr74G7TI3PfCAqaR6NqTnIbD50nRbpdOsi9RbJapwHG3LHY5j3otW26Dxdfg==?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            5,
+            "쿠팡 무주 렌탈샵추천",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/T3ETHQxt3EwpEJqF1VbRPc7wbu2V69YeNGd9nP5eB_s9RFpt8SR6IDRKb_HyeHp-x6RNqxplz6KcO4wq2ltStwgYqNcbhbrRBhp1Kh_JfV7VLsTtaSfkPNlandpdlu06eHsIfh3W5Cv4EX6CmILNqUd_OQZAXWZyrPZtDZ9Lwf3LtzMiKMbXFBovzJbEgkCeyHMWexGqqlviNXPQ4ZChdxdl3EjafD4cCUgQfrCzVXB6-Su5OjANVgbVI-zaBgAVlRtKXaHF2BgQ7nBoI7G7fHnsAi0M_izsUCZ5oRQnJoVrULhbGCd0oxkH1SENbgY0a9pG1dZVtCiux9rf2B0hLW9BciXaHPoe6OJDLhx0iuf62N-m1jont5qMyq7qu8vj4sIsHQlTajX2HDvadoX4QBLIL1gfyiNQi9pcSuBTkzgQTwnuII94UFhyW6zGY8TKD2BIYztbShlzOoUxoyZd6MFI48iSV-9mMgOruQxFS3ZZ__uZy1SyXpp0_Fo3jmWI28sGJQ23GXLFnsTMgZzPZOHohVQMNNwbAub83Fbykrk=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            6,
+            "최신렌탈샵 무주 RSS 스키 샵 국가대표영화 실제주인공 스키 샵",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/ohsvoxdvHfSnf-BNU8Ag-kDGCdgBEIPkSam3Yr24vH8IrR9kbswY7PEOuhvgm5PQ9-aGKTAFgiG_so0lB_9Gy8F9bM0e5xH05aUY5A--JmjXTlyb2GKWzQsChUopZXz-zGjRH2NEO-Th2wqQSHs7ceUdXrVVAE75QnBEwy_doNB0CfcJDtL_eAtDJClMqnsUhwStknS-bfNRz-OSYXT1nRf0gALhJYtCT9fgI9oc5vx3qnNgR4Xup-W7vasmu4vwiZFONwokKZNTAKp-6jhIjfo0WNU7-gsSUW4X7bhdhG4=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            7,
+            "실시간할인 베스트콘도",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/ZjpesRLmiwTZVO0CcN6hvM9JN6vri58dK6DFdMHkTQ5edQNqhN0SPxSSmSKhIm2FuiBNtiRVIIWL2Nur3iq-V0kWbns0Dl2MOorAkhLWesQNyNz27LA-ZhvvDq08GOx6bodIh5zOFX1zTRWHUUJEVgJd6tGA_qqynuucGP8Y1qcjekjKeWyZYSGJBCEDERsl3Y5k7L3h3ANzjjInd6DHyz7Wp77KAeTWW82IeXUYvYb1aDlJz0QMqZxG6gJrT5F1_q6r--y5zcU087Snpa3Hf0R6pq1nQ4U31pBfnr-jR1HP4-OECuPt6x2Cfpj0E98BJ6OSeuTYV6l3ZXqCu76RxN-QI03WYqXiWak2VUkNHqMIo1jpO-xZWRcMtoFcvM2jyOHg6neTa6p31u5J77jvWLR4RNrTg5bbTbK_oohyee6Df7nH2WyIf3tHVTO_h0zc7TVT2UW3y5oHpN-LWaDSiIwXSAgDC62pLXRAjIxO51-a6K36yb-0AFULDCwtdeszplh5W-Jk5DC2BZKL2gegCw==?c=naver.search.pc.plsearch&t=0"
+          ]
+        ],
+        "pages": 0,
+        "status": "ok",
+        "observation": {
+          "keyword": "무주스키복대여",
+          "region": "무주스키복대여",
+          "device": "pc",
+          "vantage": "direct",
+          "observed_at": "2026-09-10T22:41:35.818174+09:00",
+          "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EB%B3%B5%EB%8C%80%EC%97%AC",
+          "raw_html_path": "data/raw/무주스키복대여__pc__direct__20260910T224135.html"
+        },
+        "warnings": []
+      }
+    }
+  }
+};

@@ -1,0 +1,303 @@
+{
+  "observation": {
+    "keyword": "무주리프트",
+    "region": "무주리프트",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T22:37:47.301966+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%ED%94%84%ED%8A%B8",
+    "raw_html_path": "data/raw/무주리프트__pc__direct__20260910T223747.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 2,
+      "name": "관련문서",
+      "meta": "게시물 5개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 3,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 4,
+      "name": "관련문서",
+      "meta": "게시물 20개",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [],
+  "place_rankings": {},
+  "contents": {
+    "관련문서": [
+      [
+        1,
+        "무주덕유산리조트 회원권 리프트 할인혜택 및 콘도회원권 거래소 시세",
+        "인생골프[조인동호회]",
+        "https://cafe.naver.com/golfkwang/1116888?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImdvbGZrd2FuZyIsImFydGljbGVJZCI6MTExNjg4OCwiaXNzdWVkQXQiOjE3ODkwNDc0Njc2Njd9.Me07YG4-JRwhZkIpz0r32GYHaDDKx8HPHr2po6rog8Y",
+        "확인 불가"
+      ],
+      [
+        2,
+        "영하10도 무주스키장 야간스키 리프트 가격 간식 덕유산 실시간 cctv",
+        "부산댁",
+        "https://blog.naver.com/hjdo2000/224143947894",
+        "확인 불가"
+      ],
+      [
+        3,
+        "무주스키장 실크로드 후기! 리프트 타는 방법과 소요 시간",
+        "캠퍼도냥",
+        "https://blog.naver.com/uni_do/224177499873",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주 덕유산 리조트",
+        "캠퍼도냥",
+        "https://namu.wiki/w/%EB%AC%B4%EC%A3%BC%20%EB%8D%95%EC%9C%A0%EC%82%B0%20%EB%A6%AC%EC%A1%B0%ED%8A%B8",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주스키샵 렌탈샵 굿스키",
+        "캠퍼도냥",
+        "https://www.goodski.co.kr/",
+        "확인 불가"
+      ],
+      [
+        6,
+        "[까칠한 리쌤]의 다정한 낭비교실 with 헬로키티",
+        "blog.naver.com",
+        "https://blog.naver.com/kitty010",
+        "까칠한 리쌤"
+      ],
+      [
+        7,
+        "[까칠한 리쌤] 무주 덕유산 리조트 방문기: 리프트 공포증과 가마솥 불멍, 그리고 마지막 스키",
+        "blog.naver.com",
+        "https://blog.naver.com/kitty010/224378143767",
+        "까칠한 리쌤"
+      ],
+      [
+        8,
+        "짜릿한 래프팅부터 반딧불이, 덕유산 리프트까지! 무주 여행 후기",
+        "joliefemme7님의블로그입니다.",
+        "https://blog.naver.com/joliefemme7/224386877889",
+        "확인 불가"
+      ],
+      [
+        9,
+        "도담도담 대전맘 ::: 임신&육아&교육&생활정보 :::",
+        "joliefemme7님의블로그입니다.",
+        "https://cafe.naver.com/dodamdadam1004",
+        "확인 불가"
+      ],
+      [
+        10,
+        "무주스키장 리프트권 특가로 이용하는 방법",
+        "joliefemme7님의블로그입니다.",
+        "https://cafe.naver.com/dodamdadam1004/2752724?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRvZGFtZGFkYW0xMDA0IiwiYXJ0aWNsZUlkIjoyNzUyNzI0LCJpc3N1ZWRBdCI6MTc4OTA0NzQ2NzY2N30.zE8Jp77e-fouwSo0ZSUXKwtPFIikO_vaBbeUKN7Qec8",
+        "확인 불가"
+      ],
+      [
+        11,
+        "무주스키샵 준스키타운",
+        "joliefemme7님의블로그입니다.",
+        "http://www.xn--9t4bi8em5bu5m9d.com/",
+        "확인 불가"
+      ],
+      [
+        12,
+        "무주 스키 리프트권 없이 연습 시켜도 될지요?^^",
+        "전주&전북 알뜰맘",
+        "https://cafe.naver.com/wjswnaka/4899328?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Indqc3duYWthIiwiYXJ0aWNsZUlkIjo0ODk5MzI4LCJpc3N1ZWRBdCI6MTc4OTA0NzQ2NzY2N30.CEmn_tddlvaBfRonIq-pRhqmQhiPZLYIAthL-1oYyl0",
+        "확인 불가"
+      ],
+      [
+        13,
+        "무주리프트권 할인·곤돌라 요금",
+        "전주&전북 알뜰맘",
+        "https://mujusp.com/%EB%A6%AC%ED%94%84%ED%8A%B8%ED%95%A0%EC%9D%B8",
+        "확인 불가"
+      ],
+      [
+        14,
+        "무주렌탈샵 스노우파크",
+        "전주&전북 알뜰맘",
+        "https://mujusp.com/",
+        "확인 불가"
+      ],
+      [
+        15,
+        "무주리조트리프트 - 키즈스타킹",
+        "전주&전북 알뜰맘",
+        "http://compartment.puntaeugenia.com.mx/?p=599",
+        "확인 불가"
+      ],
+      [
+        16,
+        "무주리프트권 할인요금·렌탈패키지",
+        "전주&전북 알뜰맘",
+        "https://mentorski.com/%EB%A6%AC%ED%94%84%ED%8A%B8%ED%95%A0%EC%9D%B8",
+        "확인 불가"
+      ],
+      [
+        17,
+        "무주스키샵",
+        "전주&전북 알뜰맘",
+        "https://mentorski.com/",
+        "확인 불가"
+      ],
+      [
+        18,
+        "무주리조트처음가는데 강습배울때 리프트해야하나요?",
+        "순광맘 (순천.광양.여수)",
+        "https://cafe.naver.com/cjsam/4999163?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImNqc2FtIiwiYXJ0aWNsZUlkIjo0OTk5MTYzLCJpc3N1ZWRBdCI6MTc4OTA0NzQ2NzY2N30._dbMPXEAJ4TfrfykYFEBRM2tFVDk2gwZTXomksN7WGQ",
+        "확인 불가"
+      ],
+      [
+        19,
+        "● 몰테일 스토리 - 쉽고 빠른 해외직구 ●",
+        "순광맘 (순천.광양.여수)",
+        "https://cafe.naver.com/malltail",
+        "확인 불가"
+      ],
+      [
+        20,
+        "무주리조트 스키강습후 리프트요",
+        "순광맘 (순천.광양.여수)",
+        "https://cafe.naver.com/malltail/7395353?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3Mzk1MzUzLCJpc3N1ZWRBdCI6MTc4OTA0NzQ2NzY2N30.jAN0eB6BCc0tEm6ez7pA0jW4Z6oZUgYBIZBBQ6Lh2fM",
+        "확인 불가"
+      ],
+      [
+        21,
+        "무주덕유산리조트",
+        "순광맘 (순천.광양.여수)",
+        "https://www.mdysresort.com/ski/charge.asp",
+        "확인 불가"
+      ],
+      [
+        22,
+        "무주스키샵 강심장스키샵 무주렌탈샵",
+        "순광맘 (순천.광양.여수)",
+        "http://ironheart.kr/",
+        "확인 불가"
+      ],
+      [
+        23,
+        "무주 스키샵&프리미엄 렌탈샵 무주스키월드",
+        "순광맘 (순천.광양.여수)",
+        "http://www.mujuskiworld.com/",
+        "확인 불가"
+      ],
+      [
+        24,
+        "무주스키샵 실크로드 렌탈샵",
+        "순광맘 (순천.광양.여수)",
+        "http://www.mujusilk.com/",
+        "확인 불가"
+      ],
+      [
+        25,
+        "무주 정스키샵 무주정스키 무주정스키샵",
+        "순광맘 (순천.광양.여수)",
+        "http://www.jungskishop.com/",
+        "확인 불가"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "무주리프트 승리렌탈 다양한 고소작업장비 보유!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/L0XBEHm8qZQty2VbAu7WoHv5McyV2LD5zf3cBigp6_JayclUmd_J0AYXLPLmF2Q9ar51-D0Ijbvx7jx5hjakeYowYI9X05jesowQUdTReRzGeuBZ4-srTGqYzEsTvGUbHAKd1oD5RIIrghs8FC2IkbIm-CkVC9j8jdINe6X14CU5-O0Iit-EvCgtRmP9ZvXs5Oil7x6Oq4ATNvB90wC1C4kSyYXs-QTnBcwW56KRLxScerQIo_i-EqbPQ6kIOuRhzJwesS8SHflKnyogsf7YBw==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "KYG 물류기기전문 특허품 물류운반기기 전문 구매만족! 빠른배송!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/pnAUTDlTbSGRjSCKGWqciE8HH6TFuJW7XR-xVM2A48zf2k8lLlqK0O7WkzCufyJIDv7IuKXi0ZSRGhT9AbP44iyxAyVctwQcF336X3Cxvz_A8PyRMaLX5hmlR8jy9WtNsr6R9nxaTtCg5akbl7NeZK13WOUnGeq06ohoU2iAatAI2qNaaLN9K_wjEpDXxDFNZ7zQo17B597XghB4lbzc3Pat-ar-hXkkVZt3SyFanU2HVlvbE1IUeIa2xM1wZcqGQ29eIvg6kKyRcpmF8frt7U6PYYxeR_ygzc516v9OsvLMS9OUbiiKwmcDai-W2APEi6WFepF04PD52GNLmq9jugOI22jU6BBXXr5-EsGovPsuRt1x9M8CjbXmPWO7SjQQAh-4NcYCQNSCYMqMhj__XWNTFfoUEbXMsUdc1UwYalTrYGiOEjDnQsN7Lw_AseazJWApxQXMuIG0Ai7_tjpo3dO5JCfPn63UGNnbMNywHRi4a5jd5TTnNM8PL78-j9FIzFcpI4E2vOAr4d1k0p2UqyOJAj4gFUpMXxa2cz4BouzCti1DG8g9iZOVn5u96B_EvAe7E09UBZMTe2F3bvSFFraQKfJcFg0qqo0P4xPpA3I=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "전국고소작업대 전문 승리렌탈",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/L0XBEHm8qZQty2VbAu7WoHv5McyV2LD5zf3cBigp6_JJisnmxhQib5moqXVuti0xEkThmPsi98L1i4d32sqNMnERspRL-L3ZmREO7TbzA1JyIbtZcFdzpjXkP0UNIw_k3XkaAywSYEQCIlW1jWb5dPqlPvIp_fcfT42pCR6r0CPHLL9x7cbb4hnn2gDzNpN5R9XcPww72MYa5eefEfNkzz73cMRU2u_Ppiky9AWaw4HntYIHZrnAbZ92JKRdSgy72fOXhLGuMekP2TBDNbr_1rmhYfkAyNzC0_UqFXdlgDo=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      4,
+      "리틀프린스펜션스키샵 무주 펜션 연인,가족,단체모임 대형평수 개별풀장 미온수무료!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/RTVK1cODKrdkkDTo6-Z5PMYDF-DE7JYcVCJgUJniEQpPbidnit734KQ2vhqyWlhWeIeqlK0TIxEd-823ddBekXPhIjb4y7kmi9wCmsBPZ1Ib_gRljWLq-lSWLR6FWlAAG1ZsSkAVUdHdanbuYhhTGDsoCaF8X2Fg7D_exRE_t1lYUOq2dqpeSRy3rSXmKfVgfoDPouf0grHsqZKnPUaMX0KiPG6GZiVb5HK65XgdpS1fYLRgk82VO-Pt4o3eR0Ofk7en323B1vzwS03-mdAxA2ja3x7X_etpC9qHgB6uhwDLZ8xwQlHImbj6D0YWquIT149xdcIskG4sOTsGtpFkGUXV887wdwGUcblqKzexdwSvC2CD1Js7D2AnBaXlP9WQSbZIr3F-XqYJGPUgzfHf5q70CC-D1LaWV6xhFiI2B43POcdN3ZgqZKDxW5loNaQj?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      5,
+      "무주 리조트회원권 시세분석",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/0X8eP-5GZl5GftlZTAK14KDSdsfogvZRV0xkSNJjTMm1D_RMIdEGW9hm_hCh_EF0DW1YsnORKVCfzwDNWKbceq5GvGFES_XEqW7FgyeCK-fuEEO4TJ7Q8NpmSylvXtQbkIUtxOuxBHo8aN1TS2o1hIQrtGbECBExAbMBbLDUOSgwZQFQ_PFXeqBhILqUyE7iHPCbpbSLvreaH7kbEx8VeWPEyfp3w2x_Emwqlq8kzChb1rwVpEHN602PNsYv_JC2DZbnJ9eqP-qnZwv6AenqSnp_Lhv5rOJmNfog5nJKFKk42f3wD_pFG5MQ46H1CILNGGYd-qht_uT422McFYMpufJWz8aIPR7-7gymfJvxCwbMKBGRBXutusjiOxuigdj2NlIeNNu12EUz28ucI7n-iP9lanKXKm9dYLSHtt7WZ76zPse4fYSTImFra0mH5Poo05tpiXaJ5f3JWdU_hdUV2Q==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      6,
+      "추천 무주리프트 화물왕! 야간/주말 시간은 전화상담X",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/ZlRGST7GJ12j1JQA8TkpKQTF1fT4c6EvMiIFSZM0Fp5pVriVD2QTTJC1JpzzBPobhnREh7Xhu5YMa5lYx-x8xWDMV3x5-hAIvZNWLsLSmmKcbj4aJEmJMaByAL0xzjPYlE325bnX5s1pnxvWDv1g9ummqlSCPgEL4rTAHi9HmltViv3l2uFtwsgiw9gMCkjxIHnJb6kBLYyRXq_5iM57l0YZJUhW1CwQCLK-fmM5VmO0Hj1c32UMfPqInwo-Slepcg38Ef4MsuxrsvzFK_lZolf_xWMPdP2ndp7-g4gx21Aevh1Paw7h_Q5IP4nsTAluq_T3Evblwx0S6MDRbDHc3N3HOmdiTSpJEQoRxFAgz59IrZDGg0Vgc0s7jhIltRBf8XTYr0UnsjJkE_HY17s01E4hjSRJ7XIdUBctND9089eas3j7-DEOwSrfW7HEciKbhcwZJFufOBVhEcEtgS2kZg==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      7,
+      "추천+ 무주리프트 화물마스터 실시간 직접배차 시스템",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/64rIA2zJWPddxW_NMEI0clNCB9ZQGBzpYdBLay-6Dpc1rP-Q6Ay1O_hylfkV0hMfGxvYJ7MEHqj4HQXl_hD-HU-FX6FgvT-_VkOmMTtpuQGvd1qVXQ9ktxDgvYOHP9uk4KCuA6wPfbN9KdNGqz-Fx7JzLIXG1-oLRRsaBg3pKeDORc8hCk17rpaIbE9VwkIyhY3CfJ1Yp8Qu5SWlqBhGZkcttKn_15cNDPTtyzAyJN-_BYFXALs4sNNbdJafNp_WGGPL76Dw00gN-1mtPGs3claV_3UpjPHepTMHUvtGIiXyEHCojWNl7KCE4JYCI6BnT5oKAB9XjRQXbFpGOqRC7Sk2IFjY3AyMj-5lHuZ-NttYhad5JDb4Ftshg8qxYziFSpfMGUA3QW0s79x62NXHQCmEuMcVp59KOeg8aLFRwSGydPt9yfwKidaoh88S5naFBPVqjBWmsFqXYnUU1nJQ5qqnSTgMHxIoH9I4KQUCjfU=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      8,
+      "추천 무주리프트 다니고퀵",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/0vWcfVIM9Oin4c97pONQEaOKKFR__J_3d__g3aEvG6DEQgJpedyrxUmFC3yrW8IK_D3-DjGEn70zwoEi3RUnXpkQIzlPmwt0IdL_0MQRTzcY5Zc_u_Ju-1WDTLK2LWeX2OZq9x2ZK4OGIsuKvPGYFUaS1nxJHKiz2JOGgpGlrRcyBtKtrchstXNodjaFXEq39K_XnIEFxUQ8zMcTuantCxgKEzSypCoHeTTBx9ZxfRSpcTCdDuRXDD88-04vgFFWxseV7rsExkXFb13NJVfPA0k6xbZlnlD7UGa4ImM-Fb85pPCAVWmrH-83PFgntjPEz3dCntfUq5eY7LiuvsGuoMPWXje4MpPn9_m49WyRBl9uDvG5p-YiUJSYBC4dhHi1eduhTs1OaFHpuTZybIfdeAOx4qnC1HXSpJy_lXkcDjP7_PaQ7ELgUzo1ym1b0WhtgLm5W8VLYZYd8aIXuw5YOQ==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      9,
+      "전화 없이 비대면 운송 접수 용달화물 라보 다마스 접수",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/0vWcfVIM9Oin4c97pONQEYQ-jIi-MeIDb_XmG5Xhg1cFEOcT6yoivjlBD6Df3pBm8fxPA-jYw2IO218aQpi_31w9kCjQ1O0j-ZiWNartBeR-3L5JLgOdnGayoqt1B6Jh9jyQNtO2ywV6QTk1RfXsIIi2t5qdbKWD3WEPG3-w2c3FOUWnwx8iLQjWoMF0ndcJ9nS8b4S7Lzzpb0-Uc8bzzfazBc4sVNNEYixCSGVao9ZvBXPRSmsYdq4zz48ocbqsm3wzJgp3cFnzDcCgN-ZMZwBhIpSRnr0vzo_2rzPstsRhRElsAvyLzv1DmfQtaxrqhF3Si0_1CUgTD3idrK3Cr6cq-Bcav_d0Q28jX3uzOhaMLd9YH-pGsLKT4VrjDgyMNw0Q67M6UcnK0dWOi65ox-nXOQ8sopAQUmpVi9uiWJ5ddP4o6RIR8mp82nvqpgh_ySMKu4XSou7yyO-V8iGPRA==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      10,
+      "무주 스키장 펜션 찾는다면?",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/L0XBEHm8qZQty2VbAu7WoHv5McyV2LD5zf3cBigp6_IwPcz3BuAdyC5wl7WapBw-A6-S9Xni7E3nuuLxyUWxEkSukz7y2kaqmLphr6EbWJkCm_m47DJg_dwiJL_klMGOjF1M0xMRavOa0P15YZf0u6l2G9NS4hTcPXvZ2w0L03vYoZQSEGGmVY7iQTjBNCuN5cFOZ87O8WD9hj1KXB75qJYV761KGpPQJKdwgv-qHHEqx8JhYx_rjv_e9t9VGPRyBlSlE-04Si5JXUkCQI3GSV0yo3I-nAR5yiuLJj8BkCs=?c=naver.search.pc.plsearch&t=0"
+    ]
+  ],
+  "warnings": []
+}

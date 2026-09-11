@@ -1,0 +1,712 @@
+// 자동 생성 파일: collector/build_index.py 가 data/*.json 에서 다시 만듭니다. 직접 수정하지 마세요.
+window.SERP_DATA = {
+  "keyword": "무주리조트패키지",
+  "region": "무주리조트패키지",
+  "datasets": {
+    "pc": {
+      "direct": {
+        "blocks": [
+          {
+            "order": 1,
+            "name": "검색광고",
+            "meta": "검색광고 전용 블록",
+            "type": "광고",
+            "ad": true
+          },
+          {
+            "order": 2,
+            "name": "관련문서",
+            "meta": "게시물 8개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 3,
+            "name": "플레이스",
+            "meta": "광고 0개 · 자연결과 2개",
+            "type": "자연 + 광고 혼합"
+          },
+          {
+            "order": 4,
+            "name": "네이버 클립",
+            "meta": "25개 노출",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 5,
+            "name": "이미지",
+            "meta": "탐색 보조 영역",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 6,
+            "name": "네이버 가격비교",
+            "meta": "15개 노출",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 7,
+            "name": "네이버플러스 스토어",
+            "meta": "12개 노출",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 8,
+            "name": "관련문서",
+            "meta": "게시물 16개",
+            "type": "콘텐츠"
+          }
+        ],
+        "competitors": [
+          [
+            1,
+            1,
+            1,
+            "무주스키샵 스노우밸리 렌탈샵"
+          ],
+          [
+            1,
+            2,
+            2,
+            "힐링리조트 단풍마을휴펜션"
+          ]
+        ],
+        "place_rankings": {
+          "플레이스": [
+            [
+              1,
+              1,
+              1,
+              "무주스키샵 스노우밸리 렌탈샵"
+            ],
+            [
+              1,
+              2,
+              2,
+              "힐링리조트 단풍마을휴펜션"
+            ]
+          ]
+        },
+        "contents": {
+          "관련문서": [
+            [
+              1,
+              "무주 덕유산 리조트",
+              "www.mdysresort.com",
+              "https://www.mdysresort.com/",
+              "확인 불가"
+            ],
+            [
+              2,
+              "패키지&이벤트 - ::: The Best Choice - Deogyusanresort",
+              "www.mdysresort.com",
+              "https://www.mdysresort.com/guide/package_event.asp",
+              "확인 불가"
+            ],
+            [
+              3,
+              "숙박패키지 - 무주산골영화제",
+              "www.mjff.or.kr",
+              "https://www.mjff.or.kr/kor/addon/10000001/page.asp?page_num=34553",
+              "확인 불가"
+            ],
+            [
+              4,
+              "다낭 도깨비 - 베트남 다낭자유여행 ,다낭여행,맛집,호텔리조트",
+              "cafe.naver.com",
+              "https://cafe.naver.com/happyibook",
+              "확인 불가"
+            ],
+            [
+              5,
+              "겨울 무주리조트",
+              "cafe.naver.com",
+              "https://cafe.naver.com/happyibook/6057247?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImhhcHB5aWJvb2siLCJhcnRpY2xlSWQiOjYwNTcyNDcsImlzc3VlZEF0IjoxNzg5MDQ4MTg3ODExfQ.QaXL_i0yFzR0VSxHFo_xZU6Z9p7YPMsLCKUdwqBR_lk",
+              "확인 불가"
+            ],
+            [
+              6,
+              "일성 무주리조트 :: | 무주 숙박 숙소 | 호텔패키지닷컴",
+              "mujucondo.h.otel.co.kr",
+              "https://mujucondo.h.otel.co.kr/",
+              "확인 불가"
+            ],
+            [
+              7,
+              "무주 달인스키샵",
+              "www.ski-house.co.kr",
+              "https://www.ski-house.co.kr/",
+              "확인 불가"
+            ],
+            [
+              8,
+              "무주W스키샵 무주더블유스키샵",
+              "www.wskishop.com",
+              "http://www.wskishop.com/",
+              "확인 불가"
+            ],
+            [
+              9,
+              "전북골프장추천 무주 덕유산CC 덕유산리조트 패키지 정보 라운딩후기 및 공략팁",
+              "라이언골프투어(국내/해외골프투어)",
+              "https://blog.naver.com/ryangolftour/224391797327",
+              "확인 불가"
+            ],
+            [
+              10,
+              "무주단체펜션 1박2식 숙소 추천 힐링리조트 단풍마을휴 펜션 여행",
+              "봉봉이",
+              "https://blog.naver.com/rmaqhdwjd/224407074665",
+              "확인 불가"
+            ],
+            [
+              11,
+              "무주리조트 숙박·숙박패키지 안내",
+              "봉봉이",
+              "https://mentorski.com/%EC%88%99%EB%B0%95%EC%95%88%EB%82%B4",
+              "확인 불가"
+            ],
+            [
+              12,
+              "무주스키샵",
+              "봉봉이",
+              "https://mentorski.com/",
+              "확인 불가"
+            ],
+            [
+              13,
+              "무주숙소+강습패키지 좋았던곳 추천 마구마구해주세요^^",
+              "진주아지매",
+              "https://cafe.naver.com/jinjululu/2551092?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Imppbmp1bHVsdSIsImFydGljbGVJZCI6MjU1MTA5MiwiaXNzdWVkQXQiOjE3ODkwNDgxODc4MTF9.egr09sGK7ux1CqkADhWn8kSd7NUB4yPQ7q93RSoLlLM",
+              "확인 불가"
+            ],
+            [
+              14,
+              "무주스키샵 강심장스키샵 무주렌탈샵",
+              "진주아지매",
+              "http://ironheart.kr/",
+              "확인 불가"
+            ],
+            [
+              15,
+              "무주덕유산리조트 가족호텔",
+              "진주아지매",
+              "https://tour.muju.go.kr/reserveuser/selectTourCntntsDetail.do?key=&tourNo=404",
+              "확인 불가"
+            ],
+            [
+              16,
+              "무주캠핑리조트 빨강치마 :: | 무주 숙박 숙소 | 호텔패키지닷컴",
+              "진주아지매",
+              "https://milmos.h.otel.co.kr/",
+              "확인 불가"
+            ],
+            [
+              17,
+              "공지 - 일성 무주콘도&리조트",
+              "진주아지매",
+              "http://www.mujucondo.kr/sub/news/notice_view.asp?idx=3609",
+              "확인 불가"
+            ],
+            [
+              18,
+              "[뉴스사사] 뉴스사사 스마트 컨슈머들의 호텔/항공 여행이야기",
+              "진주아지매",
+              "https://cafe.naver.com/loyaltylife",
+              "뉴스사사"
+            ],
+            [
+              19,
+              "무주의 티롤호텔 아시지요?",
+              "진주아지매",
+              "https://cafe.naver.com/loyaltylife/232487?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImxveWFsdHlsaWZlIiwiYXJ0aWNsZUlkIjoyMzI0ODcsImlzc3VlZEF0IjoxNzg5MDQ4MTg3ODExfQ.r9nZ3vvNHtPgthJdaLxAwdgE57OX-BKOXS8VivGXsag",
+              "확인 불가"
+            ],
+            [
+              20,
+              "2026-2027 무주리조트 시즌권 총정리｜가격·1차 특가·패밀리 할인·통합권 I·II 비교",
+              "Everyday G’day",
+              "https://blog.naver.com/everydaygoodshot/224401657521",
+              "확인 불가"
+            ],
+            [
+              21,
+              "올겨울 스노우보드 스키 준비한다면? 26/27 무주덕유산리조트 시즌패스 9월 4일 오픈",
+              "일상기록,",
+              "https://blog.naver.com/o2nealjk/224400742936",
+              "확인 불가"
+            ],
+            [
+              22,
+              "2026 무주반딧불축제 완전 정복 / 완벽 가이드: 천연기념물 반딧불이 신비탐사 · 낙화놀이 · 드론....",
+              "곰 고 미 라 이 프",
+              "https://blog.naver.com/ssagni/224387468481",
+              "확인 불가"
+            ],
+            [
+              23,
+              "골프존카운티무주CC 1박2일 패키지 완전정복 예약방법",
+              "골프여행예약 굳투어 상담ON",
+              "https://blog.naver.com/bronzestar7/224387433795",
+              "확인 불가"
+            ],
+            [
+              24,
+              "골프존무주cc 패키지 카트포함 극강 가성비 1박2일 골프 후기",
+              "★★자이언트골프 예약&상담★★",
+              "https://blog.naver.com/y0101yy/224395959753",
+              "확인 불가"
+            ]
+          ],
+          "네이버 클립": [
+            [
+              1,
+              "#협찬 #리뷰노트 무주... 힐링리조트... 무제한 패키지까지! 수영장...",
+              "m.naver.com",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%221%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=291B61D3C2CD204B8DE6C1D64EA7A49C6D5C&serviceType=CLIP",
+              "확인 불가"
+            ],
+            [
+              2,
+              "구름 위 힐링! 무주 2박3일 골프 패키지",
+              "봉봉이9시간 전조회 12",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%222%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=ED83FEAF13B854226F5726AE0E820EF3DC32&serviceType=NTV",
+              "확인 불가"
+            ],
+            [
+              3,
+              "숙식패키지로 몸만... 힐링리조트단풍마을... 무주리조트 #무주펜...",
+              "글로벌투어2주 전조회 327",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%223%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=DE17B3C500F4C97B35B2FC00F15DF45674A3&serviceType=CLIP",
+              "확인 불가"
+            ],
+            [
+              4,
+              "브랜딩마스터 강PD04.14조회 956",
+              "글로벌투어2주 전조회 327",
+              "https://clip.naver.com/@pd-kang",
+              "확인 불가"
+            ],
+            [
+              5,
+              "무주스키장강습 #무주리조트패키지 #무주여행 #무주숙박",
+              "글로벌투어2주 전조회 327",
+              "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=E90205E138F454B7683F57AA820458275CD7&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22qXPq5HzDs4phE5fSsTIn%22%2C%22open%22%3Atrue%7D",
+              "확인 불가"
+            ],
+            [
+              6,
+              "알뜰그녀 맛있는 여행기25.12.21조회 2.2천",
+              "글로벌투어2주 전조회 327",
+              "https://clip.naver.com/@withsunnyssam_",
+              "확인 불가"
+            ],
+            [
+              7,
+              "조식#무주패키지1박2일 호텔 저녁식사#무주덕유산cc 안개낀날...",
+              "글로벌투어2주 전조회 327",
+              "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=6A5CEB282784C7D4494CD40BA98406CE01B7&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22bM2cr7VFyDZ85ZjMYeq2%22%2C%22open%22%3Atrue%7D",
+              "확인 불가"
+            ],
+            [
+              8,
+              "국내골프 무주CC 1박2일 18만원대?",
+              "라벤더숙이07.15조회 265",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%226%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=4FCF3AF6EEEF9313CC78693FC12A4E395EB3&serviceType=NTV",
+              "확인 불가"
+            ],
+            [
+              9,
+              "스키도 타고 보드도 타구 #무주리조트렌탈샵 패키지 상품 #무주숙소...",
+              "라벤더숙이07.15조회 265",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%227%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=6D563FD1A1EA12C242B7DA4EA24F79F04262&serviceType=CLIP",
+              "확인 불가"
+            ],
+            [
+              10,
+              "vivid dream 25.12.23조회 3.0만",
+              "라벤더숙이07.15조회 265",
+              "https://clip.naver.com/@vivid_youliyan",
+              "확인 불가"
+            ],
+            [
+              11,
+              "무주골프 #1박2일골프 #36홀패키지 #자차골프 #빨강치마리조트...",
+              "라벤더숙이07.15조회 265",
+              "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=F6D06A222AD90026042A539917A6A68D3809&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22LTJtgrZ1BwNbpUXv-CTq%22%2C%22open%22%3Atrue%7D",
+              "확인 불가"
+            ],
+            [
+              12,
+              "신상의류 #한방풀패키지#무주리조트 #무주리프트권할인",
+              "케이투어 박부장05.28조회 1.1천",
+              "https://m.naver.com/shorts/?mediaType=POST&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%229%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=6934ec2606f89e0e1751d97a&serviceType=CLIP",
+              "확인 불가"
+            ],
+            [
+              13,
+              "덕유산cc 무주 골프장 7월 8월 패키지 #덕유산cc #무주골프장...",
+              "무주 에이스스키샵 25.12.07",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%2210%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=FA8B880B73FD04F849D38D71942217512CFE&serviceType=CLIP",
+              "확인 불가"
+            ],
+            [
+              14,
+              "골프예약은 골프맨07.07조회 1.5천",
+              "무주 에이스스키샵 25.12.07",
+              "https://clip.naver.com/@golfman_tour",
+              "확인 불가"
+            ],
+            [
+              15,
+              "#유료협찬 실패 없는 무주리조트... 역대급 패키지로 무주 스키여행...",
+              "무주 에이스스키샵 25.12.07",
+              "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=D8C334B4A54800DD3428DE5E35E0109BA4DB&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22JA6X3dTvhNuOS-50v3Oz%22%2C%22open%22%3Atrue%7D",
+              "확인 불가"
+            ],
+            [
+              16,
+              "#협찬 #힐링리조트단풍마을휴 _ 숙박을 하면 무제한 돼지고기 바베큐...",
+              "프릴25.12.24조회 1.5천",
+              "https://m.naver.com/shorts/?blogId=ysh3208&docNo=15111285&mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%2212%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=25143D2C541FC2CF9780FEE4183343B74B18&serviceType=MOMENT",
+              "확인 불가"
+            ],
+            [
+              17,
+              "무주리조트리프트권#무주리조트스키강습 📍무주 멘토스키샵 숙박...",
+              "유승혜07.04조회 217",
+              "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=DA274A7F5D56E5E37D2A1827A8E560E7A8E0&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22KBgsgudOSU5VbO1X4gmi%22%2C%22open%22%3Atrue%7D",
+              "확인 불가"
+            ],
+            [
+              18,
+              "렌탈 패키지로 의류... 보드복코디 #무주리조트 #동계스포츠 #무주스...",
+              "쥬제이01.01조회 1.3천",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%2214%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=F153BFE22D7A7A1DB04FA4F4F2DE776CF351&serviceType=CLIP",
+              "확인 불가"
+            ],
+            [
+              19,
+              "패키지로 예약하시면 좋아요 #무주스키장#스키장#무주리조트...",
+              "알프02.15조회 1.8만",
+              "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=E2740DF839F007D80E86D30FAFE8BF177505&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22bloomingjeju%22%2C%22open%22%3Atrue%7D",
+              "확인 불가"
+            ],
+            [
+              20,
+              "무주스키강습#무주스키장#무주스키장개장#무주리조트#무주스키장패키지",
+              "연이네다락방24.12.29조회 403",
+              "https://m.naver.com/shorts/?blogId=kiminguee&docNo=6531152&mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%2216%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=84ECBF006B0EE7650D3F65572051454162FB&serviceType=MOMENT",
+              "확인 불가"
+            ],
+            [
+              21,
+              "숙박까지 패키지로 알차게 이용한... #무주스키장 #무주리조트 #무주스...",
+              "하얀나라24.11.27조회 67",
+              "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=9081DC74607A12B804E6840ECFE157D0832D&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22UEpZ9v1YmkuGb3GCQ05C%22%2C%22open%22%3Atrue%7D",
+              "확인 불가"
+            ],
+            [
+              22,
+              "술람미의삶이주는선물24.12.26조회 127",
+              "하얀나라24.11.27조회 67",
+              "https://clip.naver.com/@udada5",
+              "확인 불가"
+            ],
+            [
+              23,
+              "#무주스키장 #무주스키샵 #무주리조트 #무주아리랑스키 #무주 #스키장...",
+              "하얀나라24.11.27조회 67",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%2218%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=7B9A9FED1DFF7D907248788E63201F8D332E&serviceType=CLIP",
+              "확인 불가"
+            ],
+            [
+              24,
+              "가성비 올인클루시브 숙박 패키지... 무주숙박#무주리조트#무주가볼만...",
+              "red123200201.16조회 69",
+              "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=56F2F08A849ACC717EE2909DE1F3D56A1DE7&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22gowk83%22%2C%22open%22%3Atrue%7D",
+              "확인 불가"
+            ],
+            [
+              25,
+              "무주대가족숙소#무주리조트#무주여행 #힐링리조트단풍...",
+              "감성퐁당25.01.09조회 623",
+              "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80%22%2C%22seedIndex%22%3A%2220%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22package_tour%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=B2821488C98E64386986EC9C04CBF5645F29&serviceType=CLIP",
+              "확인 불가"
+            ]
+          ],
+          "네이버 가격비교": [
+            [
+              1,
+              "클릭",
+              "search.naver.com",
+              "https://search.naver.com/search.naver?sm=tab_clk.shpftc&qvt=0&query=%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%EC%82%AC%EC%9D%B4%ED%8A%B8%20nsite%3Anaver.com&ssc=tab.ur.all",
+              "확인 불가"
+            ],
+            [
+              2,
+              "'무주리조트패키지'로만 검색하기",
+              "search.shopping.naver.com",
+              "https://search.shopping.naver.com/search/all?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&frm=NVSCPRO&fo=true",
+              "무주리조트패키지"
+            ],
+            [
+              3,
+              "무주스키장 한방풀패키지 리프트+장비+의류+바이저 헬멧+보호대 렌탈 스키샵 3시간 주중 대인",
+              "cr3.shopping.naver.com",
+              "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82293911536&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&t=mtvl3kna&h=2fdd781d36016382a701e09110f97ff6e1679c9e&frm=NVSCPRO",
+              "확인 불가"
+            ],
+            [
+              4,
+              "무주리조트 에이스스키샵",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Faceskishop%3Fnl-ts-pid%3Djq61PwqVJ5RssQ3DYzZ-358742%26tr%3Dslsmn",
+              "확인 불가"
+            ],
+            [
+              5,
+              "한방 풀패키지 리프트권+장비+의류+바이저 헬멧+장갑+보호대 에이스 스키샵 주중 4시간 대인",
+              "cr3.shopping.naver.com",
+              "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82293907620&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&t=mtvl3knb&h=6eb3ea4916612ca7482393b4dc1c7ed740b5a4b5&frm=NVSCPRO",
+              "확인 불가"
+            ],
+            [
+              6,
+              "한방풀패키지 무주스키장 강습 무주스키장 스키샵 에이스 3시간 주중 소인",
+              "cr3.shopping.naver.com",
+              "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82793897671&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&t=mtvl3knb&h=391407e99aa9e221fa7ff4fb3111feb909386178&frm=NVSCPRO",
+              "확인 불가"
+            ],
+            [
+              7,
+              "한방풀패키지 리프트권부터 장갑까지무주스키장 에이스스키샵 주중 6시간 소인",
+              "cr3.shopping.naver.com",
+              "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82757725917&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&t=mtvl3knb&h=e33ea340306efe4d7375f08dcc8089ef061c905b&frm=NVSCPRO",
+              "확인 불가"
+            ],
+            [
+              8,
+              "무주스키장 한방풀패키지 에이스스키샵 렌탈샵 강습 3시간 주중 소인 리프트권 장비 신 상의류",
+              "cr3.shopping.naver.com",
+              "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=85420112536&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&t=mtvl3knc&h=4299acb95b1faadce7a007bdd76822cb41e453a1&frm=NVSCPRO",
+              "확인 불가"
+            ],
+            [
+              9,
+              "무주리조트 리프트권풀패키지 무주스키샵렌탈샵스키장",
+              "cr3.shopping.naver.com",
+              "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=12763747892&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&t=mtvl3knc&h=d28b3fd46ddc1dd8ea7c082c527887158bc75188&frm=NVSCPRO",
+              "확인 불가"
+            ],
+            [
+              10,
+              "무주스키랜드",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmujuskiland%3Fnl-ts-pid%3Djq61PwqVJ5RssQ3DYzZ-358742%26tr%3Dslsmn",
+              "확인 불가"
+            ],
+            [
+              11,
+              "무주리조트 리프트권 패키지 무주스키샵렌탈샵 장비의류바이저헬멧보호대",
+              "cr3.shopping.naver.com",
+              "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=90476708674&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&t=mtvl3knd&h=51e2c8886e8f10d9e3175af4ed9b56d65f61deea&frm=NVSCPRO",
+              "확인 불가"
+            ],
+            [
+              12,
+              "무주스키장 리프트권 올인원 패키지 장비 스키샵 랜탈샵 주중 소인 강습",
+              "cr3.shopping.naver.com",
+              "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=81464285596&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&t=mtvl3knd&h=c9a97649e7b9b23c88b1351a731126274898b9cd&frm=NVSCPRO",
+              "확인 불가"
+            ],
+            [
+              13,
+              "무주스키장 아리랑스키샵",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Farirangski%3Fnl-ts-pid%3Djq61PwqVJ5RssQ3DYzZ-358742%26tr%3Dslsmn",
+              "확인 불가"
+            ],
+            [
+              14,
+              "법적고지 및 안내",
+              "shopping.naver.com",
+              "https://shopping.naver.com/help/legal-basis",
+              "확인 불가"
+            ],
+            [
+              15,
+              "네이버 가격비교 더보기",
+              "search.shopping.naver.com",
+              "https://search.shopping.naver.com/search/all?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&frm=NVSCPRO&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742",
+              "확인 불가"
+            ]
+          ],
+          "네이버플러스 스토어": [
+            [
+              1,
+              "네이버플러스 멤버십 지금 시작하고 최대 5% 적립을 누려요!",
+              "nid.naver.com",
+              "https://nid.naver.com/membership/join?dtm_source=naver_plusshoping&dtm_medium=display&dtm_campaign=point",
+              "확인 불가"
+            ],
+            [
+              2,
+              "'무주리조트패키지'로만 검색하기",
+              "search.shopping.naver.com",
+              "https://search.shopping.naver.com/ns/search?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742&originalQuerySearch=true",
+              "무주리조트패키지"
+            ],
+            [
+              3,
+              "무주리조트 주중패키지 리프트권 장비 의류 스키샵",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/main/products/4805391171?nl-query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742&NaPm=ci%3Djq61PwqVJ5RssQ3DYzZ-358742%7Cct%3Dmtvl3mef%7Ctr%3Dnsls%7Csn%3D611891%7Chk%3D7bb6946c08d40bdcb2b5d9d47d190fcad3c50de5",
+              "확인 불가"
+            ],
+            [
+              4,
+              "무주스키랜드",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmujuskiland&tr=nsls&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742",
+              "확인 불가"
+            ],
+            [
+              5,
+              "무주리조트 스키장 장비대여 스키 보드 렌탈 이용권",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/main/products/12641714651?nl-query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742&NaPm=ci%3Djq61PwqVJ5RssQ3DYzZ-358742%7Cct%3Dmtvl3meg%7Ctr%3Dnsls%7Csn%3D12408155%7Chk%3D6edd8e6cb926f659c69d17157bce3be97609e18a",
+              "확인 불가"
+            ],
+            [
+              6,
+              "무주 스키렌탈샵",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmujuskirental&tr=nsls&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742",
+              "확인 불가"
+            ],
+            [
+              7,
+              "무주 덕유산cc 1박2일 36홀 리조트 골프패키지",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/main/products/13704504172?nl-query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742&NaPm=ci%3Djq61PwqVJ5RssQ3DYzZ-358742%7Cct%3Dmtvl3meh%7Ctr%3Dnsls%7Csn%3D12381839%7Chk%3D8633128ede3d954f91f57b26b5d7298b91317680",
+              "확인 불가"
+            ],
+            [
+              8,
+              "국내 해외 골프패키지 여행개인",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fgiantgolf4435&tr=nsls&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742",
+              "확인 불가"
+            ],
+            [
+              9,
+              "무주리조트 올인원패키지",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/main/products/5242034483?nl-query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742&NaPm=ci%3Djq61PwqVJ5RssQ3DYzZ-358742%7Cct%3Dmtvl3meh%7Ctr%3Dnsls%7Csn%3D840356%7Chk%3D8633128ede3d954f91f57b26b5d7298b91317680",
+              "확인 불가"
+            ],
+            [
+              10,
+              "VIP스키",
+              "smartstore.naver.com",
+              "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmujupangpang&tr=nsls&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742",
+              "확인 불가"
+            ],
+            [
+              11,
+              "법적고지 및 안내",
+              "shopping.naver.com",
+              "https://shopping.naver.com/help/legal-basis",
+              "확인 불가"
+            ],
+            [
+              12,
+              "네이버플러스 스토어 더보기",
+              "search.shopping.naver.com",
+              "https://search.shopping.naver.com/ns/search?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80&nl-ts-pid=jq61PwqVJ5RssQ3DYzZ-358742",
+              "확인 불가"
+            ]
+          ]
+        },
+        "ads": [
+          [
+            "검색광고 블록",
+            1,
+            "무주 리조트 부킹닷컴 스페셜 특가 초특가 호텔 예약",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/T0L_Isqupj0wdp2qtEQss9WbZ9G_nBPd_9poyjXjOdJmM-kAFobBBceU7TBHp1vDfSdrHKh4fPN6MTumQ6FONj61UsRLu0CezzksELfe7JR153myID6a5q6lghbgSBJOdav4mBXRoXpiVtQk0gcU9yJzzq32A8EAdfPzbBYcTj1oicfDJLZnltI-xyHw1f3G58foAkvtlXFdCVhoLHe0k3mW036Gq1XP5s5ifZUtzZ9qmrSuiO1O3a-6IVmDIISEv_p_btopWMdGrg4zWbhqrnEF0PerxHGbZ7Cz6hmrEF7wXb0BTPUKRlIuYnm1osQ9ugHzjjoAfyDdv0qjYbpaYR3eIr8KUWYreJA5NOOhAM7tb8jaxBept3f0PNalawZkJ9_Dk6D3Fh_flxXySXQRr7WO8qa4PmBF6b0sVVkzUWxPUYFGyv2Q_iQ4AvOJOiSyII6pavfpugqoVuE64ogTdMw7iyUyRKCzW14mQkGts24=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            2,
+            "스키장 갈 땐 무주 굿스키 스키장 패션왕 되는 법 수준급 강사진의 스키 강습",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/__C5LXtX0vn8sQPFS1ycWMKjVLEeIfgvieNMImCEfEyqgATotWBjn-tzXwsiN--5_zsNOp58irCzGpldqiuou0uYIcaPadWZBfBJ-t4Kk3gWU9LbNBI3jn_WLA1PrZVZr-1vHRX96hBsCgt3Ae6_cnJ5Zx_B_5L-cchu3AKWxQvDKgAWeYKP9CZMcPUEVitiMBqdFXqC81TR58FdBZmB7p8gBV9KTy63VP9Keq45onPfDRmgSBR4KW2NgcrdQVS3QeB0BNzoE8rO9hGZMfzdkwKwIMCDfxnyGeMfbaFftucRwVqyvx7LESIO-imnfKcDK3kS6RUe4q29k3r7EtrS9syqgkg-QbMafHiou9WUJ0ly-pPaZ4Tyfx_jgTSn3qWPzgFz22gisMZtBLzk0clW0U49mv2Y52i3MDXCuykv2eKRCC6_RgEGFNT2siYF1U_WHYmlVTFj3DETpbu1J7dO5PF5neDz1hLHsXlFVrjWEjFfEgWD7Iubq3cAp5kURJz6rtUuI0G_wjQRkxsSnv0N9Q==?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            3,
+            "쿠팡 무주 덕유산숙소 와우회원 최대 87% 할인",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/jnET6TO6BFnk7Ch9LyrRew-A3Lq4LH7eX1LfF3WUajUsEFYpzZJ27fbeK3K3F7_3dMlrLKrOrInDpYVUm5k3ZWimfCncIm8vD7zzGLpNgtOqpJnahcqCYkSSVJu1b4kF61Ta_hIRkoK4psCus5ZYBW9seAL0ql7VUZT0B8ZNq7EnCgW4Vcgh2r2LEAYLtMM_S1iLYqdGcy_yGwhzGoKMFfIYDhY3DQu1iUiqkwG4tlVwgLLZKSyjUVGU6tsijLKSd35XKwPW_IIOfDm54ON5fxoleMwj3s4xWfQQKI3HIQF2gX1Qk33fnD4vfnwHtzNO1ie1I3sK4E-R2wJucSoLcC6CyXVLpf-bu2V81Jpfmomthc2v5mqC3alv2FSMTG3MgxeFD0PvJe0fb2DVbFjO1yNRB8WpN-UXW1pciJtfjpPUK2M4UgVwASbh259bA9vmGYtJLkSyXC7_HCtfpx6iRgMWl-hGatoi17XC1QPmKvXZBOLODmFO3g3kd9qrgmejR34rjrhN6Zer-5jNIIxEcIYPdj0DGsBJnCPiLyIEO0FRc51vKkz1Kz5oGOgIAKbZ?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            4,
+            "무주 래프팅빨강치마 리조트",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/OH7jbJNXFi3z5l-zhLZCA145tc819FGl4sqtAB-l4gtlq1m-Cng5n7TUqpYKMgH8Ln3sEqb2R2lsUIZjh9TS0Bakahk4wZMp15sw_2n6CSEcIKOZOOfF5k0H-THr3yquTIzC6eqvuUpuCIYcfavDzFi6jt9PpcJknrRRe5yoX5FMGi9WJmItMIEnrCmgg39yDgxsCBLVDed21sQKm_5K0lukA9udl5D5YKjnWlvu73_KjcNb2XKv7FoNMcBZu9tozKU9XF7EnW-9buJpOus4c1-ttZwFKyLrIRgzIJRyHn0mGsTLiDhIBJtWHg3LEooBVbQGGD1TUUNAmkQWPuGQY9KF11nOIUy28uKJeD_bP65S5v05r42cERvifEMdPq1Sj0FDGfFskByr3ra5GSa1X3g10kzYkpRhPiv2M9yw6xQWnh8TTZQjCn-gFRj1oedNCNZ5jZaaIiSt66icJ0VpDGpDf7hprv4_gvRzwiGDqRQ=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            5,
+            "무주리조트패키지 에어비앤비 전북 고즈넉한 쉼터 전라북도 인기숙소 둘러보기",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/SE8nd6y5K5vaUoSCXEdfWNTE5TQCGtCgtGHIZtbNhbUS_aEb9p8hND02OeWf4dSNKd3yrpmFZ3ywZFevdm-neaa-mo4VM6DOv1H1p06hL8KO_QAF08kWe4GRZcUtqYsGGOJSFe4sV1c2HkCoObBYiT23_mopn0tDHZ3KJU92VdjlHKCqkerf605ojQQae8_HQV8uI7zbVmkXYKSuaSF2OdSx_h8_iXCovkCYdXMs8qB1GJAv_eV-C9VAxaPFhnPvzwVUiNvmb2C4chlK20JtUTx8ebsoa5dJTl6FeS-0uoEDxvHHzaZWy5-ZJ7IAUq8_PKUnddEvNtNswkbDp0dhVHFhL4XcRYs6616aj4woaYHcdSPQm0mvip8MZLQi4l9cY7nOAB8TKnp72QWkMhYmDj6FShcIlfrzDSeAmRGr0ge64Msa0a7Y-5vsf8nvnAiElUiXwrjXF3sXEHmGEXY6zA==?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            6,
+            "무주 리프트권 RSS스키샵 국가대표영화 실제주인공스키샵",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/KHT1nSg4PnL4nWKXQf5dV5Nau3HwS2q_px46gyTtcvnT1n05LX2_TUQQDNnVmuGwLXv-1AkQi1vYO_wvbSgV1noZ_pdbzobsaAJA2ZGq2ikOIkPacPBUY0QR4fUXz1F1feeNq3BFGEZCIsLdGv8b3eWuteBCFqnFY0-0pdYN8Il7mHWv5wTlK2m92NYp3kG_mvxA2Tpiw58YtBzTPssjvYJdZjqPrN6uRSNHc3dMWnUarQGPjC9Tm8kgucxCNosJU8bQ6vVheNhkLowf5uZ_Z5dC1GUIah_c6e9l9VW142U=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            7,
+            "무주리조트패키지 , KAYAK 여행지별 특가호텔이 한곳에 카약과 함께하는 여행",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/rTS75GBnfkqlmMO7zjMmnN2J9RQxSzULRgk4__awzMSkuhb_ZMhveNEanDf6C93mNHpHIdZN3sp0V6DrEXLUKhwi6A28BNH2QqqxC76RLi-PZnG6hApYH5nufQWfyTFdRTMuITkhOl4z9H2pMxiqlmbvzOd6H905Zlf68uwNfGWC6bhEGdHLVBpFCrRtWy0geyL2kUmHZOoH6KkUjG8rciziRjjjYLW_I0K04LB6UXEYIgclTrebHmjajW15dHA9GyY5iAoVaRaIzPKZcvWx7doDbjalyUWxrOARqIXe0Iu488yGegCwNKTSnsNoBWu8RDPW0l8es3ZfbIQyXYDo3mPW5JqfIVnJO2EWvqw4LmIiwm4nW6JfcOQjE1eogZR_sFMfOxwepxZOFLPY_k939pnkWuCgnyKGpG6jmIxkaHY7AiBf-k2iWzTVoKfLuPnlbALoE8-PJcLCQvB9do5tvgVQzBpafcjvmf12T41cXyJ8w1qhHsRQ6Wjf0y5E5s5nMLHHi_FUxpFvPq9w888Pm3QKyj2VzKt0tOYEd2WhupDmmm0_Qwqm8WZNeMzBpuln2CxPWPnFVAbUJ5zp-7mqgA==?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            8,
+            "국내숙소 NOL에서 예약 오늘의 숙박 핫딜!",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/TowU2yyEy-W9DKTCJwnm_yTWoLS62KArvb74HQl-l8ZHodBNgypNIEii8P9CcIfLI17Lj4UPgudcae1MO_MmKd1e4aPE4CjjNPad9N2brRZqfozHD9B31WT8iXzql7s9SLwnPX2OSw05eaHrfDnZMVh6BPk_Yxiy1xDaCyTXnuxxp9w8qQmcHdsjrGLBohjLhc4mEORC9jWrhgULlPlrQ3CfSTFkNdkMyk9sMuIeRSaANa2kRkLXldRnGJaYWvE76ylDksuT-Cw7xPIOt4-eOoLPGBKiDtp4Sa8K5viaUuAU6PJsuQj1qK20DXPJ4kloB7ouUnCgoxQ_nwbAMbTrFN7mHRpyMm6B2lPx65_H4Cr70FkXxRXPuK0t2lvQ6WrlB1xZo83xZ50i5rMyB--jfmyeP7gbyRKdO7byZvIS65nWwau-8wkq5oxLKkDxd7QpQbZj2-xcy5gNl32dj8nhtch3YNICvFWQVuT8S76Xidc=?c=naver.search.pc.plsearch&t=0"
+          ]
+        ],
+        "pages": 1,
+        "status": "ok",
+        "observation": {
+          "keyword": "무주리조트패키지",
+          "region": "무주리조트패키지",
+          "device": "pc",
+          "vantage": "direct",
+          "observed_at": "2026-09-10T22:49:47.546541+09:00",
+          "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%ED%8C%A8%ED%82%A4%EC%A7%80",
+          "raw_html_path": "data/raw/무주리조트패키지__pc__direct__20260910T224947.html"
+        },
+        "warnings": []
+      }
+    }
+  }
+};

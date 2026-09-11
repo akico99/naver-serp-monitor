@@ -1,0 +1,749 @@
+// 자동 생성 파일: collector/build_index.py 가 data/*.json 에서 다시 만듭니다. 직접 수정하지 마세요.
+window.SERP_DATA = {
+  "keyword": "무주렌탈샵",
+  "region": "무주렌탈샵",
+  "datasets": {
+    "pc": {
+      "direct": {
+        "blocks": [
+          {
+            "order": 1,
+            "name": "검색광고",
+            "meta": "검색광고 전용 블록",
+            "type": "광고",
+            "ad": true
+          },
+          {
+            "order": 2,
+            "name": "플레이스",
+            "meta": "광고 4개 · 자연결과 36개",
+            "type": "자연 + 광고 혼합"
+          },
+          {
+            "order": 3,
+            "name": "이미지",
+            "meta": "탐색 보조 영역",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 4,
+            "name": "관련문서",
+            "meta": "게시물 25개",
+            "type": "콘텐츠"
+          }
+        ],
+        "competitors": [
+          [
+            1,
+            1,
+            1,
+            "무주국가대표스키샵&렌탈샵"
+          ],
+          [
+            1,
+            2,
+            2,
+            "무주스키샵&렌탈샵더블유"
+          ],
+          [
+            1,
+            3,
+            3,
+            "무주스노우파크스키샵&렌탈샵"
+          ],
+          [
+            1,
+            4,
+            4,
+            "무주렌탈샵 대박 스키샵"
+          ],
+          [
+            1,
+            5,
+            5,
+            "무주스키샵&렌탈샵 스키라이프"
+          ],
+          [
+            1,
+            6,
+            6,
+            "무주스키샵 스카이렌탈샵"
+          ],
+          [
+            1,
+            7,
+            7,
+            "무주스키샵&렌탈샵 허커"
+          ],
+          [
+            1,
+            8,
+            8,
+            "무주 노블스키샵 & 렌탈샵"
+          ],
+          [
+            1,
+            9,
+            9,
+            "무주스키샵 멘토렌탈샵"
+          ],
+          [
+            1,
+            10,
+            10,
+            "무주스키샵 알파인렌탈샵"
+          ],
+          [
+            1,
+            11,
+            11,
+            "무주스키강습센터 강심장스키샵&렌탈샵"
+          ],
+          [
+            1,
+            12,
+            12,
+            "무주스키샵 현대렌탈샵"
+          ],
+          [
+            1,
+            13,
+            13,
+            "무주 스키샵렌탈샵 알에스에스"
+          ],
+          [
+            1,
+            14,
+            14,
+            "무주VIP스키샵 렌탈샵"
+          ],
+          [
+            1,
+            15,
+            15,
+            "무주스키샵 스키스쿨 렌탈샵"
+          ],
+          [
+            1,
+            16,
+            16,
+            "무주스키샵&렌탈샵 스키월드"
+          ],
+          [
+            1,
+            17,
+            17,
+            "무주스키샵 렌탈샵 굿스키"
+          ],
+          [
+            1,
+            18,
+            18,
+            "무주킹스키샵 렌탈샵"
+          ],
+          [
+            1,
+            19,
+            19,
+            "무주하얀나라스키샵렌탈샵"
+          ],
+          [
+            1,
+            20,
+            20,
+            "무주런닝맨스키샵 렌탈샵"
+          ],
+          [
+            2,
+            1,
+            21,
+            "무주렌탈샵 넘버원스키샵"
+          ],
+          [
+            2,
+            2,
+            22,
+            "무주스키샵 달인렌탈샵"
+          ],
+          [
+            2,
+            3,
+            23,
+            "무주일타스키샵&렌탈샵"
+          ],
+          [
+            2,
+            4,
+            24,
+            "무주정스키샵 렌탈샵"
+          ],
+          [
+            2,
+            5,
+            25,
+            "무주스키샵 실크로드 렌탈샵"
+          ],
+          [
+            2,
+            6,
+            26,
+            "무주스키샵 덕유산렌탈샵"
+          ],
+          [
+            2,
+            7,
+            27,
+            "무주스키샵 스노우밸리 렌탈샵"
+          ],
+          [
+            2,
+            8,
+            28,
+            "무주스키샵 렌탈샵 백암스키"
+          ],
+          [
+            2,
+            9,
+            29,
+            "무주스키샵 무주대장렌탈샵"
+          ],
+          [
+            2,
+            10,
+            30,
+            "무주스키샵 렌탈샵 와우"
+          ],
+          [
+            2,
+            11,
+            31,
+            "무주스키랜드스키샵&렌탈샵"
+          ],
+          [
+            2,
+            12,
+            32,
+            "무주스키샵 렌탈샵 에이스"
+          ],
+          [
+            2,
+            13,
+            33,
+            "무주스키샵&렌탈샵 이소스키"
+          ],
+          [
+            2,
+            14,
+            34,
+            "무주마운틴스키샵&렌탈샵"
+          ],
+          [
+            2,
+            15,
+            35,
+            "무주스키마을 스키샵&렌탈샵"
+          ],
+          [
+            2,
+            16,
+            36,
+            "훼미리스키마트"
+          ]
+        ],
+        "place_rankings": {
+          "플레이스": [
+            [
+              1,
+              1,
+              1,
+              "무주국가대표스키샵&렌탈샵"
+            ],
+            [
+              1,
+              2,
+              2,
+              "무주스키샵&렌탈샵더블유"
+            ],
+            [
+              1,
+              3,
+              3,
+              "무주스노우파크스키샵&렌탈샵"
+            ],
+            [
+              1,
+              4,
+              4,
+              "무주렌탈샵 대박 스키샵"
+            ],
+            [
+              1,
+              5,
+              5,
+              "무주스키샵&렌탈샵 스키라이프"
+            ],
+            [
+              1,
+              6,
+              6,
+              "무주스키샵 스카이렌탈샵"
+            ],
+            [
+              1,
+              7,
+              7,
+              "무주스키샵&렌탈샵 허커"
+            ],
+            [
+              1,
+              8,
+              8,
+              "무주 노블스키샵 & 렌탈샵"
+            ],
+            [
+              1,
+              9,
+              9,
+              "무주스키샵 멘토렌탈샵"
+            ],
+            [
+              1,
+              10,
+              10,
+              "무주스키샵 알파인렌탈샵"
+            ],
+            [
+              1,
+              11,
+              11,
+              "무주스키강습센터 강심장스키샵&렌탈샵"
+            ],
+            [
+              1,
+              12,
+              12,
+              "무주스키샵 현대렌탈샵"
+            ],
+            [
+              1,
+              13,
+              13,
+              "무주 스키샵렌탈샵 알에스에스"
+            ],
+            [
+              1,
+              14,
+              14,
+              "무주VIP스키샵 렌탈샵"
+            ],
+            [
+              1,
+              15,
+              15,
+              "무주스키샵 스키스쿨 렌탈샵"
+            ],
+            [
+              1,
+              16,
+              16,
+              "무주스키샵&렌탈샵 스키월드"
+            ],
+            [
+              1,
+              17,
+              17,
+              "무주스키샵 렌탈샵 굿스키"
+            ],
+            [
+              1,
+              18,
+              18,
+              "무주킹스키샵 렌탈샵"
+            ],
+            [
+              1,
+              19,
+              19,
+              "무주하얀나라스키샵렌탈샵"
+            ],
+            [
+              1,
+              20,
+              20,
+              "무주런닝맨스키샵 렌탈샵"
+            ],
+            [
+              2,
+              1,
+              21,
+              "무주렌탈샵 넘버원스키샵"
+            ],
+            [
+              2,
+              2,
+              22,
+              "무주스키샵 달인렌탈샵"
+            ],
+            [
+              2,
+              3,
+              23,
+              "무주일타스키샵&렌탈샵"
+            ],
+            [
+              2,
+              4,
+              24,
+              "무주정스키샵 렌탈샵"
+            ],
+            [
+              2,
+              5,
+              25,
+              "무주스키샵 실크로드 렌탈샵"
+            ],
+            [
+              2,
+              6,
+              26,
+              "무주스키샵 덕유산렌탈샵"
+            ],
+            [
+              2,
+              7,
+              27,
+              "무주스키샵 스노우밸리 렌탈샵"
+            ],
+            [
+              2,
+              8,
+              28,
+              "무주스키샵 렌탈샵 백암스키"
+            ],
+            [
+              2,
+              9,
+              29,
+              "무주스키샵 무주대장렌탈샵"
+            ],
+            [
+              2,
+              10,
+              30,
+              "무주스키샵 렌탈샵 와우"
+            ],
+            [
+              2,
+              11,
+              31,
+              "무주스키랜드스키샵&렌탈샵"
+            ],
+            [
+              2,
+              12,
+              32,
+              "무주스키샵 렌탈샵 에이스"
+            ],
+            [
+              2,
+              13,
+              33,
+              "무주스키샵&렌탈샵 이소스키"
+            ],
+            [
+              2,
+              14,
+              34,
+              "무주마운틴스키샵&렌탈샵"
+            ],
+            [
+              2,
+              15,
+              35,
+              "무주스키마을 스키샵&렌탈샵"
+            ],
+            [
+              2,
+              16,
+              36,
+              "훼미리스키마트"
+            ]
+          ]
+        },
+        "contents": {
+          "관련문서": [
+            [
+              1,
+              "무주 스키샵|렌탈샵: 무주 최대규모 SKY 스키샵",
+              "www.mujusky.co.kr",
+              "http://www.mujusky.co.kr/",
+              "확인 불가"
+            ],
+            [
+              2,
+              "무주스키스쿨타운",
+              "xn--v92b29ka806dhkjg6a.com",
+              "http://xn--v92b29ka806dhkjg6a.com/",
+              "확인 불가"
+            ],
+            [
+              3,
+              "무주스키> 여행지",
+              "korean.visitkorea.or.kr",
+              "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=1b54f2ab-23ea-42fd-97a9-1c5fdd94b144",
+              "확인 불가"
+            ],
+            [
+              4,
+              "무주하얀나라스키샵 무주스키샵 무주렌탈샵",
+              "mujuskishop.com",
+              "http://mujuskishop.com/",
+              "확인 불가"
+            ],
+            [
+              5,
+              "무주스키샵 렌탈샵 굿스키",
+              "www.goodski.co.kr",
+              "https://www.goodski.co.kr/",
+              "확인 불가"
+            ],
+            [
+              6,
+              "무주스키장 렌탈샵 후기 무주 리조트 가볼만한곳",
+              "일상탈출",
+              "https://blog.naver.com/tcacyc/224164711175",
+              "확인 불가"
+            ],
+            [
+              7,
+              "무주 스키샵 추천 무주리조트 렌탈샵 스키장 초보 후기",
+              "하벨",
+              "https://blog.naver.com/pkj5456/224129918312",
+              "확인 불가"
+            ],
+            [
+              8,
+              "무주리조트 초이스렌탈샵 무주스키강습 후기",
+              "라앤플",
+              "https://blog.naver.com/chicagoman9/224110570709",
+              "확인 불가"
+            ],
+            [
+              9,
+              "무주스키장 렌탈샵 추천",
+              "언제나 여행 중",
+              "https://blog.naver.com/rambo3/224157247960",
+              "확인 불가"
+            ],
+            [
+              10,
+              "무주스키장 렌탈샵 무주 가족스키강습 가격 후기",
+              "비야",
+              "https://blog.naver.com/hewtbylvv/224163333376",
+              "확인 불가"
+            ],
+            [
+              11,
+              "무주스키장 렌탈샵 야간스키 할인 이용후기",
+              "비야",
+              "https://blog.naver.com/hewtbylvv/224120633786",
+              "확인 불가"
+            ],
+            [
+              12,
+              "무주리조트 렌탈샵 추천 스키강습 리프트권",
+              "태운",
+              "https://blog.naver.com/amyangela/224105296543",
+              "확인 불가"
+            ],
+            [
+              13,
+              "다이렉트웨딩카페-제이웨딩 결혼준비싸게하기",
+              "태운",
+              "https://cafe.naver.com/b00k2012",
+              "확인 불가"
+            ],
+            [
+              14,
+              "만족했던 무주스키장렌탈샵",
+              "태운",
+              "https://cafe.naver.com/b00k2012/1514617?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImIwMGsyMDEyIiwiYXJ0aWNsZUlkIjoxNTE0NjE3LCJpc3N1ZWRBdCI6MTc4OTA0NjU3Mjk0Mn0.T_SZTCCvMq3koeDmb2Xt1vvp1nqFJLFW-I-LImvemp4",
+              "확인 불가"
+            ],
+            [
+              15,
+              "도담도담 대전맘 ::: 임신&육아&교육&생활정보 :::",
+              "태운",
+              "https://cafe.naver.com/dodamdadam1004",
+              "확인 불가"
+            ],
+            [
+              16,
+              "무주리조트렌탈 vs 무주리조트렌탈샵 차이 정리｜장비·의류 교체 주기 기준으로 비교",
+              "태운",
+              "https://cafe.naver.com/dodamdadam1004/2746364?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRvZGFtZGFkYW0xMDA0IiwiYXJ0aWNsZUlkIjoyNzQ2MzY0LCJpc3N1ZWRBdCI6MTc4OTA0NjU3Mjk0Mn0.gISGfjVHtKPyRWj63W28CkcpTsZM6hq7_35puiUuIjc",
+              "확인 불가"
+            ],
+            [
+              17,
+              "무주스키장 렌탈샵 리프트권 할인",
+              "태운",
+              "https://cafe.naver.com/dodamdadam1004/2745055?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRvZGFtZGFkYW0xMDA0IiwiYXJ0aWNsZUlkIjoyNzQ1MDU1LCJpc3N1ZWRBdCI6MTc4OTA0NjU3Mjk0Mn0.sa-sp7PouCXV6w6N0nPLX99BjAub-WMjxZrr3YP4buY",
+              "확인 불가"
+            ],
+            [
+              18,
+              "대구맘 365 - 결혼, 임신, 출산, 육아, 교육,성형,부동산,DIY",
+              "태운",
+              "https://cafe.naver.com/dgmom365",
+              "확인 불가"
+            ],
+            [
+              19,
+              "무주렌탈샵 하얀나라 스키장 리프트권 할인 후기",
+              "태운",
+              "https://cafe.naver.com/dgmom365/7240774?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRnbW9tMzY1IiwiYXJ0aWNsZUlkIjo3MjQwNzc0LCJpc3N1ZWRBdCI6MTc4OTA0NjU3Mjk0Mn0.rDPperZg1ycme5vbVk7Z9ertXiqOFFJ6DZ6t4e0ZFxE",
+              "확인 불가"
+            ],
+            [
+              20,
+              "무주렌탈샵 스노우파크",
+              "태운",
+              "https://mujusp.com/",
+              "확인 불가"
+            ],
+            [
+              21,
+              "무주첫번째스키샵 국가대표",
+              "태운",
+              "http://www.okmuju.com/",
+              "확인 불가"
+            ],
+            [
+              22,
+              "무주일타스키샵 일타스키강습",
+              "태운",
+              "http://xn--yh4bv4aj3h6ol7d.com/",
+              "확인 불가"
+            ],
+            [
+              23,
+              "무주스키샵",
+              "태운",
+              "https://mentorski.com/",
+              "확인 불가"
+            ],
+            [
+              24,
+              "무주 스키샵&프리미엄 렌탈샵 무주스키월드",
+              "태운",
+              "http://www.mujuskiworld.com/",
+              "확인 불가"
+            ],
+            [
+              25,
+              "무주 달인스키샵",
+              "태운",
+              "https://www.ski-house.co.kr/",
+              "확인 불가"
+            ]
+          ]
+        },
+        "ads": [
+          [
+            "검색광고 블록",
+            1,
+            "무주 스키 샵 현대 렌탈샵 시즌맞이 리프트권 할인 리프트권부터 장비 의류까지",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/yE72VP0xbXriazS5v9--BBX7Ujfhl4S1iNeUEJlBy45IzRkSHStgHc_mSLO0DLpeuELZt8aHjhKV8GEW0duAEogZYdrM7Zdsx6OM_61wMmxjkjayJkwBqli6yrxyEKbFg2jQCjHlhx6Qbjs3pUUAejDCPenpcbfpTV7uIo9c-QnfoCcUGjOakHbGrXcfMuHbO7uBSoxXYk9xhtewdYQtjCogobLXgn0-BL5QnpV4RpHUyU7Eh2Cj-hpW6mquH4u01YgQ31Qp5KZP9GK_RCpwml16hOOhPN4YBCGWZkpIl8KntlvGOgMHEZCw6i461SVm?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            2,
+            "스키장 패션왕 되는 법 스키장 갈 땐 무주 굿스키 수준급 강사진의 스키 강습",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/64rIA2zJWPddxW_NMEI0cpWadf8BBru2dcuu8LqgQlZOzVzRhnNEHecLaBsu6J8pzK1uwQ5W634E-U6nPfHF8Oi3gikYf4xxh6GD4GW0FE7CQNK7hv_V76M92jvcjzHuP6oFafIHiVGJ1Q_RAtgEz_AJCqZSEkYy9Oz4h6LcjpTGf7JfEbt1_vFEFG4uUmi_MLSUHC5z7ixe-FO098AGS7yZcgDtyAOC-ufI2OZA6K41yUEkPwPTY_-547Ltx7BqYi7c_XsQGLhiw99vvfMLPRgZRDHaB7hTDR3EXDxcTeCR-oQ5h2ke3tVJ8N6E6H7RMdgR4fzdLAp1KV8gfcDFFtkDZT2q9Hldo7-RQX_5WkdcUoE4CQOzjRSOuCY66AkYNwvzeLSCByKKmKE79hlcdQAW0I8UKFyjNGQL9pbPrRGrVkAvsel6QuGIyr3s7bOWVWni05x-Iceed53Vujdt_QPeUsEkd9XN2Ejyqlqm_ic=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            3,
+            "무주렌탈샵 무주 RSS스키 샵 국가대표영화 실제주인공스키 샵",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/yE72VP0xbXriazS5v9--BBX7Ujfhl4S1iNeUEJlBy45D5W03d-p5BZc0MNKnZ-5Hi5AyY4ExFp2_9uS_R9IbJ1LZ-CbQCCOHTFFjwtTOVhUyLBNwo8AVo7_FZ1QhyDOlSayETAGhn3DWS6ZCMrkucM58LFVs6XcAUpbPkKnUc9dZmiMN8BU-GaRjvvOQpQHzfOtoQBrkoupUfz0i7vf4gsEvAMUB_8ALd9V_vE4-f6QpqEnYw3cTMab_L1Yj3mFTwFhHCbRotCJoDm4LgvZZLQ==?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            4,
+            "무주 스키장 펜션 찾는다면?",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/yE72VP0xbXriazS5v9--BBX7Ujfhl4S1iNeUEJlBy47hHMLq0nMAvbRLYUG5iLBRitvDdV9-K-4d4spveT5sj8VIjJgRQq-9Buj2sEC8cqh3KuV07pCHJCg1Y876-UvUVhy0qsLbL3sNzpIKNZizLsvO3yXbuVSho7EqL59Ya0xEFhLe1HCnBjlBSCHlyfI7qps09MXzypbm0PEMZYl0_pVwMu9yk6AqIwQaiIMTJKKqd9qO8Weg4dbTsFnY2V0yex3MGsIub4LHFNAwyLNhV7ZAm-VKzsyFQEUr0MMrYtg=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            5,
+            "대박 렌탈 가전제품 할인혜택 렌탈 종료 후 / 본인소유",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/yE72VP0xbXriazS5v9--BBX7Ujfhl4S1iNeUEJlBy47hHMLq0nMAvbRLYUG5iLBRsUUwcJEXix30I8ksoZr7k5BYbCFfd_vCJiNTahFKMe3R0EL-Ayhh3XX23P8nQUXKbkoyjDpA2ooT3OKLgdY31p6JqjLfc0RtCw1OGPT8J_BwG1wu3-mTWywwpudbEHXTNkof1F3FcbVF4G0jd2DzRtyZHEDCtFSL9i1a0PZl4pZ9mJ3GrtfB9dm04x0jtAE8G5zdqglLTGSiogxE0KEOMkv01P5coeFu4lAL5qV8IbM=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            6,
+            "인화 4장 누구나 쉽게촬영",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/yE72VP0xbXriazS5v9--BBX7Ujfhl4S1iNeUEJlBy45Ynv9vJ9HX3Dk-Y3HO6jgqy1dWmAsaUPMdPPnpgZRwVl5qLsEXuA2D1MCPXEbPdTJ_UDu4wVf-Edv_q8cPel-tqMQsedp-0KfmToNR0ygtMLK5-NTffoG5TTyZM5Z-dnVqOiM5XudCK8cByKxBkPSXnqrFmVlCnvFNPg7moQKZKoiUR4T8kBpgRq-rvBkqfNztoWgh-jfPpp1lq86Z2AMozFyhh_gpldACxNrerW1rfCk6viPFJUtH1VOjnZb6j6q3pQuZLwEk05kVDMxEV-xQ?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "플레이스 광고",
+            1,
+            "무주스키샵&렌탈샵 스키라이프",
+            "광고",
+            "플레이스 블록 내 노출",
+            ""
+          ],
+          [
+            "플레이스 광고",
+            2,
+            "무주 스키샵렌탈샵 알에스에스",
+            "광고",
+            "플레이스 블록 내 노출",
+            ""
+          ],
+          [
+            "플레이스 광고",
+            3,
+            "무주스키샵 현대렌탈샵",
+            "광고",
+            "플레이스 블록 내 노출",
+            ""
+          ],
+          [
+            "플레이스 광고",
+            4,
+            "무주스키샵&렌탈샵 허커",
+            "광고",
+            "플레이스 블록 내 노출",
+            ""
+          ]
+        ],
+        "pages": 2,
+        "status": "ok",
+        "observation": {
+          "keyword": "무주렌탈샵",
+          "region": "무주렌탈샵",
+          "device": "pc",
+          "vantage": "direct",
+          "observed_at": "2026-09-10T22:22:52.633203+09:00",
+          "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EB%A0%8C%ED%83%88%EC%83%B5",
+          "raw_html_path": "data/raw/무주렌탈샵__pc__direct__20260910T222252.html"
+        },
+        "warnings": []
+      }
+    }
+  }
+};

@@ -1,0 +1,334 @@
+{
+  "observation": {
+    "keyword": "무주스키장폐장일",
+    "region": "무주스키장폐장일",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T22:14:45.738987+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%9E%A5%ED%8F%90%EC%9E%A5%EC%9D%BC",
+    "raw_html_path": "data/raw/무주스키장폐장일__pc__direct__20260910T221445.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 2,
+      "name": "AI 브리핑",
+      "meta": "5개 노출",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 3,
+      "name": "관련문서",
+      "meta": "게시물 5개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 4,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 5,
+      "name": "관련문서",
+      "meta": "게시물 4개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 6,
+      "name": "관련문서",
+      "meta": "게시물 14개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 7,
+      "name": "관련문서",
+      "meta": "게시물 4개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 8,
+      "name": "관련문서",
+      "meta": "게시물 4개",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [],
+  "place_rankings": {},
+  "contents": {
+    "AI 브리핑": [
+      [
+        1,
+        "무주스키장 폐장일 및 무주리조트 렌탈샵 추천알프네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/nicenet/224193965573",
+        "확인 불가"
+      ],
+      [
+        2,
+        "3월 무주스키장 폐장일 알아볼게요스노우파크네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/highsven/224201763731",
+        "확인 불가"
+      ],
+      [
+        3,
+        "무주스키장 폐장! 26/27시즌 대비 무주스키샵 및 스키강습 기록알프네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/nicenet/224224813852",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주 스키장 폐장 일정 3월 22일 마지막까지 스키 시즌 즐기세요MJ스키아카데미네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/mjacademy008/224218615331",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주스키장 (일부폐장)중년의복서네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/gjwldnr11/224197168941",
+        "일부폐장"
+      ]
+    ],
+    "관련문서": [
+      [
+        1,
+        "무주스키장 폐장! 26/27시즌 대비 무주스키샵 및 스키강습 기록",
+        "blog.naver.com",
+        "https://blog.naver.com/nicenet/224224813852",
+        "확인 불가"
+      ],
+      [
+        2,
+        "무주 리조트 렌탈샵 스키장 무주 스키강습",
+        "흥청망청",
+        "https://blog.naver.com/dbsdmsz/224177930371",
+        "확인 불가"
+      ],
+      [
+        3,
+        "무주스키장 당일치기 렌탈샵 폐장 정보",
+        "버디찬스",
+        "https://blog.naver.com/nicefama/224180510987",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주스키장 리프트권 가격 할인 폐장 날짜",
+        "헤누",
+        "https://blog.naver.com/whgusdn1588/224174479907",
+        "확인 불가"
+      ],
+      [
+        5,
+        "3월 무주스키장 폐장일 알아볼게요",
+        "헤누",
+        "https://blog.naver.com/highsven/224201763731",
+        "확인 불가"
+      ],
+      [
+        6,
+        "무주 통합 시즌권 구입",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/buy_season_pass04.asp",
+        "확인 불가"
+      ],
+      [
+        7,
+        "무주 스키 폐장일 올해 스키 막차 타세요 !",
+        "MJ스키아카데미",
+        "https://blog.naver.com/mjacademy008/224202335814",
+        "확인 불가"
+      ],
+      [
+        8,
+        "무주 스키장 폐장 일정 3월 22일 마지막까지 스키 시즌 즐기세요",
+        "MJ스키아카데미",
+        "https://blog.naver.com/mjacademy008/224218615331",
+        "확인 불가"
+      ],
+      [
+        9,
+        "무주 스키장 어린이 강습 후기와 폐장일 언제까지",
+        "The Best Day Ever",
+        "https://blog.naver.com/jhlov0101/224200317255",
+        "확인 불가"
+      ],
+      [
+        10,
+        "무주 스키장 시즌권, 정상가와 1차 할인가 차이가 53만원입니다",
+        "버터팝콘 하나 주세요",
+        "https://blog.naver.com/popcornlab/224402336308",
+        "확인 불가"
+      ],
+      [
+        11,
+        "모나용평/스키장 - 나무위키",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5",
+        "확인 불가"
+      ],
+      [
+        12,
+        "개요",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-1",
+        "확인 불가"
+      ],
+      [
+        13,
+        "규모 및 역사",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-2",
+        "확인 불가"
+      ],
+      [
+        14,
+        "슬로프",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3",
+        "확인 불가"
+      ],
+      [
+        15,
+        "리프트",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-4",
+        "확인 불가"
+      ],
+      [
+        16,
+        "스키장 시즌별 정보",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-5",
+        "확인 불가"
+      ],
+      [
+        17,
+        "둘러보기",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-6",
+        "확인 불가"
+      ],
+      [
+        18,
+        "레드존",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3.1",
+        "확인 불가"
+      ],
+      [
+        19,
+        "실버존",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3.2",
+        "확인 불가"
+      ],
+      [
+        20,
+        "골드존",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3.3",
+        "확인 불가"
+      ],
+      [
+        21,
+        "레인보우존",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3.4",
+        "확인 불가"
+      ],
+      [
+        22,
+        "스키장/목록 - 나무위키",
+        "버터팝콘 하나 주세요",
+        "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D",
+        "확인 불가"
+      ],
+      [
+        23,
+        "무주 스키장 폐장일 언제죠 - 위즐",
+        "버터팝콘 하나 주세요",
+        "https://weezzle.co.kr/freeboard/52993",
+        "확인 불가"
+      ],
+      [
+        24,
+        "스키장 26/27 X6+ 모나 용평 O 하이원리조트 O 웰리힐리파크 O 지산포레스트리조트 O 엘리시안 강촌 O 알펜시아 O 신규 곤지암리조트 X 무주덕유산리조트 X 가장 눈에 띄는 변화는 알펜시아 추가입니다. 이제 평창에서는 용평과 알펜시아를 모두 이용할 수 있게 되면서 강원도 원정 스키를 자주 다니는 분들에게 활용도가 더욱 높아졌습니다. 2026-2027 X6+ 판매일은?...",
+        "Everyday G’day",
+        "https://blog.naver.com/everydaygoodshot/224401660367",
+        "확인 불가"
+      ],
+      [
+        25,
+        "2026-2027 무주리조트 시즌권 총정리｜가격·1차 특가·패밀리 할인·통합권 I·II 비교",
+        "Everyday G’day",
+        "https://blog.naver.com/everydaygoodshot/224401657521",
+        "확인 불가"
+      ],
+      [
+        26,
+        "26/27리조트 스키시즌권 용평 하이원 웰리힐리 강촌 지산 ?",
+        "플레이 몬스터즈 스포츠클럽",
+        "https://blog.naver.com/inlineskating/224387815420",
+        "확인 불가"
+      ],
+      [
+        27,
+        "RE3시즌을 휘팍에서 보냈고, 그래도 즐거웠는데.....지난 시즌은.... 슬로프 관리 부터 빠른 폐장에... 좀 실망했었습니다. 슈퍼얼리버드 소리",
+        "\"달구지 캠핑\"",
+        "https://cafe.naver.com/joycamping/959672?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImpveWNhbXBpbmciLCJhcnRpY2xlSWQiOjk1OTY3MiwiaXNzdWVkQXQiOjE3ODkwNDYwODYxMTF9.INklhdqc9SrMUNMAOnHy8-Am_MATPTnZv2bS1yt81dM",
+        "확인 불가"
+      ],
+      [
+        28,
+        "시즌 종료 임박! 2026 전국 스키장 폐장일 총정리",
+        "진하가다",
+        "https://blog.naver.com/newjinha/224190722840",
+        "확인 불가"
+      ],
+      [
+        29,
+        "무주스키장 폐장일 및 무주리조트 렌탈샵 추천",
+        "알프",
+        "https://blog.naver.com/nicenet/224193965573",
+        "확인 불가"
+      ],
+      [
+        30,
+        "무주 스키장 3월 | 시즌 마지막 무주스키장 눈상태 솔직후기 | 무주 덕유산 리조트 스키장 폐장일",
+        "토주의 구석구석",
+        "https://blog.naver.com/chjtina/224201798981",
+        "확인 불가"
+      ],
+      [
+        31,
+        "26/27 X6 스키 시즌권 가격(확정) 및 기타 스키장 시즌권 정보",
+        "굿맨",
+        "https://blog.naver.com/fodimple/224401674580",
+        "확정"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "무주 리조트회원권 시세분석",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/C1ASgMn69NTm6K2a9zzKQzEUFvP8d2E2dJPZp70VBs3N0-WQV5QLUOAenWznWIOR1KulLjRgl2xCWslU9K0zK7gcL6bn_vRjQRNOzhp3XFg4LwJGreyn9A5zFVFGCcVc2q_QSU_mB7OIDUdXRdswQ8JbptwxrHi64rrLI_XiBk94PTdaLDdkIgPlEFpf-QrkTzJV_gqqyrTaC9poFzNWZpE6fCXkdAzHqquC-tv-TB4DzxF5Ed0opYN7iCiBq8KLNYL9_JorHJJwDPhykOfUfl2obZDdDOuvH033HZA9ctIxae0FAE-EmSHUKbhd4rK_?c=naver.search.pc.plsearch&t=0"
+    ]
+  ],
+  "warnings": []
+}

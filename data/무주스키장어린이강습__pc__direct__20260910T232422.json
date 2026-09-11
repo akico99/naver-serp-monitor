@@ -1,0 +1,412 @@
+{
+  "observation": {
+    "keyword": "무주스키장어린이강습",
+    "region": "무주스키장어린이강습",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T23:24:16.870114+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%9E%A5%EC%96%B4%EB%A6%B0%EC%9D%B4%EA%B0%95%EC%8A%B5",
+    "raw_html_path": "data/raw/무주스키장어린이강습__pc__direct__20260910T232416.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 2,
+      "name": "플레이스",
+      "meta": "광고 0개 · 자연결과 5개",
+      "type": "자연 + 광고 혼합"
+    },
+    {
+      "order": 3,
+      "name": "관련문서",
+      "meta": "게시물 16개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 4,
+      "name": "관련문서",
+      "meta": "게시물 18개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 5,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [
+    [
+      1,
+      1,
+      1,
+      "무주스키강습 멘토스키스쿨"
+    ],
+    [
+      1,
+      2,
+      2,
+      "무주스키강습베스트샵"
+    ],
+    [
+      1,
+      3,
+      3,
+      "무주스키강습"
+    ],
+    [
+      1,
+      4,
+      4,
+      "무주스키강습 도선생 스키스쿨"
+    ],
+    [
+      1,
+      5,
+      5,
+      "무주스키강습&렌탈"
+    ]
+  ],
+  "place_rankings": {
+    "플레이스": [
+      [
+        1,
+        1,
+        1,
+        "무주스키강습 멘토스키스쿨"
+      ],
+      [
+        1,
+        2,
+        2,
+        "무주스키강습베스트샵"
+      ],
+      [
+        1,
+        3,
+        3,
+        "무주스키강습"
+      ],
+      [
+        1,
+        4,
+        4,
+        "무주스키강습 도선생 스키스쿨"
+      ],
+      [
+        1,
+        5,
+        5,
+        "무주스키강습&렌탈"
+      ]
+    ]
+  },
+  "contents": {
+    "관련문서": [
+      [
+        1,
+        "무주스키강습 후기·강습정보 | 멘토스키스쿨",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog",
+        "확인 불가"
+      ],
+      [
+        2,
+        "2. 무주 어린이 첫 스키강습 준비 | 부츠 착용부터 넘어지는 방법까지",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/2-%EB%AC%B4%EC%A3%BC-%EC%96%B4%EB%A6%B0%EC%9D%B4-%EC%B2%AB-%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5-%EC%A4%80%EB%B9%84-%EB%B6%80%EC%B8%A0/",
+        "확인 불가"
+      ],
+      [
+        3,
+        "1. 무주리조트스키강습, 가족강습에서 가장 중요한 첫 단계",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/1-%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5-%EA%B0%80%EC%A1%B1%EA%B0%95%EC%8A%B5%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%B2%AB-%EB%8B%A8%EA%B3%84/",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주스키강습·스노보드강습, 멘토스키스쿨 수업 방식과 예약 안내",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5%EC%8A%A4%EB%85%B8%EB%B3%B4%EB%93%9C%EA%B0%95%EC%8A%B5-%EB%A9%98%ED%86%A0%EC%8A%A4%ED%82%A4%EC%8A%A4%EC%BF%A8-%EC%88%98%EC%97%85-%EB%B0%A9%EC%8B%9D%EA%B3%BC-%EC%98%88%EC%95%BD-%EC%95%88%EB%82%B4/",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주 주니어 스키강습, 아이 실력을 단계별로 키우는 기술등급제란?",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/%EB%AC%B4%EC%A3%BC-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5-%EC%95%84%EC%9D%B4-%EC%8B%A4%EB%A0%A5%EC%9D%84-%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C-%ED%82%A4%EC%9A%B0%EB%8A%94-%EA%B8%B0%EC%88%A0%EB%93%B1%EA%B8%89%EC%A0%9C%EB%9E%80/",
+        "확인 불가"
+      ],
+      [
+        6,
+        "스노우플라우만 반복하면 스키를 잘 탈 수 있을까요? 하중 이동을 가르치는 이유",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/%EC%8A%A4%EB%85%B8%EC%9A%B0%ED%94%8C%EB%9D%BC%EC%9A%B0%EB%A7%8C-%EB%B0%98%EB%B3%B5%ED%95%98%EB%A9%B4-%EC%8A%A4%ED%82%A4%EB%A5%BC-%EC%9E%98-%ED%83%88-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94-%ED%95%98%EC%A4%91/",
+        "확인 불가"
+      ],
+      [
+        7,
+        "무주스키강습 후기, 처음 타는 아이가 턴을 배우기까지",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5-%ED%9B%84%EA%B8%B0-%EC%B2%98%EC%9D%8C-%ED%83%80%EB%8A%94-%EC%95%84%EC%9D%B4%EA%B0%80-%ED%84%B4%EC%9D%84-%EB%B0%B0%EC%9A%B0%EA%B8%B0%EA%B9%8C%EC%A7%80/",
+        "확인 불가"
+      ],
+      [
+        8,
+        "무주스키강습 한 번이면 탈 수 있을까요? 초보 부모님들이 가장 많이 묻는 질문",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5-%ED%95%9C-%EB%B2%88%EC%9D%B4%EB%A9%B4-%ED%83%88-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94-%EC%B4%88%EB%B3%B4-%EB%B6%80%EB%AA%A8%EB%8B%98%EB%93%A4%EC%9D%B4/",
+        "확인 불가"
+      ],
+      [
+        9,
+        "무주스키강습 처음이라면? 어린이 첫 스키에서 가장 중요한 5가지",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5-%EC%B2%98%EC%9D%8C%EC%9D%B4%EB%9D%BC%EB%A9%B4-%EC%96%B4%EB%A6%B0%EC%9D%B4-%EC%B2%AB-%EC%8A%A4%ED%82%A4%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EC%A4%91%EC%9A%94%ED%95%9C-5%EA%B0%80%EC%A7%80/",
+        "확인 불가"
+      ],
+      [
+        10,
+        "무주 어린이스키강습, 아빠와 함께해서 더 즐거웠던 1:2 가족강습",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/%EB%AC%B4%EC%A3%BC-%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5-%EC%95%84%EB%B9%A0%EC%99%80-%ED%95%A8%EA%BB%98%ED%95%B4%EC%84%9C-%EB%8D%94-%EC%A6%90%EA%B1%B0%EC%9B%A0%EB%8D%98-12-%EA%B0%80%EC%A1%B1%EA%B0%95%EC%8A%B5/",
+        "확인 불가"
+      ],
+      [
+        11,
+        "2026-27 무주스키강습, 새롭게 시작하는 멘토스키스쿨을 소개합니다",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/mujublog/2026-27-%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5-%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EB%A9%98%ED%86%A0%EC%8A%A4%ED%82%A4%EC%8A%A4%EC%BF%A8%EC%9D%84-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4/",
+        "확인 불가"
+      ],
+      [
+        12,
+        "무주스키강습",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/",
+        "확인 불가"
+      ],
+      [
+        13,
+        "무주 스키장 야간 어린이 무주 스키 강습 비용 렌탈샵",
+        "blog.naver.com",
+        "https://blog.naver.com/khingba/224125694872",
+        "확인 불가"
+      ],
+      [
+        14,
+        "무주리조트 어린이 무주 스키강습 비용 실제후기",
+        "blog.naver.com",
+        "https://blog.naver.com/kyjin1126/224120511867",
+        "확인 불가"
+      ],
+      [
+        15,
+        "무주 리조트 스키장 개장(슬로프, 리프트권) 한길아카데미 어린이 스키 강습 비용 후기",
+        "해미",
+        "https://blog.naver.com/haemidaek/224116100653",
+        "슬로프, 리프트권"
+      ],
+      [
+        16,
+        "무주 가족 스키강습 어린이 무주리조트 스키장 가격 할인",
+        "사부작",
+        "https://blog.naver.com/sabujak33/224152434035",
+        "확인 불가"
+      ],
+      [
+        17,
+        "무주스키강습 무주국가대표스키 무주스카이스키 무주초이스스키",
+        "www.sbski.co.kr",
+        "https://www.sbski.co.kr/",
+        "확인 불가"
+      ],
+      [
+        18,
+        "무주스키장 덕유산리조트 어린이·유아 스키강습과 현장 영상 확인",
+        "잘나가는은정",
+        "https://blog.naver.com/ejp8702/224134856346",
+        "확인 불가"
+      ],
+      [
+        19,
+        "무주 스키강습 가족 어린이 무주리조트 스키장 할인",
+        "트래블룸",
+        "https://blog.naver.com/gftravel/224158030458",
+        "확인 불가"
+      ],
+      [
+        20,
+        "무주스키강습 비용 초등 어린이 스키강습 후기",
+        "yoom",
+        "https://blog.naver.com/sin961027/224120264798",
+        "확인 불가"
+      ],
+      [
+        21,
+        "무주가족스키강습 어린이 무주스키강습 무주 리조트 후기",
+        "yoom",
+        "https://blog.naver.com/sin961027/224170289077",
+        "확인 불가"
+      ],
+      [
+        22,
+        "독취사-취업,대학생,대기업,공기업,GSAT,NCS,인턴,공모전,토익",
+        "yoom",
+        "https://cafe.naver.com/dokchi",
+        "확인 불가"
+      ],
+      [
+        23,
+        "무주가족스키강습 받았어요",
+        "yoom",
+        "https://cafe.naver.com/dokchi/13158632?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRva2NoaSIsImFydGljbGVJZCI6MTMxNTg2MzIsImlzc3VlZEF0IjoxNzg5MDUwMjU3MjM2fQ.FOcaA_MgZauDr5v_YS5hJqCujbQRIi9pJVhNmuzHbzE",
+        "확인 불가"
+      ],
+      [
+        24,
+        "무주어린이스키강습",
+        "yoom",
+        "https://www.soonwidot.co.kr/rank/board.php?id=176416&board_type=%EB%AC%B4%EC%A3%BC%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%8A%A4%ED%82%A4%EA%B0%95%EC%8A%B5",
+        "확인 불가"
+      ],
+      [
+        25,
+        "무주스키렌탈·무주보드렌탈 요금",
+        "yoom",
+        "https://mentorski.com/%EB%A0%8C%ED%83%88%EC%9A%94%EA%B8%88",
+        "확인 불가"
+      ],
+      [
+        26,
+        "무주스키샵",
+        "yoom",
+        "https://mentorski.com/",
+        "확인 불가"
+      ],
+      [
+        27,
+        "지산리조트 렌탈샵 그라운드_지산점ㅣ지산스키장ㅣ리프트권할인ㅣ스키강습 ㅣ보드강습ㅣ스키보....",
+        "yoom",
+        "https://ground-jisan.imweb.me/",
+        "확인 불가"
+      ],
+      [
+        28,
+        "아이프로스키스쿨 무주스키강습 무주스노우보드강습",
+        "yoom",
+        "https://xn--9t4ba82r91chvqg6a.com/",
+        "확인 불가"
+      ],
+      [
+        29,
+        "무주알파인스키샵 무주알파인스키 무주스키샵 무주렌탈샵 알파인스키보드샵 무주스키장",
+        "yoom",
+        "http://www.mujualpine.co.kr/",
+        "확인 불가"
+      ],
+      [
+        30,
+        "어린이 무주스키 강습 추천 부탁드려요.",
+        "광주맘-광주맘수다방(광수방)",
+        "https://cafe.naver.com/hongsam09/7056234?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImhvbmdzYW0wOSIsImFydGljbGVJZCI6NzA1NjIzNCwiaXNzdWVkQXQiOjE3ODkwNTAyNTcyMzZ9.B_HwahmKI3wkOjfBNQ2FeA5-qbXnp0kDI5zKhxZXRPQ",
+        "확인 불가"
+      ],
+      [
+        31,
+        "무주스키강습 여쭤바요",
+        "순광맘 (순천.광양.여수)",
+        "https://cafe.naver.com/cjsam/4991324?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImNqc2FtIiwiYXJ0aWNsZUlkIjo0OTkxMzI0LCJpc3N1ZWRBdCI6MTc4OTA1MDI1NzIzNn0.g29reIbP4ykvXng59RxxLVifvurKdcGK_RRZ3BiwvdY",
+        "확인 불가"
+      ],
+      [
+        32,
+        "무주 어린이 스키강습 같이 받으실분 계세여??",
+        "세종맘카페 세종맘들의 행복한 이야기방",
+        "https://cafe.naver.com/no1sejong/4172694?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im5vMXNlam9uZyIsImFydGljbGVJZCI6NDE3MjY5NCwiaXNzdWVkQXQiOjE3ODkwNTAyNTcyMzZ9.k__OEw1wbwFu1jiiTj_NHd9rJHJf0l9xWOcwrrAY7cw",
+        "확인 불가"
+      ],
+      [
+        33,
+        "초등학생 무주스키강습 추천부탁드려요^^",
+        "세종맘카페 세종맘들의 행복한 이야기방",
+        "https://cafe.naver.com/cjsam/4980316?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImNqc2FtIiwiYXJ0aWNsZUlkIjo0OTgwMzE2LCJpc3N1ZWRBdCI6MTc4OTA1MDI1NzIzNn0.6o_flukV81jcaetRezE9nPSKrUt60ZNhxh_YnTi1qsc",
+        "확인 불가"
+      ],
+      [
+        34,
+        "무주 어린이 스키강습 후기 — 초등 첫 스키 입문 기록",
+        "호랭이",
+        "https://blog.naver.com/someday90210/224161623167",
+        "확인 불가"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "무주스키장어린이강습 , 숨고",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/qnZRE7TaRy1gENrSyZMDsl8iEep7Ryo82BnCco2MWtRrNJoWLZKTIcPUlNImXfnLpth_ePovwE3dcSFhYE6J1xP-naPbEQmmdgsslEUzwM6HwNFbD_fJ35lMMDJ0r_9N-PwVrj0KrDACYXx2-6Y-e6AWXc7RaV_F_BsXhavB4l_E8YuyNofKhdWWbW_BnDSzklil_EbxJS8rtqbzwy5pAsPH5dKyYIJ_n6VnSE7mAJKr8IGA30eSWfjBRsn5baQi5bdQYOKT5p_NsKvw-Sy2N14phJjtp7upfsvRsng5NSr-wb306-4GSsNhObINfMtW7jZaKkpvphGAD_6bg1N1txw_p-fRzMu1Ap3EfmBRoe6TpRyKqUL_w0kKrme7hsteoJxcKAtjgIRvS3IUk_GkWvb-yuD4Sus8Ds1nxo-qW_Bxm-3sStroLdZUF57i1SILUA6Tlq6LGgdon1aMsOskT_D5taqD6TX2VKqk9AdV87z8MAnqBWoKVuPUzVWS8hhbLhAQ4GVKDGMWfTRGoWwuD34h_EP9YtBX7a4i60EdKRMmHPXiSkMoN_Sod33hLsTL19KqIwEXBgGPYYGwfePaHzuS3XrswjsjMH4BRgRb57CXvk-l1rLCbN5lYXHxRDfuhhUN6L1vVaE8_oTtRD0FY7HnL2FAgOlDWjugQLyF3xgO0Tjc8rnT9U6Duoyvb_X4?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "풀빌라 리틀프린스펜션 개별풀장 미온수무료!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/pwvG3pmG8_-Pa7AjYa_zVgGpV4CaK-9jNk8hPYRwOGNLr10_fG5k6X4GR-SScnC1M98eb87om9VhDVaPdFgHGucNidwT_1QNQMOA21kGa0O-VGG8im4u1r3Rw4VRLtbX6z0VDcvaMzKbNQL5wB7pmh3mEnbB1mWdvoZ4UwsX55uy0U_wsVmpcBCWCusLd0Gy9i52e_j3JVHSZxB-l5KaxtdqcYF5FPCdMPf6TNDi2wTuGeDwXGfc89FBfEsYVt2COxI7ZJE56epGEcs-fzPywXRiB1FZEjHIIVIA6sbDHzLOeiASyf4JmOSS_jCT06QGCYbshnz-t37OMkHKwU203zItiuq0r_x3qK9YwQVbpU5DttoDgh_rAbEgwjnSef_6AqXNq86zMTMOdWXIhPL_pxJr5-MQCe-aWIXqJfaGTxCkvVc-aCNl85LyeiqAGttIOEmihH3VT-jrRsMbPd429By2cPCd5rJRRt37NrdrA_cYODuoI4DjCoephhz6_sMV?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "수준급 강사진의 스키 강습 스키장 갈 땐 무주 굿 스키",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/vIPf4L48EuebNnPgeSgr5YjVTWKFL34bUwSDXoY6FB8_71_opRH-rWHLRVJ5RGuyvBTFIgTbhDctRNKCQw9TAQQuZx43ecv5XS_ufWQOW_PRUlQpCOxY-fj-LUxgv27ZmK1QqB0S-tMwNIG2v7Oxa8z9sszApxeHsJnGADd40n568xZpkRkIhwBLVE4Xu6sP9rErlYxGj1psNfKMRbLmSHuUoDyDsCQ-WbesrPJnxinKBx2ae8fD9KWRm72kBN13ZXPjUY_7sjrHH4sV9zIL29dku0rxuKjvHGQVfsbKPuBit2V8hZ-NjrJrbXsDiMCg3IxfGRFmTshCRolVSunIE_HbMYfuXR-pg7auNvbL288kqn8jI9PC4Oo_MC7yHK4v-h1skm30iqL8NyyjveJR6BJrGpTmdS59-ZoRyrFWhVzRyiVuwfOjeIOo4k6gF3HQ_yxvQrniTx7-IPpPtOHW40bQgmU00LIey_a5FcJcAZhYGD3YSU1nskO6LxMK_D2o1e2ShwbCrc2rhiTQdranEw==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      4,
+      "무주 스키 강습 RSS 스키 샵 국가대표영화 실제주인공 스키 샵",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/yE72VP0xbXriazS5v9--BGf8lU2AchKYDmtX-aqB8jbe1LqKoMXVM3xNoRcOGsN6jbmx2-o77JR3xBWseuIc4eRNQ28_KPmMEt_IAMdarDNxSh2e8sH6Kd7TcNybVcCo9wsGJUFcSrUmfPOlTSzb2Q7tCgVrDFrgIqOklt--NvQCsP2-a9jIdwrlzIn0cCZ-Jce-AEFAeNw3pT6BheQwSG4zVnjnlc2O6LTWEAqaXnn28sVquFnMSJrItjsEKpBUeoDM_h-sRR5wsxZHc-o2-kM9wSWJFj42ZAJDyMuvx57RMq8cF5yLkL2PItgYquq5?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      5,
+      "쿠팡 무주 아동보드 강습 와우회원 최대 87% 할인",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/Wpx1zy3rK6RATqaK0YAoSR7R-nhZA42DTfdtfmYetunhZt9DgIoekm3GmtHZjDnlUJcjEFhaP4bNO_gqoJefu1A5CgWplWw4xV7chkARJPd0uewJgDAic1-Tg5PQmkbruEHjwNBQHLkl5QePGTU_uqAQF9URRIhqDrBTkplO7pURSIsCMs4S7htpY8E2baaer3c1cLtI0u4CnF74t9tmaxnS0FdJ0E0o6413MzzQ-gaw-M-0hF5MhTwgzy3sh5kKCNc7vLm60-qCJU9B3rtmcBll2YsV8oGFQQtV0mIGPIxzdjGCY_nNRlnEV76Joe96PGpXF57H-HvXv445m86I_vRd6n06GMh-GP1hf9JTJcQink6SdAep3ZnxWksKjsajJmzHUShVzjPXR6T5M-EsOYoTGSkSzRNxCj7uo78I0Z9FgSlbxWB5JUv6m9YdMvswYl9mBe_XN9eIyHB4RFJkzfEeUHo1FSzLhuxkTCNxMkXSzDizk1dwE0EfKEgWDmsQUnZmtSI4HnygboI8oQETQERuNGdBKjXVKK97daDXP1cSsXipV4SnqEksp5TFmiMU?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      6,
+      "구천동 계곡1분 무주 홀리데이 라면무료 셀프존/당구장오픈! 어린이 수영장/대형워터슬라이드",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/RzxwNRwVjKRU11-CXfv0FccuWC65ySjn1QKcN9BC7riZSHZ7fIsil0Lhc_QuD_w8yk8tCRK3OW4e41Y1dHYkGIb5WaY5ioZJloc9zZdi_RjiFiltWwkbCZoAcYYTCY6aG0pJrNuvgfq-OOFzB5VqBjAnf6fNXKPo98lJXCqsXdF6xB7hH5aM-M-oLsocQpkB7EYRurGd_yBvd4rUCLPkEQgYTEEXHkvAIMpzJJh_RgWh4YTXek1DNlFQKWjJ1iDbTuMHOJbNZkht2Yo2z8cvCiDOWEwSZbNZFPSPUtZNTE9ySHqCWtTiaOZJQ0OBrQW9voJPj064lbx2G4HFUoHTzydknWxrc29DUPjss1zW7A5Q0rAGyWOKkZV-BNbPjanY-_iARZBl7hmUN3ts-tw5yrWSIFwTSZ0h2NdvVzS1_DefzO8ZrgTUq0jlm7F_1IIdAUV2BQ2OuvBVZF9Z1zBeVkxSo1rx3PWAL6KJFbGrIws=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      7,
+      "전국 방문 자전거 강습",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/vEtxftI9chZ1qjl8wn5dEs4Xnx7W6kBXBmzI4b7PHwoEIqygBQEFmQ7QTX03Zpju-xBfCLXMt0zcfPyw8GxbIeud8FU3iOFz_t5np7rMlMYHKunU0HDMy9OOmgT4NapRxnIxUwOP3ry8oNF9pXYGw6RGxRKPe8h--RTP7o3QYVmQI5EqGiF7EFNbSQqDs7t1z39xv7e-sJ4orUOAWxpYIHt7kf-qByWzLNbiMGv0ymea664XvjLh0C_nmG6t9WG1hYUvUJgkbngSKsuP5OZdFGM8kzv-SRSpl9FGuF-pyvS3xptaWF6Yzub88ciQqr3xPst6QJXpDS4Tkdo2_WwAUlYPuGLcQ5U4_KGYWRZ3b6ZLbhRJosbB5WuG_IA9cmU4ItRjxg63JCpNhy6cVJMXncO6GAyF-uvFADsaTE26z3i27cZNhl6QUgiN7NbfrPSmoCvaKI2ofYq7uxX0aTqfHqjoA2l9lUNws16zlL1heQfBNL2G6GwaMWl1gny4dNbfjOpZM9uHne9yitOb8dlA-va3I6qoayzFrEi06duOUpc-aynzVdoE5X-EtpevwylZLKrBvfwcnRPA3fyMEYCZrOnnIh0btLFrVla0BOL86M6RIg0SL16wU_3lVg6Y2qrTAjoloSXYFUrr5Xwl_lEr4gGM2VhB1mcSlK80oBl911A=?c=naver.search.pc.plsearch&t=0"
+    ]
+  ],
+  "warnings": []
+}

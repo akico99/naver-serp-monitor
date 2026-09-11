@@ -1,0 +1,502 @@
+{
+  "observation": {
+    "keyword": "무주스키장야간",
+    "region": "무주스키장야간",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T22:40:02.000231+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%9E%A5%EC%95%BC%EA%B0%84",
+    "raw_html_path": "data/raw/무주스키장야간__pc__direct__20260910T224002.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 2,
+      "name": "업체 상세정보",
+      "meta": "검색어와 정확히 일치하는 단일 업체의 상세페이지 — 경쟁업체 순위 없음",
+      "type": "업체 상세"
+    },
+    {
+      "order": 3,
+      "name": "함께 가볼만한 장소",
+      "meta": "광고 4개 · 자연결과 12개",
+      "type": "자연 + 광고 혼합"
+    },
+    {
+      "order": 4,
+      "name": "관련문서",
+      "meta": "게시물 6개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 5,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 6,
+      "name": "관련문서",
+      "meta": "게시물 28개",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [
+    [
+      1,
+      1,
+      1,
+      "무주농원"
+    ],
+    [
+      1,
+      2,
+      2,
+      "무주돌짬뽕"
+    ],
+    [
+      1,
+      3,
+      3,
+      "무주오리"
+    ],
+    [
+      1,
+      4,
+      4,
+      "살아생전 꼭 가봐야하는 산골독채펜션가든"
+    ],
+    [
+      1,
+      5,
+      5,
+      "로그하우스"
+    ],
+    [
+      1,
+      6,
+      6,
+      "무주뚝배기"
+    ],
+    [
+      1,
+      7,
+      7,
+      "무주맛집 무주돌짜장"
+    ],
+    [
+      1,
+      8,
+      8,
+      "생두부촌 무주점"
+    ],
+    [
+      1,
+      9,
+      9,
+      "무주향"
+    ],
+    [
+      1,
+      10,
+      10,
+      "고양이발자국"
+    ],
+    [
+      1,
+      11,
+      11,
+      "무주 청정다슬기맛집"
+    ],
+    [
+      1,
+      12,
+      12,
+      "미담 무주 본점"
+    ]
+  ],
+  "place_rankings": {
+    "함께 가볼만한 장소": [
+      [
+        1,
+        1,
+        1,
+        "무주농원"
+      ],
+      [
+        1,
+        2,
+        2,
+        "무주돌짬뽕"
+      ],
+      [
+        1,
+        3,
+        3,
+        "무주오리"
+      ],
+      [
+        1,
+        4,
+        4,
+        "살아생전 꼭 가봐야하는 산골독채펜션가든"
+      ],
+      [
+        1,
+        5,
+        5,
+        "로그하우스"
+      ],
+      [
+        1,
+        6,
+        6,
+        "무주뚝배기"
+      ],
+      [
+        1,
+        7,
+        7,
+        "무주맛집 무주돌짜장"
+      ],
+      [
+        1,
+        8,
+        8,
+        "생두부촌 무주점"
+      ],
+      [
+        1,
+        9,
+        9,
+        "무주향"
+      ],
+      [
+        1,
+        10,
+        10,
+        "고양이발자국"
+      ],
+      [
+        1,
+        11,
+        11,
+        "무주 청정다슬기맛집"
+      ],
+      [
+        1,
+        12,
+        12,
+        "미담 무주 본점"
+      ]
+    ]
+  },
+  "contents": {
+    "관련문서": [
+      [
+        1,
+        "스키장운영현황 - ::: The Best Choice - Deogyusanresort",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/schedule.asp",
+        "확인 불가"
+      ],
+      [
+        2,
+        "스키장 오픈 슬로프",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/convert_main_slope_221207.asp",
+        "확인 불가"
+      ],
+      [
+        3,
+        "무주스키장 렌탈샵 야간 스키 렌탈 대여후기",
+        "yoom",
+        "https://blog.naver.com/sin961027/224139857972",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주스키장 렌탈샵 야간스키 할인 이용후기",
+        "비야",
+        "https://blog.naver.com/hewtbylvv/224120633786",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주리조트 골드 인근 스키샵 렌탈 후기",
+        "해피팅",
+        "https://blog.naver.com/fabrunch/224136778984",
+        "확인 불가"
+      ],
+      [
+        6,
+        "무주스키장 야간 스키 후기",
+        "캠퍼도냥",
+        "https://blog.naver.com/uni_do/224144698174",
+        "확인 불가"
+      ],
+      [
+        7,
+        "무주 스키장 초보 야간 스키강습 리프트권 할인 무주리조트 숙소",
+        "나비처럼",
+        "https://blog.naver.com/withou122/224123815144",
+        "확인 불가"
+      ],
+      [
+        8,
+        "무주스키장 야간 이용 후기, 무주 알파인 렌탈샵 패키지 솔직 리뷰",
+        "hyopaeng_log",
+        "https://blog.naver.com/gyrud618/224168809531",
+        "확인 불가"
+      ],
+      [
+        9,
+        "무주스키장 야간 스키 렌탈샵 처음 이용시 꿀팁",
+        "버디찬스",
+        "https://blog.naver.com/nicefama/224113826097",
+        "확인 불가"
+      ],
+      [
+        10,
+        "무주리조트 스키장 리프트권 야간 슬로프 코스 이용시간 완벽 정리",
+        "버디찬스",
+        "https://blog.naver.com/enigame/223727154810",
+        "확인 불가"
+      ],
+      [
+        11,
+        "무주스키샵 준스키타운",
+        "버디찬스",
+        "http://www.xn--9t4bi8em5bu5m9d.com/",
+        "확인 불가"
+      ],
+      [
+        12,
+        "모나용평/스키장 - 나무위키",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5",
+        "확인 불가"
+      ],
+      [
+        13,
+        "개요",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-1",
+        "확인 불가"
+      ],
+      [
+        14,
+        "규모 및 역사",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-2",
+        "확인 불가"
+      ],
+      [
+        15,
+        "슬로프",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3",
+        "확인 불가"
+      ],
+      [
+        16,
+        "리프트",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-4",
+        "확인 불가"
+      ],
+      [
+        17,
+        "스키장 시즌별 정보",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-5",
+        "확인 불가"
+      ],
+      [
+        18,
+        "둘러보기",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-6",
+        "확인 불가"
+      ],
+      [
+        19,
+        "레드존",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3.1",
+        "확인 불가"
+      ],
+      [
+        20,
+        "실버존",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3.2",
+        "확인 불가"
+      ],
+      [
+        21,
+        "골드존",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3.3",
+        "확인 불가"
+      ],
+      [
+        22,
+        "레인보우존",
+        "버디찬스",
+        "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5#s-3.4",
+        "확인 불가"
+      ],
+      [
+        23,
+        "무주스키샵",
+        "버디찬스",
+        "https://mentorski.com/",
+        "확인 불가"
+      ],
+      [
+        24,
+        "도담도담 대전맘 ::: 임신&육아&교육&생활정보 :::",
+        "버디찬스",
+        "https://cafe.naver.com/dodamdadam1004",
+        "확인 불가"
+      ],
+      [
+        25,
+        "무주 덕유산 리조트 스키샵을 소개합니다",
+        "버디찬스",
+        "https://cafe.naver.com/dodamdadam1004/2743798?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRvZGFtZGFkYW0xMDA0IiwiYXJ0aWNsZUlkIjoyNzQzNzk4LCJpc3N1ZWRBdCI6MTc4OTA0NzYwMjM0OH0.pEW7EEkjjayVWF4YDowFEnQYbGh3AvnIpwtdg_--uKc",
+        "확인 불가"
+      ],
+      [
+        26,
+        "무주 스키샵|렌탈샵: 무주 최대규모 SKY 스키샵",
+        "버디찬스",
+        "http://www.mujusky.co.kr/",
+        "확인 불가"
+      ],
+      [
+        27,
+        "기아자동차 공식 모하비 / 더 마스터 네이버 대표카페- 클럽하비",
+        "버디찬스",
+        "https://cafe.naver.com/verahavi",
+        "확인 불가"
+      ],
+      [
+        28,
+        "무주 스키장 벙개 취소합니다",
+        "버디찬스",
+        "https://cafe.naver.com/verahavi/1031027?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6InZlcmFoYXZpIiwiYXJ0aWNsZUlkIjoxMDMxMDI3LCJpc3N1ZWRBdCI6MTc4OTA0NzYwMjM0OH0.pKymMYg3X_phdbkkHh6uZMyUqTaaz7tRPXho2fL6QZ4",
+        "확인 불가"
+      ],
+      [
+        29,
+        "무주스키타러가면 비용얼마나 드나요?",
+        "진주아지매",
+        "https://cafe.naver.com/jinjululu/2671476?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Imppbmp1bHVsdSIsImFydGljbGVJZCI6MjY3MTQ3NiwiaXNzdWVkQXQiOjE3ODkwNDc2MDIzNDh9.LrDQeHfOj9njvKXkj5p88WYp8rEojYg3GO4KV9HbMVQ",
+        "확인 불가"
+      ],
+      [
+        30,
+        "제30회 무주반딧불축제, 9일간의 힐링 여행 완벽 정리 (일정·숙소·주변 관광지)",
+        "알뜰쓸잡26님의 블로그",
+        "https://blog.naver.com/ho082k/224398681165",
+        "일정·숙소·주변 관광지"
+      ],
+      [
+        31,
+        "●디젤매니아● 대한민국 일등 패션 커뮤니티 디매인 DMAIN",
+        "알뜰쓸잡26님의 블로그",
+        "https://cafe.naver.com/dieselmania",
+        "확인 불가"
+      ],
+      [
+        32,
+        "설때 무주스키장 야간도 사람 많나요?",
+        "알뜰쓸잡26님의 블로그",
+        "https://cafe.naver.com/dieselmania/46739754?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRpZXNlbG1hbmlhIiwiYXJ0aWNsZUlkIjo0NjczOTc1NCwiaXNzdWVkQXQiOjE3ODkwNDc2MDIzNDh9.4KXtj1GTz9ObvVgkYFV2o2XMqkVXAPjGghhYuFDlAJk",
+        "확인 불가"
+      ],
+      [
+        33,
+        "혹시 무주스키장 야간에는 사람 적나요 ???",
+        "Only one Hanwha",
+        "https://cafe.naver.com/hanwhaeaglesfancafe/1547524?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImhhbndoYWVhZ2xlc2ZhbmNhZmUiLCJhcnRpY2xlSWQiOjE1NDc1MjQsImlzc3VlZEF0IjoxNzg5MDQ3NjAyMzQ4fQ.kYhcTZXSkMzVAhKwCMT3RgdBd0avTDYShIpFdvMkpMo",
+        "확인 불가"
+      ],
+      [
+        34,
+        "[무주 스키샵 달인렌탈샵스키]추천!!야간 무주 스키장 후기~!!",
+        "미니미 스토리",
+        "https://blog.naver.com/wjdals9165/224117869264",
+        "무주 스키샵 달인렌탈샵스키"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "쿠팡 무주스키장야간 와우회원 최대 87% 할인 매일 오픈되는 와우회원 특가",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/YmkBFar4ElTu_NdMZJ6Jv6oeP5hXOg97Yghlj-mSlPD0M_gRMVzWHstdKTYPZI_U83OqbuXV-IhYBEaOd6dMre_JYsAPl3LhAYyfMQG_kJlOMsByXc70HP6hMC3Iy9joNAjVR_hbwayyAJN0oBkdoTFU7lWKpZJBnpNbS7SJuEE76TU6MEsch3BFb9kJDAOpoadskwJRrK5Y2b57b4PQ04RTvDPPLDXfaxnjJyJfb1Ujd7WxKQa7-9nisxymeyCEC0mtzgLAlJcC0TqHtCpKMdPVfRB8diq-dxkM9nQ9886j7hSp6D3wYQkrMtMqaR3qVwzonknIXIAWzof43la6xD1A3OCuRSZr9gYnX9OU0PAqR_xsJhniESKlqh96TSkDRED8BQMj2AwvoxIRKkpQnLhEPEniZA4h1nWjL9M-FHwpFMzHzePuFiBVVshV2hlsbxTCFmjbygU-glnhl8UpoGidh--HcurRQva97HeBf4fx7WZ57-oilU9CZkQMmz4Lc7mTNR9XBlOmsPDpUce66xkHQq5qmf0eVnyaMErqlVdaVesui9X-_67V83ZC92w_?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "무주 리조트회원권 시세분석",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/CVKa3tlQ-hpYyMi3lwTQ0AMphFbMwPZCpuMN3g4XlBr9TlNgmUo14qla95iRk2ULxnaLpo3F-zPRyaMQ9nmq6thPZPxcphcsSoIqzrf0z5xE_EdijREU2OM7JU5gki9y9fa-ITRO31oefJ68R-9f8zYwt6qFwxRAwrGMy2lBYujdXUCH38Do6lXgLFNzR_C4eZBnWdGeL-95eaDXwyesxEwLhWZoJbk0mU7e3zd4URrl4wD_XAzQMbf85FOevKAQcDch5oOSpQRUakqZsRpYWFYCi1YYTUq8FpV8Zd_rGKUkgPT2BkM38e7BJgIReOwg?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "실시간할인 베스트콘도",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/DJpFhfvWO8a8C3fdoZeWWuSxacxXBMna1_qyKCD6rWQRPrMHQ3nKcgWNpEQc-5GWA7WDM-tne3VqlUvPCAZ0QRrSjn79ygUpyhRnmr9YNscbirQFK0lJwQXrvuUNMzPvAlebp6qGWa82FzWBCY-6SSb2VG1b8BuaqPZKWEbzFwGaj7h8THUhzlpxHu987mJk7hgD9vyayhT30xzsI6x8A5_4CMUCPbTdec_Zb6ad3x0S4YAZN-SGRy5NvL0hfcp9Z2-C_JK-5H6KyRzEehmCBHk4JC7woAQKqj2RTDRU9k9RmGCCmMGQ4eWUTeAED9vZN0wY-WvWLOQIVu-OkAAxGrohHIFMzb29724UJQPaM2SjtF6PqHQLvAZdcF6lNSBEjYgvnFk6RkmipsMZFkApTdU1T0EFkJ4zVIDohbiBmS03bzUzfossfL2kzgCq9MjMPrSezmLHHEayqthv6Xi79_2OQKPp3Zd9FDZdOcCSzpdLrF0eTO4xfxME4vqVsPs2Bt5i781ZIi3pRdYbmtW8Lw==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "플레이스 광고",
+      1,
+      "구천동맛집",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      2,
+      "무주돌짬뽕",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      3,
+      "미향",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      4,
+      "일월",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ]
+  ],
+  "warnings": []
+}

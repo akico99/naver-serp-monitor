@@ -1,0 +1,226 @@
+{
+  "observation": {
+    "keyword": "무주스키장개장일",
+    "region": "무주스키장개장일",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T22:56:20.120915+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC",
+    "raw_html_path": "data/raw/무주스키장개장일__pc__direct__20260910T225620.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 2,
+      "name": "관련문서",
+      "meta": "게시물 7개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 3,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 4,
+      "name": "관련문서",
+      "meta": "게시물 15개",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [],
+  "place_rankings": {},
+  "contents": {
+    "관련문서": [
+      [
+        1,
+        "스키장운영현황 - ::: The Best Choice - Deogyusanresort",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/schedule.asp",
+        "확인 불가"
+      ],
+      [
+        2,
+        "요금안내 - ::: The Best Choice - Deogyusanresort",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/charge.asp",
+        "확인 불가"
+      ],
+      [
+        3,
+        "25/26 무주 스키장 개장일과 리프트권 할인 렌탈요금 안내",
+        "blog.naver.com",
+        "https://blog.naver.com/20aug19/224098225408",
+        "확인 불가"
+      ],
+      [
+        4,
+        "스키장 개장일 2025 2026 무주 지산 곤지암 비발디파크 총정리!",
+        "blog.naver.com",
+        "https://blog.naver.com/mom3133/224070611154",
+        "확인 불가"
+      ],
+      [
+        5,
+        "\"강원도부터 경기도·무주까지\" 2024 전국 스키장 개장일 날짜 언제?",
+        "www.gukjenews.com",
+        "https://www.gukjenews.com/news/articleView.html?idxno=3132163",
+        "강원도부터 경기도·무주까지"
+      ],
+      [
+        6,
+        "2025 전국 스키장 개장일 총정리! | 25/26 스키장 개장일, 스키장 오픈 2025",
+        "자생한방병원",
+        "https://blog.naver.com/golfpark58/224095269276",
+        "확인 불가"
+      ],
+      [
+        7,
+        "전국 스키장 개장일 2025 2026 용평 무주 곤지암 에덴벨리 하이원 리조트",
+        "지우지유",
+        "https://blog.naver.com/witchmomma/224074884935",
+        "확인 불가"
+      ],
+      [
+        8,
+        "무주스키장 폐장! 26/27시즌 대비 무주스키샵 및 스키강습 기록",
+        "알프",
+        "https://blog.naver.com/nicenet/224224813852",
+        "확인 불가"
+      ],
+      [
+        9,
+        "스키장 개장일 25 26 무주 곤지암 용평 하이원 비발디파크 일정 한눈에 보기",
+        "일상행복 초코리아",
+        "https://blog.naver.com/goldone80/224084201544",
+        "확인 불가"
+      ],
+      [
+        10,
+        "무주리조트 스키장 개장일 렌탈샵 가볼만한곳",
+        "채고얌",
+        "https://blog.naver.com/chaehj92/224089322944",
+        "확인 불가"
+      ],
+      [
+        11,
+        "무주리조트 스키장 개장일 안내 가장 많이 언급된 이유",
+        "채고얌",
+        "https://pandarank.net/contents/6933818b5761206a9084b408",
+        "확인 불가"
+      ],
+      [
+        12,
+        "무주리조트 스키장 개장일 지금 화제의 포인트",
+        "채고얌",
+        "https://pandarank.net/contents/694de2170f822138a3df0f8c",
+        "확인 불가"
+      ],
+      [
+        13,
+        "회원권서치(주) 표차장의 회원권 정보 알리미",
+        "채고얌",
+        "https://blog.naver.com/kangbe2000",
+        "확인 불가"
+      ],
+      [
+        14,
+        "※겨울 스키 천국- 무주덕유산리조트 콘도회원권 종류별 혜택 부터 2026년 9월 거래시세 정보 정리",
+        "채고얌",
+        "https://blog.naver.com/kangbe2000/224397405946",
+        "확인 불가"
+      ],
+      [
+        15,
+        "2026-2027 무주리조트 시즌권 총정리｜가격·1차 특가·패밀리 할인·통합권 I·II 비교",
+        "Everyday G’day",
+        "https://blog.naver.com/everydaygoodshot/224401657521",
+        "확인 불가"
+      ],
+      [
+        16,
+        "무주스키장 개장일 스키 예약 및 이용방법",
+        "캠퍼도냥",
+        "https://blog.naver.com/uni_do/224079336724",
+        "확인 불가"
+      ],
+      [
+        17,
+        "25/26 무주 스키장 리조트 개장일 케이블카 곤도라 CCTV 향적봉 상제루",
+        "강철새잎",
+        "https://blog.naver.com/pressinfo/224098006354",
+        "확인 불가"
+      ],
+      [
+        18,
+        "2025/26 무주스키장 개장일 다가오며 18일 제설 시작 즐거운 겨울 준비 시작해요",
+        "오라이 트립 대전",
+        "https://blog.naver.com/kbsk990513/224086679873",
+        "확인 불가"
+      ],
+      [
+        19,
+        "무주리조트 스키장 개장일 렌탈샵 숙박 리프트권 스키강습",
+        "아연니",
+        "https://blog.naver.com/trip_ayeonny/224115839577",
+        "확인 불가"
+      ],
+      [
+        20,
+        "무주 리조트 스키장 개장일 렌탈샵 추천 국가대표",
+        "태운",
+        "https://blog.naver.com/amyangela/224073927001",
+        "확인 불가"
+      ],
+      [
+        21,
+        "PS5와 친구들 [PS/PS5/VR/PS4PRO/PRO/플스/플레이스테이션/프로]",
+        "태운",
+        "https://cafe.naver.com/ps3friend",
+        "확인 불가"
+      ],
+      [
+        22,
+        "스키장 추천좀 해주세요~~",
+        "태운",
+        "https://cafe.naver.com/ps3friend/2304579?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6InBzM2ZyaWVuZCIsImFydGljbGVJZCI6MjMwNDU3OSwiaXNzdWVkQXQiOjE3ODkwNDg1ODA2MzB9.wXx9o-L9Zk3e7jgFMVqIPzKqVsMRvmqK7lEp0HDtVK0",
+        "확인 불가"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "무주스키장 펜션 찾는다면?",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/PcHNd4TRlOVnPgb3oMHBMMGDQEmALeA4OWPt-Y7OtuuHjKLjmWJHCjVj1FeqQm0z34v_PmixNF0yjdvF9u6k3bYCbstLNC__t3ESFrQeDulTcInkg6friK-ME6pO8vK1yztgHUAqjhTpAKqYUtEdSP68jTWMjGbIXRoup4QxwUsx9iJ4DxM-iQ610XsOE6dl8E-1rQ2qscx0mH-KNgOLCoTVPdn0wS-W_EtxSFehOUBHe08FECjpbENrRCUusggP-giBDvSFawmqJJw--gUIqTbySxXZ2uef1hsIbmpnOkA=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "무주리조트 회원권 시세분석",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/PcHNd4TRlOVnPgb3oMHBMMGDQEmALeA4OWPt-Y7Otuvc2rXW7yxsQ7SH0uoxmZ5z5n1vzRst12R8Jny8cLw34Ci4hVeFR_uUL3NtZHKSzvlYw-5yVlB3KaJqYW7AF-GFb4XbNNeqXKpNKRcoreqjgex3ROGH3bOWUeiLd-Qkl1SSePfpZdcaU3Ek_sOCVkfgVypjy18l26HzsIPDwvs0ARuKMirojpCWNyintsF_cm4qOFhtX_NwlA2IrQIsts_bVQsMWWsgtECvLeFBSi-OcgrKPX88fqgJQUu69Ll81-bBaqZIAHCEcPoRsGpYOm8u?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "쿠팡 무주스키장 개장 와우회원 최대 87% 할인",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/yDer-5AsGOHM-KO41XW_YxbGtV3e3mN0MueDZgFonR3nFbnXLnI8VarXIEaY8uRz2SmyTNk-RN7fryWXdzsm0irfI4yDsQfQtCldFU4lnRwwuBZ7XpdKeSr4mrZn3A41qJsQN_oKqaSYIpOywsOPcgNodrKUkEAybrgst-g-5U2gQSEM2UgZOpzd9ZLiB1JKz7fbUeTHqKDs8KrssdbZ_2yjzLyPfQd7sveHlJ-sfOJ4HSHZTEb5dJ9v8Z_Bogzo16x-IK5VAYaiFm3r5R36OeUbc5v-81Iu2ECa8mzXX4glnGKzwTKwfcma3yckh465mMz5cj5PUNnsgbnDyyg008Hk26lqRUWS2myXh_6sWBD_gYgt7hTImSu9RgoMy5NV2DbR3KBeW9EiQ-iurXyHzu2kMvnub2LbYnzk75BuVt4OkKUPw8ba-80h7GH4wOe2viJWnBfMJzP6WYPbQdQHGe07mzj3sLROdgQ_XL-yO1sw8RUlOEYbXFvYjOKk196sxRZ8xJLk5EDuMW7yZl7SYQ==?c=naver.search.pc.plsearch&t=0"
+    ]
+  ],
+  "warnings": []
+}

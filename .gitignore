@@ -1,0 +1,20 @@
+collector/.env
+__pycache__/
+*.pyc
+
+# 원본 HTML 스냅샷 — 용량이 크고(수백MB) 공개 사이트에 필요 없음(파싱된 결과인
+# data/by_keyword/*.js, data/keywords_index.js 만 있으면 웹앱이 동작함)
+data/raw/
+
+# 내부 캐시/작업 파일 — 공개할 필요 없음
+data/run_state.json
+~$*
+
+# 내부 기획/작업 메모 — 배포되는 웹앱과 무관
+네이버_검색노출_관측실_전체정리.txt
+통합키워드_대시보드_작업지시.md
+data/키워드_통합정리.xlsx
+
+# 검색량 추정 작업(다른 세션에서 진행 중) — 이 웹앱과 무관, 별개 진행 상황
+collector/estimate_search_volume.py
+data/유니크키워드_검색량추정*.xlsx

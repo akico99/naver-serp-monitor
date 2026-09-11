@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="네이버 키워드별 검색 노출 분석 리포트" />
+  <title>검색 노출 관측실</title>
+  <style>
+    :root {
+      --ink: #101828;
+      --muted: #667085;
+      --line: #e4e7ec;
+      --soft: #f6f8fb;
+      --paper: #ffffff;
+      --navy: #101b36;
+      --navy-2: #18264a;
+      --cyan: #58e6d2;
+      --blue: #155eef;
+      --orange: #f79009;
+      --red: #d92d20;
+      --shadow: 0 14px 36px rgba(16, 24, 40, .08);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #eef2f7; font-family: Pretendard, "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif; font-size: 16px; }
+    button, select { font: inherit; }
+    a { color: inherit; }
+    .shell { min-height: 100vh; display: grid; grid-template-columns: 246px minmax(0, 1fr); }
+    aside { background: var(--navy); color: #fff; padding: 28px 18px; position: sticky; top: 0; height: 100vh; }
+    .brand { display: flex; gap: 11px; align-items: center; padding: 0 10px 28px; }
+    .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; background: var(--cyan); color: var(--navy); font-weight: 900; }
+    .brand strong { display: block; font-size: 17px; }
+    .brand small { color: #aeb9d3; font-size: 12px; }
+    .nav-label { padding: 0 10px; color: #8492b5; font-size: 12px; font-weight: 700; letter-spacing: .08em; }
+    nav { margin-top: 10px; }
+    nav a { display: flex; align-items: center; gap: 10px; padding: 11px 12px; margin: 4px 0; border-radius: 9px; text-decoration: none; color: #cbd4e8; font-size: 14px; }
+    nav a.active { background: var(--navy-2); color: #fff; box-shadow: inset 3px 0 var(--cyan); }
+    .nav-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; opacity: .65; }
+    .aside-note { position: absolute; left: 18px; right: 18px; bottom: 22px; padding: 15px; border: 1px solid #2c3a5e; border-radius: 12px; background: #14203d; color: #aeb9d3; font-size: 12px; line-height: 1.55; }
+    .aside-note strong { color: var(--cyan); display: block; margin-bottom: 4px; }
+    main { min-width: 0; padding: 30px clamp(20px, 4vw, 56px) 60px; }
+    .topbar { display: flex; justify-content: space-between; gap: 24px; align-items: flex-start; margin-bottom: 24px; }
+    h1 { margin: 0 0 7px; font-size: clamp(25px, 3vw, 36px); letter-spacing: -.045em; }
+    .subtitle { margin: 0; color: var(--muted); font-size: 14px; }
+    .actions { display: flex; gap: 10px; }
+    .btn { border: 1px solid var(--line); background: white; border-radius: 10px; padding: 11px 15px; font-weight: 700; cursor: pointer; min-height: 44px; }
+    .btn.primary { background: var(--navy); color: white; border-color: var(--navy); }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 7px 16px rgba(16,24,40,.1); }
+    .filters { display: grid; grid-template-columns: 1.3fr 1fr 0.8fr 0.9fr 1fr; gap: 12px; background: white; border: 1px solid var(--line); border-radius: 14px; padding: 15px; margin-bottom: 18px; }
+    .filters:has(#vantageField[hidden]) { grid-template-columns: 1.45fr 1fr 1fr 1fr; }
+    .field label { display: block; color: var(--muted); font-size: 12px; font-weight: 700; margin: 0 0 6px 2px; }
+    .field select { width: 100%; min-height: 42px; border: 1px solid var(--line); border-radius: 9px; background: #fff; padding: 0 11px; color: var(--ink); font-weight: 650; }
+    .notice { display: flex; align-items: center; gap: 10px; padding: 11px 14px; margin-bottom: 18px; border-radius: 10px; background: #e9fbf8; color: #0d6558; border: 1px solid #bceee6; font-size: 13px; }
+    .pulse { width: 8px; height: 8px; border-radius: 50%; background: #12b76a; box-shadow: 0 0 0 4px rgba(18,183,106,.12); }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; align-items: start; }
+    .panel { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; margin-bottom: 18px; }
+    .panel-head { display: flex; justify-content: space-between; align-items: center; padding: 18px 20px; border-bottom: 1px solid var(--line); }
+    .panel-head h2 { margin: 0; font-size: 17px; letter-spacing: -.02em; }
+    .panel-head span { color: var(--muted); font-size: 12px; }
+    .block-flow { padding: 20px; }
+    .block-row { display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; gap: 12px; align-items: center; min-height: 54px; position: relative; }
+    .block-row:not(:last-child)::after { content: ""; position: absolute; left: 17px; top: 40px; bottom: -8px; width: 2px; background: #e4e7ec; }
+    .rank { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 10px; background: var(--navy); color: white; font-weight: 800; z-index: 1; }
+    .block-row.ad .rank { background: #fff3d6; color: #b54708; border: 1px solid #fedf89; }
+    .block-name { font-size: 14px; font-weight: 750; }
+    .block-meta { color: var(--muted); font-size: 12px; margin-top: 3px; }
+    .chip { display: inline-flex; align-items: center; border-radius: 999px; padding: 5px 9px; background: var(--soft); color: #475467; font-size: 11px; font-weight: 750; }
+    .chip.ad { background: #fff3d6; color: #b54708; }
+    .legend { padding: 0 20px 18px; color: var(--muted); font-size: 12px; }
+    .summary-list { padding: 8px 20px 18px; }
+    .summary-item { display: flex; justify-content: space-between; gap: 18px; padding: 13px 0; border-bottom: 1px solid #eef0f4; font-size: 14px; }
+    .summary-item:last-child { border-bottom: 0; }
+    .summary-item strong { text-align: right; }
+    .section-tabs { display: flex; gap: 8px; padding: 0 0 14px; overflow-x: auto; }
+    .page-strip { display: flex; align-items: center; gap: 8px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: #fbfcfe; overflow-x: auto; }
+    .page-strip strong { margin-right: 4px; font-size: 12px; color: var(--muted); white-space: nowrap; }
+    .page-pill { flex: 0 0 auto; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 7px 10px; font-size: 12px; font-weight: 750; }
+    .page-pill.active { color: #fff; background: var(--blue); border-color: var(--blue); }
+    .page-pill.pending { color: #98a2b3; background: #f2f4f7; }
+    .tab { flex: 0 0 auto; border: 1px solid var(--line); background: white; color: #475467; border-radius: 999px; padding: 8px 12px; font-size: 13px; font-weight: 700; cursor: pointer; }
+    .tab.active { color: white; background: var(--navy); border-color: var(--navy); }
+    .table-wrap { overflow: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 760px; }
+    th { background: #f8fafc; color: #475467; font-size: 12px; text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+    td { padding: 13px 14px; border-bottom: 1px solid #eef0f4; font-size: 13px; vertical-align: top; }
+    tbody tr:hover { background: #fafcff; }
+    .pos { font-weight: 850; color: var(--blue); }
+    .source { color: #344054; font-weight: 700; }
+    .link { color: var(--blue); font-weight: 700; text-decoration: none; }
+    .mention { display: inline-flex; padding: 4px 8px; border-radius: 7px; background: #eef4ff; color: #3538cd; font-size: 11px; font-weight: 750; }
+    .low { background: #f2f4f7; color: #667085; }
+    .ad-section { border: 1px solid #fedf89; background: #fffbf2; box-shadow: none; }
+    .ad-section .panel-head { border-color: #fedf89; }
+    .footnote { color: var(--muted); font-size: 12px; line-height: 1.55; margin-top: 10px; }
+    .empty { padding: 42px 20px; text-align: center; color: var(--muted); }
+    .empty strong { display: block; color: var(--ink); margin-bottom: 7px; }
+    .toast { position: fixed; right: 24px; bottom: 24px; background: var(--navy); color: white; padding: 13px 16px; border-radius: 10px; font-size: 13px; opacity: 0; transform: translateY(8px); pointer-events: none; transition: .2s ease; box-shadow: var(--shadow); }
+    .toast.show { opacity: 1; transform: translateY(0); }
+    @media (max-width: 980px) {
+      .shell { grid-template-columns: 1fr; }
+      aside { position: static; height: auto; padding: 18px; }
+      .brand { padding-bottom: 12px; }
+      nav { display: flex; overflow-x: auto; }
+      nav a { flex: 0 0 auto; }
+      .nav-label, .aside-note { display: none; }
+      .grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      main { padding: 20px 14px 42px; }
+      .topbar { display: block; }
+      .actions { margin-top: 15px; }
+      .actions .btn { flex: 1; }
+      .filters { grid-template-columns: 1fr 1fr; }
+      .panel-head { align-items: flex-start; gap: 8px; }
+      .panel-head span { text-align: right; }
+      table.mobile-cards { min-width: 0; }
+      table.mobile-cards thead { display: none; }
+      table.mobile-cards, table.mobile-cards tbody, table.mobile-cards tr, table.mobile-cards td { display: block; width: 100%; }
+      table.mobile-cards tr { padding: 12px 14px; border-bottom: 1px solid var(--line); }
+      table.mobile-cards td { border: 0; padding: 5px 0 5px 112px; position: relative; min-height: 28px; }
+      table.mobile-cards td::before { content: attr(data-label); position: absolute; left: 0; top: 5px; width: 102px; color: var(--muted); font-size: 12px; font-weight: 700; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="brand"><div class="brand-mark">N</div><div><strong>검색 노출 관측실</strong><small>NAVER SERP MONITOR</small></div></div>
+      <div class="nav-label">리포트</div>
+      <nav>
+        <a href="keywords.html"><span class="nav-dot"></span>전체 키워드</a>
+        <a class="active" href="#overview"><span class="nav-dot"></span>요약</a>
+        <a href="#blocks"><span class="nav-dot"></span>블록 구성</a>
+        <a href="#contents"><span class="nav-dot"></span>게시물</a>
+        <a href="#competitors"><span class="nav-dot"></span>경쟁업체</a>
+      </nav>
+      <div class="aside-note"><strong>실시간 수집</strong>상단 "수집 명령어 복사"로 collector/collect.py 실행 명령을 복사한 뒤 터미널에서 실행하면, 이 화면이 실제 네이버 관측값으로 갱신됩니다.</div>
+    </aside>
+    <main>
+      <header class="topbar" id="overview">
+        <div><h1>강남 맛집</h1><p class="subtitle">키워드 하나의 실제 노출 구조를 블록과 게시물 단위로 읽습니다.</p></div>
+        <div class="actions"><button class="btn" id="copyRequest">수집 명령어 복사</button><button class="btn primary" id="downloadExcel">Excel 다운로드</button></div>
+      </header>
+
+      <section class="filters" aria-label="분석 조건">
+        <div class="field"><label for="keyword">키워드</label><select id="keyword"><option>강남 맛집</option></select></div>
+        <div class="field"><label for="region">지역</label><select id="region"><option>서울특별시 강남구</option></select></div>
+        <div class="field"><label for="device">기기</label><select id="device"><option value="pc">PC</option><option value="mobile">모바일</option></select></div>
+        <div class="field" id="vantageField" hidden><label for="vantage">관측 관점</label><select id="vantage"></select></div>
+        <div class="field"><label for="period">관측</label><select id="period"><option>2026.09.10 · 1회 표본</option></select></div>
+      </section>
+
+      <div class="notice" id="dataNotice"><span class="pulse"></span><span>실제 네이버 검색화면 1회 관측 표본 · 화면에 보이는 블록 명칭을 우선하고 광고는 별도로 집계했습니다.</span></div>
+
+      <section class="grid">
+        <article class="panel" id="blocks">
+          <div class="panel-head"><h2>검색화면 블록 배열</h2><span>위에서 아래 순서</span></div>
+          <div class="block-flow" id="blockFlow"></div>
+          <div class="legend">광고 블록은 배열상 위치만 표시하고 자연노출 지표에는 합산하지 않습니다.</div>
+        </article>
+        <div id="competitors"></div>
+      </section>
+      <template id="placeRankingTemplate">
+        <article class="panel">
+          <div class="panel-head"><h2></h2><span class="place-scope"></span></div>
+          <div class="page-strip place-pages" aria-label="플레이스 수집 페이지"></div>
+          <div class="table-wrap"><table class="mobile-cards"><thead><tr><th>페이지</th><th>페이지 내 순위</th><th>전체 자연순위</th><th>상호명</th></tr></thead><tbody class="competitor-rows"></tbody></table></div>
+        </article>
+      </template>
+      <template id="adRankingTemplate">
+        <article class="panel ad-section">
+          <div class="panel-head"><h2></h2><span class="place-scope"></span></div>
+          <div class="section-tabs ad-vantage-tabs" hidden></div>
+          <div class="table-wrap"><table class="mobile-cards"><thead><tr><th>노출 순위</th><th>제목</th><th>링크</th></tr></thead><tbody class="ad-rank-rows"></tbody></table></div>
+        </article>
+      </template>
+
+      <section id="contents">
+        <div class="section-tabs" id="tabs"></div>
+        <article class="panel">
+          <div class="panel-head"><h2 id="tableTitle">관련문서</h2><span>표시된 묶음 내부 순위 · 출처는 링크로 확인</span></div>
+          <div class="table-wrap"><table class="mobile-cards"><thead><tr><th>순위</th><th>제목</th><th>출처</th><th>링크</th><th>언급 업체(추정)</th></tr></thead><tbody id="contentRows"></tbody></table></div>
+        </article>
+      </section>
+
+      <p class="footnote">플레이스는 광고 카드를 제거한 뒤 자연 업체만 다시 순위를 매깁니다. 네이버 플레이스 전체 목록은 무한 스크롤형이므로 비교 가능한 장부에서는 자연결과 20개를 1페이지로 환산하며 최대 5페이지(100개)까지 저장합니다. 게시물은 임의 개수로 자르지 않고 다음 명시적 블록 경계까지 전부 기록합니다.</p>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>
+    // URL에 ?keyword=... 가 있으면 그 키워드의 데이터 파일(data/by_keyword/<slug>.js)을,
+    // 없으면 기존처럼 가장 최근 수집분(data/latest.js)을 불러온다. collect.py의 _slug()와
+    // 동일한 규칙(영숫자/한글 등 "글자·숫자"가 아닌 문자는 전부 밑줄로)으로 슬러그를 만든다.
+    const kwParam = new URLSearchParams(location.search).get('keyword');
+    function slug(text) {
+      return Array.from(text).map(ch => /[\p{L}\p{N}]/u.test(ch) ? ch : '_').join('').replace(/^_+|_+$/g, '');
+    }
+    const searchUrl = 'https://search.naver.com/search.naver?query=%EA%B0%95%EB%82%A8%20%EB%A7%9B%EC%A7%91';
+    const pcBlocks = [
+      { order: 1, name: '플레이스', meta: '광고 3개 이후 자연결과 5개', type: '자연 + 광고 혼합' },
+      { order: 2, name: '새로 오픈했어요', meta: '업체 카드 혼합 노출', type: '업체' },
+      { order: 3, name: '강남맛집 관련 광고', meta: '검색광고 전용 블록', type: '광고', ad: true },
+      { order: 4, name: '네이버 클립', meta: '영상형 게시물', type: '콘텐츠' },
+      { order: 5, name: '맛집 관련 브랜드 콘텐츠', meta: '브랜드 성격 별도 표시', type: '브랜드' },
+      { order: 6, name: '관련문서', meta: '화면에 표시된 관련문서 묶음', type: '콘텐츠' },
+      { order: 7, name: '관련문서 이후 게시물', meta: '별도 제목 없이 이어지는 결과 · 출처와 링크로 구분', type: '콘텐츠' },
+      { order: 8, name: '뉴스', meta: '뉴스 게시물', type: '콘텐츠' },
+      { order: 9, name: '함께 많이 찾는', meta: '연관 검색어', type: '탐색' },
+      { order: 10, name: '이미지', meta: '이미지 결과', type: '콘텐츠' }
+    ];
+    const pcCompetitors = [
+      [1, 1, 1, '삼신 가로수길점'],
+      [1, 2, 2, '다미곱창 신사직영점'],
+      [1, 3, 3, '기운'],
+      [1, 4, 4, '청기와타운 강남점'],
+      [1, 5, 5, '지노스 뉴욕 피자 압구정점']
+    ];
+    const pcContents = {
+      '관련문서': [
+        [1, '강남맛집 맛집 인기검색 순위', '식신', searchUrl, '복수 업체'],
+        [2, '강남역 맛집 Top100', '다이닝코드', searchUrl, '복수 업체']
+      ],
+      '관련문서 이후 게시물': [
+        [1, '별미였던 강남역 해산물 삼해수산 강남 맛집', '세종시닷컴', searchUrl, '삼해수산'],
+        [2, '강남역 맛집 일등 후기', '레드펄스 바다낚시', searchUrl, '확인 불가'],
+        [3, '강남역 점심 맛집 연예인 단골집으로도 유명한 파스타 맛집', '보부상', searchUrl, '확인 불가'],
+        [4, '강남역 맛집 BEST 1등', '컬처블룸', searchUrl, '더오다리집 강남점'],
+        [5, '강남맛집추천', '다낭 도깨비', searchUrl, '회춘식당'],
+        [6, '송파,강남 맛집 추천', '여우야', searchUrl, '확인 불가'],
+        [7, '강남역 양식 분위기 맛집 올리페페', 'yulmood', searchUrl, '올리페페'],
+        [8, '강남역 순대국 맛집 신주옥미', '다녀온 기록', searchUrl, '신주옥미'],
+        [9, '강남역 맛집 샤브지오 편백찜 무한리필', '탑블레스유', searchUrl, '샤브지오'],
+        [10, '강남역 맛집 효뜨 분위기 좋은 신논현 점심', 'IDANAE', searchUrl, '효뜨'],
+        [11, '강남역맛집 헤비스테이크 솔직후기', '메몽이의 하루', searchUrl, '헤비스테이크']
+      ],
+      '네이버 클립': [
+        [1, '12,800~14,800원 · #치폴레 #강남맛집', '재슐랭가이드', searchUrl, '치폴레'],
+        [2, '24,900 · #강남맛집 #강남역맛집 #샤브지오', '맛집남자foodman', searchUrl, '샤브지오']
+      ],
+      '뉴스': [
+        [1, '생방송투데이 강남 뼈수육전골 맛집', 'bnt뉴스', searchUrl, '확인 불가'],
+        [2, '이원일 미식 수련 마쳤다…셰프도 홀린 전국 맛집', '뉴스엔', searchUrl, '확인 불가'],
+        [3, '“쉐이크쉑 바로 옆에 치폴레”…강남대로에 美 맛집', '세계일보', searchUrl, '치폴레·쉐이크쉑'],
+        [4, '일본·미국 맛집들 “빨리 한국 가자”…글로벌 외식 브랜드', '매일경제', searchUrl, '복수 업체']
+      ]
+    };
+    const pcAds = [
+      ['플레이스 광고', 1, '미랑 선릉본점', '광고', '플레이스 블록 내 노출'],
+      ['플레이스 광고', 2, '제철소', '광고', '플레이스 블록 내 노출'],
+      ['플레이스 광고', 3, '도르도뉴', '광고', '플레이스 블록 내 노출'],
+      ['검색광고 블록', 1, '두르가강남점', '광고', '별도 검색광고 영역']
+    ];
+    const mobileUrl = 'https://m.search.naver.com/search.naver?query=%EA%B0%95%EB%82%A8%20%EB%A7%9B%EC%A7%91';
+    const mobileBlocks = [
+      { order: 1, name: '플레이스', meta: '광고와 자연결과 혼합 · 광고 제외 후 자연순위 재계산', type: '자연 + 광고 혼합' },
+      { order: 2, name: '새로 오픈했어요', meta: '업체 카드 혼합 노출', type: '업체' },
+      { order: 3, name: '검색광고', meta: '플레이스와 분리된 광고 전용 블록', type: '광고', ad: true },
+      { order: 4, name: '네이버 클립', meta: '4개 노출', type: '콘텐츠' },
+      { order: 5, name: '맛집 관련 브랜드 콘텐츠', meta: '3개 노출', type: '브랜드' },
+      { order: 6, name: '관련문서', meta: '식신 결과 다음 카페·블로그 게시물이 연속 노출', type: '콘텐츠' },
+      { order: 7, name: '뉴스', meta: '4개 노출', type: '콘텐츠' },
+      { order: 8, name: '관련문서', meta: '다이닝코드 결과 뒤 게시물이 다시 이어짐', type: '콘텐츠' },
+      { order: 9, name: '이미지', meta: '이미지 결과', type: '콘텐츠' }
+    ];
+    const mobileCompetitors = [
+      [1,1,1,'삼신 가로수길점'], [1,2,2,'지노스 뉴욕 피자 압구정점'], [1,3,3,'다미곱창 신사직영점'], [1,4,4,'기운'], [1,5,5,'청기와타운 강남점'],
+      [1,6,6,'소뭉집 본점'], [1,7,7,'베이징덕 압구정 본점'], [1,8,8,'미도인 강남'], [1,9,9,'트라가 역삼점'], [1,10,10,'기운 강남역 본점'],
+      [1,11,11,'판교집 학동직영점'], [1,12,12,'노아이디어피자 신사점'], [1,13,13,'홍수회전훠궈'], [1,14,14,'임옥정 역삼역점'], [1,15,15,'단막 강남역점'],
+      [1,16,16,'꾸아 강남역CGV점'], [1,17,17,'동어동락 삼성2호점'], [1,18,18,'이관복명장냉면 선릉점'], [1,19,19,'이치서울'], [1,20,20,'트라가 가로수길점']
+    ];
+    const mobileContents = {
+      '관련문서': [[1,'강남맛집 맛집 인기검색 순위','식신',mobileUrl,'복수 업체']],
+      '관련문서 이후 게시물': [
+        [1,'반해버린 강남 맛집 추천','해돌 해피돌싱',mobileUrl,'삼해수산 강남본점'],
+        [2,'강남역 맛집 일등 후기','레드펄스 바다낚시',mobileUrl,'확인 불가'],
+        [3,'강남역 점심 맛집 연예인 단골집으로도 유명한 파스타 맛집','보부상',mobileUrl,'확인 불가'],
+        [4,"하우스오브신세계 강남 라멘맛집 '타치바나'",'다이렉트 결혼준비',mobileUrl,'타치바나'],
+        [5,'강남역 맛집 BEST 1등','컬처블룸',mobileUrl,'더오다리집 강남점'],
+        [6,'파주 강남면옥 파주점 심학산 맛집','보리엘맘',mobileUrl,'강남면옥 파주점'],
+        [7,'모도우 삼성점 코엑스 맛집 강남 룸식당','동네형들',mobileUrl,'모도우 삼성점']
+      ],
+      '네이버 클립': [
+        [1,'12,800~14,800원 · #치폴레 #강남맛집','재슐랭가이드',mobileUrl,'치폴레'],
+        [2,'24,900 · #강남맛집 #샤브지오','맛집남자foodman',mobileUrl,'샤브지오'],
+        [3,'강남대로102길 30 · #강남역카페','투데이디저트',mobileUrl,'확인 불가'],
+        [4,'압구정로2길 15 · #가로수길맛집','맛집남자foodman',mobileUrl,'확인 불가']
+      ],
+      '뉴스': [
+        [1,"'생방송투데이' 강남 뼈수육전골 맛집",'bnt뉴스',mobileUrl,'확인 불가'],
+        [2,'이원일 미식 수련 마쳤다…셰프도 홀린 전국 맛집','뉴스엔',mobileUrl,'확인 불가'],
+        [3,'“쉐이크쉑 바로 옆에 치폴레”…강남대로에 美 맛집','세계일보',mobileUrl,'치폴레·쉐이크쉑'],
+        [4,'일본·미국 맛집들 “빨리 한국 가자”…글로벌 외식 브랜드','매일경제',mobileUrl,'복수 업체']
+      ]
+    };
+    const mobileAds = [
+      ['플레이스 광고',1,'우리소 삼성점','광고','자연순위 제외'],
+      ['플레이스 광고',2,'도르도뉴','광고','자연순위 제외'],
+      ['플레이스 광고',3,'오징어세상 삼성점','광고','자연순위 제외'],
+      ['검색광고 블록',1,'두르가강남점','광고','별도 검색광고 영역']
+    ];
+    const sampleDatasets = {
+      pc: { direct: { blocks: pcBlocks, competitors: pcCompetitors, place_rankings: { '플레이스': pcCompetitors }, contents: pcContents, ads: pcAds, pages: 1 } },
+      mobile: { direct: { blocks: mobileBlocks, competitors: mobileCompetitors, place_rankings: { '플레이스': mobileCompetitors }, contents: mobileContents, ads: mobileAds, pages: 1 } }
+    };
+    // datasets[device][vantage] 구조. vantage는 "direct"(이 기기 직접 연결) 또는 프록시로 관측한
+    // 지역 라벨(예: "daejeon"). 여러 관점이 쌓이면 아래 '관측 관점' 셀렉트에 자동으로 나타난다.
+    let live = null;
+    const vantageLabels = { direct: '직접 연결(이 기기 위치)' };
+    function vantagesFor(device) {
+      const liveV = live && live.datasets && live.datasets[device] ? Object.keys(live.datasets[device]) : [];
+      return liveV.length ? liveV : ['direct'];
+    }
+    function datasetFor(device, vantage) {
+      const d = live && live.datasets && live.datasets[device] && live.datasets[device][vantage];
+      if (d && (d.status === 'ok' || d.status === 'parsed_with_warnings')) {
+        return { blocks: d.blocks, competitors: d.competitors, place_rankings: d.place_rankings || {}, contents: d.contents, ads: d.ads, pages: d.pages || 1, live: true, meta: d };
+      }
+      const sample = (sampleDatasets[device] && sampleDatasets[device][vantage]) || sampleDatasets[device].direct;
+      return Object.assign({}, sample, { live: false, meta: d || null });
+    }
+    const blockFlow = document.querySelector('#blockFlow');
+    const tabs = document.querySelector('#tabs');
+    const deviceSelect = document.querySelector('#device');
+    const vantageSelect = document.querySelector('#vantage');
+    const vantageField = document.querySelector('#vantageField');
+    function refreshVantageOptions() {
+      const options = vantagesFor(deviceSelect.value);
+      vantageField.hidden = options.length <= 1;
+      const prev = vantageSelect.value;
+      vantageSelect.innerHTML = options.map(v => `<option value="${v}">${vantageLabels[v] || v}</option>`).join('');
+      vantageSelect.value = options.includes(prev) ? prev : options[0];
+    }
+    const competitorLabels = ['페이지','페이지 내 순위','전체 자연순위','상호명'];
+    let activeContent = '관련문서';
+    function renderTable(name, button, data = datasetFor(deviceSelect.value, vantageSelect.value)) {
+      tabs.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      button?.classList.add('active'); activeContent = name;
+      document.querySelector('#tableTitle').textContent = name;
+      const rows = data.contents[name] || [];
+      document.querySelector('#contentRows').innerHTML = rows.map(r => `<tr><td data-label="순위"><b class="pos">${r[0]}</b></td><td data-label="제목">${r[1]}</td><td data-label="출처" class="source">${r[2]}</td><td data-label="링크"><a class="link" href="${r[3]}" target="_blank" rel="noopener">검색 결과 열기 ↗</a></td><td data-label="언급 업체"><span class="mention ${r[4] === '확인 불가' ? 'low' : ''}">${r[4]}</span></td></tr>`).join('');
+    }
+    const placeRankingTemplate = document.querySelector('#placeRankingTemplate');
+    const adRankingTemplate = document.querySelector('#adRankingTemplate');
+    const AD_RANK_DISPLAY_LIMIT = 10;
+    let activeAdVantage = null;
+    function renderAdRankPanel(container, adSets, vantageKeys) {
+      if (!vantageKeys.includes(activeAdVantage)) {
+        activeAdVantage = vantageKeys.includes(vantageSelect.value) ? vantageSelect.value : vantageKeys[0];
+      }
+      const node = adRankingTemplate.content.cloneNode(true);
+      const tabsEl = node.querySelector('.ad-vantage-tabs');
+      if (vantageKeys.length > 1) {
+        tabsEl.hidden = false;
+        tabsEl.innerHTML = '';
+        vantageKeys.forEach(v => {
+          const btn = document.createElement('button');
+          btn.className = `tab ${v === activeAdVantage ? 'active' : ''}`;
+          btn.textContent = vantageLabels[v] || v;
+          btn.addEventListener('click', () => { activeAdVantage = v; renderAll(); });
+          tabsEl.appendChild(btn);
+        });
+      }
+      const currentAds = (adSets[activeAdVantage] || []).filter(r => r[0] === '검색광고 블록');
+      const rows = currentAds.slice(0, AD_RANK_DISPLAY_LIMIT);
+      node.querySelector('h2').textContent = '검색광고 노출 순위';
+      node.querySelector('.place-scope').textContent = currentAds.length
+        ? `상위 ${rows.length}개 (전체 ${currentAds.length}개 중) · ${vantageLabels[activeAdVantage] || activeAdVantage}`
+        : `이 관점(${vantageLabels[activeAdVantage] || activeAdVantage})에는 수집된 검색광고가 없습니다`;
+      node.querySelector('.ad-rank-rows').innerHTML = rows.map(r => `<tr><td data-label="노출 순위"><b class="pos">${r[1]}</b></td><td data-label="제목">${r[2]}</td><td data-label="링크">${r[5] ? `<a class="link" href="${r[5]}" target="_blank" rel="noopener">열기 ↗</a>` : '-'}</td></tr>`).join('');
+      container.appendChild(node);
+    }
+    function renderPlaceRankings(data) {
+      const container = document.querySelector('#competitors');
+      container.innerHTML = '';
+      // 순서 고정: 실시간예약류(있으면) → 플레이스 → ... (parser.py가 이 순서로 정렬해서 내려줌) → 검색광고
+      const groups = (data.place_rankings && Object.keys(data.place_rankings).length) ? data.place_rankings : { '플레이스': data.competitors };
+      Object.entries(groups).forEach(([name, rows]) => {
+        const node = placeRankingTemplate.content.cloneNode(true);
+        node.querySelector('h2').textContent = `${name} 자연순위`;
+        node.querySelector('.place-scope').textContent = `광고 제외 · ${rows.length}개 확보 · 최대 5페이지`;
+        const pages = rows.length ? Math.max(...rows.map(r => r[0])) : 1;
+        node.querySelector('.place-pages').innerHTML = '<strong>수집 페이지</strong>' + [1,2,3,4,5].map(p=>`<span class="page-pill ${p<=pages?'active':'pending'}">${p}페이지 ${p<=pages?'완료':'대기'}</span>`).join('');
+        node.querySelector('.competitor-rows').innerHTML = rows.map(r => `<tr>${r.map((c,i)=>`<td data-label="${competitorLabels[i]}">${i===2?`<b class="pos">${c}</b>`:c}</td>`).join('')}</tr>`).join('');
+        container.appendChild(node);
+      });
+
+      // 검색광고: 같은 기기에서 수집된 모든 관측 관점(direct/프록시 지역)을 탭으로 비교
+      const liveVantages = (live && live.datasets && live.datasets[deviceSelect.value]) || null;
+      const adSets = {};
+      if (liveVantages) {
+        Object.entries(liveVantages).forEach(([v, d]) => {
+          if (d && (d.status === 'ok' || d.status === 'parsed_with_warnings')) adSets[v] = d.ads || [];
+        });
+      }
+      if (!Object.keys(adSets).length) adSets[vantageSelect.value] = data.ads || [];
+      const vantageKeys = Object.keys(adSets);
+      const anyAds = vantageKeys.some(v => (adSets[v] || []).some(r => r[0] === '검색광고 블록'));
+      if (anyAds) renderAdRankPanel(container, adSets, vantageKeys);
+    }
+    function renderAll() {
+      refreshVantageOptions();
+      const data = datasetFor(deviceSelect.value, vantageSelect.value);
+      blockFlow.innerHTML = data.blocks.map(b => `<div class="block-row ${b.ad ? 'ad' : ''}"><div class="rank">${b.order}</div><div><div class="block-name">${b.name}</div><div class="block-meta">${b.meta}</div></div><span class="chip ${b.ad ? 'ad' : ''}">${b.type}</span></div>`).join('');
+      renderPlaceRankings(data);
+      tabs.innerHTML = '';
+      Object.keys(data.contents).forEach((name,i)=>{ const button=document.createElement('button'); button.className=`tab ${name===activeContent||(!data.contents[activeContent]&&i===0)?'active':''}`; button.textContent=name; button.addEventListener('click',()=>renderTable(name,button)); tabs.appendChild(button); });
+      if (!data.contents[activeContent]) activeContent = Object.keys(data.contents)[0];
+      renderTable(activeContent, Array.from(tabs.children).find(t=>t.textContent===activeContent), data);
+      const notice = document.querySelector('#dataNotice');
+      const noticeText = notice.querySelector('span:last-child');
+      const status = data.meta && data.meta.status;
+      if (status === 'blocked') {
+        notice.style.background = '#fef3f2'; notice.style.borderColor = '#fecdca'; notice.style.color = '#b42318';
+        noticeText.textContent = '네이버 요청 제한(429)에 걸려 이번 수집이 차단되었습니다. 잠시 후 collector/collect.py를 다시 실행하세요. (아래는 이전 샘플 데이터)';
+      } else if (data.live) {
+        notice.style.background = '#e9fbf8'; notice.style.borderColor = '#bceee6'; notice.style.color = '#0d6558';
+        const obs = data.meta && data.meta.observation;
+        const vantageLabel = vantageSelect.value === 'direct' ? '' : ` · ${vantageLabels[vantageSelect.value] || vantageSelect.value} 관점`;
+        noticeText.textContent = `실시간 수집 데이터 · 관측일시 ${obs ? obs.observed_at : ''} · ${deviceSelect.value === 'mobile' ? '모바일' : 'PC'} 기준${vantageLabel}`;
+      } else if (kwParam) {
+        notice.style.background = '#fffaeb'; notice.style.borderColor = '#fedf89'; notice.style.color = '#b54708';
+        noticeText.textContent = `"${kwParam}" 은(는) 아직 수집되지 않았습니다. 위 "수집 명령어 복사"로 명령어를 복사해 터미널에서 실행하면 실제 관측값이 채워집니다. (아래는 샘플 데이터)`;
+      } else {
+        notice.style.background = '#f6f8fb'; notice.style.borderColor = '#e4e7ec'; notice.style.color = '#475467';
+        noticeText.textContent = deviceSelect.value === 'mobile'
+          ? '샘플 데이터입니다. collector/collect.py로 실시간 수집을 실행하면 이 화면이 실제 관측값으로 갱신됩니다.'
+          : '샘플 데이터입니다. collector/collect.py --device pc 로 실시간 수집을 실행하면 실제 관측값으로 갱신됩니다.';
+      }
+    }
+    deviceSelect.addEventListener('change', renderAll);
+    vantageSelect.addEventListener('change', renderAll);
+
+    const toast = (message) => { const el = document.querySelector('#toast'); el.textContent = message; el.classList.add('show'); setTimeout(() => el.classList.remove('show'), 2200); };
+    document.querySelector('#copyRequest').addEventListener('click', async () => {
+      const kw = (live && live.keyword) || kwParam || document.querySelector('#keyword').value;
+      const region = (live && live.region) || kwParam || document.querySelector('#region').value;
+      const vantagePart = vantageSelect.value === 'direct' ? '' : ` --vantage ${vantageSelect.value}`;
+      const text = `python collector/collect.py --keyword "${kw}" --region "${region}" --device ${deviceSelect.value}${vantagePart}`;
+      await navigator.clipboard.writeText(text); toast('수집 명령어를 복사했습니다. 터미널에서 실행하세요.');
+    });
+
+    function esc(v) { return String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+    function colName(n) { let s=''; while(n){ n--; s=String.fromCharCode(65+n%26)+s; n=Math.floor(n/26); } return s; }
+    function sheetXml(rows) {
+      return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetData>${rows.map((row, ri) => `<row r="${ri+1}">${row.map((v,ci) => { const ref=colName(ci+1)+(ri+1); return typeof v === 'number' ? `<c r="${ref}"><v>${v}</v></c>` : `<c r="${ref}" t="inlineStr"><is><t>${esc(v)}</t></is></c>`; }).join('')}</row>`).join('')}</sheetData></worksheet>`;
+    }
+    function crc32(bytes) { let c=-1; for (const b of bytes) { c ^= b; for(let k=0;k<8;k++) c=(c>>>1)^((c&1)?0xedb88320:0); } return (c^-1)>>>0; }
+    function u16(n){ return new Uint8Array([n&255,(n>>>8)&255]); }
+    function u32(n){ return new Uint8Array([n&255,(n>>>8)&255,(n>>>16)&255,(n>>>24)&255]); }
+    function concat(parts){ const len=parts.reduce((s,p)=>s+p.length,0), out=new Uint8Array(len); let o=0; parts.forEach(p=>{out.set(p,o);o+=p.length;}); return out; }
+    function makeZip(files) {
+      const enc=new TextEncoder(), locals=[], centrals=[]; let offset=0;
+      Object.entries(files).forEach(([name, text]) => {
+        const nb=enc.encode(name), data=enc.encode(text), crc=crc32(data);
+        const local=concat([u32(0x04034b50),u16(20),u16(0),u16(0),u16(0),u16(0),u32(crc),u32(data.length),u32(data.length),u16(nb.length),u16(0),nb,data]);
+        locals.push(local);
+        const central=concat([u32(0x02014b50),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(crc),u32(data.length),u32(data.length),u16(nb.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),nb]);
+        centrals.push(central); offset += local.length;
+      });
+      const centralSize=centrals.reduce((s,p)=>s+p.length,0);
+      return concat([...locals,...centrals,u32(0x06054b50),u16(0),u16(0),u16(centrals.length),u16(centrals.length),u32(centralSize),u32(offset),u16(0)]);
+    }
+    function downloadWorkbook() {
+      const data = datasetFor(deviceSelect.value, vantageSelect.value);
+      const placeGroups = (data.place_rankings && Object.keys(data.place_rankings).length) ? data.place_rankings : { '플레이스': data.competitors };
+      const sanitizeSheetName = (s) => s.replace(/[:\\/?*\[\]]/g, '').slice(0, 31);
+      const sheets = [
+        ['블록 구성', [['순서','블록','설명','성격'], ...data.blocks.map(b=>[b.order,b.name,b.meta,b.type])]],
+        ...Object.entries(placeGroups).map(([name, rows]) => [sanitizeSheetName(`자연순위_${name}`), [['페이지','페이지 내 순위','전체 자연순위','상호명'], ...rows]]),
+        ['게시물', [['블록','블록 내 순위','제목','출처','링크','언급 업체(추정)'], ...Object.entries(data.contents).flatMap(([b,rows])=>rows.map(r=>[b,...r]))]],
+        ['광고 별도', [['광고 영역','광고 순위','업체','표시','비고','링크'], ...data.ads]]
+      ];
+      const files = {
+        '[Content_Types].xml': `<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>${sheets.map((_,i)=>`<Override PartName="/xl/worksheets/sheet${i+1}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>`).join('')}<Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/></Types>`,
+        '_rels/.rels': `<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>`,
+        'xl/workbook.xml': `<?xml version="1.0" encoding="UTF-8"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>${sheets.map((s,i)=>`<sheet name="${esc(s[0])}" sheetId="${i+1}" r:id="rId${i+1}"/>`).join('')}</sheets></workbook>`,
+        'xl/_rels/workbook.xml.rels': `<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">${sheets.map((_,i)=>`<Relationship Id="rId${i+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet${i+1}.xml"/>`).join('')}<Relationship Id="rId${sheets.length+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`,
+        'xl/styles.xml': `<?xml version="1.0" encoding="UTF-8"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="1"><font><sz val="11"/><name val="맑은 고딕"/></font></fonts><fills count="1"><fill><patternFill patternType="none"/></fill></fills><borders count="1"><border/></borders><cellStyleXfs count="1"><xf/></cellStyleXfs><cellXfs count="1"><xf xfId="0"/></cellXfs></styleSheet>`
+      };
+      sheets.forEach((s,i)=> files[`xl/worksheets/sheet${i+1}.xml`] = sheetXml(s[1]));
+      const blob=new Blob([makeZip(files)],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+      const kw = ((live && live.keyword) || kwParam || document.querySelector('#keyword').value).replace(/\s+/g,'_');
+      const today = new Date().toISOString().slice(0,10);
+      const vantagePart = vantageSelect.value === 'direct' ? '' : `_${vantageSelect.value}`;
+      const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`${kw}_${deviceSelect.value}${vantagePart}_검색노출_${today}.xlsx`; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),1000); toast('Excel 파일을 내려받았습니다.');
+    }
+    document.querySelector('#downloadExcel').addEventListener('click', downloadWorkbook);
+
+    function applyKeywordHeader() {
+      if (live) {
+        document.querySelector('h1').textContent = live.keyword;
+        document.querySelector('#keyword').innerHTML = `<option>${esc(live.keyword)}</option>`;
+        document.querySelector('#region').innerHTML = `<option>${esc(live.region)}</option>`;
+      } else if (kwParam) {
+        document.querySelector('h1').textContent = kwParam;
+        document.querySelector('#keyword').innerHTML = `<option>${esc(kwParam)}</option>`;
+        document.querySelector('#region').innerHTML = `<option>${esc(kwParam)}</option>`;
+      }
+    }
+    function init() {
+      live = window.SERP_DATA || null;
+      applyKeywordHeader();
+      renderAll();
+    }
+    // ?keyword=... 가 있으면 그 키워드 전용 데이터 파일을, 없으면 최근 수집분(latest.js)을
+    // <script> 태그로 동적으로 불러온다 (file:// 로 직접 열어도 되도록 fetch 대신 스크립트
+    // 삽입 방식을 쓴다 — 로컬 파일은 fetch의 CORS 제한에 걸린다).
+    function loadDataAndInit() {
+      const src = kwParam ? `data/by_keyword/${slug(kwParam)}.js` : 'data/latest.js';
+      const s = document.createElement('script');
+      s.src = src;
+      s.onload = init;
+      s.onerror = init;
+      document.body.appendChild(s);
+    }
+    loadDataAndInit();
+  </script>
+</body>
+</html>

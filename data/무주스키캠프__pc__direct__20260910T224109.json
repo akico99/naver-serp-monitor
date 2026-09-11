@@ -1,0 +1,384 @@
+{
+  "observation": {
+    "keyword": "무주스키캠프",
+    "region": "무주스키캠프",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T22:41:03.764017+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%BA%A0%ED%94%84",
+    "raw_html_path": "data/raw/무주스키캠프__pc__direct__20260910T224103.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 2,
+      "name": "관련문서",
+      "meta": "게시물 5개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 3,
+      "name": "플레이스",
+      "meta": "광고 0개 · 자연결과 3개",
+      "type": "자연 + 광고 혼합"
+    },
+    {
+      "order": 4,
+      "name": "AI 브리핑",
+      "meta": "9개 노출",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 5,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 6,
+      "name": "관련문서",
+      "meta": "게시물 16개",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [
+    [
+      1,
+      1,
+      1,
+      "베이스캠프"
+    ],
+    [
+      1,
+      2,
+      2,
+      "드림피플엔터"
+    ],
+    [
+      1,
+      3,
+      3,
+      "학단사업부지엘"
+    ]
+  ],
+  "place_rankings": {
+    "플레이스": [
+      [
+        1,
+        1,
+        1,
+        "베이스캠프"
+      ],
+      [
+        1,
+        2,
+        2,
+        "드림피플엔터"
+      ],
+      [
+        1,
+        3,
+        3,
+        "학단사업부지엘"
+      ]
+    ]
+  },
+  "contents": {
+    "관련문서": [
+      [
+        1,
+        "★26년도 겨울캠프(무주스키장)★",
+        "www.kumsungwon.or.kr",
+        "http://www.kumsungwon.or.kr/bbs/board.php?bo_table=content0202&wr_id=482",
+        "무주스키장"
+      ],
+      [
+        2,
+        "무주덕유산리조트 스키캠프 - 학단사업부지엘",
+        "www.mujugl.com",
+        "https://www.mujugl.com/mujuresortskicamp",
+        "확인 불가"
+      ],
+      [
+        3,
+        "2025무주스키장 개장 확정/ 무주리조트 개장일이후 리프트권 할인요금, 스키복대여.장비렌탈비, 어....",
+        "학단사업부지엘",
+        "https://blog.naver.com/ejun3/224097609805",
+        "확인 불가"
+      ],
+      [
+        4,
+        "1학년 겨울 방학, 무주 여행 태권도원 무주리조트 썰매장 스키장",
+        "기억하고 싶은 나의 보통날",
+        "https://blog.naver.com/theuninada/224325436587",
+        "확인 불가"
+      ],
+      [
+        5,
+        "2026년 겨울 무주스키캠프 참여 단체 모집 안내!",
+        "광주실내스키장 & 무주덕유산리조트",
+        "https://blog.naver.com/kkim_pro/224400682267",
+        "확인 불가"
+      ],
+      [
+        6,
+        "무주 대학생 MT숙소, 40명 50명 겨울철 레크리에이션 가능한 단체숙소",
+        "빗방울 걷는 뜰",
+        "https://blog.naver.com/intellig6926/224403660289",
+        "확인 불가"
+      ],
+      [
+        7,
+        "광주실내스키장 & 무주덕유산리조트 - 김프로 블로그",
+        "빗방울 걷는 뜰",
+        "https://blog.naver.com/kkim_pro",
+        "확인 불가"
+      ],
+      [
+        8,
+        "헬스테크레포츠 » 무주리조트(스키캠프) » 1페이지",
+        "빗방울 걷는 뜰",
+        "http://mcpl.co.kr/%EB%A0%88%ED%8F%AC%EC%B8%A0/%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%BA%A0%ED%94%84/",
+        "스키캠프"
+      ],
+      [
+        9,
+        "무주리조트 스키강습",
+        "대전 노은맘들의 수다방",
+        "https://cafe.naver.com/djnoen/1321240?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRqbm9lbiIsImFydGljbGVJZCI6MTMyMTI0MCwiaXNzdWVkQXQiOjE3ODkwNDc2NjQ0MTB9.WD9T0jHGvaLbN1AuHXMlY9W7KnO98wnO_Cd98cR9gqc",
+        "확인 불가"
+      ],
+      [
+        10,
+        "드림피플엔터는 전남광주통합특별시에 위치한 실내스키 교육 시설이다. 이곳은 사계절 내내 실내에서 초·중급 슬로프와 오토슬로프를 이용한 상급 강습을 제공한다. 또한, 무주덕유산리조트와 웰리힐리파크에서 스키캠프 및 현장 교육을 진행한다. 개인과 단체를 위한 스키 및 보드 교육 프로그램과 체험 학습도 제공한다. 드림피플엔터는 스키장비 수선, 보관, 판매...",
+        "대전 노은맘들의 수다방",
+        "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=4d9ef0b5-3a14-41b7-ba60-fd18f3854224",
+        "확인 불가"
+      ],
+      [
+        11,
+        "청주맘스캠프 (충북맘,청주맘카페,세종맘,청주육아,프리마켓)",
+        "대전 노은맘들의 수다방",
+        "https://cafe.naver.com/cjcjmom",
+        "확인 불가"
+      ],
+      [
+        12,
+        "무주스키장 처음 다녀왔어용",
+        "대전 노은맘들의 수다방",
+        "https://cafe.naver.com/cjcjmom/3459546?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImNqY2ptb20iLCJhcnRpY2xlSWQiOjM0NTk1NDYsImlzc3VlZEF0IjoxNzg5MDQ3NjY0NDEwfQ.8ATp_MPgmq5-gWl8Tfot_toOLbimSBDQ86ofM_cvW1E",
+        "확인 불가"
+      ],
+      [
+        13,
+        "청년이 만만한 세상 청년 만세 겨울 스키캠프 > 인천YW활동",
+        "대전 노은맘들의 수다방",
+        "http://www.ywcaic.or.kr/bbs/board.php?bo_table=b0403&wr_id=172",
+        "확인 불가"
+      ],
+      [
+        14,
+        "초딩 남매 첫스키타게 해주려면 1:1강습해야죠? 무주리조트 숙박은 어디가좋은가요?",
+        "맘이베베 (핫딜, 육아, 놀이)",
+        "https://cafe.naver.com/skybluezw4rh/14128780?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6InNreWJsdWV6dzRyaCIsImFydGljbGVJZCI6MTQxMjg3ODAsImlzc3VlZEF0IjoxNzg5MDQ3NjY0NDEwfQ.KS0qHo5s_uT-jTJ-ZygJNmEQ9RlrgTflEftn0Jvb7zs",
+        "확인 불가"
+      ],
+      [
+        15,
+        "스키캠프(무주) - 노동초등학교 > 교육활동 > 월간교육일정",
+        "맘이베베 (핫딜, 육아, 놀이)",
+        "https://nodong.es.jne.kr/nodong_es/schl/sv/schdulView/schdulDetailView.do?mi=123575&schdulSeq=1012115",
+        "무주"
+      ],
+      [
+        16,
+        "2026 스키캠프교실 운영",
+        "맘이베베 (핫딜, 육아, 놀이)",
+        "http://www.gimjesportal.or.kr/_hbbs/hbbs.php?boId=photo&am=re&idx=498",
+        "확인 불가"
+      ],
+      [
+        17,
+        "2025년 동계 무주스키캠프 참가자 모집안내",
+        "맘이베베 (핫딜, 육아, 놀이)",
+        "https://www.bwsportsclub.com/bbs/board.php?bo_table=06_01&wr_id=153",
+        "확인 불가"
+      ],
+      [
+        18,
+        "wleports.comwww.wleports.com",
+        "맘이베베 (핫딜, 육아, 놀이)",
+        "http://www.wleports.com/",
+        "확인 불가"
+      ],
+      [
+        19,
+        "2025.12~2026.02 무주 스키장 캠프~ - 함평시온원 - 시온원 사진",
+        "맘이베베 (핫딜, 육아, 놀이)",
+        "http://www.jncsw.org/sion/index.php?gscode=42&docu=view&no=854",
+        "확인 불가"
+      ],
+      [
+        20,
+        "맘님들 무주 스키캠프? 다녀오신분 정보부탁드려요.",
+        "여수맘들 모여라~☆",
+        "https://cafe.naver.com/yeosumam/1663410?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Inllb3N1bWFtIiwiYXJ0aWNsZUlkIjoxNjYzNDEwLCJpc3N1ZWRBdCI6MTc4OTA0NzY2NDQxMH0.SOSMGt7v64nzoVaN5tY3r2-XCxm7Ta-c5tdgd0ptEuE",
+        "확인 불가"
+      ],
+      [
+        21,
+        "“수영장에 버블파티까지?” 무주더하루펜션, 직접 가보고 놀란 진짜 평점은..",
+        "Flow",
+        "https://blog.naver.com/wavetoflow/224384949209",
+        "확인 불가"
+      ]
+    ],
+    "AI 브리핑": [
+      [
+        1,
+        "2025년 아름드리와 함께 떠나는 청소년 스키캠프 시즌2 참가자 모집동구 청소년 문화의 집 아름드리",
+        "areumdree.or.kr",
+        "https://areumdree.or.kr/aboard/view.html?a_tname=aboard_list_notice&b_idx=231",
+        "확인 불가"
+      ],
+      [
+        2,
+        "2026년 겨울 무주스키캠프 참여 단체 모집 안내!김프로네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/kkim_pro/224400682267",
+        "확인 불가"
+      ],
+      [
+        3,
+        "다운로드 - 김제시청김제시청",
+        "www.gimje.go.kr",
+        "https://www.gimje.go.kr/synap/skin/doc.html?fn=173612845933032.hwp&rs=/upload_data/Synap/BBS_0000048/&cpath=",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주 스키캠프 예약 방법, 처음이라면 MJ 스키아카데미부터 확인하세요MJ스키아카데미네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/mjacademy008/224147827486",
+        "확인 불가"
+      ],
+      [
+        5,
+        "[안내] 2025년 유소년 스포츠 기반 구축 사업 (겨울방학 계절수업)대한스키·스노보드협회",
+        "ski.sports.or.kr",
+        "https://ski.sports.or.kr/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/?vid=440",
+        "안내"
+      ],
+      [
+        6,
+        "초보도 즐거웠던 2박 3일 무주산타스키 캠프! 스키 실력 UP, 친구들과 추억 UP, 자격증까지 일석삼조!혜빈네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/vomzejm985/224160399344",
+        "확인 불가"
+      ],
+      [
+        7,
+        "익산시체육회청소년스포츠안전교실 동계캠프 모집공고.hwp",
+        "iksansports.com",
+        "https://iksansports.com/ver2/include/file_download.php?sMenu=board_notice&uid=1040&iSeq=1",
+        "확인 불가"
+      ],
+      [
+        8,
+        "부산광역시거점스포츠클럽2025년 동계 무주스키캠프 참가자 모집안내",
+        "www.bwsportsclub.com",
+        "https://www.bwsportsclub.com/bbs/board.php?bo_table=06_01&wr_id=153",
+        "확인 불가"
+      ],
+      [
+        9,
+        "무주 덕유산 리조트전북 무주군 설천면 만선로 185 무주덕유산리조트4.2리뷰 4,673",
+        "map.naver.com",
+        "https://map.naver.com/p/entry/place/11583173?placePath=%2Fhome%3Fentry%3Dabr",
+        "확인 불가"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "무주 리조트회원권 시세분석",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/CoQv5kKAVUs9e9brPdl5SpSMo1t3V8RuRUoVQHb3jMsmJYXXMpJ6kdNLU8mgMpPyb5wLWWa7k_-h1QPr4gHSA2lryP-c2BOnXKC9xjLPtX-vUSUnSUUi_vu_ZAIB3EKaKbs_12BJY-7A7xFI8HP5TJg0FruWN7cQE0XGBfLfslxsa9dWQF3fZJ0nvi_6gQasy24FaIHUzj9tjMNmp7m1eCVo_rkwrIkR9tjrgpexihU4bZt1dmT6w2WtXoAEJFufpsnv817mUeU3PH7KvNDHUjA43Rq2BMJddvh0xjgNRXTmcsysUfY_JzZwsBSVN0or?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "무주스키캠프 , 숨고",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/Ng3n5gRK9Hu-_WZUKnBPA6wrYBxNYYmP7Drp2luoG-k5ew2wAyeuDWOqL-62fRFbBtZEMt9kNaBV8hA--nn8fglG-3W25L18quUJsXHiM-q20LsdWjpFJQ8vwjeB-dlG3xTpB2K9Umy3lDSvtyPfFm1rAX28s1a2Z0TD5YZ6oo0JRd8eBREXvqPNxjoiiYZAHCxnPEKG4ShtfOWzIXjH0_32df1Jumi54ZU82ptmz2tG4hFTqhy1bZ2ytdOSZ1J5tAhVEnossqR4Nob57u_snJGcBwUIrEp8yqsy7RsgxHA4IFyZ3J4jjg290RH0XPnvJX_4cwXdQDzHjMZ-eaOJw_DZ0k2OzIT9UQUA7R1CU94coQoZ1_SReWpEO4fOxq6J5uLwisaq4dppag-nwGXJ0nG7u8Mf9FLdDCFB4_miTwbkTg6HHYdq6tyzCqpGWGewMslYtpS0ccs7SIjOTieGp1QqahyGweylS8xc7PVWC_ePq63DhzEftVJAoMw1oQgmjtK4YzRxnkMI_-7sAFlYjvNcW5KkeFx4-_HyFyX4irpMmuOTG1Qqwh4PcuY6Kn7S8I8rWn2Bvasl7wz4GhEVPtZa_jdpXsa_3QPk7Ztmr46kl6AgMvgSrYop0ZNxX-RAwAPi8EbGkUlQH9cKP72Big==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "국내숙소 NOL 최저가! 오늘의 숙박 핫딜! 국내숙소 총 10만원 쿠폰팩",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/EJg1b-9uK61DNRhYHOJkUt4RSzz4Dlwh8MSBFi298TQN7MSC_TnvRRjLLKOFaanl2xBziCO8DBgz3LOEGVMn1hAjrBmCOCjfRzw8obQzym66JpGkz4MaqQUd-fpigbKXEdbNE-oXjfrsJK3iOjsK-fG06n91KJXI8dT-O2mAYGxCD3juYMI9T2rGjaGGAjuj1b5n3CdLB8EMZDZy2qT3dsiKz5HlAa6j3pK50zUnAqESeShKclWXEE6PkiuLHGs9g4AbDDvVDzqjoWqADKvTgJxteFvZ5yx0bT8YW0mVqhfbGqDpvQRubmPSWSEKbSRKSXqWn4zLb65rAV0K6bNWAtRzmMoZUApvjNfgKrEIaWpl66Uoh2Xiszp1Nx6AQSL3Vs_aLvM6iJEpwrbu8tuWEywZpyzJs0LbCu2TjL1gK7K1O9gdisZS6Ya7L2If2KeY7OrP66BdB9l6RFX3jFCAQ_EwXjZdRvrbv8eTh6PMJFQJFcC6bjspmmzTQSGguUAtp_k0sSQ8TTb8KdWUCylfcFwUsJpRBUAqDdeOAOsFRQsQM_QSnzGiTKi-Vq91cX8B?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      4,
+      "무주 펜션 명당에서 힐링하자~ 지친 그대여 오라~ 여기서 추억 쌓자~",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/5odnazoMp7ccLPzAmwvdZ9tCwbUNEzigSpCe3s36upeq6u6UwRXbjdbKk6z8q6Jbx-Bh3N2SqbvGs9YmqJkneh9bvDC9gDlvAGKbJUvfndWW7_jFHNw9z0U16PPAEJuW4EXDzVNjbfH_DKWZFKa-4NitSTChw0IBy45cgbgIivVJ9RT9vZhkV64_D5vmsi0Nwzi3g2wFPPt1k0eEZwrK2fzVbQ5qrWKxXNssAb6JP7aYyzxQdwM2qTjaxlSiAJqAphnDkMTAjk3bnGC40IeIZHuhdkjZYY5MSU-KpH4fORWzt6zkKVU_kEcrR8v0rwMPGSiG-qPkx6PKst6o6mBI21b-vzr4fSXWOADwhGupcJPIckS4dCvqEXP2hDg3gGHclVfNtPo6iOZdeTE7oZ9qO6igqK2zQeKH0sBqZ2gOt3Nv-91LupcRtvE6HTeuVyYTLqp2qpj2K10a1cY-SgJ-ZQ==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      5,
+      "무주 카라반 반딧불카라반캠핑장",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/CoQv5kKAVUs9e9brPdl5SpSMo1t3V8RuRUoVQHb3jMuSPpOBy2C4aXC3qE3vb7VWB8J9foIGMLLqlb7SSTdaiFI3wp5OlakbhXDuKN1BxFrrjCmfTlLEJOrtcDj7r0EkX7rsV-5n4xoYC_uYyYwfkSTXE-8ztN6POLFCNuj9NK-tCDaMseWqQT13nEPNgkRrJpeMQJnbTUKHh83HBl9Z8WqTwgDgwXkiIcJ5e8I5Gl3RBIitmEgktUfo8Mm73vZTFhSjPsA9aV_pGDFWUjIhyE0O5C9_nY1kzlXZ2xdqUWM=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      6,
+      "무주 스키 강습 RSS 스키 샵 국가대표영화 실제주인공 스키 샵",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/CoQv5kKAVUs9e9brPdl5SpSMo1t3V8RuRUoVQHb3jMvUjBVpwZa_kN8dl_uxXIaW5LItlqQc3WCl5TJnApkzx-I5jZWXSy3QmyczqokyETuNiIuKfYCxjGC9xbpMBfnfZaUQ3nizYSZ6qCs5rgx13r8fvB0dEVv8cPtYMPI6b5DyeOQQEmvKR3wV26z35Y3k9QEaSw_SliAv1U02Cf-DWmrD10xwkZCVmaqrmejmCprdI5WoPjdmlC6ff1kOgaTxVs0HJhJQ12zRzxcI9zt8YJ_94LEi7narPx9AVnT0Jgw=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      7,
+      "무주스키캠프 쿠팡",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/QBeGs-ZZbEPPUyTWh9GG-WF_PN5MzGlwU3Y9JeGPMoSU4npO9n4hrhGTrmdkFn8e_zmgYmcT3ZZtrFd1y3H57wbvDBVG1C7t0ZEDcQfRn-ybMIfiIygFqlY2U0tI0yfSAVI6ftKpZwHq8pXyTVtE9RboG6hdL-dUFiEUke5hA_dyGL8r2-YuJ697elZdqYLQchp7owPH3IpR2vJhW4JGGmLLKTOHSSdsK6XcKh0oRZ1VH742mKke_ruPF1x6H5xVwzDOBajR9C_C3D_AMrq00BbZF1fjnazx1xDxEfReOdJAa-vMno3_OdwLXE4kBxLbUftF1ft8kXvIp0K1tIY6qrD5J3R-v9Q_2liXNbhUWt6bibhOJS-Rmfz75bFcQrZZyQcDJEX2JM_1wp4itCQs0wTlMtGbIWvrQtfa7sYYPtx1NNOYQyym8jJDztuBYu2bJgWKmstTynn7_50S-GvUfEMCYaCGsbM8-KXtVZrdPLBAON6h5nPwbynbjEze-nB2g6XJlhEa9wf0IAefxQD0jhyD8utX4sQe56WfK1NQ6G4=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      8,
+      "실시간할인 베스트콘도",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/xVtYshSx6QSGXJPzTUYQWYgfO1F2i1r2Plgpt74Y6-M1wKsS6Rq-UQQlYvdLnqkAKG7JMS1k17tbFbkIaoPCUnOxNAxsFhhfEmfJ2XGOdPzp68eqCJA7qTVf8ejhexRnOSS5IwFD52DcbOcBDpyPK5PBBODtcWIagX0qCjAbZN_12klcYcoSH5s5zSfBsWJgMPByeH50bL1Sb79Tr0kidKU2V6pet0WG-JTdc9-LMKV0-T_9pM0NipwGX2eMg6HbH4cAz4ouSFvfGN6PYX6Cf5sA4nJb2aq6e06nXI1nzF-7eQhcSj0fMEQYEWRGIMv5GqO4tv2YaFzIN-ADrNzoKKOkkkQe5z96fY-a47Xyr3ZLqMG6tD567fnziWpMwxf0PBFRvnlZTm02Ug3GV55xwQRjZOJBA5a06YPAQxoC3q6uteA4ZDEmlbzu-uVlm4MKkOsOwqsL9cKlVa72beh27wt3wRBurgEZSMVWeHGQ1Tz-Jdkf1TvhiriZ24f9Gkyj?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      9,
+      "타스 스포츠 에이전시 스키 SPORTS AGENCY",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/CoQv5kKAVUs9e9brPdl5SpSMo1t3V8RuRUoVQHb3jMur_mwfm1EWivaQapaPsIccY9x17bE2wE6_wR7YqfrX2Rjc7FS4u0vKzJ5pw1k1WRAV6lwdx34yFEC_YgdyhE2wnl1fXfNnmbH0tlUBFbQQkS1GlpWxuCqC8cQ0-makPpTQy0FiTdA2Am_3euA60OmYDCUdIl82tzZmsYIorblCoPOCWXurdJglq3yakykkrmx7JfiDudA04AmzLtMSwEPgOOJdGINh8kAoq1Pj0mWO8Q==?c=naver.search.pc.plsearch&t=0"
+    ]
+  ],
+  "warnings": []
+}

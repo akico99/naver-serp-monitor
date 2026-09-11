@@ -1,0 +1,449 @@
+{
+  "observation": {
+    "keyword": "무주리조트스키장",
+    "region": "무주리조트스키장",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T22:00:16.247225+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5",
+    "raw_html_path": "data/raw/무주리조트스키장__pc__direct__20260910T220016.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "관련문서",
+      "meta": "게시물 2개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 2,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 3,
+      "name": "업체 상세정보",
+      "meta": "검색어와 정확히 일치하는 단일 업체의 상세페이지 — 경쟁업체 순위 없음",
+      "type": "업체 상세"
+    },
+    {
+      "order": 4,
+      "name": "함께 가볼만한 장소",
+      "meta": "광고 4개 · 자연결과 7개",
+      "type": "자연 + 광고 혼합"
+    },
+    {
+      "order": 5,
+      "name": "관련문서",
+      "meta": "게시물 10개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 6,
+      "name": "브랜드 콘텐츠",
+      "meta": "1개 노출",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 7,
+      "name": "관련문서",
+      "meta": "게시물 12개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 8,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [
+    [
+      1,
+      1,
+      1,
+      "플레이스 플러스"
+    ],
+    [
+      1,
+      2,
+      2,
+      "무주뚝배기"
+    ],
+    [
+      1,
+      3,
+      3,
+      "무주맛집 무주돌짜장"
+    ],
+    [
+      1,
+      4,
+      4,
+      "생두부촌 무주점"
+    ],
+    [
+      1,
+      5,
+      5,
+      "무주향"
+    ],
+    [
+      1,
+      6,
+      6,
+      "무주 청정다슬기맛집"
+    ],
+    [
+      1,
+      7,
+      7,
+      "미담 무주 본점"
+    ]
+  ],
+  "place_rankings": {
+    "함께 가볼만한 장소": [
+      [
+        1,
+        1,
+        1,
+        "플레이스 플러스"
+      ],
+      [
+        1,
+        2,
+        2,
+        "무주뚝배기"
+      ],
+      [
+        1,
+        3,
+        3,
+        "무주맛집 무주돌짜장"
+      ],
+      [
+        1,
+        4,
+        4,
+        "생두부촌 무주점"
+      ],
+      [
+        1,
+        5,
+        5,
+        "무주향"
+      ],
+      [
+        1,
+        6,
+        6,
+        "무주 청정다슬기맛집"
+      ],
+      [
+        1,
+        7,
+        7,
+        "미담 무주 본점"
+      ]
+    ]
+  },
+  "contents": {
+    "관련문서": [
+      [
+        1,
+        "무주 덕유산 리조트",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/",
+        "확인 불가"
+      ],
+      [
+        2,
+        "스키장운영현황 - ::: The Best Choice - Deogyusanresort",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/schedule.asp",
+        "확인 불가"
+      ],
+      [
+        3,
+        "무주스키> 여행지",
+        "korean.visitkorea.or.kr",
+        "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=1b54f2ab-23ea-42fd-97a9-1c5fdd94b144",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주덕유산리조트 스키장> 여행지",
+        "korean.visitkorea.or.kr",
+        "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=f0c438e8-8bd1-4bb8-a69e-9a5dcdc8b9f5",
+        "확인 불가"
+      ],
+      [
+        5,
+        "덕유산스키샵콘도 - 무주군문화관광",
+        "tour.muju.go.kr",
+        "https://tour.muju.go.kr/tour/selectTourCntntsDetail.do?key=75&tourNo=458",
+        "확인 불가"
+      ],
+      [
+        6,
+        "무주덕유산리조트 회원권 리프트 할인혜택 및 콘도회원권 거래소 시세",
+        "인생골프[조인동호회]",
+        "https://cafe.naver.com/golfkwang/1116888?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImdvbGZrd2FuZyIsImFydGljbGVJZCI6MTExNjg4OCwiaXNzdWVkQXQiOjE3ODkwNDUyMTY3MTV9.THDA6tTdCafBpHDkRa-2dAlIQ92quadJ4NszxLkrAgI",
+        "확인 불가"
+      ],
+      [
+        7,
+        "수영 코디카페 SHC(수영배우기,수영복,수경,수모,아레나,졸린)",
+        "인생골프[조인동호회]",
+        "https://cafe.naver.com/swimmingholicclub",
+        "확인 불가"
+      ],
+      [
+        8,
+        "무주 덕유산 리조트 야외수영장",
+        "인생골프[조인동호회]",
+        "https://cafe.naver.com/swimmingholicclub/3070813?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6InN3aW1taW5naG9saWNjbHViIiwiYXJ0aWNsZUlkIjozMDcwODEzLCJpc3N1ZWRBdCI6MTc4OTA0NTIxNjcxNX0.SUbwwsx3LKfeRK6WR--xf9yew1Ac1rw9m3JrBcOysMs",
+        "확인 불가"
+      ],
+      [
+        9,
+        "무주리조트 스키장 렌탈샵 할인",
+        "철이진이",
+        "https://blog.naver.com/hanke/224133607150",
+        "확인 불가"
+      ],
+      [
+        10,
+        "무주 스키샵 추천 무주리조트 리프트권 스키강습 비용 총정리",
+        "나비처럼",
+        "https://blog.naver.com/withou122/224102832162",
+        "확인 불가"
+      ],
+      [
+        11,
+        "무주 스키샵 추천 무주리조트 렌탈샵 스키장 초보 후기",
+        "하벨",
+        "https://blog.naver.com/pkj5456/224129918312",
+        "확인 불가"
+      ],
+      [
+        12,
+        "무주리조트 렌탈샵 추천 스키강습 리프트권",
+        "태운",
+        "https://blog.naver.com/amyangela/224105296543",
+        "확인 불가"
+      ],
+      [
+        13,
+        "무주 덕유산 리조트",
+        "namu.wiki",
+        "https://namu.wiki/w/%EB%AC%B4%EC%A3%BC%20%EB%8D%95%EC%9C%A0%EC%82%B0%20%EB%A6%AC%EC%A1%B0%ED%8A%B8",
+        "확인 불가"
+      ],
+      [
+        14,
+        "무주리조트 스키장 가격 곤도라 리프트권 렌탈샵 후기",
+        "프릴",
+        "https://blog.naver.com/jinidag/224140931204",
+        "확인 불가"
+      ],
+      [
+        15,
+        "무주 스키샵 추천 무주리조트 스키강습",
+        "치부르",
+        "https://blog.naver.com/castpd/224106647591",
+        "확인 불가"
+      ],
+      [
+        16,
+        "무주스키장 렌탈샵 후기 무주 리조트 가볼만한곳",
+        "일상탈출",
+        "https://blog.naver.com/tcacyc/224164711175",
+        "확인 불가"
+      ],
+      [
+        17,
+        "여행충",
+        "일상탈출",
+        "https://www.youtube.com/channel/UCKPVgf3gEwwh7A9GbSGDeJg",
+        "확인 불가"
+      ],
+      [
+        18,
+        "10년만에 놀러간 무주 리조트 스키장에서 거의 전세로 보드타고 온 13년차 낙엽보더",
+        "YouTube",
+        "https://www.youtube.com/watch?v=Oa6q7VPV0i0",
+        "확인 불가"
+      ],
+      [
+        19,
+        "무주리조트 스키장 이용문의드려요.",
+        "전주&전북 알뜰맘",
+        "https://cafe.naver.com/wjswnaka/4904342?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Indqc3duYWthIiwiYXJ0aWNsZUlkIjo0OTA0MzQyLCJpc3N1ZWRBdCI6MTc4OTA0NTIxNjcxNX0.2zNJR8xEM3bwELncdORyj9ZNrf3k2UAVxPXe31j-iBI",
+        "확인 불가"
+      ],
+      [
+        20,
+        "무주덕유산리조트 - 디지털무주문화대전",
+        "전주&전북 알뜰맘",
+        "https://www.grandculture.net/muju/dir/GC06500208",
+        "확인 불가"
+      ],
+      [
+        21,
+        "무주 초이스스키샵",
+        "전주&전북 알뜰맘",
+        "http://www.kgrc.co.kr/",
+        "확인 불가"
+      ],
+      [
+        22,
+        "무주덕유산리조트 스키장 - 무주군 추천 액티비티/체험, 레포츠 즐길거리 및 예약",
+        "전주&전북 알뜰맘",
+        "https://info.koreacharts.com/tour/131123/contents.html",
+        "확인 불가"
+      ],
+      [
+        23,
+        "무주덕유산리조트 스키장 (2026) - 전북특별자치도 무주군 가볼만한곳",
+        "전주&전북 알뜰맘",
+        "https://www.korearank.com/tour/tour_detail.php?uid=14242",
+        "2026"
+      ],
+      [
+        24,
+        "무주 리조트 스키장 리프트 렌탈 이용 요금 할인 가는길 > 레포츠/놀이",
+        "전주&전북 알뜰맘",
+        "https://mdtour.kr/leports/52",
+        "확인 불가"
+      ]
+    ],
+    "브랜드 콘텐츠": [
+      [
+        1,
+        "무주오리",
+        "ader.naver.com",
+        "https://ader.naver.com/v1/Sp7ph4bq7JXiC2JpB4o6G2Ua_dzwtHcWe2IhoVAYGr4cf_Hf0BQeIc561_V3uT6DCtFhSLcUy-3Hz2_N3-pVKrXXGXNEmzH-91nLYpUdETmYDmVMa4e7CX2A3CC28eQ6htWNIPQvszIvqwakzjygxZB8AYfsK2cmabmZO5tB_oBE53wzEMGG5SffaHGAYqnmNgndu7XXzweRFWWRIUl06Vv2IbVd_MuSFSkciOBZRS7erE7e2PSWwYHwxS4dZPd6F829aFeQum8AKIQv-n5MiA==?c=naver.search.pc.pwc_pk&t=0",
+        "확인 불가"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "힐링되는 무주 좋은날펜션 전객실정수기!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/YR9nqRv9frD3FJEQRtt1Ugjr-nB5vRRQ8Lq3aEc2PU1ls4D9kaLkpc2zNdIC8uXZQGViCEMrV2rod0Yzg_-1comOE-j8n56tweU6Gn_A2apQ78ZDzbNwvcQwnMF6yuxWZzjyDF6Sko0X7k0YgsgSG9wsRHDKMfsxL5YS2IGwI-_MMi_t8FdWoJ70kuLsVIVvnQfO73bPmP3AHADcq1xsiiBRvz98n8NIq3X2QAVCxbpBffs3ecuFgIq7hJHDlcndZ7A3PZgFjgccTuwNcFif-E9NsBtB5DhBovCokCsMx1s=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "무주 풍경명소, 리틀프로방스 가족&커플&단체 다양한 객실 나는솔로 9기33기 촬영장소",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/uhgnjWccfsUh7Rwb8nB4mQhDqEmffCD5o45kaepSvnTHOOZ-Ep5pD_JbF-2PiCYaOyrM7UCPuoXTSkGI5t2SpTdBLd8L9IUBrkA2EuOOJNP99czl5wA2Zs9PYf-QEX_TkiPHxVUl0M8GYOU9QPyb8dHolvJsKj-NNyj9L_wtXja-FmLLLXY6EdHHYT0AUwpk4xibBoh7qTm79dp44zx7QAcQprdQVDGB9p56IAiN-ExgOTvB3cM3ujMWu28ux5SAaFCy4dNnlnpGSPkE4_RNkJcaH1Wy9t4XBvITnNBXxxYgaXdQpOVdA_nXXRQ4tas-H3oZSS8Yid9b3-LH16KL1Wfw1qvf9_jV_YGka2xjRTMwHv-6aa3r-_HtrF3BJLam41Kjs9PX6I0jOCXNcWCVjMqmtCxezi5hAUZgB9-VrCgPwE45sK5WZ648org4VYCK4ErNkpFrq8Zi0uQV6wK7DA==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "스키장 갈 땐 무주 굿 스키 스키장 패션왕 되는 법",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/sl95zoygWIM4uYMqlzS1E5jSw37aHcKETGAi2QJFDV_0mllcpujWFyGOcI6omMuP1bb-j6Ki3FufKj295QZrUhGGCGF7rYLRxD1jEd63O0EsMFJbuCwRcuPJdISSn7zwdBYGaPmpeWPLqGfaNAiP-v_m3a_YRmheN6-4g8YDaW9RIfYUYSKdri8gRaUWhoGozNBFO8vngB_UHLYe10jpueGsxzwrXCBODFlzFj7B_zoryTb6ONjGfdZNi7eq6zPbs6CGIhbl3STw0gfG-JYLw9hyrLrvkH2Ajp5GemdO3soHLLCd8Nnx0OKh3rWiPqCpoRxo7326WOpJW2V3RuhB-iaL6rh48b8AMn_z_llCDH-WtXsriCEtEKpZwIWKNxla771MLlhHlxwyp-jT6jKKrynoH90PkArFlr3rWofNuWIw1kE7kzJBTB1SVOp8STqH1aMZ-OICX_lETNRC4zv9FgvdWA15CxEtO5bX9SaOrWzjKf28JgU4-sEYX5SNPVRp?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      4,
+      "무주리조트 회원권 시세분석",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/YR9nqRv9frD3FJEQRtt1Ugjr-nB5vRRQ8Lq3aEc2PU3rng1YNhmNeXQ34IgzEQA6Ye1k9I8iTc_20nykNND9bGA8BZ7pEdNwE-o4YMPzif4rMKhA-tOK47FiAkqBqPD-xH0zi7wUH1eLamAsufwM9-d6c_qc-PKhw8Ie6BbM69Dnd18eJPyOyMxyxc3YZ7adkkNU4i36pu1NvIyOLHixFfBIvmBkptDeYf0JaBPI_4E0o2NDwT8-_674qZUxkGkbNEFeSS1d7NLLfOKxinLK6OeNsWXb2OqksHU-h0kqhUBd5KJMRYsYc9fuNgu2VFv_?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      5,
+      "그날 카라반&글램핑 재방문율이 높은 캠핑장",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/YR9nqRv9frD3FJEQRtt1Ugjr-nB5vRRQ8Lq3aEc2PU3G-fKBfBhZ-rfwA0ol0kk9y9xbhD-RhJrOrsICNVPOKbPolkE5EkyYklCHE41AlX33U5741rzv0ouyKT-gmmAODwLeAimfP-Bfzslunyg0G1JXqNT67cVQfkBubXXkeAJriYsfc1_L-z0KmKMt7ksGJ6HB7uVDWSw7bvW-85P6sNanlDcBDeXImw7T9WVDJ--5fGsxkZuSvqdGdS9H-KwbB3D43E-oDpWT2g_9oU8fgruJujgc_0_TwkcZ1U5eVJY=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      6,
+      "무주 펜션 명당에서 힐링하자~",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/PcvO56coY5OjilXL_IuRxMw24JS882OplJA08e3Fzsd3hMAjs-WjIUK8dt1vcjlH91TxdUKLn1TNYcZ4ZU6FyIbfZ5WITf-VibTsjKJPE-tstbymQsaClhk0O4yiVXf66634rESfpmWklew8IH6MwbBpHSVr87-SJ5KT3uNY7TIWE5e-ytGD6O4fSaSPT2gbeVbllA7dnm9hi0x9AGFNNEYkllKLie11PKWzTrKFgmC_tX7HreOYRPsIqOQEDmw6HCKq-5ZSfXwl_sbQtDQsFMtrhT_FAV0voX8y2EYNhtIIYkshTBk9isVocAQwz4ixXINbdiJdrbWM4Haw24SiKIjaf6rS5mUZf_jobe1mOjwrX65-h3NjCtRJV_0HpA0UmzEIXjRjHTCJyDuzWlF5XBdXRbdOa3DMtdimQNMpcabzFG8MWHwU8qL4L2rQHTDZpUAS1XLSQYRYqcvzlNSD-PIZ7nVvcGUXBXcyBLvT2dI=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      7,
+      "국내숙소 NOL 최저가! 오늘의 숙박 핫딜! 국내숙소 총 10만원 쿠폰팩",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/DRGVoIgEihAr14wTPzRhFyAYYQ-N1EUrFzNXDFryvumiOdGHkaQew7eFcUL_3kvlstVvtRJ63iaptfOxS5FrwciS2Vtnnh1T_rjDcju06ac1uqPg1IC7OmJfQsShVht1aIw6cmqAyPLKPsm-tocnR5bnHyzyyd0BY16Gw1j-YEI639Gme4dsr86izgK-E13NVkb4AVRT1YL7Y9rSLnEjAGUe5NQbmCBFL_S7r_T0G4oquCIbzwzMcQ7rNY7wwNRJEMPhzZz7HFHj0ZiyLU2PwaM0QRSeBvEQW48v2MvRa2ONwk5AgmNh8WNA6ci07dpe6qjBnOjsE3MaNzYkvyZ4fL5CbAhT4EuyoVLzmodZv8TRX8QcfGE2oH1T5tJGjuaKwWBjkdphWwGiyDqunfj8NNyrsz1Chr48RZVnN59scIIbabQ1DRhPFwzC4rswLqf26CAF1sjChX8VdqEUr-NmlqFAFXE4vf65SMy2EDBVZEY2fMXPwM-Y1rgjmJk2TZRZO6bVdB3p7oMlYCyVG6yn_jiUAHXMoD868QsrC8WnHXbY9fhR4X3XQLVTfvB2eSItSBRPOiU7ItNWo66w-0fWkg==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      8,
+      "무주 구천동, 무주 리조텔 덕유산 리조트 인근에 위치! 한국관광품질인증업소",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/YR9nqRv9frD3FJEQRtt1Ugjr-nB5vRRQ8Lq3aEc2PU1tSx52x5n6CN7mOknMhaz1fxjNi1_Q-3Ac9xhFLwC1_ipznRTc6igBZKdfGJd7OCRJHQO4CGdvIK0t89Pw4W3Av4kcTBZw__L6xUy96qpZWMeqVbx1cRq3HXotxXifgVgV6uyAxn9d3rk9H--28J_GI3pbyoolv6Jw7Zeny7UqcoLFuI36n3Wl3s4PHhRqOv-SHKPsGnZZ3JKMM8xvWLVX29aURI-2tfbLA9Zdns_gmAharUk1ItsjcyO7V2X8FOM=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      9,
+      "구천동 계곡1분 무주 홀리데이 라면무료 셀프존/당구장오픈! 어린이수영장/대형워터슬라이드",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/8tDz5PetEvOxOMNKfWnvNjNNNauf1IweHC8s5zntvYcXn49vmBU6ly-HjvhaT-3J5KsH3H3dlZIdaR57zd5Fm5VUm0uxLskGkoEepEKCj09tGbh31G6cqIxIHHcMDwxb_rRh-H2emCLe78MBmdXcq0ya_S6HaztGrBWLd3KRqoYU7nNXRXEFvSn4N5YccZOR2AgSlR7tXx0bfVjE7PNNmcPb5psGR4gdaYDe_Gp7BWv_qfym9OilaEPs-3CWXa71bNjIrpR7LVjM_90Ml0MRZRyinmWV2ZjiqS4ToIJ7jqH6smgLhJKhafO9WUzFlLc5eNgKMEbKTR86CIJ7473Y95hgEHTSOIGo-4Pf3MlosGxbjOusnJvk3F_g16sPTf6bLiOOtiRgAYd1W8XaZKvDbihlrOguGJjThd1WiwzBQdJSWfeWYhKUc4Vq0AZwdNWt_9guu6Ic7kjpoVWwr4HZh5QLlRqYMnHdUlqtsWljySc=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      10,
+      "무주 스키 강습 RSS 스키 샵 국가대표영화 실제주인공 스키 샵",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/YR9nqRv9frD3FJEQRtt1Ugjr-nB5vRRQ8Lq3aEc2PU318hkSLkFnNtmW-qtMWNXH5Nu98n6YFvoeNoXKKCceY6oM1KwJp87jM5FJiAITYIB0nwuYPPTQX2KlbTWZYq64hTBcvWVDzck7lDJNIZIw9AHy6HrC69ozsPcoXoMFpXRpvhzuzMiOwKYn330sDdHqiJa5lDRnYDyjg-os6mZe0FEJKhwoMYqfgZu84MqLWr4UMHKFOb_zudlsGO2MoGKyZuJM46-vbYY6WLilBOCmJfdJVvvly25JzOn3J9DnuTM=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "플레이스 광고",
+      1,
+      "구천동맛집",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      2,
+      "플레이스 플러스",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      3,
+      "일월",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      4,
+      "삼월",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ]
+  ],
+  "warnings": []
+}

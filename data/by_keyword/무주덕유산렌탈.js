@@ -1,0 +1,375 @@
+// 자동 생성 파일: collector/build_index.py 가 data/*.json 에서 다시 만듭니다. 직접 수정하지 마세요.
+window.SERP_DATA = {
+  "keyword": "무주덕유산렌탈",
+  "region": "무주덕유산렌탈",
+  "datasets": {
+    "pc": {
+      "direct": {
+        "blocks": [
+          {
+            "order": 1,
+            "name": "검색광고",
+            "meta": "검색광고 전용 블록",
+            "type": "광고",
+            "ad": true
+          },
+          {
+            "order": 2,
+            "name": "플레이스",
+            "meta": "광고 0개 · 자연결과 4개",
+            "type": "자연 + 광고 혼합"
+          },
+          {
+            "order": 3,
+            "name": "관련문서",
+            "meta": "게시물 7개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 4,
+            "name": "관련문서",
+            "meta": "게시물 22개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 5,
+            "name": "이미지",
+            "meta": "탐색 보조 영역",
+            "type": "콘텐츠"
+          }
+        ],
+        "competitors": [
+          [
+            1,
+            1,
+            1,
+            "무주스키샵 덕유산렌탈샵"
+          ],
+          [
+            1,
+            2,
+            2,
+            "무주스키샵 실크로드 렌탈샵"
+          ],
+          [
+            1,
+            3,
+            3,
+            "무주스키샵 렌탈샵 굿스키"
+          ],
+          [
+            1,
+            4,
+            4,
+            "스키일번지"
+          ]
+        ],
+        "place_rankings": {
+          "플레이스": [
+            [
+              1,
+              1,
+              1,
+              "무주스키샵 덕유산렌탈샵"
+            ],
+            [
+              1,
+              2,
+              2,
+              "무주스키샵 실크로드 렌탈샵"
+            ],
+            [
+              1,
+              3,
+              3,
+              "무주스키샵 렌탈샵 굿스키"
+            ],
+            [
+              1,
+              4,
+              4,
+              "스키일번지"
+            ]
+          ]
+        },
+        "contents": {
+          "관련문서": [
+            [
+              1,
+              "무주스키스쿨> 여행지",
+              "korean.visitkorea.or.kr",
+              "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=8830f265-4fae-4ee8-932d-00a74b42eb95",
+              "확인 불가"
+            ],
+            [
+              2,
+              "백암스키샵> 여행지",
+              "korean.visitkorea.or.kr",
+              "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=80ea51d3-82fd-47b8-b696-db408f2e091e",
+              "확인 불가"
+            ],
+            [
+              3,
+              "덕유산스키샵콘도 - 무주군문화관광",
+              "tour.muju.go.kr",
+              "https://tour.muju.go.kr/tour/selectTourCntntsDetail.do?key=75&tourNo=458",
+              "확인 불가"
+            ],
+            [
+              4,
+              "무주스키샵 현대렌탈샵",
+              "www.gomuju.com",
+              "http://www.gomuju.com/",
+              "확인 불가"
+            ],
+            [
+              5,
+              "무주 덕유산리조트 회원권 골드2차 및 26/27 시즌권 특가 총정리",
+              "강진우이사",
+              "https://blog.naver.com/titanum85/224402572187",
+              "확인 불가"
+            ],
+            [
+              6,
+              "♡친절한 골프,콘도,호텔 회원권 안내 김아미입니다",
+              "강진우이사",
+              "https://blog.naver.com/happy062300",
+              "확인 불가"
+            ],
+            [
+              7,
+              "무주 덕유산리조트 창립회원권｜실버·골드·로얄 혜택 비교 및 시세",
+              "강진우이사",
+              "https://blog.naver.com/happy062300/224399856345",
+              "확인 불가"
+            ],
+            [
+              8,
+              "회원권서치(주) 표차장의 회원권 정보 알리미",
+              "blog.naver.com",
+              "https://blog.naver.com/kangbe2000",
+              "확인 불가"
+            ],
+            [
+              9,
+              "※겨울 스키 천국- 무주덕유산리조트 콘도회원권 종류별 혜택 부터 2026년 9월 거래시세 정보 정리",
+              "blog.naver.com",
+              "https://blog.naver.com/kangbe2000/224397405946",
+              "확인 불가"
+            ],
+            [
+              10,
+              "섬장TV",
+              "www.youtube.com",
+              "https://www.youtube.com/channel/UCsVHXo0u9A6hknUF5q12nGA",
+              "확인 불가"
+            ],
+            [
+              11,
+              "무주리조트 200% 활용법｜스키·보드 렌탈부터 강사 예약까지 꿀팁 총정리",
+              "YouTube",
+              "https://www.youtube.com/watch?v=0Euk-zsqTvc",
+              "확인 불가"
+            ],
+            [
+              12,
+              "다낭 보물창고 - 다낭자유여행 다낭여행 다낭맛집 다낭리조트",
+              "YouTube",
+              "https://cafe.naver.com/grownman",
+              "확인 불가"
+            ],
+            [
+              13,
+              "무주덕유산리조트 렌탈샵 추천해요",
+              "YouTube",
+              "https://cafe.naver.com/grownman/1092250?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Imdyb3dubWFuIiwiYXJ0aWNsZUlkIjoxMDkyMjUwLCJpc3N1ZWRBdCI6MTc4OTA1MDc0MDAxM30.oGrq3og84M-a-hhDwhOecSq4SkcJGUlHi4t9vt4LqxM",
+              "확인 불가"
+            ],
+            [
+              14,
+              "무주스키 무주리조트스키렌탈샵",
+              "YouTube",
+              "http://www.mujuski.co.kr/",
+              "확인 불가"
+            ],
+            [
+              15,
+              "무주와우스키",
+              "YouTube",
+              "https://xn--9t4b19dvjx35a.com/",
+              "확인 불가"
+            ],
+            [
+              16,
+              "무주덕유산리조트",
+              "YouTube",
+              "https://www.mdysresort.com/ski/charge.asp",
+              "확인 불가"
+            ],
+            [
+              17,
+              "무주 스키샵|렌탈샵: 무주 최대규모 SKY 스키샵",
+              "YouTube",
+              "http://www.mujusky.co.kr/",
+              "확인 불가"
+            ],
+            [
+              18,
+              "무주하얀나라스키샵 무주스키샵 무주렌탈샵",
+              "YouTube",
+              "http://mujuskishop.com/",
+              "확인 불가"
+            ],
+            [
+              19,
+              "무주 정스키샵 무주정스키 무주정스키샵",
+              "YouTube",
+              "http://www.jungskishop.com/",
+              "확인 불가"
+            ],
+            [
+              20,
+              "도담도담 대전맘 ::: 임신&육아&교육&생활정보 :::",
+              "YouTube",
+              "https://cafe.naver.com/dodamdadam1004",
+              "확인 불가"
+            ],
+            [
+              21,
+              "무주 덕유산 리조트 스키샵을 소개합니다",
+              "YouTube",
+              "https://cafe.naver.com/dodamdadam1004/2743798?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRvZGFtZGFkYW0xMDA0IiwiYXJ0aWNsZUlkIjoyNzQzNzk4LCJpc3N1ZWRBdCI6MTc4OTA1MDc0MDAxNH0.MbStTXRstbhuGm2z6ZoJWs1c7JLT6xkVo6VdMdVfqQQ",
+              "확인 불가"
+            ],
+            [
+              22,
+              "부산 회원권 전문가 동부회원권거래소 부산지사",
+              "YouTube",
+              "https://blog.naver.com/smiletbj77",
+              "확인 불가"
+            ],
+            [
+              23,
+              "무주 덕유산 리조트 회원권, 로얄 창립 놓치면 안 될 포인트",
+              "YouTube",
+              "https://blog.naver.com/smiletbj77/224399374091",
+              "확인 불가"
+            ],
+            [
+              24,
+              "나트랑 도깨비 - 베트남 나트랑 자유여행,무이네,달랏,맛집,호텔",
+              "YouTube",
+              "https://cafe.naver.com/zzop",
+              "확인 불가"
+            ],
+            [
+              25,
+              "무주 덕유산 리조트 호텔 렌탈샵 곤도라 이용정보",
+              "YouTube",
+              "https://cafe.naver.com/zzop/3764971?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Inp6b3AiLCJhcnRpY2xlSWQiOjM3NjQ5NzEsImlzc3VlZEF0IjoxNzg5MDUwNzQwMDE0fQ.s8acIgrBLSFFqrCbMzX_ioLfTwIH0kMKb0xwKZxnZdQ",
+              "확인 불가"
+            ],
+            [
+              26,
+              "무주리조트 회원권 종류와 가격은 어떻게 구분되나? 예스 창립 실버 골드 로얄 exe 허니문 (덕유산)",
+              "회원권 급매 거래소",
+              "https://blog.naver.com/emsya3/224396197374",
+              "덕유산"
+            ],
+            [
+              27,
+              "덕유산리조트 제대로 즐기기 | 실버·골드창립회원권 및 2026년 추계 숙박패키지",
+              "나이스 골프 마켓",
+              "https://blog.naver.com/nice3274/224393566505",
+              "확인 불가"
+            ],
+            [
+              28,
+              "골프/리조트/휘트니스 회원권 거래 조성욱팀장",
+              "나이스 골프 마켓",
+              "https://blog.naver.com/114whtjddnr",
+              "확인 불가"
+            ],
+            [
+              29,
+              "고원 골프장 무주 덕유산cc 회원권 매매 정보",
+              "나이스 골프 마켓",
+              "https://blog.naver.com/114whtjddnr/224383314950",
+              "확인 불가"
+            ]
+          ]
+        },
+        "ads": [
+          [
+            "검색광고 블록",
+            1,
+            "인기호텔, 호텔스컴바인 인기숙소 최적가로 예약",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/Cs4JWKtGhfBZdqtobbbjFTQmzzc5B9ml4hfCncJCmU7JcVz8J2wf6z1s6n2ZGRCpieuZQEPVHT3QE4lRYGIsl8A5LyBJGR-prGRsJWeuIRWHCT8zg-hziWPWrFGz0lcJ7iShT7Yvrg8caXp7xc5GBjeGUFSXimr-L3paCU2EbRWB4Jeq-bGQrw4rdoXH1HnDqy3metPEADiq5dFvMv3gL1BFP118rqSHtrBpAtXyTHGPVukJHDRPCD-AjO6hSUh7lvUgvolCx7Dem0hdSBU-myuaZhu82CmWgL-KVO6dgOL2ZkpuF33zb-lyg1OEDByK2LkBdtTMxciGaNQ9sQrHwudWRpZ4FPeWJYdxREZzsDrKxSOGQzuwA6M1_wR7vz0hDu-dtx1BMYM7QewJPSHgwfZoCIYaW4GM0COVqJe-U22nsxLe7bc_Y1yu5zKtXqt-dUgPktl-znev2AS3GNbHqRYoaDymDPOT0g3ZCnlE0kCWBds-bLP9KnZx9kczm6b_eoUMduwIcnHbZefMqT6s6N3agwybbRUt7thZ66EH2Bs=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            2,
+            "무주 리조트회원권 시세분석",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/vaz4NL_uTzFaEEFm9iyp5_UcfVAz4MAT5dZWY_FXHNUkuSD6Ebw0It-rl8hhh_2vSM6aJ--lZI3rmhMvScZ5ojKvlPZ3qgUJjiwOQT0H8R9Y8Bkel36UIPEGgLBHGRZesEZLeCCW3Fyb5h0Ie4vhAOmYORUpU4wyLmru97YbML3sdXENOgbpY7yXqtUBSaBCQ8qYtu2wCvKczZdn-s06NjxiEGxkuCnTwMHmoVo7Q3gAeL5dlgOB6IKwgIKxGQ4VP7B9gDw5KjjKFZE4X630Cifcgq6SP0x0j6a35eF7ZbHKZiqHuktIfU_9BcfFRBUVRL42ZxY3FwsiRfPtE4DHP68JmkUmRnA6UHLWiTlCANtGK3O5uyCvhJxB_nSdcI5wIObsnn-TspwK4W5hg4m1HLIchIAICg3QsWcFn1tIPKIj9otaunWvrqcx1Z0n3IupsaGbHoCp6mkddxfy4uOLDVCxmfe_hluee-dG3utcn_c=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            3,
+            "쿠팡 무주덕유산렌탈 샵 와우회원 최대 87% 할인",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/faxZ41kDxC5xAebIy7rgYw97o6KLZvPnMmswf-Cfmp4bIhM5KnLJHoUH4W4SyIxv1k0O7LgeR5z_ETBFQ5KU7TKndyhvIrXtpQvreXXQ-EzB5tuwGBbtHwLSzzRlWuMdcG_TLj4gf5HlpKMmRNNgaC0CUmGwXiOd1An6LRnd9SRgCf_WDhNH9XAZL17MXUac8bXbnq70Lo9za13a0rR96qKYD5ft5JzkurBucRcEVW_RAr2GPs2qgLaWdSSULyJmKEy1lD7wbPAwz1iliCIZHNjErptXJH0DRDfs2zKxkpmj7pOAlKd6reTG6w2ygHlmjYaz3oppThGNoTdl4JLrhBRFZQcNO1J7PnVrAJI9grRxD8yJaYM_80nkhtC757LHaHRsXfrkoY6a-gcvhExfJ_yV6k5veq-Z91FKDidc5JVZJRnC_9kyU0YY7f6Uc_siQsL8rzYYI8rnc-0UAON7iJMoiwqYHqZmMB1cTgLHay1-471SsJ8gftay7IvZG06t80stqxpv4ecVDMOWyqmYwA==?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            4,
+            "최신 렌탈 샵 무주 RSS스키샵 국가대표영화 실제주인공스키샵",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/Ak0VOvdNHO7kmjdVM6Fxr-WwQH7R7lvDCE2kkUm2IFyfiuLjO4mlu91VGnYRwssloCoHKoi1pSQjzKUFLSbE2UKqiJh-ooy4GcYTmjyU3AMea2Y7C_8lUfGdJov1u2ShUXuVCjZHqYmjwhWjBYn4WU2zgzYcf4y4pUsnww7h1DglmNc1zK0ZY64RI_EGib55vaApROYe9bqlNIx-xnSuy6aUyGOWXLhTJgO57XOHoV_efYndhmX17PDQBrMWafL7vWwfPsLRDAbkwVhUTZbRUewg8njCmtGhA14eEzQ0lcs=?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            5,
+            "국내숙소 NOL에서 예약 오늘의 숙박 핫딜!",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/vfgwJUii5JJXJTZdNwtpZ9nD-8baVCRluIGBhR3o8-hXIRO3BJkcwniRUUoJ0Z9K8sCQjG-l7Zsm6PJSQML9dM3ddfatNs-1zD9BxB1yCZEgxzkSWfrvVfLsgKnHGtOmU4gQKaqJ7nfl0oefip8kj1-YOD85jw2xb3avbjojx8Fp1VetvA8P3N3Zp7JuSYWpBrTM9AA92_7qCT4qTqMtijPNEFhr2JjlDWNhZOCJyhJUWfkrYqZ2VV67_sHIJqhK5eDDwpQvVJWJo12icYVWuyhKdSeS2IMdqqwyl0wRhovxhxAJFMwJwYvKr7x-jJtHdEyMmnsDHIS0AKAvIFnnznrxEXEnhBsIrNCvomDzQJReckxJ0wd6YXJnV3qztuyhRKqAIn8MzpLU-vqBnAtK7xwyq1_DVvg11xZzUugbqM-Yb9TTev8L_4FdTb_DUqXYNzlFCq_XpO3lmYTnlM4rfF84n_fKoGpXB3dqOEXG7xLbFX-W37GLbczMrkgsvoDxo4aqphBMtjHp_5UOrqVp1-TBcSpoppYEpjlMOpaHXq3bTw1G9H7DDnexRDyECNGrXEh7AqUmi_k2C52w19Hlsw==?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            6,
+            "무주덕유산 리조트예약 트립닷컴 최대 50% 할인",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/HiUiUSYrvO9Px_XGSxx1RuJPtcfX-vGqdogtH4OXDpKBAb8stkuomC-wmBPpBPXm-hjrOwmTurdIxnJxnp5qaTsf4VsovRDaRgKSB3CSoMhWXStVpgN7ePOwdcZV1mQcZGUwUgEq1o5v_167IamEJtV9VMZl44nQNG6bA09EJK2ZdEkjjfDXA6PWf55EyhgFccYj2KSiOkTt3IB37fxIQ5sdc2O9Z4SaNUGAFsE9J9iLPXkUp3RkX7Y8wodPCnLROdKu_EKvf4Ekw9wblUaK6vhqp7l6Mjr0pp570blY-5qYKd2tAH-Gz7LEfGAgcgYE9BtBlw3y_bPtpLOMwfJMR1QVBHA-E69x3h12AwW4WHj-b-eZD7RM5wrD1_o5QmJTzxcMHGm5JLbNi-jHAs-N5Kx2Mx5JUeu5qrFrsbUR1SVcWV2Zeh2yMEMoAhLGmwWTuxjC_u439xCLUz_9LxcpV9t1aXUMD8ymg_GEYfb7hqkh9SwYAZeBznDfM6943x-q?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            7,
+            "실시간할인베스트콘도",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/0XqRjdZH1PEaWU53fkQjCDahD_tSAqknldO3RBfx2ZMrGX_hceHlJUwJa4TWU5rBq6sUREVCDT2BE1meNimGLcMbdzhSEhYsjxHBNIQibCwzj4Wk2xSUVDNGtS-d3D6yziwx5OQr7jRBpnKhtxeWSbs7OkO-o5guOKlP8d5iAEiI9AuJ8BIOAfa9L9-TB3hxyl4yow6dG2-FbWsbSgg3isbfGGzZJuMzxSuGKOlG0dAw07TyU_J8TPAul8KpQEPuzIIDq3GAdZyGw1uF7wBoZMu3lVY2zf7kDZv-EQwHo81vAx7OETgQBV51qCEczoqJTurnI2YlQp7xbMcdROm279Qw32bWDsu4OjRvZMkBBbB59FeHRpaA_XAiKg8aEELmO7EA_GtX4dCfrp4QsEVxMJ_k6xVYKjtEepIKcN_REI4xK6aVBYxbWWYESKqK7d6sNy2Wy9sFKRemmKaSdBdMK2u5uhWXGiZzzB9I10t4xCLDm3m0AcsMbHRIkeJ53AIlOJGFTS6bgAqnp0oJpiBGnQ==?c=naver.search.pc.plsearch&t=0"
+          ]
+        ],
+        "pages": 1,
+        "status": "ok",
+        "observation": {
+          "keyword": "무주덕유산렌탈",
+          "region": "무주덕유산렌탈",
+          "device": "pc",
+          "vantage": "direct",
+          "observed_at": "2026-09-10T23:32:19.746439+09:00",
+          "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EB%8D%95%EC%9C%A0%EC%82%B0%EB%A0%8C%ED%83%88",
+          "raw_html_path": "data/raw/무주덕유산렌탈__pc__direct__20260910T233219.html"
+        },
+        "warnings": []
+      }
+    }
+  }
+};

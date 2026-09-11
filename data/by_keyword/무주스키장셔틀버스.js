@@ -1,0 +1,237 @@
+// 자동 생성 파일: collector/build_index.py 가 data/*.json 에서 다시 만듭니다. 직접 수정하지 마세요.
+window.SERP_DATA = {
+  "keyword": "무주스키장셔틀버스",
+  "region": "무주스키장셔틀버스",
+  "datasets": {
+    "pc": {
+      "direct": {
+        "blocks": [
+          {
+            "order": 1,
+            "name": "AI 브리핑",
+            "meta": "2개 노출",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 2,
+            "name": "관련문서",
+            "meta": "게시물 5개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 3,
+            "name": "이미지",
+            "meta": "탐색 보조 영역",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 4,
+            "name": "관련문서",
+            "meta": "게시물 5개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 5,
+            "name": "관련문서",
+            "meta": "게시물 1개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 6,
+            "name": "관련문서",
+            "meta": "게시물 5개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 7,
+            "name": "관련문서",
+            "meta": "게시물 5개",
+            "type": "콘텐츠"
+          }
+        ],
+        "competitors": [],
+        "place_rankings": {},
+        "contents": {
+          "AI 브리핑": [
+            [
+              1,
+              "무주 리조트 가는 방법 셔틀버스 시간표 스키장 여행 가볼만한곳지우지유네이버 블로그",
+              "blog.naver.com",
+              "https://blog.naver.com/witchmomma/223339372128",
+              "확인 불가"
+            ],
+            [
+              2,
+              "무주리조트 스키장 오픈 개장일 예약 리프트권 장비렌탈 눈썰매장 가격 가는방법 셔틀버스 노선표 탑승요금전주달봉이네이버 블로그",
+              "blog.naver.com",
+              "https://blog.naver.com/sjh920519/224098864625",
+              "확인 불가"
+            ]
+          ],
+          "관련문서": [
+            [
+              1,
+              "무주덕유산리조트 - 무주 덕유산 리조트",
+              "www.mdysresort.com",
+              "https://www.mdysresort.com/guide/shuttle_bus.asp",
+              "확인 불가"
+            ],
+            [
+              2,
+              "무주 덕유산 리조트",
+              "www.mdysresort.com",
+              "https://www.mdysresort.com/",
+              "확인 불가"
+            ],
+            [
+              3,
+              "무주스키장 이용방법 슬로프 주차장 리프트권 가격",
+              "잘나가는은정",
+              "https://blog.naver.com/ejp8702/224109556088",
+              "확인 불가"
+            ],
+            [
+              4,
+              "무주리조트 스키장 오픈 개장일 예약 리프트권 장비렌탈 눈썰매장 가격 가는방법 셔틀버스 노선....",
+              "전주달봉이",
+              "https://blog.naver.com/sjh920519/224098864625",
+              "확인 불가"
+            ],
+            [
+              5,
+              "여수.순천.광양 출발 무주스키장 무주덕유산 곤도라예약",
+              "전주달봉이",
+              "http://www.tourpost.co.kr/index.html",
+              "확인 불가"
+            ],
+            [
+              6,
+              "무주덕유산스키장 뚜벅이 후기 | 스카이렌탈샵 내돈내산",
+              "둔산동 해적단",
+              "https://blog.naver.com/bigbang723/224173333587",
+              "확인 불가"
+            ],
+            [
+              7,
+              "[방법] 아무도 안 알려주길래, 직접 가서 알아온 뚜벅이의 무주 스키장 가는 방법 총정리 | 렌탈샵 ....",
+              "나",
+              "https://blog.naver.com/romanticloveyouth/224155171167",
+              "방법"
+            ],
+            [
+              8,
+              "무주리조트셔틀버스로 무주 당일치기｜대중교통 이용법 한눈 정리",
+              "House Palette",
+              "https://blog.naver.com/lon1024/224115763910",
+              "확인 불가"
+            ],
+            [
+              9,
+              "무주스키장당일치기 완벽 가이드｜무주스키장셔틀버스·픽업까지 정리",
+              "House Palette",
+              "https://blog.naver.com/lon1024/224111492302",
+              "확인 불가"
+            ],
+            [
+              10,
+              "서울~무주 시외버스 및 무주터미널~무주리조트 셔틀버스 시간표",
+              "House Palette",
+              "https://blog.naver.com/shipbest/224106907042",
+              "확인 불가"
+            ],
+            [
+              11,
+              "2026 무주반딧불축제 총정리｜일정·신비탐사·주차·아이와 가볼만한곳",
+              "mentorski.com",
+              "https://mentorski.com/mujublog/2026-%EB%AC%B4%EC%A3%BC%EB%B0%98%EB%94%A7%EB%B6%88%EC%B6%95%EC%A0%9C-%EC%B4%9D%EC%A0%95%EB%A6%AC%EC%9D%BC%EC%A0%95%EC%8B%A0%EB%B9%84%ED%83%90%EC%82%AC%EC%A3%BC%EC%B0%A8%EC%95%84%EC%9D%B4%EC%99%80-%EA%B0%80%EB%B3%BC%EB%A7%8C%ED%95%9C%EA%B3%B3/",
+              "확인 불가"
+            ],
+            [
+              12,
+              "무주 리조트 가는 방법 셔틀버스 시간표 스키장 여행 가볼만한곳",
+              "blog.naver.com",
+              "https://blog.naver.com/witchmomma/223339372128",
+              "확인 불가"
+            ],
+            [
+              13,
+              "뉴남광여행 셔틀시간 및 승차장소 - ▒ 뉴-남광여행 ▒ - 뉴남광여행 ,무주 스키장 전문 여행",
+              "www.nnktour.co.kr",
+              "http://www.nnktour.co.kr/new/3/1.htm",
+              "확인 불가"
+            ],
+            [
+              14,
+              "무주 덕유산 리조트 스키장 & 셔틀버스 안내",
+              "in.naver.com",
+              "https://in.naver.com/witch/topic/901581461715168",
+              "확인 불가"
+            ],
+            [
+              15,
+              "대전에서 무주리조트 스키장 가는법 - 대전에서 무주리조트 스키장 어떻게 가나요 ?? 자세하...",
+              "cboard.net",
+              "https://cboard.net/q/%EB%8C%80%EC%A0%84%EC%97%90%EC%84%9C-%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8-%EC%8A%A4%ED%82%A4%EC%9E%A5-%EA%B0%80%EB%8A%94%EB%B2%95-OF84",
+              "확인 불가"
+            ],
+            [
+              16,
+              "스키장/시즌권-3/3 무주스키장 무주시내~무주스키장 셔틀버스 질문",
+              "www.drspark.net",
+              "https://www.drspark.net/ski_qna/3817040",
+              "확인 불가"
+            ],
+            [
+              17,
+              "제30회 무주반딧불축제, 9일간의 힐링 여행 완벽 정리 (일정·숙소·주변 관광지)",
+              "알뜰쓸잡26님의 블로그",
+              "https://blog.naver.com/ho082k/224398681165",
+              "일정·숙소·주변 관광지"
+            ],
+            [
+              18,
+              "택시비 12,000 원 택시 전화 번호 010 - **** - **** * 곤돌라 탑승장에서 구천동 삼공리를 왕복하는 셔틀버스는 26년 3월부터 운행하지 않고 있다. 삼공리 ~ 백련사 5.7km 1시간 40분 어사길의 정취와 구천골의 신선함 무주리조트에서 타고 온 택시는 더 이상 올라갈 수 없는 곳, 등산로 입구에 우리를 내려 주었다. 폭염이 기승을 떨치고 있었으나 덕유산 자락 삼공리는 선선했다....",
+              "하루 뒤쪽에 서서",
+              "https://blog.naver.com/himnal2/224381983553",
+              "확인 불가"
+            ],
+            [
+              19,
+              "2026 무주반딧불축제 일정·공연 라인업 총정리｜아이와 가볼만한곳 & 무주펜션",
+              "무주스키샵 아리랑스키",
+              "https://blog.naver.com/red1232002/224384049972",
+              "확인 불가"
+            ],
+            [
+              20,
+              "[25.01.18~25.01.20] 무주 스키여행",
+              "집순이의 외출",
+              "https://blog.naver.com/asaslll/224393749208",
+              "25.01.18~25.01.20"
+            ],
+            [
+              21,
+              "무주 <-> 무주리조트 셔틀버스를 타기로. 참고로, 시외버스 타고 무주리조트에서 내리면 무주리조트삼거리에 내려주는데 여기서 무주리조트까지는 계속 오르막으로 대략 3.5키로... 정말 이십미터 앞도 안보일정도로 짙은 안개가 낀 상태로 스키 타는 분들은 사고 나지 않을까 우려되는 상황.... 일단 저는 편도 곤돌라표 (2만원) 구입하고 곤돌라승강장 (신한카드현수막)...",
+              "고윈클럽(GoWin Club)",
+              "https://cafe.naver.com/windstopper/354958?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IndpbmRzdG9wcGVyIiwiYXJ0aWNsZUlkIjozNTQ5NTgsImlzc3VlZEF0IjoxNzg5MDQ3MTc0OTM5fQ.aolczfuGJg5s9PokM9fqtkGfh3GYgmfmHxikkWBZpw0",
+              "2만원"
+            ]
+          ]
+        },
+        "ads": [],
+        "pages": 0,
+        "status": "ok",
+        "observation": {
+          "keyword": "무주스키장셔틀버스",
+          "region": "무주스키장셔틀버스",
+          "device": "pc",
+          "vantage": "direct",
+          "observed_at": "2026-09-10T22:32:54.457328+09:00",
+          "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%9E%A5%EC%85%94%ED%8B%80%EB%B2%84%EC%8A%A4",
+          "raw_html_path": "data/raw/무주스키장셔틀버스__pc__direct__20260910T223254.html"
+        },
+        "warnings": []
+      }
+    }
+  }
+};

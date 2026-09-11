@@ -1,0 +1,1164 @@
+{
+  "observation": {
+    "keyword": "무주펜션",
+    "region": "대구광역시",
+    "device": "pc",
+    "vantage": "daegu",
+    "observed_at": "2026-09-10T16:41:08.488103+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98",
+    "raw_html_path": "data/raw/무주펜션__pc__daegu__20260910T164108.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 2,
+      "name": "펜션 실시간 예약",
+      "meta": "광고 12개 · 자연결과 28개",
+      "type": "자연 + 광고 혼합"
+    },
+    {
+      "order": 3,
+      "name": "네이버 클립",
+      "meta": "24개 노출",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 4,
+      "name": "관련문서",
+      "meta": "게시물 11개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 5,
+      "name": "국내여행 관련 브랜드 콘텐츠",
+      "meta": "1개 노출",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 6,
+      "name": "플레이스",
+      "meta": "광고 0개 · 자연결과 30개",
+      "type": "자연 + 광고 혼합"
+    },
+    {
+      "order": 7,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 8,
+      "name": "관련문서",
+      "meta": "게시물 18개",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [
+    [
+      1,
+      1,
+      1,
+      "무곡"
+    ],
+    [
+      1,
+      2,
+      2,
+      "스케치펜션"
+    ],
+    [
+      1,
+      3,
+      3,
+      "리틀프로방스펜션"
+    ],
+    [
+      1,
+      4,
+      4,
+      "서림연가"
+    ],
+    [
+      1,
+      5,
+      5,
+      "더스위트펜션&글램핑"
+    ],
+    [
+      1,
+      6,
+      6,
+      "별서담풀빌라"
+    ],
+    [
+      1,
+      7,
+      7,
+      "무주홀리데이펜션"
+    ],
+    [
+      1,
+      8,
+      8,
+      "무주 향로산 자연휴양림"
+    ],
+    [
+      1,
+      9,
+      9,
+      "빌라드 무주 풀빌라 펜션"
+    ],
+    [
+      1,
+      10,
+      10,
+      "무주 풀빌라 별"
+    ],
+    [
+      1,
+      11,
+      11,
+      "더시즌 무주"
+    ],
+    [
+      1,
+      12,
+      12,
+      "무주 센트럴리조트&스파"
+    ],
+    [
+      1,
+      13,
+      13,
+      "나린풀빌라"
+    ],
+    [
+      1,
+      14,
+      14,
+      "무주흙집풍경"
+    ],
+    [
+      1,
+      15,
+      15,
+      "무주모모펜션"
+    ],
+    [
+      1,
+      16,
+      16,
+      "반딧불이펜션"
+    ],
+    [
+      1,
+      17,
+      17,
+      "무주구천동카라반글램핑"
+    ],
+    [
+      1,
+      18,
+      18,
+      "무주 다다펜션"
+    ],
+    [
+      1,
+      19,
+      19,
+      "로베펜션"
+    ],
+    [
+      1,
+      20,
+      20,
+      "숲속의 아침"
+    ],
+    [
+      2,
+      1,
+      21,
+      "백암산장"
+    ],
+    [
+      2,
+      2,
+      22,
+      "힐링리조트 단풍마을휴펜션"
+    ],
+    [
+      2,
+      3,
+      23,
+      "더블유모텔"
+    ],
+    [
+      2,
+      4,
+      24,
+      "무주리조텔"
+    ],
+    [
+      2,
+      5,
+      25,
+      "무주글램핑&풀빌라카라반"
+    ],
+    [
+      2,
+      6,
+      26,
+      "무주 포레스트풀빌라"
+    ],
+    [
+      2,
+      7,
+      27,
+      "무주 오페라 복층 펜션 & 키즈 풀빌라"
+    ],
+    [
+      2,
+      8,
+      28,
+      "허니스테이"
+    ],
+    [
+      2,
+      9,
+      29,
+      "하늘땅펜션"
+    ],
+    [
+      2,
+      10,
+      30,
+      "알로프랑스"
+    ]
+  ],
+  "place_rankings": {
+    "펜션 실시간 예약": [
+      [
+        1,
+        1,
+        1,
+        "무곡"
+      ],
+      [
+        1,
+        2,
+        2,
+        "스케치펜션"
+      ],
+      [
+        1,
+        3,
+        3,
+        "무주글램핑&풀빌라카라반"
+      ],
+      [
+        1,
+        4,
+        4,
+        "서림연가"
+      ],
+      [
+        1,
+        5,
+        5,
+        "무주모모펜션"
+      ],
+      [
+        1,
+        6,
+        6,
+        "삼방로769"
+      ],
+      [
+        1,
+        7,
+        7,
+        "반딧불이펜션"
+      ],
+      [
+        1,
+        8,
+        8,
+        "무주구천동카라반글램핑"
+      ],
+      [
+        1,
+        9,
+        9,
+        "하늘땅펜션"
+      ],
+      [
+        1,
+        10,
+        10,
+        "무주 오페라 복층 펜션 & 키즈 풀빌라"
+      ],
+      [
+        1,
+        11,
+        11,
+        "리틀프로방스펜션"
+      ],
+      [
+        1,
+        12,
+        12,
+        "무주 포레스트풀빌라"
+      ],
+      [
+        1,
+        13,
+        13,
+        "백암산장"
+      ],
+      [
+        1,
+        14,
+        14,
+        "로베펜션"
+      ],
+      [
+        1,
+        15,
+        15,
+        "무주 다다펜션"
+      ],
+      [
+        1,
+        16,
+        16,
+        "무주별빛카라반펜션"
+      ],
+      [
+        1,
+        17,
+        17,
+        "더블유모텔"
+      ],
+      [
+        1,
+        18,
+        18,
+        "빛고을낙원펜션"
+      ],
+      [
+        1,
+        19,
+        19,
+        "더스위트펜션&글램핑"
+      ],
+      [
+        1,
+        20,
+        20,
+        "알로프랑스"
+      ],
+      [
+        2,
+        1,
+        21,
+        "더시즌 무주"
+      ],
+      [
+        2,
+        2,
+        22,
+        "풀하우스펜션"
+      ],
+      [
+        2,
+        3,
+        23,
+        "무주흙집풍경"
+      ],
+      [
+        2,
+        4,
+        24,
+        "살아생전 꼭 가봐야하는 산골독채펜션"
+      ],
+      [
+        2,
+        5,
+        25,
+        "무주홀리데이펜션"
+      ],
+      [
+        2,
+        6,
+        26,
+        "체리스펜션"
+      ],
+      [
+        2,
+        7,
+        27,
+        "무주마리나 풀빌라&스파펜션"
+      ],
+      [
+        2,
+        8,
+        28,
+        "더하루풀빌라펜션"
+      ]
+    ],
+    "플레이스": [
+      [
+        1,
+        1,
+        1,
+        "무곡"
+      ],
+      [
+        1,
+        2,
+        2,
+        "스케치펜션"
+      ],
+      [
+        1,
+        3,
+        3,
+        "리틀프로방스펜션"
+      ],
+      [
+        1,
+        4,
+        4,
+        "서림연가"
+      ],
+      [
+        1,
+        5,
+        5,
+        "더스위트펜션&글램핑"
+      ],
+      [
+        1,
+        6,
+        6,
+        "별서담풀빌라"
+      ],
+      [
+        1,
+        7,
+        7,
+        "무주홀리데이펜션"
+      ],
+      [
+        1,
+        8,
+        8,
+        "무주 향로산 자연휴양림"
+      ],
+      [
+        1,
+        9,
+        9,
+        "빌라드 무주 풀빌라 펜션"
+      ],
+      [
+        1,
+        10,
+        10,
+        "무주 풀빌라 별"
+      ],
+      [
+        1,
+        11,
+        11,
+        "더시즌 무주"
+      ],
+      [
+        1,
+        12,
+        12,
+        "무주 센트럴리조트&스파"
+      ],
+      [
+        1,
+        13,
+        13,
+        "나린풀빌라"
+      ],
+      [
+        1,
+        14,
+        14,
+        "무주흙집풍경"
+      ],
+      [
+        1,
+        15,
+        15,
+        "무주모모펜션"
+      ],
+      [
+        1,
+        16,
+        16,
+        "반딧불이펜션"
+      ],
+      [
+        1,
+        17,
+        17,
+        "무주구천동카라반글램핑"
+      ],
+      [
+        1,
+        18,
+        18,
+        "무주 다다펜션"
+      ],
+      [
+        1,
+        19,
+        19,
+        "로베펜션"
+      ],
+      [
+        1,
+        20,
+        20,
+        "숲속의 아침"
+      ],
+      [
+        2,
+        1,
+        21,
+        "백암산장"
+      ],
+      [
+        2,
+        2,
+        22,
+        "힐링리조트 단풍마을휴펜션"
+      ],
+      [
+        2,
+        3,
+        23,
+        "더블유모텔"
+      ],
+      [
+        2,
+        4,
+        24,
+        "무주리조텔"
+      ],
+      [
+        2,
+        5,
+        25,
+        "무주글램핑&풀빌라카라반"
+      ],
+      [
+        2,
+        6,
+        26,
+        "무주 포레스트풀빌라"
+      ],
+      [
+        2,
+        7,
+        27,
+        "무주 오페라 복층 펜션 & 키즈 풀빌라"
+      ],
+      [
+        2,
+        8,
+        28,
+        "허니스테이"
+      ],
+      [
+        2,
+        9,
+        29,
+        "하늘땅펜션"
+      ],
+      [
+        2,
+        10,
+        30,
+        "알로프랑스"
+      ]
+    ]
+  },
+  "contents": {
+    "네이버 클립": [
+      [
+        1,
+        "무주군 적상면 치목길 142-5 #무주단체펜션 #무주가족펜션 #무주펜션",
+        "m.naver.com",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%221%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=291B61D3C2CD204B8DE6C1D64EA7A49C6D5C&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        2,
+        "아침 #단풍마을휴 #무주펜션 #무주숙소 #무주여행 #대전근교여행...",
+        "봉봉이2시간 전조회 2",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%222%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=81D9FB250C350622BCCFBF6925410639CCC2&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        3,
+        "#무주독채펜션#무주가족페션#무주펜션#무주맛집",
+        "오라이 트립 대전21시간 전조회 40",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%223%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=99ED228E1E360CDF695A0E2EF7EBE7BB2F9A&serviceType=NTV",
+        "확인 불가"
+      ],
+      [
+        4,
+        "📍 무주 단풍마을 휴 펜션 #단풍마을휴 #무주펜션 #무주숙소...",
+        "한끼피디3일 전조회 14",
+        "https://m.naver.com/shorts/?mediaType=POST&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%224%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=6a9cd744a3a0e25812c75b9a&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주 홀리데이펜션 쟐로💛 #9월여행지 #무주여행 #무주펜션...",
+        "한끼피디3일 전조회 14",
+        "https://m.naver.com/shorts/?mediaType=POST&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%225%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=6a9642a09ebaf42e31d35a9e&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        6,
+        "공짜인곳💛 #9월여행지 #무주여행 #무주펜션 #무주홀리데이펜션...",
+        "심심할 틈 없는 씸씸이네1주 전",
+        "https://m.naver.com/shorts/?mediaType=POST&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%226%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=6a963818055e1b2209df4063&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        7,
+        "무주잉카펜션 #전북애견동반펜션 #무주애견동반 #무주펜션",
+        "심심할 틈 없는 씸씸이네1주 전",
+        "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=B0168D101ECBC7B27A63C10964006B52B35C&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22NoXI-KymQtmW5GdDaVAC%22%2C%22open%22%3Atrue%7D",
+        "확인 불가"
+      ],
+      [
+        8,
+        "순순희 #무주여행 #무주펜션 #가족펜션 #한강라면 #무주홀리데이펜션",
+        "주리1주 전조회 614",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%228%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=DA8F936EF5245DC3F572D2A0111826C28D30&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        9,
+        "MujuHoliday3주 전조회 292",
+        "주리1주 전조회 614",
+        "https://clip.naver.com/@mujuholiday",
+        "확인 불가"
+      ],
+      [
+        10,
+        "#무주여행 #무주풀빌라 #별사담 #무주펜션 #아이와가볼만한곳",
+        "주리1주 전조회 614",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%229%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=999EAA55846731C481D83237A4949323A82D&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        11,
+        "#무주펜션 #무주수영장펜션 #무주가족펜션 #무주여행 #수영장관리...",
+        "살림기준3주 전조회 5.0천",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2210%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=17640711829922D216E56DF736B5FC4E4A9B&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        12,
+        "🏡 무주펜션 구름채풀빌라 내돈내산! 9명이 스피츠 객실 이용했어요...",
+        "살림기준3주 전조회 5.0천",
+        "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=5AF0F7DE8FCD0D79B23966CEA2BFD94E1F9A&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%228drXfEksGkug2GkAMgWP%22%2C%22open%22%3Atrue%7D",
+        "확인 불가"
+      ],
+      [
+        13,
+        "맛집 뷰티 일상 여행2주 전조회 1.6천",
+        "살림기준3주 전조회 5.0천",
+        "https://clip.naver.com/@cobida3005",
+        "확인 불가"
+      ],
+      [
+        14,
+        "com/mujuholiday/224359723736 #무주펜션 #무주여행 #무주바비큐...",
+        "살림기준3주 전조회 5.0천",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2212%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=F71565CD60DC80347A6E5AA5B2AB3C43C783&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        15,
+        "무주홀리데이펜션 #무주펜션 #무주여행 #어린이물놀이장 #수영장펜션...",
+        "살림기준3주 전조회 5.0천",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2213%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=4A4DD804F2C15DADBA8AE365A802F6E826B5&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        16,
+        "정말정말 좋았던 무주 숙소♥♥♥ #무주숙소추천 #무주숙소 #무주펜션...",
+        "살림기준3주 전조회 5.0천",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2214%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=4BD8E83645F999F2C45ED96732A009E527A9&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        17,
+        "nicetomeetjoo3주 전조회 171",
+        "살림기준3주 전조회 5.0천",
+        "https://clip.naver.com/@nicetomeetjoo",
+        "확인 불가"
+      ],
+      [
+        18,
+        "#무주풀빌라 #무주구름채풀빌라 #무주숙소 #무주펜션 #무주독채펜션...",
+        "살림기준3주 전조회 5.0천",
+        "https://m.naver.com/shorts?serviceType=MOMENT&mediaType=VOD&seedMediaId=AFF426B79B65EDB7AEEDFDD59DB2767C49C0&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22PU0q8a9_yB1sa-IL6mQu%22%2C%22open%22%3Atrue%7D",
+        "확인 불가"
+      ],
+      [
+        19,
+        "고요💚 #무주펜션#무주독채펜션#무주숙소#무주글램핑#오늘여기챌린지",
+        "eiua3주 전조회 159",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2216%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=BD8958FA319CC432B6E49D6A553FBF3DD2BF&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        20,
+        "#무주펜션 #무주단체펜션 #무주단체숙소 #무주단체여행 #전북단체펜션...",
+        "아연니4주 전조회 333",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2217%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=D3CAFD54A7DB161CA691DF149D6880872A09&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        21,
+        "추천해요 :) #무주펜션 #무주꿈꾸는나무별 #무주여행 #구천동펜션...",
+        "아연니4주 전조회 333",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2218%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=2A76D07311109872C099F5539B8B89152CC2&serviceType=CLIP",
+        "확인 불가"
+      ],
+      [
+        22,
+        "카라반 캠핑 고요 #무주여행 #무주글램핑 #무주숙소 #무주캠핑 #무주펜션",
+        "루나로그3주 전조회 98",
+        "https://m.naver.com/shorts/?blogId=trip_tory&docNo=15620805&mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2219%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=D11DD79D2F65E3B0C48D216FDDAA4E7CE478&serviceType=MOMENT",
+        "확인 불가"
+      ],
+      [
+        23,
+        "무주 계곡 독채 펜션 단체 모임 원탑 추천",
+        "트립토리3주 전조회 376",
+        "https://m.naver.com/shorts/?mediaType=VOD&recId=%7B%22query%22%3A%22%EB%AC%B4%EC%A3%BC%ED%8E%9C%EC%85%98%22%2C%22seedIndex%22%3A%2220%22%2C%22type%22%3A%22ALL%22%2C%22order%22%3A%22RELATED%22%2C%22filter%22%3A%22LOW_QUALITY_LEVEL_3%22%2C%22theme%22%3A%22accommodation_list%22%2C%22now%22%3A%220%22%7D&recType=CLIP_SEARCH&seedMediaId=6FDA9EEE1DDC0C0D7E6184230217461E5B8B&serviceType=NTV",
+        "확인 불가"
+      ],
+      [
+        24,
+        "이승민의 푸드필름07.02조회 3.6천",
+        "트립토리3주 전조회 376",
+        "https://clip.naver.com/@sikpok_seoul",
+        "확인 불가"
+      ]
+    ],
+    "관련문서": [
+      [
+        1,
+        "무주펜션 - 무주군문화관광",
+        "tour.muju.go.kr",
+        "https://tour.muju.go.kr/reserveuser/selectClturCntntsView.do?clturCntntsNo=482&key=486",
+        "확인 불가"
+      ],
+      [
+        2,
+        "우리펜션 전북특별자치도 무주군 설천면 구천동로 1079-11 063-322-2323",
+        "tour.muju.go.kr",
+        "https://tour.muju.go.kr/reserveuser/selectTourCntntsDetail.do?key=&tourNo=520",
+        "확인 불가"
+      ],
+      [
+        3,
+        "베나자-베트남나트랑자유여행,달랏,무이네,호텔,투어,리조트맛집",
+        "cafe.naver.com",
+        "https://cafe.naver.com/mindy7857",
+        "확인 불가"
+      ],
+      [
+        4,
+        "[무주펜션추천] 2026 무주펜션 솔직 후기! 계곡 바로 앞 힐링 숙박 추천해요",
+        "cafe.naver.com",
+        "https://cafe.naver.com/mindy7857/5392697?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1pbmR5Nzg1NyIsImFydGljbGVJZCI6NTM5MjY5NywiaXNzdWVkQXQiOjE3ODkwMjU5MzMwMTZ9.6XDiyy51nXd81752RjmitizpLZjOKPdCdTvbk5vftmE",
+        "무주펜션추천"
+      ],
+      [
+        5,
+        "다낭 도깨비 - 베트남 다낭자유여행 ,다낭여행,맛집,호텔리조트",
+        "cafe.naver.com",
+        "https://cafe.naver.com/happyibook",
+        "확인 불가"
+      ],
+      [
+        6,
+        "무주 펜션 수영장 있어서 더 좋았던 후기",
+        "cafe.naver.com",
+        "https://cafe.naver.com/happyibook/6235351?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImhhcHB5aWJvb2siLCJhcnRpY2xlSWQiOjYyMzUzNTEsImlzc3VlZEF0IjoxNzg5MDI1OTMzMDE2fQ.GsiPWRw87kxs9olbpNXB24gZOLJXao9Yqsj_jNgNHfU",
+        "확인 불가"
+      ],
+      [
+        7,
+        "꾸미고놀자♥해외여행국내여행,뷰티,패션,예쁜숙소정보공유카페",
+        "cafe.naver.com",
+        "https://cafe.naver.com/mkrlfd",
+        "확인 불가"
+      ],
+      [
+        8,
+        "예티 관광펜션 무주 호텔 리뷰 (feat. 아고다 할인코드)",
+        "cafe.naver.com",
+        "https://cafe.naver.com/mkrlfd/810725?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1rcmxmZCIsImFydGljbGVJZCI6ODEwNzI1LCJpc3N1ZWRBdCI6MTc4OTAyNTkzMzAxNn0.LCmvG9gCyfv_CCOdiMI84MbYryEzj_SokTc0LGaNe2M",
+        "feat. 아고다 할인코드"
+      ],
+      [
+        9,
+        "무주 솔다박체험 펜션 찐 후기 (feat. 아고다 할인코드)",
+        "cafe.naver.com",
+        "https://cafe.naver.com/mkrlfd/808627?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1rcmxmZCIsImFydGljbGVJZCI6ODA4NjI3LCJpc3N1ZWRBdCI6MTc4OTAyNTkzMzAxNn0.agnOA0EM4dFywFX6IeR-QTxYN54WhMPvO02w9cS1RU8",
+        "feat. 아고다 할인코드"
+      ],
+      [
+        10,
+        "무주여행 빌라드 무주 풀빌라 펜션 숙소",
+        "센루크",
+        "https://blog.naver.com/lbmoon68/224386700423",
+        "확인 불가"
+      ],
+      [
+        11,
+        "무주 펜션 신상 대전근교 펜션 풀빌라 이용 후기",
+        "yoom",
+        "https://blog.naver.com/sin961027/224378370760",
+        "확인 불가"
+      ],
+      [
+        12,
+        "무주 독채 풀빌라 펜션, 별서담",
+        "나길",
+        "https://blog.naver.com/m_lovejin/224401336022",
+        "확인 불가"
+      ],
+      [
+        13,
+        "무주 홀리데이 펜션｜아이와 가기 좋았던 수영장 펜션, 쟐로 복층 객실 솔직 후기",
+        "심심할 틈 없는 씸씸이네",
+        "https://blog.naver.com/tlawlrhdwn/224397351818",
+        "확인 불가"
+      ],
+      [
+        14,
+        "[무주] 스케치펜션",
+        "내 맘대로 쓸래",
+        "https://blog.naver.com/jsh03052/224392834739",
+        "무주"
+      ],
+      [
+        15,
+        "ꜱᴜɴɴʏ ʟᴏɢ •̤᷆ ₃ •̤᷇ ฅ",
+        "내 맘대로 쓸래",
+        "https://blog.naver.com/luv-sunny",
+        "확인 불가"
+      ],
+      [
+        16,
+        "전북 무주 펜션 | 무곡 아랫말1 독채 풀빌라 내돈내산 후기",
+        "내 맘대로 쓸래",
+        "https://blog.naver.com/luv-sunny/224395170141",
+        "확인 불가"
+      ],
+      [
+        17,
+        "[무주숙소] 전북 무주 극가성비 숙소 8월 성수기 주말 4인기준 10만원, 무주 귀빈펜션",
+        "추억이 몽글몽글",
+        "https://blog.naver.com/ddayayayo/224387191962",
+        "무주숙소"
+      ],
+      [
+        18,
+        "무주 설국펜션 호텔 리뷰 (feat. 아고다 할인코드)",
+        "IDLE GOG 공식카페",
+        "https://cafe.naver.com/mansinrpg/425081?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbnNpbnJwZyIsImFydGljbGVJZCI6NDI1MDgxLCJpc3N1ZWRBdCI6MTc4OTAyNTkzMzAxNn0.KmnakD6wm4NflsMc8oOhnM_71aaFE1WOi0KO6SrTumY",
+        "feat. 아고다 할인코드"
+      ],
+      [
+        19,
+        "무주 추천 펜션 - Expedia",
+        "IDLE GOG 공식카페",
+        "https://www.expedia.co.kr/Muju-Pensions.d6201170-aaPensions.Travel-Guide-Accommodation",
+        "확인 불가"
+      ],
+      [
+        20,
+        "설국펜션> 여행지",
+        "IDLE GOG 공식카페",
+        "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=23781f26-1445-48e3-9308-4a40cac97ea9",
+        "확인 불가"
+      ],
+      [
+        21,
+        "무주펜션 산새소리> 여행지",
+        "IDLE GOG 공식카페",
+        "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d6fd4d45-4eec-4b32-8e81-3c4755edc5e4",
+        "확인 불가"
+      ],
+      [
+        22,
+        "무주 리틀프로방스펜션 후기 & 특가 예약, 무주군 2026",
+        "IDLE GOG 공식카페",
+        "https://kr.trip.com/hotels/muju-gun-hotel-detail-58064347/muju-little-provence/",
+        "확인 불가"
+      ],
+      [
+        23,
+        "무주 더 스위트 글램핑",
+        "IDLE GOG 공식카페",
+        "https://www.gocamping.or.kr/bsite/camp/info/read.do?c_no=8050",
+        "확인 불가"
+      ],
+      [
+        24,
+        "무주펜션포유",
+        "IDLE GOG 공식카페",
+        "https://www.pensionforyou.net/",
+        "확인 불가"
+      ],
+      [
+        25,
+        "무주키즈풀빌라펜션 | 무주 오페라복층펜션&키즈풀빌라! 독채로 다녀온 단체 숙소",
+        "유니크라이프",
+        "https://blog.naver.com/yunique_-/224390625201",
+        "확인 불가"
+      ],
+      [
+        26,
+        "무주 좋은날펜션",
+        "유니크라이프",
+        "http://xn--i20b124bm2a.net/",
+        "확인 불가"
+      ],
+      [
+        27,
+        "네이버 지식iN",
+        "유니크라이프",
+        "https://kin.naver.com/qna/detail.naver?dirId=40702&docId=494401779&kinsrch_src=pc_nx_urb&qb=66y07KO87Y6c7IWY",
+        "확인 불가"
+      ],
+      [
+        28,
+        "질문. 남성이며, 나이는 40대 중반입니다. 여러가지 사업실패와 건강상태가 좋치않아, 산중생활 할곳을 찾습니다. 좋은곳 알고 계시면 댓글 부탁드려요 감사합니다. 약2년정도 몸과 마음을 다스리며, 쉴곳을 찾습니다. 답변. 산중생활을 계획하고 계시다니 정말 멋진 결심이세요. 사업 실패와 건강 문제로 몸과 마음을 다스릴 수 있는 조용한 공간을 찾으신다니, 그런 곳에서 2년 정도 여유....",
+        "유니크라이프",
+        "https://kin.naver.com/qna/detail.naver?answerNo=2&dirId=40702&docId=494401779&kinsrch_src=pc_nx_urb&qb=66y07KO87Y6c7IWY#answer2",
+        "확인 불가"
+      ],
+      [
+        29,
+        "마선생얼큰국밥",
+        "유니크라이프",
+        "https://kin.naver.com/search/profileLink?answerNo=2&dirId=40702&docId=494401779&kinsrch_src=pc_nx_urb",
+        "확인 불가"
+      ]
+    ],
+    "국내여행 관련 브랜드 콘텐츠": [
+      [
+        1,
+        "풀빌라 별",
+        "ader.naver.com",
+        "https://ader.naver.com/v1/PpRM6dyk7oYUCnpFg6pBfyN39wZyjxwELQdKYO-B6OGFUaFmIC0NABMaJxfjK2RwQyOxk617T5pZ6Q47zlcKTt2EVRPG8XTVdQidoAPTplk2H0fl5AcL6CPBvIS_NRdyY3rvfJsLVj0oQ7wptJl1udtNrG5GhM-MpTHB7Z3cthfH37w_oEoQb-_PqbZG8y4-sQrj99NIssEBnpXfubw_2iD-DlD2VrNszD-ny2CE_5ZexAVbDNbn7hZjFZwmzvCtzYGN-SgWJDFomoDH30s_PQ==?c=naver.search.pc.pwc_pk&t=0",
+        "확인 불가"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "무주 더하루풀빌라 펜션 4계절 온수 무료 이벤트",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/8p53rKWeSEfwA0giBnUjM_BQy6nJeUamBt4GftFI7PgE3TTOmB8rO6jqDDYMsZ8HoHksvyzxabT2yqI4ApBqi_vHmbzyUK_9RRFK-4xljdmn9n2WPnyPZlzxQBgXVPyr56qZq4yzsBzprZzQLEANIra-bXuG3q7-ZkW9ZeOZZdNqzszwPcBuvgYs7Dt9Be4aPcIpTJH2np9wdGJ9s55EXIpunizDNxXI67WTVbtTMUUG3ksXd8otwJ2xmEJaZjRkzh2LEhqwB8fExH_A6IyWFfuSIdBrDLHthlYGFntNBWXo6Gsjk22Snjqd8evWWnt2iNR2DrQ7e2ovP7GB-J7oaSeRWHAJYAavI0-MWQ9UR2eQgsRnGlfv3gGg-sXF81-UIJ67XFVKopwgYxUc7CGRAsm3rSPU7MG19Ov5XhHWwemMRxIxYm_z567v01OjqjiolOxSR9hHbehkPtZHHDpTaiJ2_oRlV1bXqW06gSXleeU=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "25년 4월 오픈 신축 펜션",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/jAHwJPXMFhSx7IUfwb1y52vH4QhF0eHcJpideK5K3FwEcQFeZNd370UFSdRsGQIo8xfEJZ3p1S-R-SC_s3P4KrzZh3q1BGsUXKcB1kO_nQKHemTJeeX8kgyFiDrBGbH0w5idpPqqpOon-x-vuHdzm6MpQUz7cdm7rG-KkB4bCxrAnttRuyqdzE30FMVjssQK7jRiQOQPqj5thIZNpYiqdI0WkHmHGB2fPUwF4pTnGJnjerlIRSmLcnDpYCTOGD--Kboy7A4iIapTXkUw8gM0EbNznG2F7BrYRfV_iQ_J0bU=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "무주 마리나스파&스위트 펜션 피로를 날려줄 개별 대형스파 전화예약시 추가할인까지!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/jAHwJPXMFhSx7IUfwb1y52vH4QhF0eHcJpideK5K3FxR0w9MLKJmBmVhO1IGTPSHtWjqlXSCztepJZMcRlXkBjfOFb-iN_-HAE7kTMtIyAGYKjHft6uZY_GfIdDcJBB4YXnSqhUNHci5K-4W7ZhqyQWslsh5OGi1ZMq4qlAni7ojmkutSW4vegg0RZ2eQ0BPCJDUhkvhpbiExv8ar__24uoU2C-eAho2j1bvNG_Kf1-iTY_8umYb6PfLuFeOLtPhvviqcfIytE_hO7mI8iF-kw==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      4,
+      "구천동 계곡1분 무주 홀리데이 어린이수영장 대형워터슬라이드 투숙객 모든시설 무료!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/6KLh1-dVZOWQgQmaDKA4boDGWiFof58RLeMfc11pSZZMtM46d0w8JFJsRiYWVu6tcfV90GGoUaMsww1g4eZvgGVhLaa48IlXkMgw50HZzMpLOpboI55H7rGDiC7snhCzljYBxECpZkH7kOmMqlewGi2YB2Uvvo_A8MMseLjHHvuY-Q1_AqiMAL4bR713Susn7LkhDTXbhsut2fo7HjRC3r2_2sSkS3PUJ3JeVdsI4s-C3NJaOnv2rqprPnF_BTQAcUtQ3nJCtjwcq1Lwu46eIXHyRcb4RI2FhxY7ZnXijbKhbG2II0tbfJDoF8O1WJpF5kKIDP404mfb6reKDRptk31jZ7l7po7UBNGfklWqYtIkEc29YpSToOIWrsJtLqAaoPjSDUz35PO0JuFZHXDNvpw0rSOU9gMxKfpdCBoaQkf9mX27QeIG1t-eFN5O6hVe1GUnRhQOlJhghg6XSMOT_V_4qimgXCulpM5qN3zEt1k=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      5,
+      "별보이는침실 무주펜션 아일랜드",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/l-6gxzNGEPP0jwhxMmUCBhLFDNFSK9fS-2BnpQJpTWQcC3lPtihN_Z6M8iEQMibSiQAKnfucGG9VIA0H-u1J5MgBAZ4IaXSfdWHlkGTTcZqRIsJRUKs_DNght1Y3UfOcXQmAamjimkEBgQ1GCMQwbb5p7uiSGXy3_q2sba0Bky4Az7ZR6Ef_GH7cfzUxMWFHQWYL6CewKywlbJQLPwFsBysTuYCpoY58jt2w-6BfAb40aouufKHBSlx09IaiOqqnvaflDfP0Brr2F5O3FnD927CVJArx1dO4s4dJ25trtoCEZpL9RblFDrEL1NFMAqRubgH43ijiVPGRTyuTQaRfg64PA-8yRWIKOlKTINT8I8OxCP1TYLhU__geyqvfvORf17pUQZIA7MXpb2KQ-t1eZQl4PoGdNW4r_TEGHkCrOd3sO2ppxujKFml9Zn-2fFUPOaEbVO--wfBW9qMyioX-Ww==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      6,
+      "리틀프린스풀빌라 펜션 개별풀장 미온수무료!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/6KLh1-dVZOWQgQmaDKA4bhb62JSllwtza-gNM0uwksBIW1MDSx10funeKaJmewln45r5xNp23ZTXa6FFVUq5CYN-oFSjEfWdfCAYzHrELczNkHDWFv9_CGCYLC5RFEH8YUBd_G9AybBMLduP3HvAge0TR6F4P-z_8rFeBI-pKgy5wqYAcI0ObrSkkKwqAI8TPQgEE6mSs5z2-39zal3W83xvrjUqye6X4P3lG72X6v7OTu4sQkhWsThHT-ivhAL7pGP2ygH1X7f9W4sLAYQcczPz9-IgSffQxqmkzraepU5Nj-Y1J1698tO8UXbJtEmUQN2jwFc9Ark6eH9k8_3rJNGpSVXtx0KbDSFvfW974ZZ0JHt7LMFzDvPCGNaAKD4SdzWUCaCK3QTlsmpz4V3JlecR5Fqp-Q19GviM5PyvmCZDIrjpd6mPne1U9S_HqtNrfkHkgn5Uswrl4dNdWEn1bc6-nKEDICUCNQ1Ej6foucE=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      7,
+      "온수 수영장 펜션 알로프랑스",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/l-6gxzNGEPP0jwhxMmUCBqtv8uKbW3eEgDmrv7RZK_PChXWmCag6SYIcegxXNLF04tYgMwf8PP4S5sVwV43D-JK4BqMd57w2x9Oynh_IGLYGFm880x5orwdvNREdVDSuYblf4i2-OF53-H6Oh02zY_u2JGzGAwLibVYHOXnTUF0ILTzArRopOlJdd8OC_4qrS24YHBJmNuNJgGTuPYJVyfLwQoZFxvmnhjHM5E8XnxmH2vvgEG79zw2H4utBKd8-589NipB4Va4R2zr-B9HFryvFpWWqR1FpHChh8XWjO1nKe2RsOu1gzPdDbu91Q2kUpoOgZ3ZSKqhp_FyMIhyCCU0Y_O1M0jd3MZZz4zt7CXopcA-dWWf0DOPyqwyIrpR6kqOS58xN8wzNN1UprOTthf2Wed2ixeC_NS8-G_0ftuTgW7P38bRjk7DhPkvugcodPO6esuAM2TcSNseM44bKNg==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      8,
+      "무주 풍경명소, 리틀프로방스 가족&커플&단체 다양한 객실 나는솔로 9기33기 촬영장소",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/d8YRFxoWXPFLuZiWEuSxzVdkzG3qL64o43i0377UB5t4CgcX5x7CuO0WclVco20OwXl2yEVkHtiu--6SWxmVOPndHg7gnrweaJlY3C_KuuRkvkrX3V8764p2Z6hjxET17-7lp1bEax1xyVXEyHNe2qMW2cLscvqgv3RotBuMEZvwrgkKaHNFbbrZs_GOcDpWizEQL773JsAEEnLZyxpxwW7tAHmfOyhsv4u1yQUPG8fzMWBe-oNrv-6CwyuQJj0e0j-YuHBD8BXVP2fcBlpGrl1mRTMovwmzK_JbO3JUgyQUfFhwsJqIFElp8SfeH5FeAVPpZ5PscEHcwVlEPRWJvWNU_W_BLzlaNm1Ead87fCrRfb8oAn1S1jAcs_iYvEKPjMpSvO4_mOl0IRoPDAMxaj34pXei7jVASAKMfWnSunY64Fx5_dsZnr1fNXl91Q1qbxxmDMEY4VANYb0Y1aQ2Sg==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      9,
+      "무주 그안 펜션 주중10%할인 인기 펜션 ! 야외 온수풀 무료 펜션 앞계곡 개별바베큐",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/6KLh1-dVZOWQgQmaDKA4buLa58agXaoFFjKbKVsA4ydeU2I01A_XG9peVI_5Z_6MWz7HxSgD3Y3vQJ3X0ybi1RkfeJRCEyV8hGl2bIylgnJWP_DWqzsUVyGuCU_-dGMBDvOHjKHSpULGOrCx7II54i8f2Jk8V3byRWVd557la1Ka4QRgUXSlFhizjxsDKLI3mw9qOR5xw77vil4zVsqiqRqTU5TVAwQUXwjb2lrvhQiGWVR-jUkOjJ0aj-l493-GpT3XlmHSOINMYe1IJyozsHF73ovR7lzFI7Ng0DWOL1jqYiEnYtjj97R-ibEbazgzG3Zq6CJWq7h9wpmpfkqpMvnv_z3Zankn__Ke1soJekJkcbeiYp7tKZaxMHlBsr754TvUdlW1IrS7hA7OpPz9jkfTm5R3W9S4qi9EGIuuE9qq9RETs6hy3W6OMKltMcN1n6pjiSdDNP6jK1_8IkuWRA==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      10,
+      "힐링되는 무주 좋은날 펜션 전객실정수기!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/jAHwJPXMFhSx7IUfwb1y52vH4QhF0eHcJpideK5K3FxR0w9MLKJmBmVhO1IGTPSH9QKJSTDR2nDQ_wdjFQ-Zjx5sZid7QQF9qF-CxgxscqFxPS8ZC69nsUf3tRR8G0bG9r6G4AKTfvW47ckxJwEsaMSeTc8kgyf32UCTLV_Ivp0pUmtRyMdyGVMe1-NxbD7eNDP8H-EFxKsrdOXDOaPEpMKxzKmORIxJIu_nc9biYe1wofSna7akLti24kHYYn5WAhJzX_dWroC-TFL2pEvYQg==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "플레이스 광고",
+      1,
+      "더시즌 무주",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      2,
+      "살아생전 꼭 가봐야하는 산골독채펜션",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      3,
+      "바람의 언덕",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      4,
+      "풀하우스펜션",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      5,
+      "체리스펜션",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      6,
+      "무주마리나 풀빌라&스파펜션",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      7,
+      "호두나무펜션",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      8,
+      "강산에펜션",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      9,
+      "부리스테이",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      10,
+      "무주풀빌라옐로스톤",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      11,
+      "무주네버랜드펜션",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ],
+    [
+      "플레이스 광고",
+      12,
+      "미리내펜션",
+      "광고",
+      "플레이스 블록 내 노출",
+      ""
+    ]
+  ],
+  "warnings": []
+}

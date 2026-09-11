@@ -1,0 +1,454 @@
+{
+  "observation": {
+    "keyword": "무주리조트스키장개장일",
+    "region": "무주리조트스키장개장일",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T23:38:05.097327+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC",
+    "raw_html_path": "data/raw/무주리조트스키장개장일__pc__direct__20260910T233805.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "AI 브리핑",
+      "meta": "3개 노출",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 2,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 3,
+      "name": "관련문서",
+      "meta": "게시물 7개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 4,
+      "name": "플레이스",
+      "meta": "광고 0개 · 자연결과 0개",
+      "type": "자연 + 광고 혼합"
+    },
+    {
+      "order": 5,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 6,
+      "name": "관련문서",
+      "meta": "게시물 14개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 7,
+      "name": "네이버 가격비교",
+      "meta": "15개 노출",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 8,
+      "name": "네이버플러스 스토어",
+      "meta": "11개 노출",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [],
+  "place_rankings": {
+    "플레이스": []
+  },
+  "contents": {
+    "AI 브리핑": [
+      [
+        1,
+        "전국 스키장 개장일 2025 2026 용평 무주 곤지암 에덴벨리 하이원 리조트지우지유네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/witchmomma/224074884935",
+        "확인 불가"
+      ],
+      [
+        2,
+        "2025 2026 전국 스키장 개장일 [무주스키장 지산리조트 비발디파크 곤지암리조트 휘닉스파크 오크밸리리조트 웰리....양하디네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/yangllll/224081373295",
+        "확인 불가"
+      ],
+      [
+        3,
+        "스키장 폐장일 안내 용평 휘팍 하이원 무주 등 26년 총정리낭만하마네이버 블로그",
+        "blog.naver.com",
+        "https://blog.naver.com/bonakorea81/224183544950",
+        "확인 불가"
+      ]
+    ],
+    "관련문서": [
+      [
+        1,
+        "무주덕유산리조트 - 위키백과 한국어",
+        "ko.wikipedia.org",
+        "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%A3%BC%EB%8D%95%EC%9C%A0%EC%82%B0%EB%A6%AC%EC%A1%B0%ED%8A%B8",
+        "확인 불가"
+      ],
+      [
+        2,
+        "무주 통합 시즌권 구입",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/buy_season_pass01.asp",
+        "확인 불가"
+      ],
+      [
+        3,
+        "스키&보드 - ::: The Best Choice - Deogyusanresort",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/slope.asp",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주리조트 스키장 개장일 무주 덕유산 곤도라 케이블카",
+        "blog.naver.com",
+        "https://blog.naver.com/hnmh2332/224121981294",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주리조트 스키장 개장일 렌탈샵 가볼만한곳",
+        "채고얌",
+        "https://blog.naver.com/chaehj92/224089322944",
+        "확인 불가"
+      ],
+      [
+        6,
+        "무주스키장 개장일 스키 예약 및 이용방법",
+        "캠퍼도냥",
+        "https://blog.naver.com/uni_do/224079336724",
+        "확인 불가"
+      ],
+      [
+        7,
+        "25/26 무주 스키장 개장일과 리프트권 할인 렌탈요금 안내",
+        "별사탕",
+        "https://blog.naver.com/20aug19/224098225408",
+        "확인 불가"
+      ],
+      [
+        8,
+        "무주리조트 스키장 개장일 지금 화제의 포인트",
+        "pandarank.net",
+        "https://pandarank.net/contents/694de2170f822138a3df0f8c",
+        "확인 불가"
+      ],
+      [
+        9,
+        "무주리조트 스키장 개장일 논란 이유와 반응",
+        "pandarank.net",
+        "https://pandarank.net/contents/6951d74115e453422c7496f3",
+        "확인 불가"
+      ],
+      [
+        10,
+        "회원권서치(주) 표차장의 회원권 정보 알리미",
+        "blog.naver.com",
+        "https://blog.naver.com/kangbe2000",
+        "확인 불가"
+      ],
+      [
+        11,
+        "※겨울 스키 천국- 무주덕유산리조트 콘도회원권 종류별 혜택 부터 2026년 9월 거래시세 정보 정리",
+        "blog.naver.com",
+        "https://blog.naver.com/kangbe2000/224397405946",
+        "확인 불가"
+      ],
+      [
+        12,
+        "무주 스키샵 추천 무주리조트 리프트권 스키강습 비용 총정리",
+        "나비처럼",
+        "https://blog.naver.com/withou122/224102832162",
+        "확인 불가"
+      ],
+      [
+        13,
+        "무주리조트 스키장 개장일 렌탈샵 숙박 리프트권 스키강습",
+        "아연니",
+        "https://blog.naver.com/trip_ayeonny/224115839577",
+        "확인 불가"
+      ],
+      [
+        14,
+        "무주 스키장 시즌권, 정상가와 1차 할인가 차이가 53만원입니다",
+        "버터팝콘 하나 주세요",
+        "https://blog.naver.com/popcornlab/224402336308",
+        "확인 불가"
+      ],
+      [
+        15,
+        "무주 덕유산 리조트 스키장 개장일은? 운영 슬로프 정보",
+        "버터팝콘 하나 주세요",
+        "https://blog.naver.com/uni_do/223660318368",
+        "확인 불가"
+      ],
+      [
+        16,
+        "무주 정스키샵 무주정스키 무주정스키샵",
+        "버터팝콘 하나 주세요",
+        "http://www.jungskishop.com/",
+        "확인 불가"
+      ],
+      [
+        17,
+        "PS5와 친구들 [PS/PS5/VR/PS4PRO/PRO/플스/플레이스테이션/프로]",
+        "버터팝콘 하나 주세요",
+        "https://cafe.naver.com/ps3friend",
+        "확인 불가"
+      ],
+      [
+        18,
+        "스키장 추천좀 해주세요~~",
+        "버터팝콘 하나 주세요",
+        "https://cafe.naver.com/ps3friend/2304579?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6InBzM2ZyaWVuZCIsImFydGljbGVJZCI6MjMwNDU3OSwiaXNzdWVkQXQiOjE3ODkwNTEwODU0ODN9.j-17-YFXW2I9kBYMhCz-XoZ7TpolEcCMxQdrs99XS_Y",
+        "확인 불가"
+      ],
+      [
+        19,
+        "2026-2027 무주리조트 시즌권 총정리｜가격·1차 특가·패밀리 할인·통합권 I·II 비교",
+        "Everyday G’day",
+        "https://blog.naver.com/everydaygoodshot/224401657521",
+        "확인 불가"
+      ],
+      [
+        20,
+        "25/26 무주 스키장 리조트 개장일 케이블카 곤도라 CCTV 향적봉 상제루",
+        "강철새잎",
+        "https://blog.naver.com/pressinfo/224098006354",
+        "확인 불가"
+      ],
+      [
+        21,
+        "무주리조트 스키장 오픈 개장일 예약 리프트권 장비렌탈 눈썰매장 가격 가는방법 셔틀버스 노선....",
+        "전주달봉이",
+        "https://blog.naver.com/sjh920519/224098864625",
+        "확인 불가"
+      ]
+    ],
+    "네이버 가격비교": [
+      [
+        1,
+        "클릭",
+        "search.naver.com",
+        "https://search.naver.com/search.naver?sm=tab_clk.shpftc&qvt=0&query=%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%EC%82%AC%EC%9D%B4%ED%8A%B8%20nsite%3Anaver.com&ssc=tab.ur.all",
+        "확인 불가"
+      ],
+      [
+        2,
+        "무주스키장 리프트권 올인원 패키지 장비 스키샵 랜탈샵 주중 소인 강습",
+        "cr3.shopping.naver.com",
+        "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=81464285596&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&t=mtvmtoa3&h=f3f4e91760c229c2aa8a8e0c17c02301e20d364c&frm=NVSCPRO",
+        "확인 불가"
+      ],
+      [
+        3,
+        "무주스키장 아리랑스키샵",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Farirangski%3Fnl-ts-pid%3Djq7szdqVJ5RssQ3DEns-328124%26tr%3Dslsmn",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주스키장 한방풀패키지 리프트+장비+의류+바이저 헬멧+보호대 렌탈 스키샵 3시간 주중 대인",
+        "cr3.shopping.naver.com",
+        "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82293911536&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&t=mtvmtoa3&h=494f6cb5779603a54b5fa7aa63d18218f52d8afe&frm=NVSCPRO",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주리조트 에이스스키샵",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Faceskishop%3Fnl-ts-pid%3Djq7szdqVJ5RssQ3DEns-328124%26tr%3Dslsmn",
+        "확인 불가"
+      ],
+      [
+        6,
+        "한방 풀패키지 리프트권+장비+의류+바이저 헬멧+장갑+보호대 에이스 스키샵 주중 4시간 대인",
+        "cr3.shopping.naver.com",
+        "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82293907620&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&t=mtvmtoa4&h=7a85b1c44c920a39848106d8e7cdc9a51188a6f3&frm=NVSCPRO",
+        "확인 불가"
+      ],
+      [
+        7,
+        "리프트권 부터 엉덩이보호대까지 풀셋팅 스키샵 무주스키장 리조트 에이스 3시간 주중 소인",
+        "cr3.shopping.naver.com",
+        "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82796487159&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&t=mtvmtoa4&h=cd1042e721cefb1590f460c5feee718db6997ff2&frm=NVSCPRO",
+        "확인 불가"
+      ],
+      [
+        8,
+        "당일가능 무주스키장리프트권 올인원 스키보드의류헬멧 스키샵 주중주말 대인소인",
+        "cr3.shopping.naver.com",
+        "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=83584286946&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&t=mtvmtoa5&h=fdaa54cc9e9367978362cb710791ece4e0cce16e&frm=NVSCPRO",
+        "확인 불가"
+      ],
+      [
+        9,
+        "무주스키장 스키샵 렌탈샵 스키보드복 의류 장비 무주멘토샵",
+        "cr3.shopping.naver.com",
+        "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=83542543234&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&t=mtvmtoa5&h=3dfb231416a5a16b97f2d1a295bd292f48557f46&frm=NVSCPRO",
+        "확인 불가"
+      ],
+      [
+        10,
+        "무주스키샵 멘토",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmentorski%3Fnl-ts-pid%3Djq7szdqVJ5RssQ3DEns-328124%26tr%3Dslsmn",
+        "확인 불가"
+      ],
+      [
+        11,
+        "한방풀패키지 무주스키장 강습 무주스키장 스키샵 에이스 3시간 주중 소인",
+        "cr3.shopping.naver.com",
+        "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82793897671&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&t=mtvmtoa5&h=3f0dda409a931d0bbd76c5a466f7ece884e05722&frm=NVSCPRO",
+        "확인 불가"
+      ],
+      [
+        12,
+        "리프트권 무주 스키샵 렌탈샵 무주 스키장 강습 패키지 올인원 3시간권 주중소인",
+        "cr3.shopping.naver.com",
+        "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82293113711&cat_id=50007275&query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&t=mtvmtoa6&h=0f5bf38281fac3dec308fc75397d3b448d9c7d45&frm=NVSCPRO",
+        "확인 불가"
+      ],
+      [
+        13,
+        "킹스키샵",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fkingski%3Fnl-ts-pid%3Djq7szdqVJ5RssQ3DEns-328124%26tr%3Dslsmn",
+        "확인 불가"
+      ],
+      [
+        14,
+        "법적고지 및 안내",
+        "shopping.naver.com",
+        "https://shopping.naver.com/help/legal-basis",
+        "확인 불가"
+      ],
+      [
+        15,
+        "네이버 가격비교 더보기",
+        "search.shopping.naver.com",
+        "https://search.shopping.naver.com/search/all?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&frm=NVSCPRO&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124",
+        "확인 불가"
+      ]
+    ],
+    "네이버플러스 스토어": [
+      [
+        1,
+        "네이버플러스 멤버십 지금 시작하고 최대 5% 적립을 누려요!",
+        "nid.naver.com",
+        "https://nid.naver.com/membership/join?dtm_source=naver_plusshoping&dtm_medium=display&dtm_campaign=point",
+        "확인 불가"
+      ],
+      [
+        2,
+        "무주리조트 리프트권풀패키지 무주스키샵렌탈샵스키장",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/main/products/2312622876?nl-query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124&NaPm=ci%3Djq7szdqVJ5RssQ3DEns-328124%7Cct%3Dmtvmtq11%7Ctr%3Dnsls%7Csn%3D611891%7Chk%3D33ff86b1341cae4b72fb2c10a9e5356ef793dcc8",
+        "확인 불가"
+      ],
+      [
+        3,
+        "무주스키랜드",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmujuskiland&tr=nsls&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주리조트 스키장 장비대여 스키 보드 렌탈 이용권",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/main/products/12641714651?nl-query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124&NaPm=ci%3Djq7szdqVJ5RssQ3DEns-328124%7Cct%3Dmtvmtq12%7Ctr%3Dnsls%7Csn%3D12408155%7Chk%3D16c66390736372b3bb6399873bfa49543d95f27b",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주 스키렌탈샵",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmujuskirental&tr=nsls&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124",
+        "확인 불가"
+      ],
+      [
+        6,
+        "(현)국가대표의집 무주 리조트 스키장 스키 보드 강습 리프트권",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/main/products/11179526686?nl-query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124&NaPm=ci%3Djq7szdqVJ5RssQ3DEns-328124%7Cct%3Dmtvmtq12%7Ctr%3Dnsls%7Csn%3D1118252%7Chk%3D16c66390736372b3bb6399873bfa49543d95f27b",
+        "확인 불가"
+      ],
+      [
+        7,
+        "무주스키샵 강심장렌탈샵",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmjski&tr=nsls&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124",
+        "확인 불가"
+      ],
+      [
+        8,
+        "놀라운 가 격 무주리조트 리프트권 할인 장비 의류 장갑 바이저헬멧 렌탈 무주 스키장 스키월드",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/main/products/11250180730?nl-query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124&NaPm=ci%3Djq7szdqVJ5RssQ3DEns-328124%7Cct%3Dmtvmtq12%7Ctr%3Dnsls%7Csn%3D5038574%7Chk%3D16c66390736372b3bb6399873bfa49543d95f27b",
+        "확인 불가"
+      ],
+      [
+        9,
+        "여행과놀자",
+        "smartstore.naver.com",
+        "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftravel_and_play&tr=nsls&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124",
+        "확인 불가"
+      ],
+      [
+        10,
+        "법적고지 및 안내",
+        "shopping.naver.com",
+        "https://shopping.naver.com/help/legal-basis",
+        "확인 불가"
+      ],
+      [
+        11,
+        "네이버플러스 스토어 더보기",
+        "search.shopping.naver.com",
+        "https://search.shopping.naver.com/ns/search?query=%EB%AC%B4%EC%A3%BC%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5%EC%9D%BC&nl-ts-pid=jq7szdqVJ5RssQ3DEns-328124",
+        "확인 불가"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "무주 리조트 부킹닷컴 스페셜 특가 초특가 호텔 예약",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/JDKo8u-cKz4lzhY3yMq01ZObpoiW96zwY1o2AXL_nqQaCjhX6EbuAqp72MzvGpKutRPdmHCPyYD7FwSf2XSc8J7zZJpf1B3JraDfgLYtXWKuI5Kj-w9L3jq7lyxyi3q8HBqLq7HLKSQpKAmAx2IwsJb6knVyKL2koKSXJKH8v8HG1j9Ifhumf8tqVXAbcOsIUKApm1ZTqVOKfdhwqOq3KTskQXRG-CBCvc36S2TSuFZNoumKgALNOAwynBItygEjeoBXsYhweZWVnnQVnI68aVa2dpUQDgdgUpV1Gs_QAtnF-FyNlBk_3q6zT8rxYtRFyWdUMDzWrj1j0oOBw8x6QfPL9dBRF1jwwkU9LpHyJOhtY94BesLMwQBz-Pali095t1YCha3Hw0oYodzbgMS_rzTn_xb4s3qqTr8qprueWPlM5RcH9Ux9sfVEOj1VCcM9izqJCJZYvBnCX6YWI4nkMaf2KKlaIuNC_3ffSPqgd7I=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "국내숙소 NOL에서 예약 오늘의 숙박 핫딜! 국내숙소 총 10만원 쿠폰팩",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/DRGVoIgEihAr14wTPzRhF6XXMR0LYMWrYgIorPUwYrAZXUxlcF0Wv3dHXxlnSSW3Ak4_-EDRAH6bJNVgPxrenmf25DrUFkR1ktAztPGup1h9Wa9s1164qA-RmYTfI06h2A550Ux5HUqlWVKICiNlqFCqQ45HWKAQOtDAxmZQOmU9NFwXdV83HjhOMzAydDkVHjlkg7JcemsLRanWbK1MR7uGNSGltsbwBbBUicBYJS6HnCqu2Svdhj8EdhiW7N75e6ARx6eriLxlwhfZUNAhGUv7TIwEns8RELk6xA-uziOA7zjIx2PSl5K_SZfBH-MNa1gW1Eozt8omV56lQzeBqOxuLdrD3a2i2xISSnyHW2LFnRpUmnBMKC4NU8tww-mdinD6XQPGAmjzY4F_q234VxK8AWMBT4dr2v8W6exJWVX9snKUfvLhNRc5EsL4MnHc-nNHITjVY4bXeSjIKsVUw9uoVWYSk2xThUQ1ZF85YfUNDnIi5fx7evldAcojJSodg6Upns7GRa2xk4maM0FujK1jyEeBHI3snV0zBKMFQVCKW-0ub9CV-fMFfj5l4zXszASTHqC78bWH9CwKbnmQVHlDx7SF8SdQZ4cSEIZyp48=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "무주리조트 회원권 시세분석",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/IuCHNjFgVjFxiLkLbVCNmw4QPFs13YTKOMr4lnCtpJh893GUcCkLE5YeMWzpSIdtOKiTi_Rc3QN-nOSgEwyPHqle8ZVUKZ5nlC9MgANjn-Qh1kWxGZp-Uvohle_MB29jqSXn4S6E0LeBOnW9y23ENPCosRIL_ps2y0B30kO3gyB_jMfxTyhjbirqmIjg2mLu0Xlyt2tt-IGkr5rwL_QRJi8sNUwiLw5CS2b_aNonHlooraGeYhjw9oPAEjT22R2Vv56MaieyowL3ZvoJgaDPhFAFtfbQpdexII5Ft4B9M3pEfB9ewJ0RiNo9PTn_NelDJZwByrkmLyZ8qp_5rVSy-Q==?c=naver.search.pc.plsearch&t=0"
+    ]
+  ],
+  "warnings": []
+}

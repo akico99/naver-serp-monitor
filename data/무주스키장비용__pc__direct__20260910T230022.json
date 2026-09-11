@@ -1,0 +1,336 @@
+{
+  "observation": {
+    "keyword": "무주스키장비용",
+    "region": "무주스키장비용",
+    "device": "pc",
+    "vantage": "direct",
+    "observed_at": "2026-09-10T23:00:16.394451+09:00",
+    "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%9E%A5%EB%B9%84%EC%9A%A9",
+    "raw_html_path": "data/raw/무주스키장비용__pc__direct__20260910T230016.html"
+  },
+  "status": "ok",
+  "blocks": [
+    {
+      "order": 1,
+      "name": "검색광고",
+      "meta": "검색광고 전용 블록",
+      "type": "광고",
+      "ad": true
+    },
+    {
+      "order": 2,
+      "name": "플레이스",
+      "meta": "광고 0개 · 자연결과 0개",
+      "type": "자연 + 광고 혼합"
+    },
+    {
+      "order": 3,
+      "name": "관련문서",
+      "meta": "게시물 4개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 4,
+      "name": "이미지",
+      "meta": "탐색 보조 영역",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 5,
+      "name": "관련문서",
+      "meta": "게시물 4개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 6,
+      "name": "관련문서",
+      "meta": "게시물 6개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 7,
+      "name": "관련문서",
+      "meta": "게시물 6개",
+      "type": "콘텐츠"
+    },
+    {
+      "order": 8,
+      "name": "관련문서",
+      "meta": "게시물 6개",
+      "type": "콘텐츠"
+    }
+  ],
+  "competitors": [],
+  "place_rankings": {
+    "플레이스": []
+  },
+  "contents": {
+    "관련문서": [
+      [
+        1,
+        "무주 통합 시즌권 구입",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/buy_season_pass04.asp",
+        "확인 불가"
+      ],
+      [
+        2,
+        "요금안내 - ::: The Best Choice - Deogyusanresort",
+        "www.mdysresort.com",
+        "https://www.mdysresort.com/ski/charge.asp",
+        "확인 불가"
+      ],
+      [
+        3,
+        "무주리조트 렌탈샵 무주 스키장 리프트권 가격",
+        "blog.naver.com",
+        "https://blog.naver.com/cjh3445/224102864184",
+        "확인 불가"
+      ],
+      [
+        4,
+        "무주덕유산리조트 회원권 리프트 할인혜택 및 콘도회원권 거래소 시세",
+        "인생골프[조인동호회]",
+        "https://cafe.naver.com/golfkwang/1116888?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImdvbGZrd2FuZyIsImFydGljbGVJZCI6MTExNjg4OCwiaXNzdWVkQXQiOjE3ODkwNDg4MTY4NjF9.78wINGNavpjb9q8v4DzSrxCKuVdCSIJCpW0oSgBGC0g",
+        "확인 불가"
+      ],
+      [
+        5,
+        "무주 가족 스키강습 어린이 무주리조트 스키장 가격 할인",
+        "사부작",
+        "https://blog.naver.com/sabujak33/224152434035",
+        "확인 불가"
+      ],
+      [
+        6,
+        "무주스키장 렌탈샵 무주 가족스키강습 가격 후기",
+        "비야",
+        "https://blog.naver.com/hewtbylvv/224163333376",
+        "확인 불가"
+      ],
+      [
+        7,
+        "무주리조트 스키장 가격 곤도라 리프트권 렌탈샵 후기",
+        "프릴",
+        "https://blog.naver.com/jinidag/224140931204",
+        "확인 불가"
+      ],
+      [
+        8,
+        "[무주리조트] 2627 스키장 시즌권 구매 1차 오픈 09월23일까지, 34만원에 시즌권구매하기 (최대20만원....",
+        "JuJu",
+        "https://blog.naver.com/suk06027/224400925314",
+        "무주리조트"
+      ],
+      [
+        9,
+        "다이렉트웨딩카페-제이웨딩 결혼준비싸게하기",
+        "cafe.naver.com",
+        "https://cafe.naver.com/b00k2012",
+        "확인 불가"
+      ],
+      [
+        10,
+        "만족했던 무주스키장렌탈샵",
+        "cafe.naver.com",
+        "https://cafe.naver.com/b00k2012/1514617?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImIwMGsyMDEyIiwiYXJ0aWNsZUlkIjoxNTE0NjE3LCJpc3N1ZWRBdCI6MTc4OTA0ODgxNjg2MX0.Qd66oeS6aEFl84Ikw7tIZrZGm0Up3-8o0dguvPpQfGM",
+        "확인 불가"
+      ],
+      [
+        11,
+        "도담도담 대전맘 ::: 임신&육아&교육&생활정보 :::",
+        "cafe.naver.com",
+        "https://cafe.naver.com/dodamdadam1004",
+        "확인 불가"
+      ],
+      [
+        12,
+        "무주스키장 렌탈샵 리프트권 할인",
+        "cafe.naver.com",
+        "https://cafe.naver.com/dodamdadam1004/2745055?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRvZGFtZGFkYW0xMDA0IiwiYXJ0aWNsZUlkIjoyNzQ1MDU1LCJpc3N1ZWRBdCI6MTc4OTA0ODgxNjg2MX0.1rxidxbQZWLTXaCeyHpThgGUzba4op44DMwaGyatYYI",
+        "확인 불가"
+      ],
+      [
+        13,
+        "무주스키타러가면 비용얼마나 드나요?",
+        "진주아지매",
+        "https://cafe.naver.com/jinjululu/2671476?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Imppbmp1bHVsdSIsImFydGljbGVJZCI6MjY3MTQ3NiwiaXNzdWVkQXQiOjE3ODkwNDg4MTY4NjF9.oErhUcTtx58PnJQCKZgM2IST09WiZ3qZLKuHV9wRpe8",
+        "확인 불가"
+      ],
+      [
+        14,
+        "주식×)무주스키장 3인가족 비용문의 드려요",
+        "미국 주식이 미래다",
+        "https://cafe.naver.com/likeusstock/1361881?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Imxpa2V1c3N0b2NrIiwiYXJ0aWNsZUlkIjoxMzYxODgxLCJpc3N1ZWRBdCI6MTc4OTA0ODgxNjg2MX0.9BcMDLRFAyxOcDrHZhnZZrn1dbzWPO60CowgRt8R4vw",
+        "확인 불가"
+      ],
+      [
+        15,
+        "무주스키샵",
+        "mentorski.com",
+        "https://mentorski.com/",
+        "확인 불가"
+      ],
+      [
+        16,
+        "무주스키렌탈·무주보드렌탈 요금",
+        "mentorski.com",
+        "https://mentorski.com/%EB%A0%8C%ED%83%88%EC%9A%94%EA%B8%88",
+        "확인 불가"
+      ],
+      [
+        17,
+        "무주스키샵 스키라이프",
+        "skilife.co.kr",
+        "http://skilife.co.kr/",
+        "확인 불가"
+      ],
+      [
+        18,
+        "무주스키강습 무주국가대표스키 무주스카이스키 무주초이스스키",
+        "www.sbski.co.kr",
+        "https://www.sbski.co.kr/",
+        "확인 불가"
+      ],
+      [
+        19,
+        "무주 스키샵&프리미엄 렌탈샵 무주스키월드",
+        "www.mujuskiworld.com",
+        "http://www.mujuskiworld.com/",
+        "확인 불가"
+      ],
+      [
+        20,
+        "무주스키강습",
+        "mentorski.co.kr",
+        "https://mentorski.co.kr/",
+        "확인 불가"
+      ],
+      [
+        21,
+        "1월에 친구들이랑(6인) 무주스키장 비용질문드립니다 - 1월 19~21일 에2박3일로 갈려...",
+        "cboard.net",
+        "https://cboard.net/q/1%EC%9B%94%EC%97%90-%EC%B9%9C%EA%B5%AC%EB%93%A4%EC%9D%B4%EB%9E%91-6%EC%9D%B8-%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%9E%A5-%EB%B9%84%EC%9A%A9%EC%A7%88%EB%AC%B8%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4-MTAw",
+        "6인"
+      ],
+      [
+        22,
+        "회원권뱅크 공식블로그- 골프/콘도/헬스 회원권거래소",
+        "blog.naver.com",
+        "https://blog.naver.com/msbank80",
+        "확인 불가"
+      ],
+      [
+        23,
+        "무주리조트 회원권 가격, 실버·골드·로얄과 창립·2차 선택 기준",
+        "blog.naver.com",
+        "https://blog.naver.com/msbank80/224397247155",
+        "확인 불가"
+      ],
+      [
+        24,
+        "26/27 X6 스키 시즌권 가격(확정) 및 기타 스키장 시즌권 정보",
+        "굿맨",
+        "https://blog.naver.com/fodimple/224401674580",
+        "확정"
+      ],
+      [
+        25,
+        "회원권서치(주) 표차장의 회원권 정보 알리미",
+        "굿맨",
+        "https://blog.naver.com/kangbe2000",
+        "확인 불가"
+      ],
+      [
+        26,
+        "※겨울 스키 천국- 무주덕유산리조트 콘도회원권 종류별 혜택 부터 2026년 9월 거래시세 정보 정리",
+        "굿맨",
+        "https://blog.naver.com/kangbe2000/224397405946",
+        "확인 불가"
+      ]
+    ]
+  },
+  "ads": [
+    [
+      "검색광고 블록",
+      1,
+      "풀빌라 리틀프린스펜션 개별풀장 미온수무료!",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/SXoMJ4gJf2KanfRzrMU33HYOdykbopYWO407EC_vXQixSugB_z_NIPNyOlYuJHGaWCmg42gZ35ZGDLiJ_WilMdQHRJi7-QEDRkeODbts4C_N-IBoXa5hoXWCVTxAZ7-4MrzPxyJ7XLbj7zAgBem3YcqxUcGHmkxoMn3M_tMMWIDSbq50y1rcqFu4wsj1271i6MbnEz-IB3hfObUvrzK2f2MuUk_C33tEFSddrlKA3GE2g596x4hiVNMHE6QEFZ7QW3yA7RWdwW_mzhNOxzKcNyYTh2R8Q97qC2XWMVSO4Y2wEddhiQhsQjI_oQbtG4U8X4iwadNscL-Mb2XIdDwgzDhyB2cOXNHXyu3-3M6qvxjl1LgXWAH_FGJNrwLTvgEP2EBHdlfEbGA8rq464B3avm3YCAC5VVbpZQd4TlDfyPfFyUEpPspylxxsVWpZ4aLLAVf1UizjUR3hp6rsCKJpFQ==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      2,
+      "무주 리조트회원권 시세분석",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/s_KZdF3wnf4kD8pSohSBFM4UXFxS1y_7gA8yXZ58Y-76Gerr4yGzNPHG6cKhDf14POmwXp5_0eIgpPKCaHUcKtuOZuYdX-jV7MzREggPN8aVPIXEtLp-rXv-03uB-vtiDzYmfogkEQuVJruuK5qgsVXc9B-j4LKLOGyPmj1j_f2Dp0vUuFOdDDsltZPM_z-J7vv4gkbrpOtcsE13NT8ti9AtnYXwdjaU0--oTQEC-Qz3SkyHKb92ViVsaLkQ6r3oQr4a0Q8NP87CCsK9v3X2a0SGJJ-cCkTil48fKCKmFi46byhS9rYhOUbTb1iaqMZZ?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      3,
+      "무주스키장비용 아고다",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/5M0WafWmhj0REaZBxe3-wFtDWIMp_taH2sl_SLbYS87Rjav5wL9HZwpRIvdMO5MCVanV066Il0YE9jplwU4rdKtFS91P3gpXlo5iwbyJLUCFVP6aqNTMzs05An45lcYqwn3DjNQG2OQmti183MxwkHPzNAxpNzUdsMr6Sg9EA80Kfk_Mr0PlwW9coY12SVZBJLiTxJxlaely30ba06eV4gKGhGAYCPhxClnfZi7mqL5o7sAnv2xEDa1TTNZwZuL4Q3kzU050wOSv-jVgkcFvJnnh_d90FbhES_OpmYtDamSNj0s3PDIYO57U3NYf99ual9uvWTBLhOXbp2VkrbSYTHJJ6FfT8yDdHgTlkAxwv8gV9CYKsJRu6O6kgbEy1xcA4Xx9aDnKPTLzgtk8SlEedMdjYI-T1Da4g1WO7Tzjd76C3aMPYQx4HYSbjuPh98AHlgL0VVm-vFWLCghj0ViKNMchyDLWhBTwitKlGRLYR_ELur9nQ6YIeV87A7OYGq0MKWhbnjJWQxT0YU2FTi4o0nHzBu44aDygIQYtpTz5g9cWnoD22hHWl-0rOZb4Oop8hY3xiBXXY0Lc6YQjiUktqZBfYV6Zp_EDJN0OOUbuwKTT0YEHEywXYzhOyxxsW8te2ui48KGVzvVpvoFN3U4DE7SsP71zWUws_TPv9XQDdlAdBvf-qZldj_02R2k2QT4a?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      4,
+      "최신렌탈샵 무주 RSS 스키 샵 국가대표영화 실제주인공 스키 샵",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/s_KZdF3wnf4kD8pSohSBFM4UXFxS1y_7gA8yXZ58Y-7gw-7TK-aA1NmWM9w5MDpo38IGI6nLZkqKZkQBy3TFnoA97OqlI3ZmHYh67oUxWwvpMAQerKlRYTGCu-myp1yhOymkQ174H-qHktLJ_zZSm1VM_uT5PCtaCae9u1M9RzlFFQtEHZyak-mGOB7lN5RY0Y_MVv82XfudpSgcx3KJev1QNGbQucx8xgKtjyoF8kBufIBYYuiMF0T7RuXTk3CpHh2wMZu3T-crIH-L14lIkZh-Gnv8vNzjX2IcfhH09qY=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      5,
+      "생활의 기술, 숨고",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/amMEZh1Aob8swSl-cXQwMngFbi8naRW-7mCwnA5YLX6WdtLr-OFXVRaGt-_rrhqQwoFUXim8_FKMydoaXOljl-4qjXGvMEd4edWBbZAkXzjyCM7CCcogWme-kV9_bhWJWocXsBR_pXVfo-0rtpFtl6Dig24O9LoNWMktmwjHy4ri5t1hLRo9nXG2oNDCorDS06gUi0VcbmqOqwLS0AH75eYLwB9MddSFXdzHqWKQOkUln4OhzI36J6odEliMpTkkjbDI8l0D_dkuBY6aNGfZzQ3xs5HbifnBlDmAPLLzTNvs6YD-Ymkt3664VjkzKp2Dq7Jt218CsrBYuH71ku8mMs17m2qNIxlvC1bXlvymp1U6GTlgGygzMWSh-8BnK39Q8fqaO8mTBR0xz9uO4WWKkaiEjrYo6QqFWJxb5gdNLYLgbi0RW06YJxAc1Bi1tQ5DhcTboOnzPGurR35CnvBHvf_i99KtYejdNv_AnpVIWMVsyJ4qWjVZsr-ULtkptCmm0RnFTSMM9rocIIWR7PwFhDASL5vUfSbSJ7C4EKgjRLGXiAk9ytYZRbkfK50GrUAdjj4WWsO7Qp5hsn9K5tQCyeypYV4PIoahQXBX9kaid3ayKytCyrqNVkiPrUbrrD6R?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      6,
+      "최적가호텔예약, 호텔스컴바인 인기숙소 최적가로 예약",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/xSf9Ck1-Gexuu67nhT2_l43bcA3f-Rbwc0XyE6_yAHV6tcW7qOptI_N_xF_QMdOj8HOVghVnnfeAG8WXWECrVyuwjMFfdHPix9s-6gEbS7p0IunYMGX-Oyo2vJBahPxT5t8qpw-VtSPcxHVta_-MwJ9GPr3ezgDfhviYQHnmwb0CUSYlMDso3fWheMo5HPKJc5cMxkQxYRinq4eT-asxRkDNKMWcppJSmxb69oW7rBp6d__6xzaE9OW-qjtt39O2n2OI0wBRbGXKEOjSYAyVP3UwzXi81v50bVQadAbz1lzplw2TR0EJK8KmdtKRxxswQ4zdoecyVNH3lWdgRHa30KtPF0I0F2DzhWYEgJd1Vq_Rqlvd9VJz-uVs2qyw9vmJ05C_PhhUnYwvq-rD5ckyzsn6aLRZng6BTojy5sCXji3ynGztZgLTtQHpKh9cBNTNU5kdQPPnWQO8a9rox9suuzquIVt8xf35RI1-xehFX0qreB65T704TVjQD87jueJSkgWy49aykGufcws60jeLvzjKG26YgTedpClywJcje5o=?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      7,
+      "국내숙소 NOL 최저가! 오늘의 숙박 핫딜! 선착순 최대 20% 쿠폰",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/MBDJycxGZp3UleH3rI63rNWMY7wnLQJ5qapSiUUdaxg-4uLDSZa0SbF1q0pJWge6co0ebnExQ79P3zhR8UR6nHdoUgnW4Ie6NxU0Lu0M6TkTx9yDQj_9SX3SLnh3NqQwuCQuT0pj55Fy17TC3il_YUxFvK2NTMCiVSMTCZXXmzNJUnpCrA_8zx-u7RgkAMuaiwa0y85QpflGHwLPxNdYe9Htzd5s5zK6fCX0fGOIhgnsqW4Y28yX5eBRgXTYLwXWgZWlZJ_sFL2CZDclotzdrnkjN-vQCSyJ4wNgvAaEzeWEcK3TQQj3-NIyCAtLvunENIYm0CgfCWbhwOb8gisM6B8VMy5wku-5Dg_0yfPhiQbYd1zviTjvQvKWjc9qkz4VwN9fNUp3I9mZXyzxU0Zp9yLjRukbIElGnfgBdtwatq5oNa3X6zs6q5zO3Jq3SdqUS39alCquSWlGR12LfVfubx7XmoprYZVOoJs9VRaZx4Ll1oUpDeYkk6KWUwZEeuMit9i1v-mXIv9sMaMXvUBYZkT6WBQ69hlYuSlT4_40jMCmt7AbxMc4ZTTX0nfwqqcBCRhFfK-mWGLoNJNT11vwRw==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      8,
+      "무주 펜션 명당에서 힐링하자~ 날씨도 좋은데 드라이브갈까~ 여기서 모임하자~",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/A-cp1IjAussWOXEvicXyzVyg3ytMDDeLuSvefsq-7p9Nfri-rPCzw1_C2_4gV_L10RWxeshwaD7pCVx-Tnxj-aXS8jGedVhOC2_etUSSnie8zlkZZ5KWkXZ73KuhYGOGc8knBYInSL-VmK-pYzJcPB6sfzeoqsyBjPG0zgegq5aDcrWcA64gifvLmxYbIAC_yfvzhinLq9-uVBxTtUfDTRk95SwyGlIuZsuZc7pj_wkByD5uClhs23gN_Bxe_xUjRQc6GVYuqncxkjVnQmGmRh92XWbqGrUG7mBSVN7abn5-8QZfbK0uwr_c2Q9QIOPlwm6UJpx15l6O4o2oStmpVhL-9N0-7uNIPkBrEwTGiME0uWoglmiqQYmKP-0LU1e4W2SwiPLWOFw7qtJRGbtoIk4fdOKB_ARQ0cjnu1cJ5w212luyRG0GaYQwZ2JsgoLxJ3TPVgpw0QDxkNOS63lcog==?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      9,
+      "쿠팡 무주스키장 가격 와우회원 최대 87% 할인",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/iCN2veNDNMaX8mGmct4sVTBOcnvhTpbh8Y1dFw-BNnsfVFl9bGlEVnRrq_bdqFQqKvLIaa7e10fy-SeYp45TkBYUKoG1tQTn454ESpSSU2iAiI_RGbkSkyEWkL9xaIB6HQGVTcfBRRSfn4Hfv5n6b6nFGXa32ZGq_6oxU5NUJ9S5mihnnAHJjHIZbUZEfkdgyw4H8daUdOB0bTvb3R2uDsyE-YhAT8nS3cT9wuQvo3sSaJBVML6T_I6clKCLi3BSHG9F5G3gkyCGHwbjUTOsvbYDdiZvZUr-sFOuddY6C8aoHlfdV5kOL6s1KtS4AUuExsnE0ON7cqhJ8nKsN2_80n6k1kc39Bk9T2DNXPL4nup_fjMEkQFxdfq0wB_Bj68QHg5XGAvmXSyfuLSq1JNg9ZwS4w4xGSftZF1zFzUqqZmyZ-xZTdVKjf_hxz9Rq73X202hCesZXAhJl3PotRq8BmEvdbe2doFlSIUzAvy1MhqZRcUtZ5SsYNC8QLiaqkdGenOMtInru5mN6CTf2XLzI9DnnBpZ22VR54mpyL91hWDoW80dd1GtuslKQzNsnRyy?c=naver.search.pc.plsearch&t=0"
+    ],
+    [
+      "검색광고 블록",
+      10,
+      "무주스키장 리틀프린스 스키 샵",
+      "광고",
+      "별도 검색광고 영역",
+      "https://ader.naver.com/v1/s_KZdF3wnf4kD8pSohSBFM4UXFxS1y_7gA8yXZ58Y-7vtFfCm1DdbdivHj3qZAarJ6-A4LsGNUjGQz6uyEjzf5uTLy9H9_cnHVAd3Zv_3K3EAaAj7XnPnR_kml3Is_7GqWJC2ScTM_euV4qYS9SCRPwGpXWNsZD27mgDZayVGqt8mrY8hNgIphMh0mguKut_pprYpy9WVA-Zxpo0eJtAKG_UBCFq5a3yQyL5iH1UW5sCXSJsOIyL0vbZ8wX5QyFuUunAGJQxHp8VIQ580jnzg30HLvNxF8gE9_aBfnEtIf4=?c=naver.search.pc.plsearch&t=0"
+    ]
+  ],
+  "warnings": []
+}

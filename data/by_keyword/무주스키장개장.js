@@ -1,0 +1,520 @@
+// 자동 생성 파일: collector/build_index.py 가 data/*.json 에서 다시 만듭니다. 직접 수정하지 마세요.
+window.SERP_DATA = {
+  "keyword": "무주스키장개장",
+  "region": "무주스키장개장",
+  "datasets": {
+    "pc": {
+      "direct": {
+        "blocks": [
+          {
+            "order": 1,
+            "name": "검색광고",
+            "meta": "검색광고 전용 블록",
+            "type": "광고",
+            "ad": true
+          },
+          {
+            "order": 2,
+            "name": "업체 상세정보",
+            "meta": "검색어와 정확히 일치하는 단일 업체의 상세페이지 — 경쟁업체 순위 없음",
+            "type": "업체 상세"
+          },
+          {
+            "order": 3,
+            "name": "함께 가볼만한 장소",
+            "meta": "광고 4개 · 자연결과 12개",
+            "type": "자연 + 광고 혼합"
+          },
+          {
+            "order": 4,
+            "name": "관련문서",
+            "meta": "게시물 5개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 5,
+            "name": "관련문서",
+            "meta": "게시물 29개",
+            "type": "콘텐츠"
+          },
+          {
+            "order": 6,
+            "name": "이미지",
+            "meta": "탐색 보조 영역",
+            "type": "콘텐츠"
+          }
+        ],
+        "competitors": [
+          [
+            1,
+            1,
+            1,
+            "무주농원"
+          ],
+          [
+            1,
+            2,
+            2,
+            "무주돌짬뽕"
+          ],
+          [
+            1,
+            3,
+            3,
+            "무주오리"
+          ],
+          [
+            1,
+            4,
+            4,
+            "살아생전 꼭 가봐야하는 산골독채펜션가든"
+          ],
+          [
+            1,
+            5,
+            5,
+            "로그하우스"
+          ],
+          [
+            1,
+            6,
+            6,
+            "무주뚝배기"
+          ],
+          [
+            1,
+            7,
+            7,
+            "무주맛집 무주돌짜장"
+          ],
+          [
+            1,
+            8,
+            8,
+            "생두부촌 무주점"
+          ],
+          [
+            1,
+            9,
+            9,
+            "무주향"
+          ],
+          [
+            1,
+            10,
+            10,
+            "고양이발자국"
+          ],
+          [
+            1,
+            11,
+            11,
+            "무주 청정다슬기맛집"
+          ],
+          [
+            1,
+            12,
+            12,
+            "미담 무주 본점"
+          ]
+        ],
+        "place_rankings": {
+          "함께 가볼만한 장소": [
+            [
+              1,
+              1,
+              1,
+              "무주농원"
+            ],
+            [
+              1,
+              2,
+              2,
+              "무주돌짬뽕"
+            ],
+            [
+              1,
+              3,
+              3,
+              "무주오리"
+            ],
+            [
+              1,
+              4,
+              4,
+              "살아생전 꼭 가봐야하는 산골독채펜션가든"
+            ],
+            [
+              1,
+              5,
+              5,
+              "로그하우스"
+            ],
+            [
+              1,
+              6,
+              6,
+              "무주뚝배기"
+            ],
+            [
+              1,
+              7,
+              7,
+              "무주맛집 무주돌짜장"
+            ],
+            [
+              1,
+              8,
+              8,
+              "생두부촌 무주점"
+            ],
+            [
+              1,
+              9,
+              9,
+              "무주향"
+            ],
+            [
+              1,
+              10,
+              10,
+              "고양이발자국"
+            ],
+            [
+              1,
+              11,
+              11,
+              "무주 청정다슬기맛집"
+            ],
+            [
+              1,
+              12,
+              12,
+              "미담 무주 본점"
+            ]
+          ]
+        },
+        "contents": {
+          "관련문서": [
+            [
+              1,
+              "무주덕유산리조트 회원권 리프트 할인혜택 및 콘도회원권 거래소 시세",
+              "인생골프[조인동호회]",
+              "https://cafe.naver.com/golfkwang/1116888?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImdvbGZrd2FuZyIsImFydGljbGVJZCI6MTExNjg4OCwiaXNzdWVkQXQiOjE3ODkwNDY3MzM3MDZ9.kMDL1fENJI_nmPG2Om0Rea7ZuX_wV2jOCqiCRekM_2E",
+              "확인 불가"
+            ],
+            [
+              2,
+              "무주스키장 개장! 덕유산 리조트스키장 리프트권 할인 스키샵",
+              "햇지",
+              "https://blog.naver.com/allaboutcanada/224103920466",
+              "확인 불가"
+            ],
+            [
+              3,
+              "무주 리조트 스키장 개장일 렌탈샵 추천 국가대표",
+              "태운",
+              "https://blog.naver.com/amyangela/224073927001",
+              "확인 불가"
+            ],
+            [
+              4,
+              "무주스키장 개장일 스키 예약 및 이용방법",
+              "캠퍼도냥",
+              "https://blog.naver.com/uni_do/224079336724",
+              "확인 불가"
+            ],
+            [
+              5,
+              "무주리조트 숙소 무주스키장 개장 무주가볼만한곳",
+              "철이진이",
+              "https://blog.naver.com/hanke/224107025793",
+              "확인 불가"
+            ],
+            [
+              6,
+              "2025무주스키장 개장 확정/ 무주리조트 개장일이후 리프트권 할인요금, 스키복대여.장비렌탈비, 어....",
+              "blog.naver.com",
+              "https://blog.naver.com/ejun3/224097609805",
+              "확인 불가"
+            ],
+            [
+              7,
+              "스키장운영현황 - ::: The Best Choice - Deogyusanresort",
+              "www.mdysresort.com",
+              "https://www.mdysresort.com/ski/schedule.asp",
+              "확인 불가"
+            ],
+            [
+              8,
+              "무주 스키샵 추천 무주리조트 리프트권 스키강습 비용 총정리",
+              "나비처럼",
+              "https://blog.naver.com/withou122/224102832162",
+              "확인 불가"
+            ],
+            [
+              9,
+              "무주스키강습 스키샵 후기",
+              "언제나 여행 중",
+              "https://blog.naver.com/rambo3/224104190114",
+              "확인 불가"
+            ],
+            [
+              10,
+              "25/26 무주 스키장 개장일과 리프트권 할인 렌탈요금 안내",
+              "별사탕",
+              "https://blog.naver.com/20aug19/224098225408",
+              "확인 불가"
+            ],
+            [
+              11,
+              "빛깔 커뮤니티 > 빛깔뉴스 - 다음 주 12/6(금) 무주 스키장 개장 예정!",
+              "별사탕",
+              "https://bitkkal.com/web/NW004/42028",
+              "확인 불가"
+            ],
+            [
+              12,
+              "무주 스키샵|렌탈샵: 무주 최대규모 SKY 스키샵",
+              "별사탕",
+              "http://www.mujusky.co.kr/",
+              "확인 불가"
+            ],
+            [
+              13,
+              "스키장/목록 - 나무위키",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D",
+              "확인 불가"
+            ],
+            [
+              14,
+              "개요",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-1",
+              "확인 불가"
+            ],
+            [
+              15,
+              "목록",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-2",
+              "확인 불가"
+            ],
+            [
+              16,
+              "북한",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-3",
+              "확인 불가"
+            ],
+            [
+              17,
+              "세계",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-4",
+              "확인 불가"
+            ],
+            [
+              18,
+              "대한민국",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-2.1",
+              "확인 불가"
+            ],
+            [
+              19,
+              "동아시아, 남아시아",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-4.1",
+              "확인 불가"
+            ],
+            [
+              20,
+              "중동, 중앙아시아",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-4.2",
+              "확인 불가"
+            ],
+            [
+              21,
+              "남반구",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-4.3",
+              "확인 불가"
+            ],
+            [
+              22,
+              "북아메리카",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-4.4",
+              "확인 불가"
+            ],
+            [
+              23,
+              "유럽, 북아프리카",
+              "별사탕",
+              "https://namu.wiki/w/%EC%8A%A4%ED%82%A4%EC%9E%A5/%EB%AA%A9%EB%A1%9D#s-4.5",
+              "확인 불가"
+            ],
+            [
+              24,
+              "모나용평/스키장 - 나무위키",
+              "별사탕",
+              "https://namu.wiki/w/%EB%AA%A8%EB%82%98%EC%9A%A9%ED%8F%89/%EC%8A%A4%ED%82%A4%EC%9E%A5",
+              "확인 불가"
+            ],
+            [
+              25,
+              "무주리조트 스키장 개장일 논란 이유와 반응",
+              "별사탕",
+              "https://pandarank.net/contents/6951d74115e453422c7496f3",
+              "확인 불가"
+            ],
+            [
+              26,
+              "무주리조트 스키장 개장일 안내 가장 많이 언급된 이유",
+              "별사탕",
+              "https://pandarank.net/contents/6933818b5761206a9084b408",
+              "확인 불가"
+            ],
+            [
+              27,
+              "26/27 X6 스키 시즌권 가격(확정) 및 기타 스키장 시즌권 정보",
+              "굿맨",
+              "https://blog.naver.com/fodimple/224401674580",
+              "확정"
+            ],
+            [
+              28,
+              "●디젤매니아● 대한민국 일등 패션 커뮤니티 디매인 DMAIN",
+              "굿맨",
+              "https://cafe.naver.com/dieselmania",
+              "확인 불가"
+            ],
+            [
+              29,
+              "무주스키장 가려고하는데",
+              "굿맨",
+              "https://cafe.naver.com/dieselmania/46511137?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImRpZXNlbG1hbmlhIiwiYXJ0aWNsZUlkIjo0NjUxMTEzNywiaXNzdWVkQXQiOjE3ODkwNDY3MzM3MDZ9.7O3cSxPr8tEAJi4bR05zX1n82Fqsf9vXOz4nxBUiX5w",
+              "확인 불가"
+            ],
+            [
+              30,
+              "2025/26 무주스키장 개장일 다가오며 18일 제설 시작 즐거운 겨울 준비 시작해요",
+              "오라이 트립 대전",
+              "https://blog.naver.com/kbsk990513/224086679873",
+              "확인 불가"
+            ],
+            [
+              31,
+              "25/26 무주 스키장 리조트 개장일 케이블카 곤도라 CCTV 향적봉 상제루",
+              "강철새잎",
+              "https://blog.naver.com/pressinfo/224098006354",
+              "확인 불가"
+            ],
+            [
+              32,
+              "무주스키장 썰매",
+              "맘이베베 (핫딜, 육아, 놀이)",
+              "https://cafe.naver.com/skybluezw4rh/14188355?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6InNreWJsdWV6dzRyaCIsImFydGljbGVJZCI6MTQxODgzNTUsImlzc3VlZEF0IjoxNzg5MDQ2NzMzNzA2fQ.8AsKQ-7Xg9ZCPoc8X_WDMxim3MT9CWmjdROTfRLvDl0",
+              "확인 불가"
+            ],
+            [
+              33,
+              "구미맘 수다방(임신,출산,육아,구미맘들의 카페)",
+              "맘이베베 (핫딜, 육아, 놀이)",
+              "https://cafe.naver.com/gumimom7",
+              "임신,출산,육아,구미맘들의 카페"
+            ],
+            [
+              34,
+              "무주스키장",
+              "맘이베베 (핫딜, 육아, 놀이)",
+              "https://cafe.naver.com/gumimom7/6609485?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Imd1bWltb203IiwiYXJ0aWNsZUlkIjo2NjA5NDg1LCJpc3N1ZWRBdCI6MTc4OTA0NjczMzcwNn0.zn18dE95DwW5vA8tFzdqfh7bQzNi7ozNouQrwrzWRhE",
+              "확인 불가"
+            ]
+          ]
+        },
+        "ads": [
+          [
+            "검색광고 블록",
+            1,
+            "독채 복층펜션 무주 홀리데이 어린이수영장 대형워터슬라이드 투숙객 모든시설 무료!",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/2MIIWlX_hkj3jKDIuB4udRmsr-uZWSDMGV1vOWLiLcE54lRfF-eN8Kx0i6tE7mw_ouWzx1uQ0LNOoDLcxCU9WujDr0uqkq9lWYO8ME1ozLrkWuGggpsPRMDYpogtILRRt496qz7VSIWSz8_u5O3tKG6Y7QZ_02US4UNI4tUJUzw9InPkssdaCIJ7nROyAaDhJfH9UX75kZwa3veTe49LkTJG0bQn-6ahx2ima1JZsJHnQvsZu9rW-KJhNzuvcnAQWHYBUZAlrfE-TcKLyDNaxSlCEBcKCf5nIywcAxYFurLJ2vu4Vl1IFwCG1DFCkxmy5F9G2Pge3zY_4qVhpGe1QhfPqfRAGsyoGgRC13UYfGsiXfXWMYvJiVNhqG0DNATEUI-Frs2afaSmoYmqg7yxTPVsQLTUpL5CSkFnJOP7inrYv1yoVHj9xzmgxMso-htJbvnajYbKCNMZCD6qDkBK_w==?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            2,
+            "무주 리조트회원권 시세분석",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/L3HkDNHQzDv18TKAQpU-1WU3wH1jBoGdLPbgkmbFbPqqJur0FxumjdUByXnR4WsFfYu-ACCW0SI842dHXmJaMcf3NyDM33GyjCWhkbceT4ZxNabOJU5rllr7z0Sr91AWriGAgsq8Z1bZKZIE-qx8fwHn1udMefk1bY0mIeGDYizPZrO7tvFc0GxS7Uci4Q2tmWsjmqT84UB6QPtBcK39gFCKzi3JcD5ygs2lhiiOlIhU3PINgn-5oaZaYXwuACsojbJiEvxKWLIfa6EMV8hMGV9R4xX7OvbWY4F2onbCVrXNWaIKj7CEdJeYQNmInf8a?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            3,
+            "쿠팡 무주스키장개장 와우회원 최대 87% 할인 매일 오픈되는 와우회원 특가",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/m-PYAfXCG9a5jiRm4ailD1AvlXslMgRSB3A_qOmqJK5_x8GaExV8wMOK_XUPnnqXojWGxnAKQc3lrubRTnHHf7xTG3tTjd1RMsff6YJ4UyS8dcOaBdM81_TWvej9BeOS-Q7vgQEoi2Wn5ZTFFj5yh7HWxhe4PQP_ynZ6FwPoO6IgOG7CuTJcAvaOKQAE2j-zSErSgLt4MdRbqt6yxwSEFOSapkDeLOXWtSqxjuY7hwHEItBPHqgi7TLi5XBzRTiWBEEHhAsufk9Y_VugDwOaCA49JdWJ1t9tYVJwZD741d9nX2fbg0QgDZJRtStbPSPP3YCZvRfA0S2tN7A_gnEXyfBwphhg9S6iVOksJwya_IqMgrKzHOW6NOHkpkSzsl0kGwT1ac3Pjm-SPRsmyV9i-ZHG_550x5MXoMDuVL9Yt_aZrX26emSjqGPMsSaJajSf-rZXRNInrBpOMBKMPs6P3BWt4PkjggkmDr0y0-3AloxaFSsOncNBIkS2fhnRTq1dGM3QxAZgM8XuO9sPqKmeql5MJTXHqKkvYtCkg31fMXqHRLwjwnFupyNEkORZMxEV?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "검색광고 블록",
+            4,
+            "애월 럭셔리 프라이빗 풀빌라 일단 먼저 꼭 봐야하는 이유",
+            "광고",
+            "별도 검색광고 영역",
+            "https://ader.naver.com/v1/L3HkDNHQzDv18TKAQpU-1WU3wH1jBoGdLPbgkmbFbPqqJur0FxumjdUByXnR4WsFBxzWsLhsGWT_d3bV1_HEjjCpkLVaBV-qnAx5AgKeQK-GbuHKJfhLYzAaP0I9P-ophkdBV_ZmRi94vobiFtuQ3olP1pqHothQt3DpnVg5hEKr-KskVEcqqztEE96faVeLycqelbDlONvjlgdZ-BoRW6PROXgYsM9f8W4W0TQIKG_v9Rgt7wZwHlScfLu4KpRU7aEPqpeKlagz1Isr5l0GNivSeAvkDUyliEe7fnRFKnvizTh3cTDAbYM1sKv4O8x8?c=naver.search.pc.plsearch&t=0"
+          ],
+          [
+            "플레이스 광고",
+            1,
+            "구천동맛집",
+            "광고",
+            "플레이스 블록 내 노출",
+            ""
+          ],
+          [
+            "플레이스 광고",
+            2,
+            "무주돌짬뽕",
+            "광고",
+            "플레이스 블록 내 노출",
+            ""
+          ],
+          [
+            "플레이스 광고",
+            3,
+            "미향",
+            "광고",
+            "플레이스 블록 내 노출",
+            ""
+          ],
+          [
+            "플레이스 광고",
+            4,
+            "일월",
+            "광고",
+            "플레이스 블록 내 노출",
+            ""
+          ]
+        ],
+        "pages": 1,
+        "status": "ok",
+        "observation": {
+          "keyword": "무주스키장개장",
+          "region": "무주스키장개장",
+          "device": "pc",
+          "vantage": "direct",
+          "observed_at": "2026-09-10T22:25:33.406875+09:00",
+          "source_url": "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%A3%BC%EC%8A%A4%ED%82%A4%EC%9E%A5%EA%B0%9C%EC%9E%A5",
+          "raw_html_path": "data/raw/무주스키장개장__pc__direct__20260910T222533.html"
+        },
+        "warnings": []
+      }
+    }
+  }
+};
