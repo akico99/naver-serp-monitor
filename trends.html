@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>추이 · 경쟁업체 · 검색 노출 관측실</title>
+<style>
+  :root { --ink:#101828; --muted:#667085; --line:#e4e7ec; --paper:#fff; --navy:#101b36; --navy-2:#18264a; --cyan:#58e6d2; --blue:#155eef; --orange:#b54708; --green:#12895a; --shadow:0 14px 36px rgba(16,24,40,.08); }
+  * { box-sizing: border-box; }
+  body { margin:0; color:var(--ink); background:#eef2f7; font-family:Pretendard,"Noto Sans KR","Malgun Gothic",system-ui,sans-serif; font-size:15px; }
+  button, select, input { font: inherit; }
+  .shell { min-height:100vh; display:grid; grid-template-columns:246px minmax(0,1fr); }
+  aside { background:var(--navy); color:#fff; padding:28px 18px; position:sticky; top:0; height:100vh; }
+  .brand { display:flex; gap:11px; align-items:center; padding:0 10px 28px; }
+  .brand-mark { width:34px; height:34px; display:grid; place-items:center; border-radius:10px; background:var(--cyan); color:var(--navy); font-weight:900; }
+  .brand strong { display:block; font-size:17px; } .brand small { color:#aeb9d3; font-size:12px; }
+  nav a { display:flex; align-items:center; gap:10px; padding:11px 12px; margin:4px 0; border-radius:9px; text-decoration:none; color:#cbd4e8; font-size:14px; }
+  nav a.active { background:var(--navy-2); color:#fff; box-shadow:inset 3px 0 var(--cyan); }
+  .nav-dot { width:7px; height:7px; border-radius:50%; background:currentColor; opacity:.65; }
+  .aside-note { position:absolute; left:18px; right:18px; bottom:22px; padding:15px; border:1px solid #2c3a5e; border-radius:12px; background:#14203d; color:#aeb9d3; font-size:12px; line-height:1.55; }
+  .aside-note strong { color:var(--cyan); display:block; margin-bottom:4px; }
+  main { min-width:0; padding:30px clamp(20px,4vw,56px) 60px; }
+  h1 { margin:0 0 7px; font-size:clamp(22px,3vw,30px); letter-spacing:-.04em; }
+  h2 { margin:0; font-size:17px; letter-spacing:-.02em; }
+  .subtitle { margin:0 0 20px; color:var(--muted); font-size:14px; }
+  .panel { background:var(--paper); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); padding:18px 20px; margin-bottom:18px; }
+  .panel-head { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:12px; flex-wrap:wrap; }
+  .panel-head span, .hint { color:var(--muted); font-size:12px; }
+  .cards { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin-bottom:18px; }
+  .card { background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:14px 16px; box-shadow:var(--shadow); }
+  .card .name { font-weight:800; display:flex; align-items:center; gap:7px; }
+  .swatch { width:10px; height:10px; border-radius:3px; display:inline-block; }
+  .card .big { font-size:24px; font-weight:850; letter-spacing:-.03em; margin-top:6px; }
+  .card .sub { color:var(--muted); font-size:12px; margin-top:2px; line-height:1.5; }
+  .delta.up { color:var(--green); } .delta.down { color:#d92d20; }
+  .controls { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  select, input[type=text] { min-height:38px; border:1px solid var(--line); border-radius:9px; background:#fff; padding:0 10px; font-weight:600; }
+  .seg button { border:1px solid var(--line); background:#fff; padding:7px 11px; border-radius:8px; font-size:13px; font-weight:700; cursor:pointer; color:var(--muted); }
+  .seg button.active { background:var(--navy); color:#fff; border-color:var(--navy); }
+  svg text { font-family:inherit; }
+  .table-wrap { overflow:auto; }
+  table { width:100%; border-collapse:collapse; }
+  th { background:#f8fafc; color:#475467; font-size:12px; text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); white-space:nowrap; }
+  td { padding:9px 12px; border-bottom:1px solid #eef0f4; font-size:13px; vertical-align:top; }
+  tr.ours td { background:#f3fbf9; }
+  .tag { display:inline-block; border-radius:999px; padding:2px 8px; font-size:11px; font-weight:750; background:#eef4ff; color:#3538cd; }
+  .tag.확정 { background:#e9fbf8; color:#0d6558; } .tag.유력 { background:#f0f9ff; color:#026aa2; } .tag.복수, .tag.후보 { background:#fff8e6; color:var(--orange); }
+  .muted { color:var(--muted); }
+  a { color:var(--blue); text-decoration:none; } a:hover { text-decoration:underline; }
+  .bars { display:grid; gap:6px; }
+  .bar-row { display:grid; grid-template-columns:180px 1fr 40px; gap:10px; align-items:center; font-size:13px; }
+  .bar { height:12px; border-radius:6px; background:#c7d7fe; }
+  .bar.ours { background:#58e6d2; }
+  .two { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .empty { color:var(--muted); padding:30px; text-align:center; }
+  @media (max-width: 1100px) { .cards { grid-template-columns:repeat(2,1fr); } .two { grid-template-columns:1fr; } .shell { grid-template-columns:1fr; } aside { display:none; } }
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside>
+    <div class="brand"><div class="brand-mark">N</div><div><strong>검색 노출 관측실</strong><small>NAVER SERP MONITOR</small></div></div>
+    <nav>
+      <a href="keywords.html"><span class="nav-dot"></span>노출 현황</a>
+      <a class="active" href="trends.html"><span class="nav-dot"></span>추이 · 경쟁업체</a>
+    </nav>
+    <div class="aside-note"><strong>읽는 법</strong>날짜마다 키워드별로 그날까지의 마지막 수집분(3일 이내)을 씁니다. 2026-09-10은 이전 방식(브라우저, 플레이스 최대 30위)으로 수집한 기록이라 최근 수집(플레이스 50위)과 범위가 다릅니다. 증감은 직전 수집일 대비입니다.</div>
+  </aside>
+  <main>
+    <h1>노출 추이 · 경쟁 스키샵</h1>
+    <p class="subtitle" id="subtitle">-</p>
+
+    <div class="cards" id="cards"></div>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>우리 업체 노출 추이</h2>
+        <div class="seg" id="metricSeg"></div>
+      </div>
+      <div id="companyChart"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>키워드별 플레이스 순위 변화</h2>
+        <div class="controls"><select id="kwSelect"></select><span class="hint">위로 갈수록 상위 · 우리 5개 업체</span></div>
+      </div>
+      <div id="kwChart"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>경쟁 스키샵 순위 · 리뷰</h2>
+        <div class="controls"><input type="text" id="shopSearch" placeholder="상호명 찾기" /><span class="hint" id="shopHint"></span></div>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>상호명</th><th>노출 키워드 수</th><th>평균 순위</th><th>최고 순위</th><th>노출 키워드 수 추이</th><th>방문자 리뷰</th><th>블로그·카페 리뷰</th><th>7일 증감(방문자 / 블로그)</th></tr></thead><tbody id="shopRows"></tbody></table></div>
+    </section>
+
+    <section class="two">
+      <div class="panel">
+        <div class="panel-head"><h2>게시물 업체 판정 (최근일)</h2><span>확정·유력 글 수</span></div>
+        <div class="bars" id="postBars"></div>
+        <p class="hint" id="postStatus"></p>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h2>수집 기록</h2><span>최근 12회</span></div>
+        <div class="table-wrap"><table><thead><tr><th>#</th><th>시작</th><th>대상</th><th>성공</th><th>실패/차단</th><th>본문 확인</th><th>비고</th></tr></thead><tbody id="runRows"></tbody></table></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>게시물 판정 목록</h2>
+        <div class="controls"><select id="whoFilter"><option value="">전체 업체</option><option value="__ours">우리 업체만</option></select><select id="confFilter"><option value="">전체 등급</option><option>확정</option><option>유력</option><option>복수</option><option>후보</option></select></div>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>키워드</th><th>영역 · 순위</th><th>제목</th><th>판정 업체</th><th>등급</th><th>근거</th></tr></thead><tbody id="postRows"></tbody></table></div>
+    </section>
+  </main>
+</div>
+<script src="data/trends.js"></script>
+<script>
+  const T = window.TRENDS;
+  const COLORS = { '국': '#155eef', '스': '#0ba5ec', '초': '#f79009', '놀': '#7a5af8', 'SB': '#12895a' };
+  const esc = v => String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  if (!T) { document.querySelector('main').innerHTML = '<div class="panel empty">data/trends.js가 없습니다. python collector/run_monitor.py --export-only 를 실행하세요.</div>'; throw new Error('no data'); }
+  document.querySelector('#subtitle').textContent = '기간 ' + (T.dates[0] || '-') + ' ~ ' + (T.latest_day || '-') + ' · 수집일 ' + T.dates.length + '일 · 갱신 ' + T.generated_at.replace('T',' ').slice(0,16);
+
+  const METRICS = { top3: '플레이스 3위 이내 키워드 수', place_any: '플레이스 노출 키워드 수', top10: '플레이스 10위 이내 키워드 수', avg_rank: '평균 플레이스 순위', posts: '게시물(확정·유력·자사링크) 수' };
+  let metric = 'top3';
+
+  function lineChart(el, series, opts) {
+    const W = el.clientWidth || 900, H = opts.height || 260, P = { l: 44, r: 16, t: 14, b: 30 };
+    const xs = opts.dates; if (!xs.length) { el.innerHTML = '<div class="empty">아직 데이터가 없습니다.</div>'; return; }
+    const vals = series.flatMap(s => s.points.map(p => p[1])).filter(v => v != null);
+    let lo = Math.min(0, ...vals), hi = Math.max(1, ...vals); if (opts.invert) { lo = 1; hi = Math.max(5, ...vals); }
+    const x = i => P.l + (xs.length === 1 ? (W - P.l - P.r) / 2 : i * (W - P.l - P.r) / (xs.length - 1));
+    const y = v => opts.invert ? P.t + (v - lo) / (hi - lo) * (H - P.t - P.b) : H - P.b - (v - lo) / (hi - lo) * (H - P.t - P.b);
+    const ticks = 4; let g = '';
+    for (let i = 0; i <= ticks; i++) { const v = lo + (hi - lo) * i / ticks; const yy = y(v); g += '<line x1="' + P.l + '" x2="' + (W - P.r) + '" y1="' + yy + '" y2="' + yy + '" stroke="#eef0f4"/><text x="' + (P.l - 8) + '" y="' + (yy + 4) + '" text-anchor="end" font-size="11" fill="#98a2b3">' + (Math.round(v * 10) / 10) + '</text>'; }
+    const step = Math.max(1, Math.ceil(xs.length / 10));
+    xs.forEach((d, i) => { if (i % step === 0 || i === xs.length - 1) g += '<text x="' + x(i) + '" y="' + (H - 8) + '" text-anchor="middle" font-size="11" fill="#98a2b3">' + d.slice(5) + '</text>'; });
+    series.forEach(s => {
+      const pts = s.points.map(p => [xs.indexOf(p[0]), p[1]]).filter(p => p[0] >= 0 && p[1] != null);
+      if (!pts.length) return;
+      g += '<polyline fill="none" stroke="' + s.color + '" stroke-width="2.4" points="' + pts.map(p => x(p[0]) + ',' + y(p[1])).join(' ') + '"/>';
+      pts.forEach(p => { g += '<circle cx="' + x(p[0]) + '" cy="' + y(p[1]) + '" r="3.5" fill="' + s.color + '"><title>' + esc(s.name) + ' · ' + xs[p[0]] + ' · ' + p[1] + '</title></circle>'; });
+    });
+    const legend = series.map(s => '<span style="margin-right:14px;font-size:12px"><span class="swatch" style="background:' + s.color + '"></span> ' + esc(s.name) + '</span>').join('');
+    el.innerHTML = '<svg width="100%" viewBox="0 0 ' + W + ' ' + H + '" role="img">' + g + '</svg><div>' + legend + '</div>';
+  }
+
+  function renderCards() {
+    document.querySelector('#cards').innerHTML = Object.entries(T.companies).map(([code, c]) => {
+      const s = c.series, last = s[s.length - 1] || {}, prev = s[s.length - 2] || null;
+      const d = prev && last.top3 != null ? last.top3 - prev.top3 : null;
+      const dh = d == null ? '' : ' <span class="delta ' + (d > 0 ? 'up' : d < 0 ? 'down' : '') + '" style="font-size:15px">' + (d > 0 ? '+' + d : d < 0 ? d : '±0') + '</span>';
+      return '<div class="card"><div class="name"><span class="swatch" style="background:' + COLORS[code] + '"></span>' + esc(c.name) + '</div>' +
+        '<div class="big">' + (last.top3 ?? '-') + dh + '</div><div class="sub">플레이스 3위 이내 키워드 (수집 ' + (last.keywords ?? 0) + '개 중)<br>노출 ' + (last.place_any ?? 0) + ' · 평균 ' + (last.avg_rank ?? '-') + '위 · 게시물 ' + (last.posts ?? 0) + '건</div></div>';
+    }).join('');
+  }
+
+  function renderCompanyChart() {
+    document.querySelector('#metricSeg').innerHTML = Object.entries(METRICS).map(([k, v]) => '<button class="' + (k === metric ? 'active' : '') + '" data-k="' + k + '">' + v + '</button>').join('');
+    document.querySelectorAll('#metricSeg button').forEach(b => b.onclick = () => { metric = b.dataset.k; renderCompanyChart(); });
+    lineChart(document.querySelector('#companyChart'), Object.entries(T.companies).map(([code, c]) => ({ name: c.name, color: COLORS[code], points: c.series.map(p => [p.date, p[metric]]) })), { dates: T.dates, invert: metric === 'avg_rank' });
+  }
+
+  const kwSel = document.querySelector('#kwSelect');
+  const kws = Object.keys(T.keyword_series).sort();
+  kwSel.innerHTML = kws.map(k => '<option>' + esc(k) + '</option>').join('');
+  if (kws.includes('무주스키샵')) kwSel.value = '무주스키샵';
+  function renderKw() {
+    const ks = T.keyword_series[kwSel.value] || {};
+    lineChart(document.querySelector('#kwChart'), Object.entries(ks).map(([code, pts]) => ({ name: T.companies[code].name, color: COLORS[code], points: pts })), { dates: T.dates, invert: true, height: 230 });
+  }
+  kwSel.onchange = renderKw;
+
+  function spark(series) {
+    if (!series || series.length < 2) return '<span class="muted">-</span>';
+    const idx = new Map(T.dates.map((d, i) => [d, i])); const vals = series.map(s => s[1]); const hi = Math.max(...vals, 1);
+    const W = 110, H = 26, n = T.dates.length - 1 || 1;
+    const pts = series.map(s => (idx.get(s[0]) / n * (W - 4) + 2) + ',' + (H - 3 - s[1] / hi * (H - 6))).join(' ');
+    return '<svg width="' + W + '" height="' + H + '"><polyline fill="none" stroke="#155eef" stroke-width="1.8" points="' + pts + '"/></svg>';
+  }
+  function fmtDelta(v) { return v == null ? '-' : '<span class="delta ' + (v > 0 ? 'up' : v < 0 ? 'down' : '') + '">' + (v > 0 ? '+' : '') + v + '</span>'; }
+  function renderShops() {
+    const q = document.querySelector('#shopSearch').value.trim();
+    const rows = T.shops.filter(s => s.keywords > 0 && (!q || s.name.includes(q)));
+    document.querySelector('#shopHint').textContent = '최근일 플레이스에 노출된 업체 ' + T.shops.filter(s => s.keywords > 0).length + '곳 · 노출 키워드 많은 순';
+    document.querySelector('#shopRows').innerHTML = rows.slice(0, 80).map(s => '<tr class="' + (s.company ? 'ours' : '') + '"><td><b>' + esc(s.name) + '</b>' + (s.company ? ' <span class="tag">우리 업체</span>' : '') + '<br><span class="muted">' + esc(s.category || '') + '</span></td><td>' + s.keywords + '</td><td>' + (s.avg_rank ?? '-') + '</td><td>' + (s.best_rank ?? '-') + '</td><td>' + spark(s.series) + '</td><td>' + (s.visitor_reviews ?? '-') + '</td><td>' + (s.blog_reviews ?? '-') + '</td><td>' + fmtDelta(s.visitor_delta_7d) + ' / ' + fmtDelta(s.blog_delta_7d) + '</td></tr>').join('') || '<tr><td colspan="8" class="empty">해당 업체가 없습니다.</td></tr>';
+  }
+  document.querySelector('#shopSearch').oninput = renderShops;
+
+  function renderPosts() {
+    const P = T.posts; const entries = [];
+    Object.entries(P.by_company).forEach(([code, n]) => entries.push([T.companies[code].name, n, true]));
+    Object.entries(P.by_competitor).forEach(([name, n]) => entries.push([name, n, false]));
+    entries.sort((a, b) => b[1] - a[1]);
+    const hi = Math.max(1, ...entries.map(e => e[1]));
+    document.querySelector('#postBars').innerHTML = entries.slice(0, 18).map(e => '<div class="bar-row"><span>' + esc(e[0]) + '</span><div class="bar ' + (e[2] ? 'ours' : '') + '" style="width:' + (e[1] / hi * 100) + '%"></div><b>' + e[1] + '</b></div>').join('') || '<div class="empty">판정된 게시물이 없습니다.</div>';
+    const st = P.fetch_status || {}; const total = Object.values(st).reduce((a, b) => a + b, 0);
+    document.querySelector('#postStatus').textContent = '확인한 링크 ' + total + '건 · 본문 확인 ' + (st.ok || 0) + ' · 제목만(쇼핑·지도 등) ' + (st.title_only || 0) + ' · 회원 전용/본문 없음 ' + ((st.members_only || 0) + (st.no_body || 0));
+    const whoSel = document.querySelector('#whoFilter');
+    const names = [...new Set(P.recent.map(p => p.who).filter(Boolean))].sort();
+    if (whoSel.options.length <= 2) whoSel.innerHTML += names.map(n => '<option>' + esc(n) + '</option>').join('');
+    const who = whoSel.value, conf = document.querySelector('#confFilter').value;
+    const rows = P.recent.filter(p => (!who || (who === '__ours' ? p.company : p.who === who)) && (!conf || p.confidence === conf));
+    document.querySelector('#postRows').innerHTML = rows.slice(0, 300).map(p => '<tr class="' + (p.company ? 'ours' : '') + '"><td>' + esc(p.keyword) + '</td><td>' + esc(p.area) + ' ' + p.rank + '위</td><td><a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>' + (p.sponsored ? ' <span class="tag">협찬 표시</span>' : '') + '</td><td><b>' + esc(p.who) + '</b></td><td><span class="tag ' + esc(p.confidence) + '">' + esc(p.confidence) + '</span></td><td class="muted">' + esc(p.evidence) + '</td></tr>').join('') || '<tr><td colspan="6" class="empty">조건에 맞는 게시물이 없습니다.</td></tr>';
+  }
+  document.querySelector('#whoFilter').onchange = renderPosts;
+  document.querySelector('#confFilter').onchange = renderPosts;
+
+  document.querySelector('#runRows').innerHTML = T.runs.map(r => '<tr><td>' + r.id + '</td><td>' + esc((r.started_at || '').replace('T', ' ').slice(5, 16)) + '</td><td>' + r.planned + '</td><td>' + r.ok + '</td><td>' + r.failed + ' / ' + r.blocked + '</td><td>' + r.posts_checked + '</td><td class="muted">' + esc(r.note || (r.finished_at ? '' : '진행 중')) + '</td></tr>').join('');
+
+  renderCards(); renderCompanyChart(); renderKw(); renderShops(); renderPosts();
+  addEventListener('resize', () => { renderCompanyChart(); renderKw(); });
+</script>
+</body>
+</html>

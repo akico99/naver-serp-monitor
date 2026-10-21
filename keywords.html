@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="키워드별로 지정 업체가 플레이스·게시물 어디에 노출됐는지 한눈에 보는 대시보드" />
+<title>노출 현황 · 검색 노출 관측실</title>
+<style>
+  :root {
+    --ink: #101828; --muted: #667085; --line: #e4e7ec; --soft: #f6f8fb; --paper: #ffffff;
+    --navy: #101b36; --navy-2: #18264a; --cyan: #58e6d2; --blue: #155eef; --orange: #b54708;
+    --green: #12895a; --shadow: 0 14px 36px rgba(16, 24, 40, .08);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: var(--ink); background: #eef2f7; font-family: Pretendard, "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif; font-size: 15px; }
+  button, select, input { font: inherit; }
+  a { color: inherit; }
+  .shell { min-height: 100vh; display: grid; grid-template-columns: 246px minmax(0, 1fr); }
+  aside { background: var(--navy); color: #fff; padding: 28px 18px; position: sticky; top: 0; height: 100vh; }
+  .brand { display: flex; gap: 11px; align-items: center; padding: 0 10px 28px; }
+  .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; background: var(--cyan); color: var(--navy); font-weight: 900; }
+  .brand strong { display: block; font-size: 17px; }
+  .brand small { color: #aeb9d3; font-size: 12px; }
+  nav { margin-top: 10px; }
+  nav a { display: flex; align-items: center; gap: 10px; padding: 11px 12px; margin: 4px 0; border-radius: 9px; text-decoration: none; color: #cbd4e8; font-size: 14px; }
+  nav a.active { background: var(--navy-2); color: #fff; box-shadow: inset 3px 0 var(--cyan); }
+  .nav-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; opacity: .65; }
+  .aside-note { position: absolute; left: 18px; right: 18px; bottom: 22px; padding: 15px; border: 1px solid #2c3a5e; border-radius: 12px; background: #14203d; color: #aeb9d3; font-size: 12px; line-height: 1.55; }
+  .aside-note strong { color: var(--cyan); display: block; margin-bottom: 4px; }
+  main { min-width: 0; padding: 30px clamp(20px, 4vw, 56px) 60px; }
+  h1 { margin: 0 0 7px; font-size: clamp(22px, 3vw, 30px); letter-spacing: -.04em; }
+  .subtitle { margin: 0 0 20px; color: var(--muted); font-size: 14px; }
+  .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 20px; }
+  .stat { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; box-shadow: var(--shadow); }
+  .stat b { display: block; font-size: 24px; letter-spacing: -.03em; }
+  .stat span { color: var(--muted); font-size: 12px; }
+  .stat.warn b { color: var(--orange); }
+  .stat.ok b { color: var(--green); }
+  .filters { display: grid; grid-template-columns: 1.2fr 0.8fr 1.4fr 0.9fr 0.8fr; gap: 12px; background: white; border: 1px solid var(--line); border-radius: 14px; padding: 15px; margin-bottom: 16px; }
+  .field label { display: block; color: var(--muted); font-size: 12px; font-weight: 700; margin: 0 0 6px 2px; }
+  .field select, .field input { width: 100%; min-height: 42px; border: 1px solid var(--line); border-radius: 9px; background: #fff; padding: 0 11px; color: var(--ink); font-weight: 600; }
+  .checkbox-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-height: 42px; }
+  .checkbox-row label { display: inline-flex; align-items: center; gap: 5px; margin: 0; border: 1px solid var(--line); border-radius: 8px; padding: 7px 9px; font-size: 12.5px; font-weight: 650; color: var(--ink); cursor: pointer; user-select: none; }
+  .checkbox-row input { width: auto; min-height: 0; margin: 0; }
+  .exposure-count { font-weight: 800; }
+  .exposure-count.zero { color: var(--orange); }
+  .exposure-count.full { color: var(--green); }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; background: white; border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin-bottom: 16px; font-size: 12px; color: var(--muted); }
+  .legend b { color: var(--ink); }
+  .panel { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; }
+  .table-wrap { overflow: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 1180px; }
+  th { background: #f8fafc; color: #475467; font-size: 12px; text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; cursor: pointer; user-select: none; }
+  th.sorted::after { content: ' ▾'; color: var(--blue); }
+  th.company-col { text-align: center; }
+  td { padding: 10px 12px; border-bottom: 1px solid #eef0f4; font-size: 13px; vertical-align: top; }
+  td.company-cell { text-align: center; min-width: 128px; }
+  tbody tr:hover { background: #fafcff; }
+  .kw-link { color: var(--blue); font-weight: 750; text-decoration: none; }
+  .kw-link:hover { text-decoration: underline; }
+  .collected-at { display: block; color: var(--muted); font-size: 11px; margin-top: 2px; }
+  .hit { display: block; border-radius: 8px; padding: 4px 7px; font-size: 11px; font-weight: 700; margin: 0 0 4px; text-decoration: none; }
+  .hit:last-child { margin-bottom: 0; }
+  .hit.place { background: #e9fbf8; color: #0d6558; }
+  .hit.domain { background: #eef4ff; color: #3538cd; }
+  .hit.post { background: #f0f9ff; color: #026aa2; }
+  .hit.content { background: #fff8e6; color: var(--orange); }
+  .badge.place-area { display: inline-flex; align-items: center; border-radius: 999px; padding: 3px 8px; background: #eef4ff; color: #3538cd; font-size: 10.5px; font-weight: 750; margin-top: 3px; }
+  .status-ok { color: var(--green); font-weight: 750; }
+  .status-none { color: #98a2b3; }
+  .status-uncollected { color: #cbd0d8; }
+  .vol { font-weight: 800; }
+  .footnote { color: var(--muted); font-size: 12px; line-height: 1.55; margin-top: 12px; }
+  .empty-row td { text-align: center; color: var(--muted); padding: 40px; }
+</style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="brand"><div class="brand-mark">N</div><div><strong>검색 노출 관측실</strong><small>NAVER SERP MONITOR</small></div></div>
+      <nav>
+        <a class="active" href="keywords.html"><span class="nav-dot"></span>노출 현황</a>
+        <a href="trends.html"><span class="nav-dot"></span>추이 · 경쟁업체</a>
+      </nav>
+      <div class="aside-note"><strong>노출 판단 기준</strong>플레이스는 업체의 플레이스 ID로 판정합니다. 게시물은 본문의 플레이스 링크·전화번호·자사 링크·업체명을 근거로 "확정/유력"을 매기고, 제목에만 업체명이 있으면 "후보"로 둡니다. 작성자 아이디로는 추정하지 않습니다. 검색광고는 추적 대상에서 뺐습니다.</div>
+    </aside>
+    <main>
+      <h1>키워드별 지정 업체 노출 현황</h1>
+      <p class="subtitle">키워드 엑셀(01 키워드 · 02 개장 · 03 폐장)의 키워드마다 국가대표 · 스카이 · 초이스 · 놀러와 · SB아카데미가 플레이스 · 게시물 어디에 노출됐는지 봅니다. 키워드를 클릭하면 검색화면 구조(상세 화면)로 이동합니다.</p>
+
+      <div class="stat-row">
+        <div class="stat"><b id="statTotal">-</b><span>전체 키워드</span></div>
+        <div class="stat ok"><b id="statCollected">-</b><span>수집됨</span></div>
+        <div class="stat"><b id="statRep">-</b><span>우리 업체 플레이스 노출 키워드</span></div>
+        <div class="stat warn"><b id="statExposed">-</b><span>우리 업체 게시물(확정·유력) 노출 키워드</span></div>
+      </div>
+
+      <section class="filters">
+        <div class="field"><label for="fSearch">키워드 검색</label><input id="fSearch" type="text" placeholder="키워드로 찾기" /></div>
+        <div class="field"><label for="fCategory">주제</label><select id="fCategory"><option value="">전체</option></select></div>
+        <div class="field"><label>기준 업체 (체크한 업체만 판단)</label><div class="checkbox-row" id="fCompanyChecks"></div></div>
+        <div class="field"><label for="fExposure">노출 여부</label><select id="fExposure"><option value="">전체</option><option value="exposed">노출됨 — 체크한 업체 중 하나라도</option><option value="all">노출됨 — 체크한 업체 전부</option><option value="none">미노출 — 체크한 업체 전부 미노출</option></select></div>
+        <div class="field"><label for="fStatus">수집 상태</label><select id="fStatus"><option value="">전체</option><option value="collected">수집됨</option><option value="missing">미수집</option></select></div>
+      </section>
+
+      <div class="legend">
+        <span><span class="hit place" style="padding:3px 8px;">플레이스 1위</span> 플레이스 ID 일치</span>
+        <span><span class="hit domain" style="padding:3px 8px;">자사링크</span> 게시물 링크가 공식 홈페이지</span>
+        <span><span class="hit post" style="padding:3px 8px;">관련문서 3위 · 확정</span> 본문 근거(플레이스 링크·전화번호·업체명)</span>
+        <span><span class="hit content" style="padding:3px 8px;">후보</span> 제목에 업체명만 있거나 여러 업체 비교글 — 직접 확인</span>
+        <span><span class="badge place-area" style="padding:3px 8px;">플레이스 있음</span> 이 키워드에 플레이스류 영역 자체가 있는지(업체 노출 여부와 별개)</span>
+      </div>
+
+      <div class="panel">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr id="headRow">
+                <th data-sort="주제">주제</th>
+                <th data-sort="분류">분류</th>
+                <th data-sort="키워드">키워드</th>
+                <th data-sort="평균검색량" class="sorted">평균검색량</th>
+                <th data-sort="노출수">노출 업체</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </div>
+      <p class="footnote">PC · 직접 연결 기준이며, 작업 스케줄러가 하루 두 번 collector/run_monitor.py로 주기가 된 키워드를 수집합니다(분류가 메인·서브인 키워드는 하루 2번, 그 밖의 키워드는 하루 1번, 개장 키워드는 9~12월·폐장 키워드는 1~3월에만 하루 1번). 키워드는 엑셀을 고치면 다음 실행에 반영됩니다. 업체 정보(플레이스 ID·전화번호·도메인·별칭)는 collector/companies.py에서 관리합니다. 같은 결과는 data/exports의 엑셀로도 받을 수 있습니다.</p>
+    </main>
+  </div>
+
+  <script src="data/master_keywords.js"></script>
+  <script src="data/keywords_index.js"></script>
+  <script>
+    const master = window.MASTER_KEYWORDS || [];
+    const index = window.KEYWORDS_INDEX || {};
+    // collector/companies.py 와 맞춰서 유지 — 업체를 추가/변경하면 여기도 같이 고칠 것
+    const COMPANIES = [
+      { code: '국', name: '국가대표' },
+      { code: '스', name: '스카이' },
+      { code: '초', name: '초이스' },
+      { code: '놀', name: '놀러와' },
+      { code: 'SB', name: 'SB아카데미' },
+    ];
+    const AREA_LABEL = (h) => {
+      if (h.kind === 'place') return `${h.area} ${h.rank}위`;
+      if (h.kind === 'domain') return `${h.area} ${h.rank}위 · 자사링크`;
+      if (h.kind === 'post') return `${h.area} ${h.rank}위 · ${h.confidence}${h.sponsored ? ' · 협찬표시' : ''}`;
+      return `후보 · ${h.area} ${h.rank}위`;
+    };
+
+    function esc(v) { return String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+    function indexEntry(keyword) { return index[keyword] || null; }
+    function isCollected(keyword) {
+      const e = indexEntry(keyword);
+      return !!(e && e.devices && e.devices.pc && e.devices.pc.direct);
+    }
+    function exposureFor(keyword, code) {
+      const e = indexEntry(keyword);
+      if (!e || !e.exposure) return [];
+      return e.exposure.filter(h => h.company === code);
+    }
+    // 이 키워드에서 실제로 노출이 잡힌 지정 업체 개수(4개 중) — 필터와 별개로 표에서
+    // 바로 훑어볼 수 있게 별도 컬럼으로 보여준다.
+    function exposedCompanyCodes(keyword) {
+      return COMPANIES.filter(c => exposureFor(keyword, c.code).length > 0).map(c => c.code);
+    }
+
+    // 테이블 헤더에 업체 컬럼 추가
+    const headRow = document.querySelector('#headRow');
+    COMPANIES.forEach(c => {
+      const th = document.createElement('th');
+      th.className = 'company-col';
+      th.dataset.company = c.code;
+      th.textContent = c.name;
+      headRow.appendChild(th);
+    });
+
+    // 체크박스를 껐을 때 눈에 바로 보이는 변화가 있어야 "응답이 없다"고 느끼지 않는다 —
+    // 노출 여부 필터링뿐 아니라, 체크 해제한 업체의 컬럼 자체를 표에서 숨긴다.
+    function applyColumnVisibility() {
+      const checked = new Set(checkedCompanyCodes());
+      document.querySelectorAll('[data-company]').forEach(el => {
+        el.hidden = !checked.has(el.dataset.company);
+      });
+    }
+
+    // 필터 옵션 채우기 (분류 셀렉트 + 업체 체크박스, 기본 전부 체크)
+    const categories = [...new Set(master.map(r => r['주제']).filter(Boolean))].sort();
+    document.querySelector('#fCategory').innerHTML += categories.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    const companyChecksEl = document.querySelector('#fCompanyChecks');
+    companyChecksEl.innerHTML = COMPANIES.map(c => `<label><input type="checkbox" value="${esc(c.code)}" checked /> ${esc(c.name)}</label>`).join('');
+    function checkedCompanyCodes() {
+      return [...companyChecksEl.querySelectorAll('input:checked')].map(i => i.value);
+    }
+
+    let sortKey = '평균검색량';
+    let sortDir = -1; // 내림차순 기본
+
+    function applyFiltersAndSort() {
+      const q = document.querySelector('#fSearch').value.trim().toLowerCase();
+      const cat = document.querySelector('#fCategory').value;
+      const checkedCodes = checkedCompanyCodes();
+      const exposure = document.querySelector('#fExposure').value;
+      const status = document.querySelector('#fStatus').value;
+
+      let rows = master.filter(r => {
+        if (q && !String(r['키워드'] || '').toLowerCase().includes(q)) return false;
+        if (cat && r['주제'] !== cat) return false;
+        if (status) {
+          const collected = isCollected(r['키워드']);
+          if (status === 'collected' && !collected) return false;
+          if (status === 'missing' && collected) return false;
+        }
+        if (exposure && checkedCodes.length) {
+          const exposedCodes = new Set(exposedCompanyCodes(r['키워드']));
+          const exposedCount = checkedCodes.filter(c => exposedCodes.has(c)).length;
+          if (exposure === 'exposed' && exposedCount === 0) return false;
+          if (exposure === 'all' && exposedCount !== checkedCodes.length) return false;
+          if (exposure === 'none' && exposedCount > 0) return false;
+        }
+        return true;
+      });
+
+      rows.sort((a, b) => {
+        let av, bv;
+        if (sortKey === '노출수') {
+          av = exposedCompanyCodes(a['키워드']).length;
+          bv = exposedCompanyCodes(b['키워드']).length;
+        } else if (sortKey === '평균검색량') {
+          av = a[sortKey] || 0; bv = b[sortKey] || 0;
+        } else {
+          av = String(a[sortKey] ?? ''); bv = String(b[sortKey] ?? '');
+        }
+        if (av < bv) return -1 * sortDir;
+        if (av > bv) return 1 * sortDir;
+        return 0;
+      });
+
+      return rows;
+    }
+
+    // 같은 사이트의 서로 다른 하위 페이지(홈페이지/예약신청/예약확인 등)가 관련문서에
+    // 각각 따로 잡히면 domain 히트가 여러 개 생긴다 — 화면에서는 도메인당 한 배지로
+    // 묶고 건수만 붙인다. place/content는 항목별로 내용이 달라서 그대로 둔다.
+    function groupHits(hits) {
+      const map = new Map();
+      hits.forEach(h => {
+        const key = h.kind === 'place' ? `place:${h.area}` : `${h.kind}:${h.area}:${h.rank}:${h.text}`;
+        if (map.has(key)) map.get(key).count++;
+        else map.set(key, Object.assign({}, h, { count: 1 }));
+      });
+      return [...map.values()];
+    }
+
+    function companyCellHtml(keyword, collected, code) {
+      if (!collected) return '<span class="status-uncollected">-</span>';
+      const hits = groupHits(exposureFor(keyword, code));
+      if (!hits.length) return '<span class="status-none">미노출</span>';
+      const order = { place: 0, domain: 1, post: 2, content: 3 };
+      hits.sort((a, b) => order[a.kind] - order[b.kind] || a.rank - b.rank);
+      return hits.slice(0, 4).map(h => {
+        const cls = h.kind;
+        const label = esc(AREA_LABEL(h)) + (h.count > 1 ? ` · ${h.count}건` : '');
+        const tip = h.evidence ? `${h.text} — 근거: ${h.evidence}` : h.text;
+        return h.url
+          ? `<a class="hit ${cls}" href="${esc(h.url)}" target="_blank" rel="noopener" title="${esc(tip)}">${label}</a>`
+          : `<span class="hit ${cls}" title="${esc(tip)}">${label}</span>`;
+      }).join('') + (hits.length > 4 ? `<span class="status-none">+${hits.length - 4}개 더</span>` : '');
+    }
+
+    function renderRows() {
+      const rows = applyFiltersAndSort();
+      const tbody = document.querySelector('#rows');
+      const colCount = 5 + COMPANIES.length;
+      if (!rows.length) {
+        tbody.innerHTML = `<tr class="empty-row"><td colspan="${colCount}">조건에 맞는 키워드가 없습니다.</td></tr>`;
+        applyColumnVisibility();
+        return;
+      }
+      tbody.innerHTML = rows.map(r => {
+        const keyword = r['키워드'];
+        const collected = isCollected(keyword);
+        const entry = indexEntry(keyword);
+        const vol = r['평균검색량'] != null ? Math.round(r['평균검색량']).toLocaleString() : '-';
+        const href = `detail.html?keyword=${encodeURIComponent(keyword)}`;
+        const collectedAt = collected && entry.latest_observed_at ? `<span class="collected-at">${esc(entry.latest_observed_at).replace('T',' ').slice(0,16)} 수집</span>` : (collected ? '' : '<span class="collected-at">미수집</span>');
+        const placeAreas = collected && entry.place_areas ? entry.place_areas : [];
+        const placeAreaBadge = placeAreas.length ? `<span class="badge place-area">${esc(placeAreas.join(' · '))} 있음</span>` : '';
+        const companyCells = COMPANIES.map(c => `<td class="company-cell" data-company="${esc(c.code)}">${companyCellHtml(keyword, collected, c.code)}</td>`).join('');
+        const exposedN = collected ? exposedCompanyCodes(keyword).length : null;
+        const exposedCls = exposedN === null ? 'status-uncollected' : (exposedN === 0 ? 'exposure-count zero' : (exposedN === COMPANIES.length ? 'exposure-count full' : 'exposure-count'));
+        const exposedText = exposedN === null ? '-' : `${exposedN}/${COMPANIES.length}`;
+        return `<tr>
+          <td>${esc(r['주제'] || '-')}</td>
+          <td>${esc(r['분류'] || '-')}</td>
+          <td><a class="kw-link" href="${href}">${esc(keyword)}</a>${collectedAt}${placeAreaBadge}</td>
+          <td class="vol">${vol}</td>
+          <td class="${exposedCls}">${exposedText}</td>
+          ${companyCells}
+        </tr>`;
+      }).join('');
+      applyColumnVisibility();
+    }
+
+    function renderStats() {
+      const collected = master.filter(r => isCollected(r['키워드']));
+      const has = (r, kinds) => { const e = indexEntry(r['키워드']); return e && e.exposure && e.exposure.some(h => kinds.includes(h.kind)); };
+      document.querySelector('#statTotal').textContent = master.length.toLocaleString();
+      document.querySelector('#statCollected').textContent = collected.length.toLocaleString();
+      document.querySelector('#statRep').textContent = master.filter(r => has(r, ['place'])).length.toLocaleString();
+      document.querySelector('#statExposed').textContent = master.filter(r => has(r, ['post', 'domain'])).length.toLocaleString();
+    }
+
+    document.querySelectorAll('th[data-sort]').forEach(th => {
+      th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = key === '평균검색량' ? -1 : 1; }
+        document.querySelectorAll('th[data-sort]').forEach(t => t.classList.remove('sorted'));
+        th.classList.add('sorted');
+        renderRows();
+      });
+    });
+
+    ['fSearch', 'fCategory', 'fExposure', 'fStatus'].forEach(id => {
+      document.querySelector('#' + id).addEventListener('input', renderRows);
+      document.querySelector('#' + id).addEventListener('change', renderRows);
+    });
+    companyChecksEl.addEventListener('change', renderRows);
+
+    if (!master.length) {
+      document.querySelector('#rows').innerHTML = `<tr class="empty-row"><td colspan="10">data/master_keywords.js 가 없습니다. <code>python collector/run_monitor.py --export-only</code> 를 먼저 실행하세요.</td></tr>`;
+    }
+
+    renderStats();
+    renderRows();
+  </script>
+</body>
+</html>
