@@ -37,7 +37,7 @@
   .stat span { color: var(--muted); font-size: 12px; }
   .stat.warn b { color: var(--orange); }
   .stat.ok b { color: var(--green); }
-  .filters { display: grid; grid-template-columns: 1.2fr 0.8fr 1.4fr 0.9fr 0.8fr; gap: 12px; background: white; border: 1px solid var(--line); border-radius: 14px; padding: 15px; margin-bottom: 16px; }
+  .filters { display: grid; grid-template-columns: 1.1fr 0.7fr 1.4fr 0.8fr 0.9fr 0.7fr; gap: 12px; background: white; border: 1px solid var(--line); border-radius: 14px; padding: 15px; margin-bottom: 16px; }
   .field label { display: block; color: var(--muted); font-size: 12px; font-weight: 700; margin: 0 0 6px 2px; }
   .field select, .field input { width: 100%; min-height: 42px; border: 1px solid var(--line); border-radius: 9px; background: #fff; padding: 0 11px; color: var(--ink); font-weight: 600; }
   .checkbox-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-height: 42px; }
@@ -66,6 +66,7 @@
   .hit.domain { background: #eef4ff; color: #3538cd; }
   .hit.post { background: #f0f9ff; color: #026aa2; }
   .hit.content { background: #fff8e6; color: var(--orange); }
+  .badge.layout { display: inline-flex; border-radius: 999px; padding: 3px 8px; background: #f2f4f7; color: #344054; font-size: 10.5px; font-weight: 750; margin-top: 3px; }
   .badge.place-area { display: inline-flex; align-items: center; border-radius: 999px; padding: 3px 8px; background: #eef4ff; color: #3538cd; font-size: 10.5px; font-weight: 750; margin-top: 3px; }
   .status-ok { color: var(--green); font-weight: 750; }
   .status-none { color: #98a2b3; }
@@ -101,6 +102,7 @@
         <div class="field"><label for="fCategory">주제</label><select id="fCategory"><option value="">전체</option></select></div>
         <div class="field"><label>기준 업체 (체크한 업체만 판단)</label><div class="checkbox-row" id="fCompanyChecks"></div></div>
         <div class="field"><label for="fExposure">노출 여부</label><select id="fExposure"><option value="">전체</option><option value="exposed">노출됨 — 체크한 업체 중 하나라도</option><option value="all">노출됨 — 체크한 업체 전부</option><option value="none">미노출 — 체크한 업체 전부 미노출</option></select></div>
+        <div class="field"><label for="fType">노출 유형</label><select id="fType"><option value="">전체</option></select></div>
         <div class="field"><label for="fStatus">수집 상태</label><select id="fStatus"><option value="">전체</option><option value="collected">수집됨</option><option value="missing">미수집</option></select></div>
       </section>
 
@@ -146,10 +148,11 @@
       { code: 'SB', name: 'SB아카데미' },
     ];
     const AREA_LABEL = (h) => {
-      if (h.kind === 'place') return `${h.area} ${h.rank}위`;
-      if (h.kind === 'domain') return `${h.area} ${h.rank}위 · 자사링크`;
-      if (h.kind === 'post') return `${h.area} ${h.rank}위 · ${h.confidence}${h.sponsored ? ' · 협찬표시' : ''}`;
-      return `후보 · ${h.area} ${h.rank}위`;
+      const where = h.ctype && h.pos ? `${h.ctype} ${h.type_rank}위 · 통합 ${h.pos}위` : `${h.area} ${h.rank}위`;
+      if (h.kind === 'place') return h.pos ? `${h.area} ${h.rank}위 · 통합 ${h.pos}번째` : `${h.area} ${h.rank}위`;
+      if (h.kind === 'domain') return `${where} · 자사링크`;
+      if (h.kind === 'post') return `${where} · ${h.confidence}${h.sponsored ? ' · 협찬표시' : ''}`;
+      return `후보 · ${where}`;
     };
 
     function esc(v) { return String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
@@ -162,7 +165,8 @@
     function exposureFor(keyword, code) {
       const e = indexEntry(keyword);
       if (!e || !e.exposure) return [];
-      return e.exposure.filter(h => h.company === code);
+      const t = document.querySelector('#fType').value;
+      return e.exposure.filter(h => h.company === code && (!t || (h.ctype || (h.kind === 'place' ? '플레이스' : '')) === t));
     }
     // 이 키워드에서 실제로 노출이 잡힌 지정 업체 개수(4개 중) — 필터와 별개로 표에서
     // 바로 훑어볼 수 있게 별도 컬럼으로 보여준다.
@@ -192,6 +196,9 @@
     // 필터 옵션 채우기 (분류 셀렉트 + 업체 체크박스, 기본 전부 체크)
     const categories = [...new Set(master.map(r => r['주제']).filter(Boolean))].sort();
     document.querySelector('#fCategory').innerHTML += categories.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    const TYPE_LIST = ['플레이스', '웹사이트', '블로그', '카페', '인플루언서', '클립', '영상', '뉴스', '쇼핑', '지식iN', '브랜드'];
+    const typesSeen = new Set(Object.values(index).flatMap(e => (e.exposure || []).map(h => h.ctype || (h.kind === 'place' ? '플레이스' : ''))));
+    document.querySelector('#fType').innerHTML += TYPE_LIST.filter(t => typesSeen.has(t)).map(t => `<option value="${esc(t)}">${esc(t)}만</option>`).join('');
     const companyChecksEl = document.querySelector('#fCompanyChecks');
     companyChecksEl.innerHTML = COMPANIES.map(c => `<label><input type="checkbox" value="${esc(c.code)}" checked /> ${esc(c.name)}</label>`).join('');
     function checkedCompanyCodes() {
@@ -290,7 +297,7 @@
         const href = `detail.html?keyword=${encodeURIComponent(keyword)}`;
         const collectedAt = collected && entry.latest_observed_at ? `<span class="collected-at">${esc(entry.latest_observed_at).replace('T',' ').slice(0,16)} 수집</span>` : (collected ? '' : '<span class="collected-at">미수집</span>');
         const placeAreas = collected && entry.place_areas ? entry.place_areas : [];
-        const placeAreaBadge = placeAreas.length ? `<span class="badge place-area">${esc(placeAreas.join(' · '))} 있음</span>` : '';
+        const placeAreaBadge = (collected && entry.layout ? `<span class="badge layout">${esc(entry.layout)}</span> ` : '') + (placeAreas.length ? `<span class="badge place-area">${esc(placeAreas.join(' · '))} 있음</span>` : '');
         const companyCells = COMPANIES.map(c => `<td class="company-cell" data-company="${esc(c.code)}">${companyCellHtml(keyword, collected, c.code)}</td>`).join('');
         const exposedN = collected ? exposedCompanyCodes(keyword).length : null;
         const exposedCls = exposedN === null ? 'status-uncollected' : (exposedN === 0 ? 'exposure-count zero' : (exposedN === COMPANIES.length ? 'exposure-count full' : 'exposure-count'));
@@ -326,7 +333,7 @@
       });
     });
 
-    ['fSearch', 'fCategory', 'fExposure', 'fStatus'].forEach(id => {
+    ['fSearch', 'fCategory', 'fExposure', 'fStatus', 'fType'].forEach(id => {
       document.querySelector('#' + id).addEventListener('input', renderRows);
       document.querySelector('#' + id).addEventListener('change', renderRows);
     });

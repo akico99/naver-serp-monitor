@@ -120,7 +120,30 @@
       table.mobile-cards td { border: 0; padding: 5px 0 5px 112px; position: relative; min-height: 28px; }
       table.mobile-cards td::before { content: attr(data-label); position: absolute; left: 0; top: 5px; width: 102px; color: var(--muted); font-size: 12px; font-weight: 700; }
     }
-  </style>
+  
+  .flow-panel { margin-top: 18px; padding-bottom: 14px; }
+  .flow-panel > p, .flow-panel .flow-legend, .flow-panel .heat, .flow-panel .chips { padding-left: 20px; padding-right: 20px; }
+  .flow-summary { font-size: 13px; color: #475467; margin: 0 0 10px; }
+  .flow-summary b { color: #101828; }
+  .flow-legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: 12px; color: #475467; margin-bottom: 10px; }
+  .flow-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 4px; vertical-align: -1px; }
+  .heat { overflow-x: auto; padding-bottom: 6px; }
+  .heat-row { display: flex; align-items: center; gap: 3px; margin-bottom: 3px; }
+  .heat-label { flex: 0 0 118px; font-size: 11px; color: #475467; line-height: 1.25; }
+  .heat-label b { color: #101828; font-size: 12px; display: block; }
+  .heat-cell { flex: 0 0 26px; height: 26px; border-radius: 5px; color: #fff; font-size: 11px; font-weight: 800; display: grid; place-items: center; position: relative; cursor: default; }
+  .heat-cell.ours { box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ff3b6b; }
+  .heat-axis { display: flex; gap: 3px; margin-left: 121px; font-size: 10px; color: #98a2b3; }
+  .heat-axis span { flex: 0 0 26px; text-align: center; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px; align-items: center; }
+  .chip-btn { border: 1px solid #e4e7ec; background: #fff; border-radius: 999px; padding: 5px 11px; font-size: 12.5px; font-weight: 700; color: #475467; cursor: pointer; }
+  .chip-btn.on { background: #101b36; border-color: #101b36; color: #fff; }
+  .chip-btn i { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 5px; }
+  .tbadge { display: inline-block; min-width: 54px; text-align: center; border-radius: 6px; padding: 2px 7px; color: #fff; font-size: 11px; font-weight: 800; }
+  tr.ours-row td { background: #fff1f4; }
+  .who-ours { color: #c01048; font-weight: 800; }
+  .muted-s { color: #98a2b3; font-size: 11px; }
+</style>
 </head>
 <body>
   <div class="shell">
@@ -131,6 +154,8 @@
         <a href="keywords.html"><span class="nav-dot"></span>전체 키워드</a>
         <a href="trends.html"><span class="nav-dot"></span>추이 · 경쟁업체</a>
         <a class="active" href="#overview"><span class="nav-dot"></span>요약</a>
+        <a href="#flow"><span class="nav-dot"></span>통합 노출 구조</a>
+        <a href="#ranking"><span class="nav-dot"></span>통합 순위</a>
         <a href="#blocks"><span class="nav-dot"></span>블록 구성</a>
         <a href="#contents"><span class="nav-dot"></span>게시물</a>
         <a href="#competitors"><span class="nav-dot"></span>경쟁업체</a>
@@ -175,6 +200,21 @@
           <div class="table-wrap"><table class="mobile-cards"><thead><tr><th>노출 순위</th><th>제목</th><th>링크</th></tr></thead><tbody class="ad-rank-rows"></tbody></table></div>
         </article>
       </template>
+
+
+      <section class="panel flow-panel" id="flow">
+        <div class="panel-head"><h2>통합검색 노출 구조</h2><span id="flowScope">수집 회차별 · 위에서부터 통합 위치</span></div>
+        <p class="flow-summary" id="flowSummary"></p>
+        <div class="flow-legend" id="flowLegend"></div>
+        <div class="heat" id="heat"></div>
+        <p class="muted-s">관련문서(통합랭킹 목록)는 결과 카드 1장이 1칸이고, 광고·플레이스·클립·가격비교 같은 블록은 블록 1개가 1칸입니다. 빨간 테두리는 우리 업체(자사 링크 또는 본문 근거로 확정·유력 판정된 글, 플레이스는 우리 업체가 들어 있는 블록)입니다. 10월 25일 이전 회차는 이전 파서 기록을 정리해 다시 계산한 값입니다.</p>
+      </section>
+
+      <section class="panel flow-panel" id="ranking">
+        <div class="panel-head"><h2>통합 순위</h2><span id="rankScope">최근 수집 기준</span></div>
+        <div class="chips" id="typeChips"></div>
+        <div class="table-wrap"><table class="mobile-cards"><thead><tr><th>노출유형</th><th>통합 위치</th><th>유형 내 순위</th><th>영역 · 블록 내 순위</th><th>제목</th><th>출처 · 작성일</th><th>누구 글</th></tr></thead><tbody id="flowRows"></tbody></table></div>
+      </section>
 
       <section id="contents">
         <div class="section-tabs" id="tabs"></div>
@@ -399,11 +439,58 @@
       const anyAds = vantageKeys.some(v => (adSets[v] || []).some(r => r[0] === '검색광고 블록'));
       if (anyAds) renderAdRankPanel(container, adSets, vantageKeys);
     }
+
+    const TYPE_COLORS = { '광고':'#475467','플레이스':'#0e9384','웹사이트':'#5b7a99','블로그':'#3fb950','카페':'#1f7a4d','인플루언서':'#84cc16','지식iN':'#2e90fa','클립':'#f79009','영상':'#ef6820','뉴스':'#7a5af8','쇼핑':'#ee46bc','호텔':'#a15c07','브랜드':'#d4a10a','업체정보':'#1d2939','질문':'#98a2b3','기타':'#cfd4dc' };
+    const TYPE_SHORT = { '광고':'광','플레이스':'플','웹사이트':'웹','블로그':'블','카페':'카','인플루언서':'인','지식iN':'지','클립':'클','영상':'영','뉴스':'뉴','쇼핑':'쇼','호텔':'호','브랜드':'브','업체정보':'업','질문':'질','기타':'기' };
+    let activeType = '전체';
+    let oursOnly = false;
+    function renderFlow(data) {
+      const hist = (live && live.history) || [];
+      const heat = document.querySelector('#heat');
+      if (!hist.length) {
+        document.querySelector('#flowSummary').textContent = '아직 통합 구조 기록이 없습니다.';
+        heat.innerHTML = '';
+      } else {
+        const last = hist[hist.length - 1];
+        const same = [...hist].reverse().findIndex(h => h.layout !== last.layout);
+        const n = same === -1 ? hist.length : same;
+        document.querySelector('#flowSummary').innerHTML = '최근 화면 유형: <b>' + esc(last.layout) + '</b> · 최근 ' + n + '회 연속 같은 유형' + (n < hist.length ? ' (이전에는 ' + esc(hist[hist.length - 1 - n].layout) + ')' : '') + ' · 회차 ' + hist.length + '개';
+        const maxLen = Math.max(...hist.map(h => h.cells.length));
+        const used = new Set(hist.flatMap(h => h.cells.map(c => c.t)));
+        document.querySelector('#flowLegend').innerHTML = Object.keys(TYPE_COLORS).filter(t => used.has(t)).map(t => '<span><i style="background:' + TYPE_COLORS[t] + '"></i>' + t + '</span>').join('') + '<span><i style="background:#fff;box-shadow:0 0 0 2px #ff3b6b"></i>우리 업체</span>';
+        const axis = '<div class="heat-axis">' + Array.from({ length: maxLen }, (_, i) => '<span>' + ((i + 1) % 5 === 0 || i === 0 ? i + 1 : '') + '</span>').join('') + '</div>';
+        heat.innerHTML = axis + hist.map(h => {
+          const d = h.at.replace('T', ' ').slice(5, 13) + '시';
+          return '<div class="heat-row"><div class="heat-label"><b>' + esc(d) + '</b>' + h.cells.length + '칸' + (h.legacy ? ' · 재계산' : '') + '</div>' +
+            h.cells.map((c, i) => '<div class="heat-cell ' + (c.o ? 'ours' : '') + '" style="background:' + (TYPE_COLORS[c.t] || '#cfd4dc') + '" title="' + esc((i + 1) + '위 · ' + c.t + ' · ' + c.n + (c.o ? ' · ★' + c.o : '')) + '">' + (TYPE_SHORT[c.t] || '') + '</div>').join('') + '</div>';
+        }).join('');
+      }
+      const rows = (data.meta && data.meta.flow_rows) || [];
+      const counts = {};
+      rows.forEach(r => { counts[r.type] = (counts[r.type] || 0) + 1; });
+      const types = Object.keys(TYPE_COLORS).filter(t => counts[t]);
+      if (activeType !== '전체' && !counts[activeType]) activeType = '전체';
+      const chips = document.querySelector('#typeChips');
+      chips.innerHTML = '<span class="muted-s" style="margin-right:4px">노출유형</span>' + ['전체', ...types].map(t => '<button class="chip-btn ' + (t === activeType ? 'on' : '') + '" data-t="' + esc(t) + '">' + (t === '전체' ? '' : '<i style="background:' + TYPE_COLORS[t] + '"></i>') + esc(t) + ' ' + (t === '전체' ? rows.length : counts[t]) + '</button>').join('') +
+        '<label class="chip-btn ' + (oursOnly ? 'on' : '') + '" style="margin-left:8px"><input type="checkbox" id="oursOnly" ' + (oursOnly ? 'checked' : '') + ' style="display:none">★ 우리 업체만</label>';
+      chips.querySelectorAll('button').forEach(b => b.onclick = () => { activeType = b.dataset.t; renderFlow(datasetFor(deviceSelect.value, vantageSelect.value)); });
+      chips.querySelector('#oursOnly').onchange = e => { oursOnly = e.target.checked; renderFlow(datasetFor(deviceSelect.value, vantageSelect.value)); };
+      const shown = rows.filter(r => (activeType === '전체' || r.type === activeType) && (!oursOnly || r.ours));
+      document.querySelector('#rankScope').textContent = activeType === '전체' ? '화면 전체 · ' + rows.length + '행' : activeType + '만 · 유형 내 순위로 비교';
+      document.querySelector('#flowRows').innerHTML = shown.map(r => {
+        const title = r.url ? '<a class="link" href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.title || r.area) + '</a>' : esc(r.title || r.area) + (r.meta ? ' <span class="muted-s">' + esc(r.meta) + '</span>' : '');
+        const area = esc(r.area) + (r.sub ? ' ' + r.sub + '위' : '');
+        const src = [r.source, r.date].filter(Boolean).map(esc).join(' · ');
+        const who = r.who ? '<span class="' + (r.ours ? 'who-ours' : '') + '">' + (r.ours ? '★ ' : '') + esc(r.who) + '</span>' + (r.conf ? ' <span class="muted-s">' + esc(r.conf) + '</span>' : '') : '<span class="muted-s">' + esc(r.conf || '-') + '</span>';
+        return '<tr class="' + (r.ours ? 'ours-row' : '') + '"><td data-label="노출유형"><span class="tbadge" style="background:' + (TYPE_COLORS[r.type] || '#cfd4dc') + '">' + esc(r.type) + '</span></td><td data-label="통합 위치"><b class="pos">' + r.pos + '</b></td><td data-label="유형 내 순위">' + r.type_rank + '</td><td data-label="영역">' + area + '</td><td data-label="제목">' + title + '</td><td data-label="출처" class="source">' + src + '</td><td data-label="누구 글">' + who + '</td></tr>';
+      }).join('') || '<tr><td colspan="7" class="muted-s" style="text-align:center;padding:24px">조건에 맞는 항목이 없습니다.</td></tr>';
+    }
     function renderAll() {
       refreshVantageOptions();
       const data = datasetFor(deviceSelect.value, vantageSelect.value);
       blockFlow.innerHTML = data.blocks.map(b => `<div class="block-row ${b.ad ? 'ad' : ''}"><div class="rank">${b.order}</div><div><div class="block-name">${b.name}</div><div class="block-meta">${b.meta}</div></div><span class="chip ${b.ad ? 'ad' : ''}">${b.type}</span></div>`).join('');
       renderPlaceRankings(data);
+      renderFlow(data);
       tabs.innerHTML = '';
       Object.keys(data.contents).forEach((name,i)=>{ const button=document.createElement('button'); button.className=`tab ${name===activeContent||(!data.contents[activeContent]&&i===0)?'active':''}`; button.textContent=name; button.addEventListener('click',()=>renderTable(name,button)); tabs.appendChild(button); });
       if (!data.contents[activeContent]) activeContent = Object.keys(data.contents)[0];
