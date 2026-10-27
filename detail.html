@@ -379,7 +379,7 @@
       button?.classList.add('active'); activeContent = name;
       document.querySelector('#tableTitle').textContent = name;
       const rows = data.contents[name] || [];
-      document.querySelector('#contentRows').innerHTML = rows.map(r => `<tr><td data-label="순위"><b class="pos">${esc(r[0])}</b></td><td data-label="제목">${esc(r[1])}</td><td data-label="출처" class="source">${esc(r[2])}</td><td data-label="링크"><a class="link" href="${esc(r[3])}" target="_blank" rel="noopener">검색 결과 열기 ↗</a></td><td data-label="게시물 업체"><span class="mention ${/^확인/.test(r[4]) ? 'low' : ''}">${esc(r[4])}</span></td></tr>`).join('');
+      document.querySelector('#contentRows').innerHTML = rows.map(r => `<tr><td data-label="순위"><b class="pos">${esc(r[0])}</b></td><td data-label="제목">${esc(r[1])}</td><td data-label="출처" class="source">${esc(r[2])}</td><td data-label="링크">${r[3] ? `<a class="link" href="${esc(r[3])}" target="_blank" rel="noopener">검색 결과 열기 ↗</a>` : '<span class="muted-s">—</span>'}</td><td data-label="게시물 업체"><span class="mention ${/^확인/.test(r[4]) ? 'low' : ''}">${esc(r[4])}</span></td></tr>`).join('');
     }
     const placeRankingTemplate = document.querySelector('#placeRankingTemplate');
     const adRankingTemplate = document.querySelector('#adRankingTemplate');
