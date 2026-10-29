@@ -213,7 +213,7 @@
       <section class="panel flow-panel" id="ranking">
         <div class="panel-head"><h2>통합 순위</h2><span id="rankScope">최근 수집 기준</span></div>
         <div class="chips" id="typeChips"></div>
-        <div class="table-wrap"><table class="mobile-cards"><thead><tr><th>노출유형</th><th>통합 위치</th><th>유형 내 순위</th><th>영역 · 블록 내 순위</th><th>제목</th><th>출처 · 작성일</th><th>누구 글</th></tr></thead><tbody id="flowRows"></tbody></table></div>
+        <div class="table-wrap"><table class="mobile-cards"><thead><tr><th>노출유형</th><th>관련문서 순위</th><th>유형 내 순위</th><th>영역 · 블록 내 순위</th><th>제목</th><th>출처 · 작성일</th><th>누구 글</th></tr></thead><tbody id="flowRows"></tbody></table></div>
       </section>
 
       <section id="contents">
@@ -482,7 +482,7 @@
         const area = esc(r.area) + (r.sub ? ' ' + r.sub + '위' : '');
         const src = [r.source, r.date].filter(Boolean).map(esc).join(' · ');
         const who = r.who ? '<span class="' + (r.ours ? 'who-ours' : '') + '">' + (r.ours ? '★ ' : '') + esc(r.who) + '</span>' + (r.conf ? ' <span class="muted-s">' + esc(r.conf) + '</span>' : '') : '<span class="muted-s">' + esc(r.conf || '-') + '</span>';
-        return '<tr class="' + (r.ours ? 'ours-row' : '') + '"><td data-label="노출유형"><span class="tbadge" style="background:' + (TYPE_COLORS[r.type] || '#cfd4dc') + '">' + esc(r.type) + '</span></td><td data-label="통합 위치"><b class="pos">' + r.pos + '</b></td><td data-label="유형 내 순위">' + r.type_rank + '</td><td data-label="영역">' + area + '</td><td data-label="제목">' + title + '</td><td data-label="출처" class="source">' + src + '</td><td data-label="누구 글">' + who + '</td></tr>';
+        return '<tr class="' + (r.ours ? 'ours-row' : '') + '"><td data-label="노출유형"><span class="tbadge" style="background:' + (TYPE_COLORS[r.type] || '#cfd4dc') + '">' + esc(r.type) + '</span></td><td data-label="관련문서 순위"><b class="pos">' + (r.area === '관련문서' && r.sub ? r.sub : '-') + '</b></td><td data-label="유형 내 순위">' + r.type_rank + '</td><td data-label="영역">' + area + '</td><td data-label="제목">' + title + '</td><td data-label="출처" class="source">' + src + '</td><td data-label="누구 글">' + who + '</td></tr>';
       }).join('') || '<tr><td colspan="7" class="muted-s" style="text-align:center;padding:24px">조건에 맞는 항목이 없습니다.</td></tr>';
     }
     function renderAll() {

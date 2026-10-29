@@ -148,8 +148,8 @@
       { code: 'SB', name: 'SB아카데미' },
     ];
     const AREA_LABEL = (h) => {
-      const where = h.ctype && h.pos ? `${h.ctype} ${h.type_rank}위 · 통합 ${h.pos}위` : `${h.area} ${h.rank}위`;
-      if (h.kind === 'place') return h.pos ? `${h.area} ${h.rank}위 · 통합 ${h.pos}번째` : `${h.area} ${h.rank}위`;
+      const where = h.area === '관련문서' && h.ctype ? `관련문서 ${h.rank}위 · ${h.ctype} ${h.type_rank}위` : `${h.area} ${h.rank}위`;
+      if (h.kind === 'place') return `${h.area} ${h.rank}위`;
       if (h.kind === 'domain') return `${where} · 자사링크`;
       if (h.kind === 'post') return `${where} · ${h.confidence}${h.sponsored ? ' · 협찬표시' : ''}`;
       return `후보 · ${where}`;
