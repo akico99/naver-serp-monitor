@@ -126,7 +126,7 @@
   if (!T) { document.querySelector('main').innerHTML = '<div class="panel empty">data/trends.js가 없습니다. python collector/run_monitor.py --export-only 를 실행하세요.</div>'; throw new Error('no data'); }
   document.querySelector('#subtitle').textContent = '기간 ' + (T.dates[0] || '-') + ' ~ ' + (T.latest_day || '-') + ' · 수집일 ' + T.dates.length + '일 · 갱신 ' + T.generated_at.replace('T',' ').slice(0,16);
 
-  const METRICS = { top3: '플레이스 3위 이내 키워드 수', place_any: '플레이스 노출 키워드 수', top10: '플레이스 10위 이내 키워드 수', avg_rank: '평균 플레이스 순위', posts: '게시물(확정·유력·자사링크) 수' };
+  const METRICS = { top3: '플레이스 3위 이내 키워드 수', place_any: '플레이스 노출 키워드 수', top10: '플레이스 10위 이내 키워드 수', avg_rank: '평균 플레이스 순위', posts: '게시물(확정·유력·자사링크) 수 · 관련문서 10위 이내' };
   let metric = 'top3';
 
   function lineChart(el, series, opts) {
